@@ -1,4 +1,5 @@
 tap "arzg/homebrew-vim-strand"
+tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 brew "git"
