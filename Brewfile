@@ -8,6 +8,7 @@ brew "rustup-init"
 brew "strand"
 brew "tmux", args: ["HEAD"]
 
+cask "alacritty"
 cask "discord"
 cask "font-fira-code"
 cask "google-backup-and-sync"
