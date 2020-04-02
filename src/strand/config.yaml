@@ -1,0 +1,9 @@
+plugin_dir: ~/.config/nvim/pack/strand/start
+
+plugins:
+  - Git: arzg/vim-rust-syntax-ext
+  - Git: rust-lang/rust.vim
+  - Git: tpope/vim-endwise
+  - Git: tpope/vim-fugitive
+  - Git: tpope/vim-surround
+  - Git: wellle/targets.vim
