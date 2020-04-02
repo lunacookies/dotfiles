@@ -5,6 +5,7 @@
 " If you’re unsure what a particular option does, put the cursor on it and
 " press K.
 
+set cursorline
 set ignorecase
 set number
 set numberwidth=5
