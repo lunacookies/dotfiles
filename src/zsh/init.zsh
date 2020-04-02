@@ -17,3 +17,9 @@ export EDITOR='nvim'
 #
 
 alias vim="$VISUAL"
+
+#
+# Prompt
+#
+
+export PROMPT='%F{blue}%~ →%f '
