@@ -6,6 +6,8 @@
 " press K.
 
 set ignorecase
+set number
+set numberwidth=5
 set smartcase
 
 "
