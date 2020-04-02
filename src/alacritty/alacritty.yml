@@ -1,0 +1,69 @@
+window:
+  # Add a little space between the edge of windows and the text.
+  padding:
+    x: 5
+    y: 5
+
+scrolling:
+  # Disable scrollback (we have tmux for that).
+  history: 0
+
+font:
+  normal:
+    family: Fira Code
+    style: Retina
+
+  size: 12.0
+
+  # Add a little extra space between characters and lines.
+  offset:
+    x: 1
+    y: 7
+
+  # This causes characteres to be uncentred within each cell, so we adjust for
+  # that with half of the offset values from above.
+  glyph_offset:
+    x: 0
+    y: 3
+
+  # Disable ‘thin strokes’ rendering because the rest of macOS doesn’t use it.
+  use_thin_strokes: false
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: '#222834'
+    foreground: '#abb2bf'
+
+  cursor:
+    text: '#222834'
+    cursor: '#abb2bf'
+
+  # Leaving out text colour means selection will inherit whatever colour the
+  # text already is.
+  selection:
+    background: '#383e4a'
+
+  # Normal colors
+  normal:
+    black:   '#383e4a'
+    red:     '#e06c76'
+    green:   '#98c379'
+    yellow:  '#e5c07b'
+    blue:    '#61afef'
+    magenta: '#c578dd'
+    cyan:    '#56b6c2'
+    white:   '#abb2bf'
+
+  # Bright colors
+  bright:
+    black:   '#565c69'
+    red:     '#e06c76'
+    green:   '#98c379'
+    yellow:  '#e5c07b'
+    blue:    '#61afef'
+    magenta: '#c578dd'
+    cyan:    '#56b6c2'
+    white:   '#abb2bf'
