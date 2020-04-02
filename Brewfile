@@ -6,6 +6,7 @@ brew "git"
 brew "neovim"
 brew "rustup-init"
 brew "strand"
+brew "tmux", args: ["HEAD"]
 
 cask "discord"
 cask "font-fira-code"
