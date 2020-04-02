@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#
+# Safari
+#
+
+# Don’t automatically open ‘safe’ downloads once they complete
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
