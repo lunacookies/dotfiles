@@ -2,6 +2,7 @@ plugin_dir: ~/.config/nvim/pack/strand/start
 
 plugins:
   - Git: arzg/vim-rust-syntax-ext
+  - Git: lifepillar/vim-colortemplate
   - Git: rust-lang/rust.vim
   - Git: tpope/vim-endwise
   - Git: tpope/vim-fugitive
