@@ -10,6 +10,8 @@ set ignorecase
 set number
 set numberwidth=5
 set smartcase
+set splitbelow
+set splitright
 
 "
 " Plugin config
