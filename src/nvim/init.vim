@@ -7,6 +7,7 @@
 
 set cursorline
 set ignorecase
+set mouse=a
 set number
 set numberwidth=5
 set smartcase
