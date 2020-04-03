@@ -19,3 +19,10 @@ set smartcase
 
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
+
+"
+" Colourscheme
+"
+
+set termguicolors
+colorscheme xcodedark
