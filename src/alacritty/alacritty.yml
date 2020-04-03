@@ -34,12 +34,12 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: '#222834'
-    foreground: '#abb2bf'
+    background: '#292a30'
+    foreground: '#dfdfe0'
 
   cursor:
-    text: '#222834'
-    cursor: '#abb2bf'
+    text: '#292a30'
+    cursor: '#dfdfe0'
 
   # Leaving out text colour means selection will inherit whatever colour the
   # text already is.
@@ -48,22 +48,22 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#383e4a'
-    red:     '#e06c76'
-    green:   '#98c379'
-    yellow:  '#e5c07b'
-    blue:    '#61afef'
-    magenta: '#c578dd'
-    cyan:    '#56b6c2'
-    white:   '#abb2bf'
+    black:   '#393b44'
+    red:     '#ff8170'
+    green:   '#78c2b3'
+    yellow:  '#d9c97c'
+    blue:    '#4eb0cc'
+    magenta: '#ff7ab2'
+    cyan:    '#b281eb'
+    white:   '#dfdfe0'
 
   # Bright colors
   bright:
-    black:   '#565c69'
-    red:     '#e06c76'
-    green:   '#98c379'
-    yellow:  '#e5c07b'
-    blue:    '#61afef'
-    magenta: '#c578dd'
-    cyan:    '#56b6c2'
-    white:   '#abb2bf'
+    black:   '#7f8c98'
+    red:     '#ff8170'
+    green:   '#acf2e4'
+    yellow:  '#ffa14f'
+    blue:    '#6bdfff'
+    magenta: '#ff7ab2'
+    cyan:    '#dabaff'
+    white:   '#dfdfe0'
