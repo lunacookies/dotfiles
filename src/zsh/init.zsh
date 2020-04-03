@@ -22,4 +22,4 @@ alias vim="$VISUAL"
 # Prompt
 #
 
-export PROMPT='%F{blue}%~ →%f '
+export PROMPT='%F{8}%~ →%f '
