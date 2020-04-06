@@ -22,7 +22,7 @@ font:
   bold_italic:
     style: Bold Italic
 
-  size: 12.0
+  size: 10.0
 
   # Add a little extra space between lines.
   offset:
