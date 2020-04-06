@@ -2,8 +2,11 @@ tap "arzg/homebrew-vim-strand"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+brew "fd"
+brew "fzf"
 brew "git"
 brew "neovim"
+brew "ripgrep"
 brew "rustup-init"
 brew "strand"
 brew "tmux", args: ["HEAD"]
