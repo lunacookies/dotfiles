@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 
 #
+# Input
+#
+
+# Use a faster key repeat.
+defaults write -g InitialKeyRepeat -f 15
+defaults write -g KeyRepeat -f 2
+
+#
 # Safari
 #
 
