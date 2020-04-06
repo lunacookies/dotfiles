@@ -9,6 +9,7 @@ brew "strand"
 brew "tmux", args: ["HEAD"]
 
 cask "alacritty"
+cask "appcleaner"
 cask "discord"
 cask "font-fira-code"
 cask "google-backup-and-sync"
