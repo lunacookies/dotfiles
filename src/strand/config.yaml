@@ -11,4 +11,5 @@ plugins:
   - Git: tpope/vim-endwise
   - Git: tpope/vim-fugitive
   - Git: tpope/vim-surround
+  - Git: tpope/vim-unimpaired
   - Git: wellle/targets.vim
