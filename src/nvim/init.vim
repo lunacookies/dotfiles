@@ -38,11 +38,11 @@ let g:rustfmt_autosave = 1
 " Mappings
 "
 
-nnoremap ,b :Buffers
-nnoremap ,c :close
-nnoremap ,f :Files
-nnoremap ,g :Rg
-nnoremap ,o :only
+nnoremap ,b :Buffers<CR>
+nnoremap ,c :close<CR>
+nnoremap ,f :Files<CR>
+nnoremap ,g :Rg<CR>
+nnoremap ,o :only<CR>
 
 "
 " Colourscheme
