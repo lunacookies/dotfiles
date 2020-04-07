@@ -6,6 +6,7 @@
 " press K.
 
 set clipboard^=unnamed
+set colorcolumn=+1
 set cursorline
 set ignorecase
 set mouse=a
