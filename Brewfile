@@ -5,11 +5,13 @@ tap "homebrew/cask-fonts"
 brew "fd"
 brew "fzf"
 brew "git"
+brew "hyperfine"
 brew "neovim"
 brew "ripgrep"
 brew "rustup-init"
 brew "strand"
 brew "tmux", args: ["HEAD"]
+brew "tokei"
 
 cask "alacritty"
 cask "appcleaner"
