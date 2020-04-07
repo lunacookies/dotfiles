@@ -14,6 +14,7 @@ set ignorecase
 set mouse=a
 set number
 set numberwidth=5
+set shortmess=lmnrwxoOtTWIcF
 set smartcase
 set splitbelow
 set splitright
