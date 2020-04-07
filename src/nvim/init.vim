@@ -5,6 +5,7 @@
 " If you’re unsure what a particular option does, put the cursor on it and
 " press K.
 
+set clipboard^=unnamed
 set cursorline
 set ignorecase
 set mouse=a
