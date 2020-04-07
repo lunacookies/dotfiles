@@ -8,6 +8,7 @@
 set clipboard^=unnamed
 set colorcolumn=+1
 set cursorline
+set hidden
 set ignorecase
 set mouse=a
 set number
