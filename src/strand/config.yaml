@@ -10,6 +10,7 @@ plugins:
   - Git: lifepillar/vim-mucomplete
   - Git: romainl/vim-cool
   - Git: rust-lang/rust.vim
+  - Git: tpope/vim-commentary
   - Git: tpope/vim-endwise
   - Git: tpope/vim-fugitive
   - Git: tpope/vim-surround
