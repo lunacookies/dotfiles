@@ -7,6 +7,7 @@
 
 set clipboard^=unnamed
 set colorcolumn=+1
+set completeopt+=menuone,noselect
 set cursorline
 set hidden
 set ignorecase
@@ -34,6 +35,11 @@ set runtimepath+=/usr/local/opt/fzf
 
 " Automatically rust rustfmt upon save.
 let g:rustfmt_autosave = 1
+
+" MUcomplete
+
+" Enable autocomplete.
+let g:mucomplete#enable_auto_at_startup = 1
 
 "
 " Mappings

@@ -7,6 +7,7 @@ plugins:
   - Git: junegunn/fzf.vim
   - Git: junegunn/vim-easy-align
   - Git: lifepillar/vim-colortemplate
+  - Git: lifepillar/vim-mucomplete
   - Git: romainl/vim-cool
   - Git: rust-lang/rust.vim
   - Git: tpope/vim-endwise
