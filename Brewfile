@@ -1,6 +1,7 @@
 tap "arzg/homebrew-vim-strand"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 
 brew "fd"
 brew "fzf"
@@ -13,11 +14,10 @@ brew "strand"
 brew "tmux", args: ["HEAD"]
 brew "tokei"
 
-cask "alacritty"
 cask "appcleaner"
 cask "discord"
 cask "font-fira-code"
 cask "google-backup-and-sync"
-cask "kitty"
+cask "iterm2-nightly"
 cask "lastpass"
 cask "syncthing"
