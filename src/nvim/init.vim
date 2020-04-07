@@ -29,6 +29,11 @@ nmap ga <Plug>(EasyAlign)
 
 set runtimepath+=/usr/local/opt/fzf
 
+" Rust
+
+" Automatically rust rustfmt upon save.
+let g:rustfmt_autosave = 1
+
 "
 " Colourscheme
 "
