@@ -24,6 +24,10 @@ set splitright
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
+" fzf
+
+set runtimepath+=/usr/local/opt/fzf
+
 "
 " Colourscheme
 "
