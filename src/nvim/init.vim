@@ -35,6 +35,14 @@ set runtimepath+=/usr/local/opt/fzf
 let g:rustfmt_autosave = 1
 
 "
+" Mappings
+"
+
+nnoremap ,b :Buffers
+nnoremap ,f :Files
+nnoremap ,g :Rg
+
+"
 " Colourscheme
 "
 
