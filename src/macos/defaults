@@ -15,6 +15,9 @@ defaults write -g KeyRepeat -f 2
 # Enable autohide.
 defaults write com.apple.Dock autohide -bool true
 
+# Only show running applications.
+defaults write com.apple.Dock static-only -bool true
+
 #
 # Safari
 #
