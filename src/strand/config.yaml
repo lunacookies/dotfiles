@@ -4,6 +4,7 @@ plugins:
   - Git: Glench/Vim-Jinja2-Syntax
   - Git: arzg/vim-colors-xcode
   - Git: arzg/vim-rust-syntax-ext
+  - Git: cocopon/inspecthi.vim
   - Git: jiangmiao/auto-pairs
   - Git: junegunn/fzf.vim
   - Git: junegunn/vim-easy-align
