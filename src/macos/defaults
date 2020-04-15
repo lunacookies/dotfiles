@@ -9,8 +9,15 @@ defaults write -g InitialKeyRepeat -f 15
 defaults write -g KeyRepeat -f 2
 
 #
+# Dock
+#
+
+# Enable autohide.
+defaults write com.apple.Dock autohide -bool true
+
+#
 # Safari
 #
 
-# Don’t automatically open ‘safe’ downloads once they complete
+# Don’t automatically open ‘safe’ downloads once they complete.
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
