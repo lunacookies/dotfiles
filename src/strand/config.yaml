@@ -12,6 +12,7 @@ plugins:
   - Git: lifepillar/vim-mucomplete
   - Git: romainl/vim-cool
   - Git: rust-lang/rust.vim
+  - Git: sgur/vim-editorconfig
   - Git: tpope/vim-commentary
   - Git: tpope/vim-endwise
   - Git: tpope/vim-fugitive
