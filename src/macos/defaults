@@ -24,3 +24,6 @@ defaults write com.apple.Dock static-only -bool true
 
 # Don’t automatically open ‘safe’ downloads once they complete.
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+
+# Enable the Develop menu.
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
