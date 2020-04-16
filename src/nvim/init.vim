@@ -11,6 +11,7 @@ set completeopt+=menuone,noselect
 set cursorline
 set hidden
 set ignorecase
+set linebreak
 set mouse=a
 set number
 set numberwidth=5
