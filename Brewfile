@@ -13,6 +13,7 @@ brew "rustup-init"
 brew "strand"
 brew "tmux", args: ["HEAD"]
 brew "tokei"
+brew "tree"
 
 cask "appcleaner"
 cask "discord"
