@@ -13,6 +13,13 @@ export VISUAL='nvim'
 export EDITOR='nvim'
 
 #
+# Options
+#
+
+# Use Emacs-style keybindings.
+bindkey -e
+
+#
 # Aliases
 #
 
