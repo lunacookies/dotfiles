@@ -1934,6 +1934,10 @@
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>TerminalMargin</key>
+	<integer>30</integer>
+	<key>TerminalVMargin</key>
+	<integer>30</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>iTerm Version</key>
