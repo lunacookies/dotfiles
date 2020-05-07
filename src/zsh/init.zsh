@@ -29,4 +29,6 @@ alias vim="$VISUAL"
 # Prompt
 #
 
-export PROMPT='%F{8}%~ →%f '
+export PROMPT='
+%F{cyan}%~
+%B→%b%f '
