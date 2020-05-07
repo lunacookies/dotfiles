@@ -30,9 +30,13 @@ alias vim="$VISUAL"
 #
 
 # Use bold for commands when typing them in, thereby making them stand out of
-# the rest of the terminal output
+# the rest of the terminal output.
 zle_highlight=(default:bold)
 
+# A newline followed by an arrow.
 export PROMPT='
-%F{cyan}%~
-%B→%b%f '
+%F{cyan}→%f '
+
+# Put the path on the right-aligned prompt so that it’s always visible without
+# being intrusive.
+export RPROMPT='%F{8}%~%f'
