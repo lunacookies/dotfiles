@@ -29,6 +29,10 @@ alias vim="$VISUAL"
 # Prompt
 #
 
+# Use bold for commands when typing them in, thereby making them stand out of
+# the rest of the terminal output
+zle_highlight=(default:bold)
+
 export PROMPT='
 %F{cyan}%~
 %B→%b%f '
