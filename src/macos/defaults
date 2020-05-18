@@ -5,8 +5,8 @@
 #
 
 # Use a faster key repeat.
-defaults write -g InitialKeyRepeat -f 15
-defaults write -g KeyRepeat -f 2
+defaults write -g InitialKeyRepeat -float 15
+defaults write -g KeyRepeat -float 2
 
 #
 # Dock
