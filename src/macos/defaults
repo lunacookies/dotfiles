@@ -27,3 +27,10 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # Enable the Develop menu.
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
+
+#
+# Other
+#
+
+# Show the percentage of remaining battery in the menu bar.
+defaults write com.apple.menuextra.battery ShowPercent -bool true
