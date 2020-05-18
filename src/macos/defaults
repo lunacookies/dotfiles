@@ -34,3 +34,15 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
 # Show the percentage of remaining battery in the menu bar.
 defaults write com.apple.menuextra.battery ShowPercent -bool true
+
+#
+# Restart affected applications
+#
+
+# We restart the applications that reopen themselves automatically.
+killall Dock
+killall SystemUIServer
+
+# We prompt the user to restart all the other applications.
+echo "Changes have been made to the following applications; you may want to restart them."
+echo "    Safari"
