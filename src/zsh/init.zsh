@@ -20,10 +20,14 @@ export EDITOR='nvim'
 bindkey -e
 
 #
-# Aliases
+# Aliases & functions
 #
 
 alias vim="$VISUAL"
+
+trs() {
+    mv $@ "$HOME/.Trash/"
+}
 
 #
 # Prompt
