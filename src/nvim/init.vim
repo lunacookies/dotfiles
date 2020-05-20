@@ -15,7 +15,7 @@ set inccommand=split
 set linebreak
 set mouse=a
 set number
-set numberwidth=4
+set numberwidth=5
 set shortmess=lmnrwxoOtTWIcF
 set smartcase
 set splitbelow
