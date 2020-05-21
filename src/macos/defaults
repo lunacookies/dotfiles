@@ -28,6 +28,9 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 # Enable the Develop menu.
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
+# Hide the Favourites window that shows when the search field has focus.
+defaults write com.apple.Safari ShowFavoritesUnderSmartSearchField -bool false
+
 #
 # Other
 #
