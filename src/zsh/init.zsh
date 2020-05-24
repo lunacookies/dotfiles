@@ -37,9 +37,9 @@ trs() {
 # Prompt
 #
 
-# Use bold for commands when typing them in, thereby making them stand out of
-# the rest of the terminal output.
-zle_highlight=(default:bold)
+# Use bright white for commands when typing them in, thereby making them stand
+# out from the rest of the terminal output.
+zle_highlight=(default:fg=15)
 
 # A newline followed by an arrow.
 export PROMPT='
