@@ -1152,8 +1152,6 @@
 			<real>1.1000000000000001</real>
 			<key>Visual Bell</key>
 			<true/>
-			<key>Window Type</key>
-			<integer>12</integer>
 			<key>Working Directory</key>
 			<string>/Users/aramis</string>
 		</dict>
