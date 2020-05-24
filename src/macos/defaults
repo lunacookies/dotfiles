@@ -38,6 +38,12 @@ defaults write com.apple.Safari ShowFavoritesUnderSmartSearchField -bool false
 # Show the percentage of remaining battery in the menu bar.
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
+# Use dark mode with the graphite accent and highlight colours.
+defaults write -g AppleInterfaceStyle -string "Dark"
+defaults write -g AppleAccentColor -int -1
+defaults write -g AppleAquaColorVariant -int 6
+defaults write -g AppleHighlightColor -string "0.847059 0.847059 0.862745 Graphite"
+
 #
 # Restart affected applications
 #
