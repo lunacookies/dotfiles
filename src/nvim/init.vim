@@ -14,7 +14,6 @@ set ignorecase
 set inccommand=split
 set linebreak
 set mouse=a
-set number
 set numberwidth=5
 set shortmess=lmnrwxoOtTWIcF
 set smartcase
