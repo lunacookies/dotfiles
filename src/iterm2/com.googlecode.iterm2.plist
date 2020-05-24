@@ -371,7 +371,7 @@
 	<key>MinimumWeightDifferenceForBoldFont</key>
 	<integer>3</integer>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Sync/dotfiles/src/iterm2</string>
+	<string>~/Documents/Drive/src/dotfiles/src/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -1919,7 +1919,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/aramis/Sync/dotfiles/src/iterm2</string>
+	<string>/Users/aramis/Documents/Drive/src/dotfiles/src/iterm2</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
