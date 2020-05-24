@@ -24,8 +24,6 @@
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
-	<key>MinimumWeightDifferenceForBoldFont</key>
-	<integer>3</integer>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Documents/Drive/src/dotfiles/src/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
