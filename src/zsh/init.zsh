@@ -12,6 +12,10 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export VISUAL='nvim'
 export EDITOR='nvim'
 
+# Allow cd-ing into my source and school folders from anywhere, as well as into
+# any directory in the parent directory.
+export CDPATH="$HOME/Documents/Drive/src:$HOME/Documents/School/2020:.:.."
+
 #
 # Options
 #
