@@ -8,6 +8,9 @@
 defaults write -g InitialKeyRepeat -float 15
 defaults write -g KeyRepeat -float 2
 
+# Enable the Exposé trackpad gesture.
+defaults write com.apple.Dock showAppExposeGestureEnabled -bool true
+
 #
 # Dock
 #
