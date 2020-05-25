@@ -16,6 +16,9 @@ export EDITOR='nvim'
 # any directory in the parent directory.
 export CDPATH=".:..:$HOME/Documents/Drive/src:$HOME/Documents/School/2020"
 
+# Tell Homebrew to install casks in ~/Applications.
+export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
+
 #
 # Options
 #
