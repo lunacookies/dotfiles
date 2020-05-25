@@ -57,5 +57,4 @@ nnoremap ,o :only<CR>
 " Colourscheme
 "
 
-set termguicolors
 colorscheme apprentice
