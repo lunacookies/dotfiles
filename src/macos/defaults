@@ -8,11 +8,8 @@
 defaults write -g InitialKeyRepeat -float 15
 defaults write -g KeyRepeat -float 2
 
-# Enable the Exposé trackpad gesture.
-defaults write com.apple.Dock showAppExposeGestureEnabled -bool true
-
 #
-# Dock
+# Dock, Spaces, Mission Control, Exposé
 #
 
 # Enable autohide.
@@ -20,6 +17,12 @@ defaults write com.apple.Dock autohide -bool true
 
 # Only show running applications.
 defaults write com.apple.Dock static-only -bool true
+
+# Enable the Exposé trackpad gesture.
+defaults write com.apple.Dock showAppExposeGestureEnabled -bool true
+
+# Disable reordering of Spaces based on most recent use.
+defaults write com.apple.Dock mru-spaces -bool false
 
 #
 # Safari
