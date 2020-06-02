@@ -11,6 +11,7 @@ plugins:
   - Git: lifepillar/vim-mucomplete
   - Git: romainl/Apprentice
   - Git: romainl/vim-cool
+  - Git: romainl/vim-qf
   - Git: rust-lang/rust.vim
   - Git: sgur/vim-editorconfig
   - Git: tpope/vim-commentary
