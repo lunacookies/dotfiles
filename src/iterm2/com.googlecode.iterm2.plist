@@ -28,8 +28,6 @@
 	<string>~/Documents/Drive/src/dotfiles/src/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
-	<key>NSOverlayScrollersFallBackForAccessoryViews</key>
-	<false/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -72,23 +70,21 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>320 337 799 448 0 0 1440 877 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 768 620 392 0 0 2560 1417 </string>
+	<string>880 726 799 448 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>489 408 759 452 0 0 1440 877 </string>
+	<string>312 397 759 452 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>79 425 759 452 0 0 1440 877 </string>
+	<string>293 332 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>302 237 759 452 0 0 1440 877 </string>
+	<string>169 217 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>566 351 759 452 0 0 1440 877 </string>
+	<string>132 252 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>260 375 759 452 0 0 1440 877 </string>
+	<string>302 210 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>509 263 759 452 0 0 1440 877 </string>
+	<string>427 89 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>323 306 759 452 0 0 1440 877 </string>
+	<string>281 410 759 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -285,13 +281,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.26666666666666666</real>
+				<real>0.34509803921568627</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.26666666666666666</real>
+				<real>0.34509803921568627</real>
 				<key>Red Component</key>
-				<real>0.26666666666666666</real>
+				<real>0.34509803921568627</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
@@ -829,16 +825,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{397, 710}</string>
+		<string>{391, 581}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>DF979FEA-C7A0-4F85-BC9F-4300075ED9F9</string>
-	<key>NoSyncLastOSVersion</key>
-	<string>Version 10.15.4 (Build 19E2265)</string>
+	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>20</integer>
+	<integer>11</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>611725485.37555099</real>
+	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
@@ -950,14 +944,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>selectionLength</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -969,14 +955,6 @@
 				<string>triggerName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<false/>
-				<key>name</key>
-				<string>parentSession</string>
-				<key>nonterminalContext</key>
-				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -1095,14 +1073,6 @@
 				<true/>
 				<key>name</key>
 				<string>tmuxStatusLeft</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>selection</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1565,10 +1535,8 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncRestoreWindowsCount</key>
-	<integer>0</integer>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>611447732.679901</real>
+	<real>612093984.19476104</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1604,29 +1572,29 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/aramis/Documents/Drive/src/dotfiles/src/iterm2</string>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=64</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=51</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-05-24T01:20:33Z</date>
+	<date>2020-06-02T12:26:15Z</date>
 	<key>SUSendProfileInfo</key>
-	<false/>
-	<key>SUUpdateGroupIdentifier</key>
-	<integer>1791374474</integer>
-	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.3.10</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
