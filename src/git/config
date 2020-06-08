@@ -1,3 +1,6 @@
 [user]
 name = Aramis Razzaghipour
 email = aramisnoah@gmail.com
+
+[commit]
+verbose = true
