@@ -2,6 +2,7 @@ plugin_dir: ~/.config/nvim/pack/strand/start
 
 plugins:
   - Git: Glench/Vim-Jinja2-Syntax
+  - Git: arzg/vim-colors-xcode
   - Git: arzg/vim-rust-syntax-ext
   - Git: cocopon/inspecthi.vim
   - Git: jiangmiao/auto-pairs
@@ -9,7 +10,6 @@ plugins:
   - Git: junegunn/vim-easy-align
   - Git: lifepillar/vim-colortemplate
   - Git: lifepillar/vim-mucomplete
-  - Git: romainl/Apprentice
   - Git: romainl/vim-cool
   - Git: romainl/vim-qf
   - Git: rust-lang/rust.vim

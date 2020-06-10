@@ -57,4 +57,5 @@ nnoremap ,o :only<CR>
 " Colourscheme
 "
 
-colorscheme apprentice
+set termguicolors
+colorscheme xcodedark
