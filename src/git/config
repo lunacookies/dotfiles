@@ -1,3 +1,5 @@
+# vim: set filetype=gitconfig nomodeline:
+
 [user]
 name = Aramis Razzaghipour
 email = aramisnoah@gmail.com
