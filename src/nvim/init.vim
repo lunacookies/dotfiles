@@ -44,6 +44,12 @@ let g:rustfmt_autosave = 1
 " Enable autocomplete.
 let g:mucomplete#enable_auto_at_startup = 1
 
+" Allow completing from sources as specified by &complete.
+let g:mucomplete#chains = {
+			\ 'vim': ['path', 'cmd', 'c-n'],
+			\ 'default': ['path', 'omni', 'c-n', 'dict', 'uspl']
+			\ }
+
 "
 " Mappings
 "
