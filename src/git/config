@@ -4,5 +4,6 @@
 name = Aramis Razzaghipour
 email = aramisnoah@gmail.com
 
+# Show the diff of each commit when editing the message.
 [commit]
 verbose = true
