@@ -710,9 +710,15 @@
 	<key>MinimumWeightDifferenceForBoldFont</key>
 	<integer>3</integer>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Drive/src/dotfiles/src/iterm2</string>
+	<string>~/Documents/Drive/src/vim-colors-xcode</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{841, 448}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -757,19 +763,19 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>880 726 799 448 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>750 7 620 392 0 0 1440 877 </string>
+	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>100 301 759 452 0 0 1440 877 </string>
+	<string>556 210 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1774 807 759 452 0 0 2560 1417 </string>
+	<string>342 425 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>637 327 759 452 0 0 2560 1417 </string>
+	<string>270 105 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>349 572 759 452 0 0 2560 1417 </string>
+	<string>132 252 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>302 1030 759 452 0 0 1440 2537 </string>
+	<string>302 210 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>427 437 759 452 0 0 1440 2537 </string>
+	<string>427 89 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
 	<string>281 2011 759 452 0 0 1440 2537 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
@@ -1507,23 +1513,27 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.3.11</string>
 		<string>3.3.10</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
 		<string>SF Mono</string>
+		<string>Fira Code</string>
+		<string>Monaco</string>
+		<string>JetBrains Mono</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1440, 900}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{269, 595}</string>
+		<string>{494, 1243}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>22</integer>
+	<integer>42</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2265,6 +2275,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/aramis/Documents/Drive/src/dotfiles/src/iterm2</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2274,8 +2286,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-06-09T07:33:06Z</date>
+	<date>2020-06-22T10:52:48Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
