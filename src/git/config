@@ -7,3 +7,7 @@ email = aramisnoah@gmail.com
 # Show the diff of each commit when editing the message.
 [commit]
 verbose = true
+
+# Prune deleted branches when fetching from a remote.
+[fetch]
+prune = true
