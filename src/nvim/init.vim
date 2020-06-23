@@ -59,4 +59,4 @@ nnoremap ,o :only<CR>
 "
 
 set termguicolors
-colorscheme xcodedark
+colorscheme xcodelight
