@@ -11,3 +11,7 @@ verbose = true
 # Prune deleted branches when fetching from a remote.
 [fetch]
 prune = true
+
+# Rebase upstream changes upon pull.
+[pull]
+rebase = true
