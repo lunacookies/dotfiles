@@ -18,6 +18,7 @@ brew "tmux", args: ["HEAD"]
 brew "tokei"
 brew "tree"
 brew "yarn"
+brew "youtube-dl"
 
 cask "appcleaner"
 cask "discord"
