@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 brew "fd"
+brew "ffmpeg"
 brew "fzf"
 brew "git"
 brew "hugo"
