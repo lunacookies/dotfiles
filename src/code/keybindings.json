@@ -12,5 +12,10 @@
         "key": "ctrl+shift+w",
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     }
 ]
