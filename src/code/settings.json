@@ -36,6 +36,7 @@
     //
     // Plugins and languages
     //
+    "diffEditor.renderSideBySide": false,
     "rewrap.wrappingColumn": 100,
     "rust-analyzer.checkOnSave.command": "clippy",
     "[html]": {
