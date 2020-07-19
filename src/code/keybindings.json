@@ -4,6 +4,11 @@
         "command": "test-explorer.reload"
     },
     {
+        "key": "enter",
+        "command": "rust-analyzer.onEnter",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+w",
         "command": "editor.action.smartSelect.expand",
         "when": "editorTextFocus"
