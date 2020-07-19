@@ -18,6 +18,7 @@
     "editor.lineNumbers": "off",
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
+    "editor.renderWhitespace": "none",
     "editor.roundedSelection": false,
     "workbench.editor.showTabs": false,
     "workbench.iconTheme": null,
