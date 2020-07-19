@@ -13,3 +13,4 @@ function link_config() {
 
 link_config src "$HOME/.config"
 link_config src/zsh/init.zsh "$HOME/.zshrc"
+link_config src/code "$HOME/Library/Application Support/Code/User"
