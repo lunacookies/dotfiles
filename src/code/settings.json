@@ -1,0 +1,43 @@
+{
+    //
+    // Colours and font
+    //
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Pale Fire",
+    "workbench.colorCustomizations": {
+        "editorGutter.background": "#494949"
+    },
+    //
+    // Hide annoyances
+    //
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.lightbulb.enabled": false,
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.roundedSelection": false,
+    "workbench.editor.showTabs": false,
+    "workbench.iconTheme": null,
+    //
+    // Small pleasant UI tweaks
+    //
+    "editor.cursorBlinking": "phase",
+    "workbench.tree.indent": 16,
+    //
+    // Clean up automatically
+    //
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    //
+    // Plugins and languages
+    //
+    "rewrap.wrappingColumn": 100,
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+}
