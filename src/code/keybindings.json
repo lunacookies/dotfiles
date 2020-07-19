@@ -2,5 +2,15 @@
     {
         "key": "shift+cmd+r",
         "command": "test-explorer.reload"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
     }
 ]
