@@ -27,6 +27,7 @@
         "key": "shift+cmd+d",
         "command": "editor.action.goToTypeDefinition"
     },
+    // Mnemonic: usages
     {
         "key": "cmd+u",
         "command": "editor.action.referenceSearch.trigger"
