@@ -6,7 +6,7 @@
     {
         "key": "enter",
         "command": "rust-analyzer.onEnter",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
     },
     {
         "key": "ctrl+w",
