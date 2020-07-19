@@ -3,6 +3,7 @@ target/
 target
 node_modules/
 resources/_gen/
+.vscode/
 
 # From Google Drive
 Icon
