@@ -8,7 +8,6 @@ function rm_if_exists() {
 
 function link_config() {
     rm_if_exists "$2"
-
     ln -s "$PWD/$1" "$2"
 }
 
