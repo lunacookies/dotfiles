@@ -31,5 +31,11 @@
     {
         "key": "cmd+u",
         "command": "editor.action.referenceSearch.trigger"
+    },
+    // Mnemonic: info
+    {
+        "key": "cmd+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]
