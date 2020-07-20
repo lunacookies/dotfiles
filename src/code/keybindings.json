@@ -24,12 +24,12 @@
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "cmd+d",
+        "key": "cmd+b",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "shift+cmd+d",
+        "key": "shift+cmd+b",
         "command": "editor.action.goToTypeDefinition"
     },
     // Mnemonic: usages
