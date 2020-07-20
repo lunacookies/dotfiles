@@ -5,9 +5,6 @@
     "editor.fontFamily": "Jetbrains Mono",
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Pale Fire",
-    "workbench.colorCustomizations": {
-        "editorGutter.background": "#494949"
-    },
     //
     // Hide annoyances
     //
