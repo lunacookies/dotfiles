@@ -3,6 +3,7 @@
     // Colours and font
     //
     "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Pale Fire",
     //
