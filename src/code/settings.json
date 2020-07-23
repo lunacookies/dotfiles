@@ -2,7 +2,7 @@
     //
     // Colours and font
     //
-    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Pale Fire",
     //
@@ -40,5 +40,5 @@
     "testExplorer.showOnRun": true,
     "[html]": {
         "editor.formatOnSave": false
-    },
+    }
 }
