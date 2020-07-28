@@ -21,6 +21,10 @@ defaults write com.apple.Dock static-only -bool true
 # Don’t show recently used applications in the Dock.
 defaults write com.apple.Dock show-recents -bool false
 
+# Hide indicators for open applications (as all of the items shown in the Dock
+# are open).
+defaults write com.apple.Dock show-process-indicators -bool false
+
 # Enable the Exposé trackpad gesture.
 defaults write com.apple.Dock showAppExposeGestureEnabled -bool true
 
