@@ -20,6 +20,7 @@ brew "tree"
 brew "yarn"
 brew "youtube-dl"
 
+cask "adobe-creative-cloud"
 cask "appcleaner"
 cask "discord"
 cask "font-fira-code"
