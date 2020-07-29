@@ -6,29 +6,6 @@
     "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "Pale Fire",
-    "editor.semanticTokenColorCustomizations": {
-        "rules": {
-            "property": "#AFD8AF"
-        }
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "Property",
-                "scope": [
-                    "entity.name.field",
-                    "entity.name.variable.field",
-                    "support.type.property-name",
-                    "variable.other.member",
-                    "variable.other.object.property",
-                    "variable.other.property"
-                ],
-                "settings": {
-                    "foreground": "#AFD8AF",
-                }
-            },
-        ]
-    },
     //
     // Hide annoyances
     //
