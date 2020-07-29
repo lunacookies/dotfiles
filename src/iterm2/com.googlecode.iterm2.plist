@@ -82,15 +82,15 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>328 424 759 452 0 0 2560 1417 </string>
+	<string>44 140 759 452 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>188 296 866 502 0 0 1680 1027 </string>
+	<string>1539 225 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>702 391 866 502 0 0 1680 1027 </string>
+	<string>1470 660 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>493 525 866 502 0 0 1680 1027 </string>
+	<string>918 169 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>643 678 866 502 0 0 2560 1417 </string>
+	<string>218 319 759 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
 	<string>427 32 866 502 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
@@ -846,12 +846,12 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{461, 734}</string>
+		<string>{550, 854}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>75</integer>
+	<integer>93</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1604,7 +1604,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-19T05:17:22Z</date>
+	<date>2020-07-29T09:22:03Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
