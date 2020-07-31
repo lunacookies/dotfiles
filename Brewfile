@@ -22,6 +22,7 @@ brew "youtube-dl"
 
 cask "adobe-creative-cloud"
 cask "appcleaner"
+cask "blackhole"
 cask "discord"
 cask "font-ibm-plex"
 cask "font-jetbrains-mono"
