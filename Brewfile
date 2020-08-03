@@ -2,6 +2,7 @@ tap "arzg/homebrew-vim-strand"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+brew "cmake"
 brew "fd"
 brew "ffmpeg"
 brew "fzf"
