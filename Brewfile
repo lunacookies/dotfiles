@@ -22,6 +22,7 @@ brew "yarn"
 brew "youtube-dl"
 
 cask "adobe-creative-cloud"
+cask "anki"
 cask "appcleaner"
 cask "blackhole"
 cask "discord"
