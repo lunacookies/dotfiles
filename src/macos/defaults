@@ -9,6 +9,14 @@ defaults write -g InitialKeyRepeat -float 15
 defaults write -g KeyRepeat -float 2
 
 #
+# Finder
+#
+
+# New windows open with the home folder.
+defaults write com.apple.Finder NewWindowTarget -string "PfHm"
+defaults write com.apple.Finder NewWindowTargetPath -string "file://$HOME"
+
+#
 # Dock, Spaces, Mission Control, Exposé
 #
 
@@ -74,6 +82,7 @@ sudo nvram StartupMute=%00
 #
 
 # We restart the applications that reopen themselves automatically.
+killall Finder
 killall Dock
 killall SystemUIServer
 
