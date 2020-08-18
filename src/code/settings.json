@@ -25,6 +25,8 @@
     //
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.sideBar.location": "right",
     "workbench.tree.indent": 16,
     //
     // Clean up automatically
