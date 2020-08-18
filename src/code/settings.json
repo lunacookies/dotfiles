@@ -24,6 +24,7 @@
     // Small pleasant UI tweaks
     //
     "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
     "workbench.tree.indent": 16,
     //
     // Clean up automatically
