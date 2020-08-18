@@ -42,5 +42,15 @@
         "key": "cmd+i",
         "command": "editor.action.showHover",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "=",
+        "command": "git.stageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "-",
+        "command": "git.unstageSelectedRanges",
+        "when": "isInDiffEditor"
     }
 ]
