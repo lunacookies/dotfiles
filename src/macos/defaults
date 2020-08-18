@@ -16,6 +16,9 @@ defaults write -g KeyRepeat -float 2
 defaults write com.apple.Finder NewWindowTarget -string "PfHm"
 defaults write com.apple.Finder NewWindowTargetPath -string "file://$HOME"
 
+# Don’t show internal hard drives on the Desktop.
+defaults write com.apple.Finder ShowHardDrivesOnDesktop -bool false
+
 #
 # Dock, Spaces, Mission Control, Exposé
 #
