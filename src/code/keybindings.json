@@ -52,5 +52,15 @@
         "key": "-",
         "command": "git.unstageSelectedRanges",
         "when": "isInDiffEditor"
+    },
+    {
+        "key": "=",
+        "command": "git.stage",
+        "when": "listHasSelectionOrFocus"
+    },
+    {
+        "key": "-",
+        "command": "git.unstage",
+        "when": "listHasSelectionOrFocus"
     }
 ]
