@@ -43,13 +43,13 @@ trs() {
 # Prompt
 #
 
-# Use bright white for commands when typing them in, thereby making them stand
+# Use bright cyan for commands when typing them in, thereby making them stand
 # out from the rest of the terminal output.
-zle_highlight=(default:fg=15)
+zle_highlight=(default:fg=10)
 
 # A newline followed by an arrow.
 export PROMPT='
-%F{cyan}→%f '
+%F{green}→%f '
 
 # Put the path on the right-aligned prompt so that it’s always visible without
 # being intrusive.
