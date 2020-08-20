@@ -25,7 +25,6 @@
     // Small pleasant UI tweaks
     //
     "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
