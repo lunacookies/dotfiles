@@ -22,6 +22,11 @@ export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
 # Use fd in fzf
 export FZF_DEFAULT_COMMAND="fd"
 
+# Store all compilation artefacts from Cargo in a single location to allow
+# sharing dependencies between builds.
+export CARGO_TARGET_DIR="$HOME/.cache/cargo-target"
+[ ! -e "$CARGO_TARGET_DIR" ] && mkdir -p "$CARGO_TARGET_DIR"
+
 #
 # Options
 #
