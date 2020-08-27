@@ -41,8 +41,5 @@
     "diffEditor.renderSideBySide": false,
     "rewrap.wrappingColumn": 100,
     "rust-analyzer.checkOnSave.command": "clippy",
-    "testExplorer.showOnRun": true,
-    "[html]": {
-        "editor.formatOnSave": false
-    }
+    "testExplorer.showOnRun": true
 }
