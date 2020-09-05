@@ -32,6 +32,7 @@
     // Clean up automatically
     //
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
