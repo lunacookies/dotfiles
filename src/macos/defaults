@@ -8,6 +8,10 @@
 defaults write -g InitialKeyRepeat -float 15
 defaults write -g KeyRepeat -float 2
 
+# Use the Light click force.
+defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
+defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 0
+
 #
 # Finder
 #
