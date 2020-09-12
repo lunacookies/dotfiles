@@ -8,6 +8,10 @@ email = aramisnoah@gmail.com
 [commit]
 verbose = true
 
+[status]
+short = true # Use short status format
+branch = true # Show information on how many commits ahead/behind of remote
+
 # Prune deleted branches when fetching from a remote.
 [fetch]
 prune = true
