@@ -4,6 +4,12 @@
 name = Aramis Razzaghipour
 email = aramisnoah@gmail.com
 
+[alias]
+br = branch
+co = checkout
+c = commit
+s = status
+
 # Show the diff of each commit when editing the message.
 [commit]
 verbose = true
