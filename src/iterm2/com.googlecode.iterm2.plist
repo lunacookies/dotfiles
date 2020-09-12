@@ -765,9 +765,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>790 525 759 502 0 0 2560 1417 </string>
+	<string>790 425 866 602 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>157 184 759 502 0 0 2560 1417 </string>
+	<string>123 197 866 602 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>921 425 866 602 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -2300,7 +2300,7 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
