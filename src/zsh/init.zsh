@@ -66,6 +66,8 @@ bindkey -e
 # Aliases & functions
 #
 
+alias c="cargo"
+alias g="git"
 alias vim="$VISUAL"
 
 #
