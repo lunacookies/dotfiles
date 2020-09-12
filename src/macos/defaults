@@ -79,12 +79,6 @@ default write pro.writer.mac "Document Path Extension" -str "md"
 # Show the percentage of remaining battery in the menu bar.
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
-# Use dark mode with the graphite accent and highlight colours.
-defaults write -g AppleInterfaceStyle -string "Dark"
-defaults write -g AppleAccentColor -int -1
-defaults write -g AppleAquaColorVariant -int 6
-defaults write -g AppleHighlightColor -string "0.847059 0.847059 0.862745 Graphite"
-
 # Only show the ‘normal’ expanded control strip on the touchbar.
 defaults write com.apple.touchbar.agent PresentationModeGlobal -string "fullControlStrip"
 
