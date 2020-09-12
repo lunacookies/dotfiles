@@ -8,13 +8,11 @@
 set clipboard^=unnamed
 set colorcolumn=+1
 set completeopt+=menuone,noselect
-set cursorline
 set hidden
 set ignorecase
 set inccommand=split
 set linebreak
 set mouse=a
-set number
 set numberwidth=5
 set shortmess=lmnrwxoOtTWIcF
 set smartcase
