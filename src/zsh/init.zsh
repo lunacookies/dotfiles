@@ -52,10 +52,5 @@ trs() {
 # the rest of the terminal output.
 zle_highlight=(default:bold)
 
-# A newline followed by an arrow.
-export PROMPT='
-%F{green}→%f '
-
-# Put the path on the right-aligned prompt so that it’s always visible without
-# being intrusive.
+export PROMPT='%F{cyan}%%%f '
 export RPROMPT='%F{8}%~%f'
