@@ -68,10 +68,6 @@ bindkey -e
 
 alias vim="$VISUAL"
 
-trs() {
-    mv $@ "$HOME/.Trash/"
-}
-
 #
 # Prompt
 #
