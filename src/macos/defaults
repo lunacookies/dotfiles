@@ -66,6 +66,13 @@ defaults write com.apple.Safari AutoFillMiscellaneousForms -bool true
 defaults write com.apple.Safari AutoFillPasswords -bool true
 
 #
+# iA Writer
+#
+
+# Use .md extension for iA Writer files.
+default write pro.writer.mac "Document Path Extension" -str "md"
+
+#
 # Other
 #
 
