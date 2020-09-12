@@ -1,12 +1,40 @@
 #
-# Path
+# Completion
 #
 
-export PATH="$HOME/.cargo/bin:$PATH"
+# Load completion
+autoload -U compinit
+compinit -u
+zmodload -i zsh/complist
+
+# Make completion case-insensitive
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
+# Highlight selected completion match.
+zstyle ':completion:*:*:*:*:*' menu select
+
+#
+# History
+#
+
+# Keep much more history
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt append_history
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_ignore_space
+setopt hist_verify
+setopt inc_append_history
+setopt share_history
 
 #
 # Environment Variables
 #
+
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Use Neovim for command-line editing.
 export VISUAL='nvim'
