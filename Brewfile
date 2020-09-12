@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 brew "cmake"
+brew "coreutils"
 brew "fd"
 brew "ffmpeg"
 brew "fzf"
