@@ -2,10 +2,14 @@
     //
     // Colours and font
     //
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "workbench.colorTheme": "Pale Fire",
+    "editor.fontFamily": "iA Writer Duo S",
+    "terminal.integrated.fontFamily": "iA Writer Mono S",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 26,
+    "workbench.colorTheme": "Wordsmith Light",
+    "workbench.preferredDarkColorTheme": "Wordsmith Dark",
+    "workbench.preferredLightColorTheme": "Wordsmith Light",
+    "window.autoDetectColorScheme": true,
     //
     // Hide annoyances
     //
@@ -24,10 +28,16 @@
     //
     // Small pleasant UI tweaks
     //
-    "editor.cursorBlinking": "phase",
+    "customizeUI.activityBar": "bottom",
+    "customizeUI.stylesheet": {
+        "*": "text-shadow: 0 0 currentColor"
+    },
+    "customizeUI.titleBar": "inline",
+    "editor.cursorWidth": 3,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
+    "window.titleBarStyle": "native",
     //
     // Clean up automatically
     //
