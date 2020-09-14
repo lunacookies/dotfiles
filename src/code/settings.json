@@ -2,14 +2,10 @@
     //
     // Colours and font
     //
-    "editor.fontFamily": "iA Writer Duo S",
-    "terminal.integrated.fontFamily": "iA Writer Mono S",
-    "editor.fontSize": 15,
-    "editor.lineHeight": 26,
-    "workbench.colorTheme": "Wordsmith Light",
-    "workbench.preferredDarkColorTheme": "Wordsmith Dark",
-    "workbench.preferredLightColorTheme": "Wordsmith Light",
-    "window.autoDetectColorScheme": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Pale Fire",
     //
     // Hide annoyances
     //
@@ -19,7 +15,6 @@
     "editor.lineNumbers": "off",
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
-    "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
     "editor.roundedSelection": false,
     "workbench.editor.showTabs": false,
@@ -33,7 +28,6 @@
         "*": "text-shadow: 0 0 currentColor"
     },
     "customizeUI.titleBar": "inline",
-    "editor.cursorWidth": 3,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
