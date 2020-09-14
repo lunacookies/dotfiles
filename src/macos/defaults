@@ -59,6 +59,9 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 # Hide the Favourites window that shows when the search field has focus.
 defaults write com.apple.Safari ShowFavoritesUnderSmartSearchField -bool false
 
+# Show favicons.
+defaults write com.apple.Safari ShowIconsInTabs -bool true
+
 # Disable AutoFill.
 defaults write com.apple.Safari AutoFillCreditCardData -bool true
 defaults write com.apple.Safari AutoFillFromAddressBook -bool true
