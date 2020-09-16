@@ -11,6 +11,8 @@ function link_config() {
     ln -s "$PWD/$1" "$2"
 }
 
-link_config src "$HOME/.config"
-link_config src/zsh/init.zsh "$HOME/.zshrc"
-link_config src/code "$HOME/Library/Application Support/Code/User"
+link_config src "$HOME/.config" &
+link_config src/zsh/init.zsh "$HOME/.zshrc" &
+link_config src/code "$HOME/Library/Application Support/Code/User" &
+
+wait
