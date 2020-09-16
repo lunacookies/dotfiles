@@ -27,7 +27,7 @@
 	<key>MinimumWeightDifferenceForBoldFont</key>
 	<integer>4</integer>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Drive/src/vim-colors-xcode</string>
+	<string>~/Documents/Drive/src/wordsmith</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
 	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -82,17 +82,17 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>845 23 822 486 0 0 1680 1027 </string>
+	<string>355 198 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1285 21 1263 1387 0 0 2560 1417 </string>
+	<string>1535 748 1025 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>845 22 822 996 0 0 1680 1027 </string>
+	<string>540 188 866 617 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>918 169 759 452 0 0 1680 1027 </string>
+	<string>921 240 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>218 319 759 452 0 0 1440 877 </string>
+	<string>1611 330 866 617 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>427 32 866 502 0 0 1440 877 </string>
+	<string>1260 0 866 617 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
 	<string>281 358 866 502 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
@@ -755,7 +755,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMono-Regular 12</string>
+			<string>InputMonoNarrow-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -836,22 +836,19 @@
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>SF Mono</string>
-		<string>Fira Code</string>
-		<string>Monaco</string>
-		<string>JetBrains Mono</string>
+		<string>Input Mono Narrow</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{97, 816}</string>
+		<string>{295, 775}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>191</integer>
+	<integer>233</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1612,7 +1609,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-09-06T11:11:13Z</date>
+	<date>2020-09-15T10:09:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
