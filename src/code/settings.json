@@ -56,15 +56,10 @@
     //
     // Small pleasant UI tweaks
     //
-    "customizeUI.activityBar": "bottom",
-    "customizeUI.stylesheet": {
-        "*": "text-shadow: 0 0 currentColor"
-    },
-    "customizeUI.titleBar": "inline",
+    "editor.cursorBlinking": "phase",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
-    "window.titleBarStyle": "native",
     //
     // Clean up automatically
     //
