@@ -6,38 +6,6 @@
     "editor.fontSize": 14,
     "editor.lineHeight": 23,
     "terminal.integrated.fontFamily": "Input Mono Narrow",
-    "editor.semanticTokenColorCustomizations": {
-        "rules": {
-            "keyword": {
-                "bold": false
-            },
-            "function.declaration": {
-                "bold": true
-            },
-            "enumMember": {
-                "italic": true
-            },
-            "comment": {
-                "italic": true
-            }
-        }
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "keyword",
-                "settings": {
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": "comment",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
     "workbench.colorTheme": "Pale Fire",
     //
     // Hide annoyances
