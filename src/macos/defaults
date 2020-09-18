@@ -79,9 +79,6 @@ default write pro.writer.mac "Document Path Extension" -str "md"
 # Other
 #
 
-# Show the percentage of remaining battery in the menu bar.
-defaults write com.apple.menuextra.battery ShowPercent -bool true
-
 # Hide Spotlight from the menu bar.
 defaults delete com.apple.Spotlight "NSStatusItem Visible Item-0"
 
@@ -96,9 +93,6 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 
 # Move zoomed-in region continuously with the cursor.
 defaults write com.apple.universalaccess closeViewPanningMode -int 0
-
-# Enable the boot chime.
-sudo nvram StartupMute=%00
 
 #
 # Restart affected applications
