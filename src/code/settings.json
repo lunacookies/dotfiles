@@ -2,11 +2,9 @@
     //
     // Colours and font
     //
-    "editor.fontFamily": "Input Sans Narrow",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 23,
-    "terminal.integrated.fontFamily": "Input Mono Narrow",
-    "workbench.colorTheme": "Pale Fire",
+    "editor.fontFamily": "SF Mono",
+    "editor.fontWeight": "500",
+    "workbench.colorTheme": "Xcode 10 Default Dark",
     //
     // Hide annoyances
     //
