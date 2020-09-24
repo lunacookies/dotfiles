@@ -55,6 +55,9 @@ export FZF_DEFAULT_COMMAND="fd"
 export CARGO_TARGET_DIR="$HOME/.cache/cargo-target"
 [ ! -e "$CARGO_TARGET_DIR" ] && mkdir -p "$CARGO_TARGET_DIR"
 
+# Enable optimisations specific for the CPU architecture we’re running on.
+export RUSTFLAGS="-C target-cpu=native"
+
 #
 # Options
 #
