@@ -4,7 +4,8 @@
     //
     "editor.fontFamily": "SF Mono",
     "editor.fontWeight": "500",
-    "workbench.colorTheme": "Xcode 10 Default Dark",
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Xcode 11 Default Dark",
     //
     // Hide annoyances
     //
