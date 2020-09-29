@@ -2074,17 +2074,15 @@
 	<key>MinimumWeightDifferenceForBoldFont</key>
 	<integer>4</integer>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Drive/src/xcode-theme</string>
+	<string>~/Documents/Drive/src/wordsmith</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
 	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{800, 448}</string>
+	<string>{799, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{800, 448}</string>
+	<string>{841, 448}</string>
 	<key>NSNavPanelExpandedStateForSaveMode</key>
 	<true/>
-	<key>NSOverlayScrollersFallBackForAccessoryViews</key>
-	<false/>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -2127,19 +2125,29 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>440 432 800 448 0 0 1680 1025 </string>
+	<string>880 726 799 448 0 0 2560 1417 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>235 303 759 458 0 0 1680 1025 </string>
+	<string>0 965 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1 567 1627 458 0 0 1680 1025 </string>
+	<string>91 889 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>469 299 759 458 0 0 1680 1025 </string>
+	<string>540 341 759 452 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>209 74 759 458 0 0 1680 1025 </string>
+	<string>791 136 759 452 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>683 63 759 458 0 0 1680 1025 </string>
+	<string>1611 330 866 617 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>336 567 759 458 0 0 1680 1025 </string>
+	<string>1260 0 866 617 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>281 358 866 502 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>302 2058 759 452 0 0 1440 2537 </string>
+	<key>NSWindow Frame iTerm Window 8</key>
+	<string>323 2035 759 452 0 0 1440 2537 </string>
+	<key>NSWindow Frame iTerm Window 9</key>
+	<string>344 2012 759 452 0 0 1440 2537 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2180,39 +2188,39 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.56078433990478516</real>
+				<real>0.89411765336990356</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
 				<real>0.94901961088180542</real>
 				<key>Red Component</key>
-				<real>0.729411780834198</real>
+				<real>0.67450982332229614</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.30980393290519714</real>
+				<real>0.48627451062202454</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.63137257099151611</real>
+				<real>0.78823530673980713</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.85098040103912354</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.86666667461395264</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.92156863212585449</real>
+				<real>0.87450981140136719</real>
 				<key>Red Component</key>
-				<real>0.65490198135375977</real>
+				<real>0.41960784792900085</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
@@ -2232,65 +2240,65 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.9686274528503418</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.61568629741668701</real>
+				<real>0.729411780834198</real>
 				<key>Red Component</key>
-				<real>0.65490198135375977</real>
+				<real>0.85490196943283081</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.87843137979507446</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.45882353186607361</real>
+				<real>0.70196080207824707</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.85098040103912354</real>
+				<real>0.7607843279838562</real>
 				<key>Red Component</key>
-				<real>0.62745100259780884</real>
+				<real>0.47058823704719543</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.30980393290519714</real>
+				<real>0.48627451062202454</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.63137257099151611</real>
+				<real>0.78823530673980713</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.85098040103912354</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.76470589637756348</real>
+				<real>0.80000001192092896</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.81960785388946533</real>
+				<real>0.69019609689712524</real>
 				<key>Red Component</key>
-				<real>0.54117649793624878</real>
+				<real>0.30588236451148987</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
@@ -2310,26 +2318,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.9686274528503418</real>
+				<real>0.92156863212585449</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.61568629741668701</real>
+				<real>0.5058823823928833</real>
 				<key>Red Component</key>
-				<real>0.65490198135375977</real>
+				<real>0.69803923368453979</real>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.87843137979507446</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
@@ -2396,13 +2404,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.87843137979507446</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -2468,13 +2476,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.87843137979507446</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 			</dict>
 			<key>Guid</key>
 			<string>D61E2094-2D7E-41D0-ACF5-C3B9625689A4</string>
@@ -2777,13 +2785,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.98823529481887817</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.7137255072593689</real>
+				<real>0.60000002384185791</real>
 				<key>Red Component</key>
-				<real>0.38823530077934265</real>
+				<real>0.40000000596046448</real>
 			</dict>
 			<key>Mouse Reporting</key>
 			<true/>
@@ -2812,13 +2820,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.87843137979507446</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.87450981140136719</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
@@ -2869,8 +2877,9 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.4.20200918-nightly</string>
 		<string>3.3.12</string>
+		<string>3.3.11</string>
+		<string>3.3.10</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -2879,20 +2888,16 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1680, 1050}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{675, 601}</string>
+		<string>{294, 775}</string>
 	</dict>
-	<key>NoSyncIgnoreSystemWindowRestoration</key>
-	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>09970D02-B583-484B-A3C1-ECE0E1C36F3F</string>
-	<key>NoSyncLastOSVersion</key>
-	<string>Version 10.16 (Build 20A5364e)</string>
+	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>29</integer>
+	<integer>246</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>622422424.70960796</real>
+	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
@@ -2988,7 +2993,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>processTitle</string>
+				<string>hostname</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2997,22 +3002,6 @@
 				<true/>
 				<key>name</key>
 				<string>tmuxClientName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>selectionLength</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>hostname</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3031,14 +3020,6 @@
 				<string>triggerName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<false/>
-				<key>name</key>
-				<string>parentSession</string>
-				<key>nonterminalContext</key>
-				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -3074,19 +3055,19 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>name</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>iterm2</string>
 				<key>nonterminalContext</key>
 				<integer>4</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>name</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -3157,22 +3138,6 @@
 				<true/>
 				<key>name</key>
 				<string>tmuxStatusLeft</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>selection</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>bellCount</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3293,19 +3258,19 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>currentTab</string>
 				<key>nonterminalContext</key>
 				<integer>2</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.processTitle</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -3351,7 +3316,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.commandLine</string>
+				<string>number</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3359,7 +3324,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>number</string>
+				<string>currentTab.currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3376,14 +3341,6 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.hostname</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.bellCount</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3434,14 +3391,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3474,14 +3423,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.terminalIconName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>currentSession.presentationName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3491,14 +3432,6 @@
 				<true/>
 				<key>name</key>
 				<string>iterm2.localhostName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentSession.jobPid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3546,14 +3479,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.processTitle</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>window</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3579,14 +3504,6 @@
 				<true/>
 				<key>name</key>
 				<string>currentSession.username</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentSession.bellCount</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3626,6 +3543,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentSession.pid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3634,7 +3559,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.pid</string>
+				<string>tmuxWindow</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3650,7 +3575,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>tmuxWindow</string>
+				<string>currentSession</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3684,7 +3609,7 @@
 		</array>
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>622129128.18063605</real>
+	<real>612093984.19476104</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -3720,17 +3645,21 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/aramis/Documents/Drive/src/dotfiles/src/iterm2</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=72</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=51</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-09-22T22:15:46Z</date>
+	<date>2020-09-28T12:12:31Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
