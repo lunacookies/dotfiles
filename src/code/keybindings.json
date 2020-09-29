@@ -62,5 +62,30 @@
         "key": "-",
         "command": "git.unstage",
         "when": "listHasSelectionOrFocus"
+    },
+    // Mnemonic: explorer
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.view.explorer"
+    },
+    // Mnemonic: find
+    {
+        "key": "shift+alt+f",
+        "command": "workbench.action.findInFiles"
+    },
+    // Mnemonic: git
+    {
+        "key": "shift+alt+g",
+        "command": "workbench.view.scm"
+    },
+    // Mnemonic: debug
+    {
+        "key": "shift+alt+d",
+        "command": "workbench.view.debug"
+    },
+    // Mnemonic: xtensions
+    {
+        "key": "shift+alt+x",
+        "command": "workbench.view.extensions"
     }
 ]
