@@ -81,5 +81,6 @@ alias vim="$VISUAL"
 # the rest of the terminal output.
 zle_highlight=(default:bold)
 
-export PROMPT='%F{cyan}%%%f '
-export RPROMPT='%F{8}%~%f'
+export PROMPT='
+%F{6}%~
+%F{14}→%b%f '
