@@ -43,6 +43,8 @@
     "customizeUI.titleBar": "inline",
     "customizeUI.stylesheet": {
         "body.inline-title-bar .monaco-workbench .sidebar .composite.title": "background: none !important",
+        ".suggest-widget > div, .monaco-hover": "box-shadow: 0 5px 10px rgba(0,0,0,0.5); border-radius: 5px",
+        ".suggest-widget .focused": "border-radius: 5px",
         "*": "text-shadow: 0 0 currentColor"
     },
     "diffEditor.renderSideBySide": false,
