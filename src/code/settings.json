@@ -43,6 +43,7 @@
     "customizeUI.titleBar": "inline",
     "customizeUI.stylesheet": {
         "body.inline-title-bar .monaco-workbench .sidebar .composite.title": "background: none !important",
+        "*": "text-shadow: 0 0 currentColor"
     },
     "diffEditor.renderSideBySide": false,
     "rewrap.wrappingColumn": 100,
