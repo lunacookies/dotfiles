@@ -24,7 +24,7 @@
     //
     // Small pleasant UI tweaks
     //
-    "editor.cursorBlinking": "phase",
+    "editor.cursorWidth": 1,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "window.nativeTabs": true,
     "workbench.panel.defaultLocation": "right",
