@@ -40,8 +40,17 @@
     //
     // Plugins and languages
     //
+    "customizeUI.titleBar": "inline",
+    "customizeUI.stylesheet": {
+        "body.inline-title-bar .monaco-workbench .sidebar .composite.title": "background: none !important",
+    },
     "diffEditor.renderSideBySide": false,
     "rewrap.wrappingColumn": 100,
     "rust-analyzer.checkOnSave.command": "clippy",
+    "terminal.integrated.rendererType": "dom",
+    "testExplorer.showOnRun": true,
+    "vscode_vibrancy.theme": "Dark (Only Subbar)",
+    "vscode_vibrancy.type": "menu",
+    "window.titleBarStyle": "native",
     "workbench.iconTheme": "vscode-icons-mac"
 }
