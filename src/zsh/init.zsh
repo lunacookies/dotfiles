@@ -71,6 +71,7 @@ bindkey -e
 
 alias c="cargo"
 alias g="git"
+alias ls="exa --long"
 alias vim="$VISUAL"
 
 #
