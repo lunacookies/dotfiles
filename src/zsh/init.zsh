@@ -83,5 +83,5 @@ alias vim="$VISUAL"
 zle_highlight=(default:bold)
 
 export PROMPT='
-%F{6}%~
-%F{14}→%b%f '
+%F{2}%~
+%F{10}→%b%f '
