@@ -2129,7 +2129,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>287 306 759 452 0 0 2560 1417 </string>
+	<string>657 -697 759 452 574 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>516 561 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2802,7 +2802,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SFMono-Medium 12</string>
+			<string>EssentialPragmataPro 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2883,19 +2883,19 @@
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>SF Mono</string>
+		<string>Essential PragmataPro</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {2560, 1440}}</string>
+		<string>{{0, 0}, {1280, 800}}</string>
 		<key>topLeft</key>
-		<string>{287, 682}</string>
+		<string>{266, 676}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>252</integer>
+	<integer>254</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -3656,7 +3656,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-10-01T12:39:10Z</date>
+	<date>2020-10-03T00:38:40Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
