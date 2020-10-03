@@ -5,6 +5,24 @@
     "editor.fontFamily": "Essential PragmataPro",
     "editor.fontSize": 13,
     "workbench.colorTheme": "Xcode 10 Default Dark",
+    // Disable italic comments
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "comment": {
+                "italic": false
+            }
+        }
+    },
     //
     // Hide annoyances
     //
