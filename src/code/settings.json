@@ -18,6 +18,7 @@
     "editor.roundedSelection": false,
     "workbench.activityBar.visible": false,
     "workbench.editor.showTabs": false,
+    "workbench.iconTheme": null,
     "workbench.list.automaticKeyboardNavigation": false,
     "workbench.statusBar.visible": false,
     //
