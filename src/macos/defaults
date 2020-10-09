@@ -73,7 +73,7 @@ defaults write com.apple.Safari AutoFillPasswords -bool true
 #
 
 # Use .md extension for iA Writer files.
-default write pro.writer.mac "Document Path Extension" -str "md"
+defaults write pro.writer.mac "Document Path Extension" -string "md"
 
 # Enable smart punctuation in preview.
 defaults write pro.writer.mac "Markdown Smart Punctuation Enabled" -bool true
