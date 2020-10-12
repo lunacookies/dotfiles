@@ -2,24 +2,29 @@
     //
     // Colours and font
     //
-    "editor.fontFamily": "Essential PragmataPro",
-    "editor.fontSize": 13,
-    "workbench.colorTheme": "Xcode 10 Default Dark",
-    // Disable italic comments
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "comment",
-                "settings": {
-                    "fontStyle": ""
-                }
-            }
-        ]
-    },
+    "editor.fontFamily": "Input Sans Narrow",
+    "terminal.integrated.fontFamily": "Input Mono Narrow",
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Pale Fire",
     "editor.semanticTokenColorCustomizations": {
         "rules": {
             "comment": {
-                "italic": false
+                "fontStyle": "italic"
+            },
+            "*.declaration": {
+                "fontStyle": "bold"
+            },
+            "variable.declaration": {
+                "fontStyle": ""
+            },
+            "parameter.declaration": {
+                "fontStyle": ""
+            },
+            "property.declaration": {
+                "fontStyle": ""
+            },
+            "enumMember.declaration": {
+                "fontStyle": ""
             }
         }
     },
