@@ -63,5 +63,6 @@
     "diffEditor.renderSideBySide": false,
     "rewrap.wrappingColumn": 100,
     "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.inlayHints.enable": false,
     "testExplorer.showOnRun": true
 }
