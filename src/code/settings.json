@@ -65,6 +65,10 @@
     //
     // Plugins and languages
     //
+    "customizeUI.stylesheet": {
+        ".mtk11, .mtk12, .mtk19": "font-family: Input Serif Narrow",
+        ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow",
+    },
     "diffEditor.renderSideBySide": false,
     "rewrap.wrappingColumn": 100,
     "rust-analyzer.assist.importMergeBehaviour": "last",
