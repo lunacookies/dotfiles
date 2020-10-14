@@ -9,22 +9,22 @@
     "editor.semanticTokenColorCustomizations": {
         "rules": {
             "comment": {
-                "fontStyle": "italic"
+                "italic": true
             },
             "*.declaration": {
-                "fontStyle": "bold"
+                "bold": true
             },
             "variable.declaration": {
-                "fontStyle": ""
+                "bold": false
             },
             "parameter.declaration": {
-                "fontStyle": ""
+                "bold": false
             },
             "property.declaration": {
-                "fontStyle": ""
+                "bold": false
             },
             "enumMember.declaration": {
-                "fontStyle": ""
+                "bold": false
             }
         }
     },
