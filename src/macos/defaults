@@ -68,6 +68,10 @@ defaults write com.apple.Safari AutoFillFromAddressBook -bool true
 defaults write com.apple.Safari AutoFillMiscellaneousForms -bool true
 defaults write com.apple.Safari AutoFillPasswords -bool true
 
+# Show a blank page in new tabs and windows.
+defaults write com.apple.Safari NewTabBehavior -int 1
+defaults write com.apple.Safari NewWindowBehavior -int 1
+
 #
 # iA Writer
 #
