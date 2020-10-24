@@ -6,6 +6,16 @@
     "terminal.integrated.fontFamily": "Input Mono Narrow",
     "editor.fontSize": 14,
     "workbench.colorTheme": "Pale Fire",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
     "editor.semanticTokenColorCustomizations": {
         "rules": {
             "comment": {
