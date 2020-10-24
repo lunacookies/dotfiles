@@ -61,7 +61,6 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "window.nativeTabs": true,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
     //
