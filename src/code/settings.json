@@ -35,6 +35,13 @@
             },
             "enumMember.declaration": {
                 "bold": false
+            },
+            "*.consuming": {
+                "italic": true
+            },
+            "selfKeyword": {
+                "foreground": "#BDE0F3",
+                "fontStyle": "italic"
             }
         }
     },
