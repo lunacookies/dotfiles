@@ -16,9 +16,19 @@ function link_config() {
     ln -sf "$PWD/$1" "$2"
 }
 
+function link_desktop_to_downloads() {
+    if [ -d "$HOME/Downloads" ] && [ ! -L "$HOME/Downloads" ]; then
+        mv "$HOME/Downloads/"* "$HOME/Desktop"
+        sudo rm -rf "$HOME/Downloads"
+
+        ln -s "$HOME/Desktop" "$HOME/Downloads"
+    fi
+}
+
 install_rust_completions &
 link_config src "$HOME/.config" &
 link_config src/zsh/init.zsh "$HOME/.zshrc" &
 link_config src/code "$HOME/Library/Application Support/Code/User" &
+link_desktop_to_downloads &
 
 wait
