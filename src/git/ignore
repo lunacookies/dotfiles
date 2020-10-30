@@ -1,9 +1,10 @@
 .DS_Store
-target/
-target
+.env
+.vscode/
 node_modules/
 resources/_gen/
-.vscode/
+target
+target/
 
 # From Google Drive
 Icon
