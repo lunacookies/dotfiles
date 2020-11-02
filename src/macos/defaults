@@ -107,6 +107,9 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 # Move zoomed-in region continuously with the cursor.
 defaults write com.apple.universalaccess closeViewPanningMode -int 0
 
+# Hide the menu bar.
+defaults write -g _HIHideMenuBar -bool true
+
 #
 # Restart affected applications
 #
