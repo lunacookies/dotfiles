@@ -84,4 +84,4 @@ zle_highlight=(default:bold)
 
 export PROMPT='
 %F{2}%~
-%F{10}→%b%f '
+%F{10}λ%b%f '
