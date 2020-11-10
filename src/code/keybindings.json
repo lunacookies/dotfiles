@@ -1,7 +1,7 @@
 [
     {
         "key": "shift+cmd+r",
-        "command": "test-explorer.reload"
+        "command": "rust-analyzer.run"
     },
     {
         "key": "enter",
