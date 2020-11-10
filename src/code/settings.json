@@ -18,6 +18,7 @@
     },
     "editor.semanticTokenColorCustomizations": {
         "rules": {
+            "unresolvedReference": "#9C6363",
             "comment": {
                 "italic": true
             },
