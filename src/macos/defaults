@@ -92,6 +92,9 @@ defaults write pro.writer.mac "Markdown Smart Punctuation Enabled" -bool true
 # Hide Spotlight from the menu bar.
 defaults delete com.apple.Spotlight "NSStatusItem Visible Item-0"
 
+# Customise date format in menu bar: <day> <month>  <hours>:<minutes>
+defaults write com.apple.menuextra.clock DateFormat -string "d MMM  HH:mm"
+
 # Only show the ‘normal’ expanded control strip on the touchbar.
 defaults write com.apple.touchbar.agent PresentationModeGlobal -string "fullControlStrip"
 
