@@ -89,9 +89,6 @@ defaults write pro.writer.mac "Markdown Smart Punctuation Enabled" -bool true
 # Other
 #
 
-# Hide Spotlight from the menu bar.
-defaults delete com.apple.Spotlight "NSStatusItem Visible Item-0"
-
 # Customise date format in menu bar: <day> <month>  <hours>:<minutes>
 defaults write com.apple.menuextra.clock DateFormat -string "d MMM  HH:mm"
 
