@@ -49,7 +49,7 @@
 		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
 		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
 	</array>
-	<key>NSTableView Columns v2 KeyBingingTable</key>
+	<key>NSTableView Columns v3 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrgsMEx4fICEiIyQqNDU2VSRu
@@ -82,15 +82,15 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 786 620 392 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>389 318 759 452 0 0 1440 877 </string>
+	<string>241 442 759 452 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1429 878 652 427 0 0 2560 1417 </string>
+	<string>717 172 759 452 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>516 856 652 427 0 0 2560 1417 </string>
+	<string>167 233 759 452 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>1776 335 652 427 0 0 2560 1417 </string>
+	<string>681 120 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>143 352 652 427 0 0 2560 1417 </string>
+	<string>59 128 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
 	<string>1260 153 759 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
@@ -841,14 +841,14 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1440, 900}}</string>
+		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{269, 614}</string>
+		<string>{269, 595}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>55F04B04-B659-47A3-9B20-070495DB7765</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>275</integer>
+	<integer>346</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>612413963.60058498</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1609,7 +1609,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-10-11T07:19:35Z</date>
+	<date>2020-11-13T10:42:52Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -1617,7 +1617,7 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
