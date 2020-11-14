@@ -89,6 +89,9 @@ defaults write pro.writer.mac "Markdown Smart Punctuation Enabled" -bool true
 # Other
 #
 
+# Remove delay when hovering over a window’s title to display the proxy icon.
+defaults write -globalDomain NSToolbarTitleViewRolloverDelay -float 0
+
 # Customise date format in menu bar: <day> <month>  <hours>:<minutes>
 defaults write com.apple.menuextra.clock DateFormat -string "d MMM  HH:mm"
 
