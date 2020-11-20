@@ -29,10 +29,6 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "cmd+k",
-        "command": "extension.aceJump"
-    },
-    {
         "key": "shift+cmd+b",
         "command": "editor.action.goToTypeDefinition"
     },
