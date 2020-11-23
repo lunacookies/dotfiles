@@ -3,6 +3,7 @@
 [user]
 name = Aramis Razzaghipour
 email = aramisnoah@gmail.com
+signingkey = F788F7E990136003
 
 [alias]
 br = branch
