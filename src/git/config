@@ -11,9 +11,9 @@ co = checkout
 c = commit
 s = status
 
-# Show the diff of each commit when editing the message.
 [commit]
-verbose = true
+verbose = true # Show the diff of each commit when editing the message.
+gpgsign = true # Sign all commits
 
 [status]
 short = true # Use short status format
