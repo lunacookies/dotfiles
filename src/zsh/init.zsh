@@ -58,6 +58,9 @@ export CARGO_TARGET_DIR="$HOME/.cache/cargo-target"
 # Enable optimisations specific for the CPU architecture we’re running on.
 export RUSTFLAGS="-C target-cpu=native"
 
+# Fix issue with ncurses GPG pinentry not connecting to TTY properly.
+export GPG_TTY=$(tty)
+
 #
 # Options
 #
