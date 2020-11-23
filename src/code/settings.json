@@ -79,6 +79,7 @@
         ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
     },
     "diffEditor.renderSideBySide": false,
+    "git.enableCommitSigning": true,
     "rewrap.wrappingColumn": 100,
     "rust-analyzer.assist.importMergeBehaviour": "last",
     "rust-analyzer.checkOnSave.command": "clippy",
