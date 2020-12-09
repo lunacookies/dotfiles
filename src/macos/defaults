@@ -66,10 +66,10 @@ defaults write com.apple.Safari ShowFavoritesUnderSmartSearchField -bool false
 defaults write com.apple.Safari ShowIconsInTabs -bool true
 
 # Disable AutoFill.
-defaults write com.apple.Safari AutoFillCreditCardData -bool true
-defaults write com.apple.Safari AutoFillFromAddressBook -bool true
-defaults write com.apple.Safari AutoFillMiscellaneousForms -bool true
-defaults write com.apple.Safari AutoFillPasswords -bool true
+defaults write com.apple.Safari AutoFillCreditCardData -bool false
+defaults write com.apple.Safari AutoFillFromAddressBook -bool false
+defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false
+defaults write com.apple.Safari AutoFillPasswords -bool false
 
 # Show a blank page in new tabs and windows.
 defaults write com.apple.Safari NewTabBehavior -int 1
