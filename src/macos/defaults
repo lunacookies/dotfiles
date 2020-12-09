@@ -75,6 +75,15 @@ defaults write com.apple.Safari AutoFillPasswords -bool false
 defaults write com.apple.Safari NewTabBehavior -int 1
 defaults write com.apple.Safari NewWindowBehavior -int 1
 
+# Use DuckDuckGo for searches.
+defaults write com.apple.Safari SearchProviderIdentifier -string 'com.duckduckgo'
+/usr/libexec/PlistBuddy \
+    -c 'set NSPreferredWebServices:NSWebServicesProviderWebSearch:NSDefaultDisplayName DuckDuckGo' \
+    ~/Library/Preferences/.GlobalPreferences.plist 
+/usr/libexec/PlistBuddy \
+    -c 'set NSPreferredWebServices:NSWebServicesProviderWebSearch:NSProviderIdentifier 'com.duckduckgo'' \
+    ~/Library/Preferences/.GlobalPreferences.plist
+
 #
 # iA Writer
 #
