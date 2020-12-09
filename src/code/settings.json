@@ -88,5 +88,8 @@
         "macro-error"
     ],
     "rust-analyzer.inlayHints.maxLength": 30,
-    "testExplorer.showOnRun": true
+    "testExplorer.showOnRun": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
