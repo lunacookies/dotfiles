@@ -17,8 +17,8 @@ defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 0
 #
 
 # New windows open with the home folder.
-defaults write com.apple.Finder NewWindowTarget -string "PfHm"
-defaults write com.apple.Finder NewWindowTargetPath -string "file://$HOME"
+defaults write com.apple.Finder NewWindowTarget -string 'PfHm'
+defaults write com.apple.Finder NewWindowTargetPath -string 'file://$HOME'
 
 # Don’t show internal hard drives on the Desktop.
 defaults write com.apple.Finder ShowHardDrivesOnDesktop -bool false
@@ -89,10 +89,10 @@ defaults write com.apple.Safari SearchProviderIdentifier -string 'com.duckduckgo
 #
 
 # Use .md extension for iA Writer files.
-defaults write pro.writer.mac "Document Path Extension" -string "md"
+defaults write pro.writer.mac 'Document Path Extension' -string 'md'
 
 # Enable smart punctuation in preview.
-defaults write pro.writer.mac "Markdown Smart Punctuation Enabled" -bool true
+defaults write pro.writer.mac 'Markdown Smart Punctuation Enabled' -bool true
 
 #
 # Other
@@ -102,10 +102,10 @@ defaults write pro.writer.mac "Markdown Smart Punctuation Enabled" -bool true
 defaults write -globalDomain NSToolbarTitleViewRolloverDelay -float 0
 
 # Customise date format in menu bar: <day> <month>  <hours>:<minutes>
-defaults write com.apple.menuextra.clock DateFormat -string "d MMM  HH:mm"
+defaults write com.apple.menuextra.clock DateFormat -string 'd MMM  HH:mm'
 
 # Only show the ‘normal’ expanded control strip on the touchbar.
-defaults write com.apple.touchbar.agent PresentationModeGlobal -string "fullControlStrip"
+defaults write com.apple.touchbar.agent PresentationModeGlobal -string 'fullControlStrip'
 
 # Enable screen zoom with ^Scroll.
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
@@ -126,5 +126,5 @@ killall Dock
 killall SystemUIServer
 
 # We prompt the user to restart all the other applications.
-echo "Changes have been made to the following applications; you may want to restart them."
-echo "    Safari"
+echo 'Changes have been made to the following applications; you may want to restart them.'
+echo '    Safari'
