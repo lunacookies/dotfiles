@@ -66,6 +66,7 @@
     //
     // Clean up automatically
     //
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "files.insertFinalNewline": true,
