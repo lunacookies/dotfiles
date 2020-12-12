@@ -90,7 +90,18 @@
     ],
     "rust-analyzer.inlayHints.maxLength": 30,
     "testExplorer.showOnRun": true,
+    
+    // Format HTML by manually running Prettier on save. This is because the Prettier extension
+    // doesn’t seem to detect the Go template plugin, while the CLI does.
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.formatOnSave": false
+    },
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.html$",
+                "cmd": "prettier --write ${file}"
+            }
+        ]
     }
 }
