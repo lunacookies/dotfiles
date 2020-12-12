@@ -62,6 +62,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
+    "editor.stickyTabStops": true,
     //
     // Clean up automatically
     //
