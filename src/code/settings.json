@@ -1,107 +1,105 @@
 {
-    //
-    // Colours and font
-    //
-    "editor.fontFamily": "Input Sans Narrow",
-    "terminal.integrated.fontFamily": "Input Mono Narrow",
-    "editor.fontSize": 14,
-    "workbench.colorTheme": "Pale Fire",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "comment",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
-    "editor.semanticTokenColorCustomizations": {
-        "rules": {
-            "unresolvedReference": "#9C6363",
-            "comment": {
-                "italic": true
-            },
-            "*.declaration": {
-                "bold": true
-            },
-            "variable.declaration": {
-                "bold": false
-            },
-            "parameter.declaration": {
-                "bold": false
-            },
-            "property.declaration": {
-                "bold": false
-            },
-            "enumMember.declaration": {
-                "bold": false
-            }
+  //
+  // Colours and font
+  //
+  "editor.fontFamily": "Input Sans Narrow",
+  "terminal.integrated.fontFamily": "Input Mono Narrow",
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Pale Fire",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
         }
-    },
-    //
-    // Hide annoyances
-    //
-    "editor.codeLens": false,
-    "editor.glyphMargin": false,
-    "editor.lightbulb.enabled": false,
-    "editor.lineNumbers": "off",
-    "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": false,
-    "editor.renderWhitespace": "none",
-    "editor.roundedSelection": false,
-    "workbench.activityBar.visible": false,
-    "workbench.editor.showTabs": false,
-    "workbench.iconTheme": null,
-    "workbench.list.automaticKeyboardNavigation": false,
-    "workbench.sideBar.location": "right",
-    //
-    // Small pleasant UI tweaks
-    //
-    "editor.cursorBlinking": "phase",
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "workbench.panel.defaultLocation": "right",
-    "workbench.tree.indent": 16,
-    "editor.stickyTabStops": true,
-    //
-    // Clean up automatically
-    //
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    //
-    // Plugins and languages
-    //
-    "customizeUI.stylesheet": {
-        ".mtk11, .mtk12, .mtk19": "font-family: Input Serif Narrow",
-        ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
-    "git.enableCommitSigning": true,
-    "rewrap.wrappingColumn": 100,
-    "rust-analyzer.assist.importMergeBehaviour": "last",
-    "rust-analyzer.checkOnSave.command": "clippy",
-    "rust-analyzer.diagnostics.disabled": [
-        "macro-error"
-    ],
-    "rust-analyzer.inlayHints.maxLength": 30,
-    "testExplorer.showOnRun": true,
-    
-    // Format HTML by manually running Prettier on save. This is because the Prettier extension
-    // doesn’t seem to detect the Go template plugin, while the CLI does.
-    "[html]": {
-        "editor.formatOnSave": false
-    },
-    "emeraldwalk.runonsave": {
-        "commands": [
-            {
-                "match": "\\.html$",
-                "cmd": "prettier --write ${file}"
-            }
-        ]
+      }
+    ]
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "unresolvedReference": "#9C6363",
+      "comment": {
+        "italic": true
+      },
+      "*.declaration": {
+        "bold": true
+      },
+      "variable.declaration": {
+        "bold": false
+      },
+      "parameter.declaration": {
+        "bold": false
+      },
+      "property.declaration": {
+        "bold": false
+      },
+      "enumMember.declaration": {
+        "bold": false
+      }
     }
+  },
+  //
+  // Hide annoyances
+  //
+  "editor.codeLens": false,
+  "editor.glyphMargin": false,
+  "editor.lightbulb.enabled": false,
+  "editor.lineNumbers": "off",
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.renderWhitespace": "none",
+  "editor.roundedSelection": false,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false,
+  "workbench.iconTheme": null,
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.sideBar.location": "right",
+  //
+  // Small pleasant UI tweaks
+  //
+  "editor.cursorBlinking": "phase",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "workbench.panel.defaultLocation": "right",
+  "workbench.tree.indent": 16,
+  "editor.stickyTabStops": true,
+  //
+  // Clean up automatically
+  //
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  //
+  // Plugins and languages
+  //
+  "customizeUI.stylesheet": {
+    ".mtk11, .mtk12, .mtk19": "font-family: Input Serif Narrow",
+    ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "git.enableCommitSigning": true,
+  "rewrap.wrappingColumn": 100,
+  "rust-analyzer.assist.importMergeBehaviour": "last",
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.diagnostics.disabled": ["macro-error"],
+  "rust-analyzer.inlayHints.maxLength": 30,
+  "testExplorer.showOnRun": true,
+
+  // Format HTML by manually running Prettier on save. This is because the Prettier extension
+  // doesn’t seem to detect the Go template plugin, while the CLI does.
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.html$",
+        "cmd": "prettier --write ${file}"
+      }
+    ]
+  }
 }
