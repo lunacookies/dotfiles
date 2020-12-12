@@ -2,6 +2,7 @@
   //
   // Colours and font
   //
+
   "editor.fontFamily": "Input Sans Narrow",
   "terminal.integrated.fontFamily": "Input Mono Narrow",
   "editor.fontSize": 14,
@@ -39,9 +40,11 @@
       }
     }
   },
+
   //
   // Hide annoyances
   //
+
   "editor.codeLens": false,
   "editor.glyphMargin": false,
   "editor.lightbulb.enabled": false,
@@ -55,26 +58,32 @@
   "workbench.iconTheme": null,
   "workbench.list.automaticKeyboardNavigation": false,
   "workbench.sideBar.location": "right",
+
   //
   // Small pleasant UI tweaks
   //
+
   "editor.cursorBlinking": "phase",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "workbench.panel.defaultLocation": "right",
   "workbench.tree.indent": 16,
   "editor.stickyTabStops": true,
+
   //
   // Clean up automatically
   //
+
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+
   //
   // Plugins and languages
   //
+
   "customizeUI.stylesheet": {
     ".mtk11, .mtk12, .mtk19": "font-family: Input Serif Narrow",
     ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
