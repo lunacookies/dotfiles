@@ -1,6 +1,7 @@
 .DS_Store
 .env
 .vscode/
+node_modules
 node_modules/
 resources/_gen/
 target
