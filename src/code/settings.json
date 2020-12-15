@@ -109,6 +109,9 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // Format HTML by manually running Prettier on save. This is because the Prettier extension
   // doesn’t seem to detect the Go template plugin, while the CLI does.
