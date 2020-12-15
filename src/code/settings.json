@@ -74,7 +74,7 @@
   // Clean up automatically
   //
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "files.insertFinalNewline": true,
@@ -98,6 +98,17 @@
   "rust-analyzer.diagnostics.disabled": ["macro-error"],
   "rust-analyzer.inlayHints.maxLength": 30,
   "testExplorer.showOnRun": true,
+
+  // Use Prettier for these languages.
+  "[js]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // Format HTML by manually running Prettier on save. This is because the Prettier extension
   // doesn’t seem to detect the Go template plugin, while the CLI does.
