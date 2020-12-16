@@ -10,6 +10,7 @@ br = branch
 co = checkout
 c = commit
 s = status
+l = log --oneline --graph --all
 
 [commit]
 verbose = true # Show the diff of each commit when editing the message.
