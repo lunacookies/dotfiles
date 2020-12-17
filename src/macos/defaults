@@ -81,7 +81,7 @@ defaults write com.apple.Safari SearchProviderIdentifier -string 'com.duckduckgo
     -c 'set NSPreferredWebServices:NSWebServicesProviderWebSearch:NSDefaultDisplayName DuckDuckGo' \
     ~/Library/Preferences/.GlobalPreferences.plist 
 /usr/libexec/PlistBuddy \
-    -c 'set NSPreferredWebServices:NSWebServicesProviderWebSearch:NSProviderIdentifier 'com.duckduckgo'' \
+    -c "set NSPreferredWebServices:NSWebServicesProviderWebSearch:NSProviderIdentifier 'com.duckduckgo'" \
     ~/Library/Preferences/.GlobalPreferences.plist
 
 #
