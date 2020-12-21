@@ -8,6 +8,8 @@
 	<dict/>
 	<key>Default Bookmark Guid</key>
 	<string>D61E2094-2D7E-41D0-ACF5-C3B9625689A4</string>
+	<key>DimInactiveSplitPanes</key>
+	<false/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
