@@ -14,8 +14,11 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*:*:*:*:*' menu select
 
 #
-# History
+# Options
 #
+
+# Use Emacs-style keybindings
+bindkey -e
 
 # Keep much more history
 HISTSIZE=10000
@@ -60,13 +63,6 @@ export RUSTFLAGS="-C target-cpu=native"
 
 # Fix issue with ncurses GPG pinentry not connecting to TTY properly.
 export GPG_TTY=$(tty)
-
-#
-# Options
-#
-
-# Use Emacs-style keybindings.
-bindkey -e
 
 #
 # Aliases & functions
