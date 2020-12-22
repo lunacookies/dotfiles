@@ -67,7 +67,6 @@
   //
 
   "editor.cursorBlinking": "phase",
-  "editor.stickyTabStops": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "window.nativeTabs": true,
   "window.titleBarStyle": "native",
