@@ -67,15 +67,14 @@
   //
 
   "editor.cursorBlinking": "phase",
+  "editor.stickyTabStops": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "workbench.panel.defaultLocation": "right",
   "workbench.tree.indent": 16,
-  "editor.stickyTabStops": true,
 
   //
   // Clean up automatically
   //
-
 
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
