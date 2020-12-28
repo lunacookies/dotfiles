@@ -97,7 +97,7 @@
   "rewrap.wrappingColumn": 100,
   "rust-analyzer.assist.importMergeBehaviour": "last",
   "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.diagnostics.disabled": ["macro-error"],
+  "rust-analyzer.diagnostics.disabled": ["macro-error", "unresolved-import"],
   "rust-analyzer.inlayHints.maxLength": 30,
   "testExplorer.showOnRun": true,
 
