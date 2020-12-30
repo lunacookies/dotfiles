@@ -40,7 +40,7 @@ setopt share_history
 # Environment Variables
 #
 
-export PATH="$HOME/Documents/Drive/Code/dotfiles/src/bin:$HOME/.cargo/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="$HOME/.cargo/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 # Use Neovim for command-line editing.
 export VISUAL='nvim'
