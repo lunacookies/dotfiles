@@ -20,9 +20,6 @@ zstyle ':completion:*:*:*:*:*' menu select
 # Use Emacs-style keybindings
 bindkey -e
 
-# Navigate into directories without typing ‘cd’
-setopt autocd
-
 # Keep much more history
 HISTSIZE=10000
 SAVEHIST=10000
