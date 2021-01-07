@@ -8,39 +8,6 @@
   "editor.fontSize": 13,
   "editor.lineHeight": 21,
   "workbench.colorTheme": "Pale Fire",
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
-  "editor.semanticTokenColorCustomizations": {
-    "rules": {
-      "unresolvedReference": "#9C6363",
-      "comment": {
-        "italic": true
-      },
-      "*.declaration": {
-        "bold": true
-      },
-      "variable.declaration": {
-        "bold": false
-      },
-      "parameter.declaration": {
-        "bold": false
-      },
-      "property.declaration": {
-        "bold": false
-      },
-      "enumMember.declaration": {
-        "bold": false
-      }
-    }
-  },
 
   //
   // Hide annoyances
