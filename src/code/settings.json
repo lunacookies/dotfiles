@@ -88,7 +88,7 @@
   //
 
   "customizeUI.stylesheet": {
-    ".mtk11, .mtk12, .mtk19, .mtk20": "font-family: Input Serif Narrow",
+    ".mtk11, .mtk12, .mtk20": "font-family: Input Serif Narrow",
     ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
   },
   "diffEditor.ignoreTrimWhitespace": false,
