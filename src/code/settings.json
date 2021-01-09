@@ -74,6 +74,7 @@
     ".mtk5, .mtk13, .mtk14": "font-family: Input Serif Narrow",
     ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
   },
+  "customizeUI.titleBar": "inline",
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "git.enableCommitSigning": true,
