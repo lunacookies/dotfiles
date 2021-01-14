@@ -83,7 +83,6 @@
   "rust-analyzer.checkOnSave.command": "clippy",
   "rust-analyzer.diagnostics.disabled": ["macro-error", "unresolved-import"],
   "rust-analyzer.inlayHints.maxLength": 30,
-  "testExplorer.showOnRun": true,
 
   // Use Prettier for these languages.
   "[js]": {
