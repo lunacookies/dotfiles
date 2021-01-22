@@ -73,7 +73,6 @@
     ".mtk5, .mtk13, .mtk14": "font-family: Input Serif Narrow",
     "*:not(.codicon)": "font-family: Input Sans Narrow",
   },
-  "customizeUI.titleBar": "inline",
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "git.enableCommitSigning": true,
