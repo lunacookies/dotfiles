@@ -70,6 +70,7 @@
   //
 
   "customizeUI.stylesheet": {
+    "*, ::before, ::after": "text-shadow: 0 0 0 currentColor",
     "*:not(.codicon)": "font-family: Input Sans Narrow",
     ".mtk5, .mtk13, .mtk14": "font-family: Input Serif Narrow !important",
     ".slider": "border-radius: 14px;"
