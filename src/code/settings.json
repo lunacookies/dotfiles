@@ -73,6 +73,8 @@
     "*, ::before, ::after": "text-shadow: 0 0 0 currentColor",
     "*:not(.codicon)": "font-family: Input Sans Narrow",
     ".mtk5, .mtk13, .mtk14": "font-family: Input Serif Narrow !important",
+    ".editor-widget, .suggest-details, .monaco-hover, .quick-input-widget": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5) !important; border-radius: 10px; backdrop-filter: blur(30px) saturate(180%); background-color: rgba(50, 50, 50, 0.6) !important",
+    ".monaco-list-rows": "background: none !important",
     ".slider": "border-radius: 14px;"
   },
   "diffEditor.ignoreTrimWhitespace": false,
