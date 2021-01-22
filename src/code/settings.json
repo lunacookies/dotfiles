@@ -3,7 +3,6 @@
   // Colours and font
   //
 
-  "editor.fontFamily": "Input Sans Narrow",
   "terminal.integrated.fontFamily": "Input Mono Narrow",
   "editor.fontSize": 13,
   "editor.lineHeight": 21,
@@ -72,7 +71,7 @@
 
   "customizeUI.stylesheet": {
     ".mtk5, .mtk13, .mtk14": "font-family: Input Serif Narrow",
-    ".mac": "font-family: Input Sans Narrow; --monaco-monospace-font: Input Sans Narrow"
+    "*:not(.codicon)": "font-family: Input Sans Narrow",
   },
   "customizeUI.titleBar": "inline",
   "diffEditor.ignoreTrimWhitespace": false,
