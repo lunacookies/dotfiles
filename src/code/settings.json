@@ -5,7 +5,7 @@
 
   "terminal.integrated.fontFamily": "Input Mono Narrow",
   "editor.fontSize": 13,
-  "editor.lineHeight": 21,
+  "editor.lineHeight": 19,
   "workbench.colorTheme": "Pale Fire",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
