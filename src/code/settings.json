@@ -72,6 +72,7 @@
   "customizeUI.stylesheet": {
     "*:not(.codicon)": "font-family: Input Sans Narrow",
     ".mtk5, .mtk13, .mtk14": "font-family: Input Serif Narrow !important",
+    ".slider": "border-radius: 14px;"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
