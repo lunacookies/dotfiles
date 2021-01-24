@@ -25,10 +25,15 @@ function link_desktop_to_downloads() {
     fi
 }
 
+function hide_login_message() {
+    touch "$HOME/.hushlogin"
+}
+
 install_rust_completions &
 link_config src "$HOME/.config" &
 link_config src/zsh/init.zsh "$HOME/.zshrc" &
 link_config src/code "$HOME/Library/Application Support/Code/User" &
 link_desktop_to_downloads &
+hide_login_message &
 
 wait
