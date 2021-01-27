@@ -29,7 +29,6 @@ brew "tree"
 brew "yarn"
 brew "youtube-dl"
 
-cask "adobe-creative-cloud"
 cask "anki"
 cask "appcleaner"
 cask "discord"
