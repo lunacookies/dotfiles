@@ -13,6 +13,10 @@ function rm_if_exists() {
 
 function link_config() {
     rm_if_exists "$2"
+
+    parent_dir=$(dirname "$2")
+    mkdir -p "$parent_dir"
+
     ln -sf "$PWD/$1" "$2"
 }
 
@@ -32,7 +36,8 @@ function hide_login_message() {
 install_rust_completions &
 link_config src "$HOME/.config" &
 link_config src/zsh/init.zsh "$HOME/.zshrc" &
-link_config src/code "$HOME/Library/Application Support/Code/User" &
+link_config src/code/keybindings.json "$HOME/Library/Application Support/Code/User/keybindings.json" &
+link_config src/code/settings.json "$HOME/Library/Application Support/Code/User/settings.json" &
 link_desktop_to_downloads &
 hide_login_message &
 
