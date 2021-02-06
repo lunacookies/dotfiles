@@ -28,7 +28,6 @@
   // Hide annoyances
   //
 
-  "editor.codeLens": false,
   "editor.folding": false,
   "editor.glyphMargin": false,
   "editor.lightbulb.enabled": false,
