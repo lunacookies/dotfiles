@@ -48,6 +48,7 @@
   //
 
   "editor.cursorBlinking": "phase",
+  "editor.renderLineHighlight": "all",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "window.nativeTabs": true,
   "window.titleBarStyle": "native",
