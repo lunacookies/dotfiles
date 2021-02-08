@@ -45,7 +45,7 @@ export EDITOR='nvim'
 
 # Allow cd-ing into my code, Google Drive, school, and home folders from anywhere, as well as into
 # any directory in the parent directory.
-export CDPATH=".:..:$HOME/Documents/Drive/Code:$HOME/Documents/Drive:$HOME/Documents/School/2020:$HOME"
+export CDPATH=".:..:$HOME/Documents/Drive/Code:$HOME/Documents/Drive:$HOME/Documents/School/:$HOME"
 
 # Tell Homebrew to install casks in ~/Applications.
 export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
