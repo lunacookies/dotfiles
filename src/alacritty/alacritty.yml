@@ -53,3 +53,5 @@ colors:
     magenta: '#f0c3a6'
     cyan:    '#9cdbde'
     white:   '#fefee7'
+
+draw_bold_text_with_bright_colors: true
