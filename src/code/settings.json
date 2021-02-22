@@ -52,6 +52,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.renderLineHighlight": "all",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestLineHeight": 22,
   "workbench.panel.defaultLocation": "right",
   "workbench.tree.indent": 16,
 
