@@ -78,9 +78,9 @@ alias lbe="lb export > $HOME/Documents/School/Software/Logbook.md"
 # Prompt
 #
 
-# Use bold for commands when typing them in, thereby making them stand out from
-# the rest of the terminal output.
-zle_highlight=(default:bold)
+# Use bright white for commands when typing them in,
+# thereby making them stand out from the rest of the terminal output.
+zle_highlight=(default:fg=15)
 
 export PROMPT='
 %F{2}%~
