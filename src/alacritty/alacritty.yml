@@ -22,36 +22,36 @@ font:
 
 colors:
   primary:
-    background: '#404040'
-    foreground: '#e0e0c9'
-    bright_foreground: '#fefee7'
+    background: '#1C1E29'
+    foreground: '#C3C5CC'
+    bright_foreground: '#F6F8FF'
 
   cursor:
-    text: '#404040'
-    cursor: '#fefee7'
+    text: '#1C1E29'
+    cursor: '#F6F8FF'
 
   selection:
-    text: '#e0e0c9'
-    background: '#2e2e2e'
+    text: '#C3C5CC'
+    background: '#3F455D'
 
   normal:
-    black:   '#2e2e2e'
-    red:     '#d49e9e'
-    green:   '#95b995'
-    yellow:  '#b9af80'
-    blue:    '#8bb3d4'
-    magenta: '#cfa487'
-    cyan:    '#7cbbbe'
-    white:   '#e0e0c9'
+    black:   '#3F455D'
+    red:     '#E69688'
+    green:   '#9DA471'
+    yellow:  '#DF9D6F'
+    blue:    '#81A1CA'
+    magenta: '#B1A5D9'
+    cyan:    '#7BA7B2'
+    white:   '#C3C5CC'
 
   bright:
-    black:   '#9e9e9e'
-    red:     '#f5bebd'
-    green:   '#b4d9b4'
-    yellow:  '#d9cf9f'
-    blue:    '#aad3f5'
-    magenta: '#f0c3a6'
-    cyan:    '#9cdbde'
-    white:   '#fefee7'
+    black:   '#737B9E'
+    red:     '#E69688'
+    green:   '#9DA471'
+    yellow:  '#DF9D6F'
+    blue:    '#81A1CA'
+    magenta: '#B1A5D9'
+    cyan:    '#7BA7B2'
+    white:   '#F6F8FF'
 
 draw_bold_text_with_bright_colors: true
