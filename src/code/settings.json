@@ -67,7 +67,6 @@
   "rewrap.wrappingColumn": 100,
   "rust-analyzer.assist.importMergeBehavior": "last",
   "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.diagnostics.disabled": ["macro-error", "unresolved-import"],
 
   // Use Prettier for these languages.
   "[js]": {
