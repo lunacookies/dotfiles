@@ -68,7 +68,6 @@
   "rust-analyzer.assist.importMergeBehavior": "last",
   "rust-analyzer.checkOnSave.command": "clippy",
   "rust-analyzer.diagnostics.disabled": ["macro-error", "unresolved-import"],
-  "rust-analyzer.inlayHints.enable": false,
 
   // Use Prettier for these languages.
   "[js]": {
