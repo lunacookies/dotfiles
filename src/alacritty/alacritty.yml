@@ -4,8 +4,8 @@ window:
     lines: 24
 
   padding:
-    x: 5
-    y: 5
+    x: 10
+    y: 10
 
 scrolling:
   history: 0
