@@ -26,7 +26,6 @@
   "workbench.editor.showTabs": false,
   "workbench.iconTheme": null,
   "workbench.list.automaticKeyboardNavigation": false,
-  "workbench.sideBar.location": "right",
 
   //
   // Small pleasant UI tweaks
@@ -38,6 +37,7 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 22,
   "workbench.panel.defaultLocation": "right",
+  "workbench.sideBar.location": "right",
   "workbench.tree.indent": 16,
 
   //
