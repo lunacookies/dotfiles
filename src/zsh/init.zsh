@@ -75,6 +75,11 @@ alias ls="exa --long"
 alias vim="$VISUAL"
 alias lbe="lb export > $HOME/Documents/School/Software/Logbook.md"
 
+# Run ls every time the working directory changes.
+function chpwd() {
+    ls
+}
+
 #
 # Prompt
 #
