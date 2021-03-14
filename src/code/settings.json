@@ -32,7 +32,6 @@
   //
 
   "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.renderLineHighlight": "all",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 22,
