@@ -18,6 +18,7 @@
   "editor.lightbulb.enabled": false,
   "editor.lineNumbers": "off",
   "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "none",
   "editor.roundedSelection": false,
