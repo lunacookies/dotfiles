@@ -34,7 +34,7 @@
   "editor.cursorBlinking": "phase",
   "editor.renderLineHighlight": "all",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.suggestLineHeight": 22,
+  "editor.suggestLineHeight": 23,
   "workbench.panel.defaultLocation": "right",
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 16,
