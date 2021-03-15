@@ -21,6 +21,7 @@
   "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "none",
   "editor.roundedSelection": false,
+  "editor.wordBasedSuggestions": false,
   "scm.diffDecorationsGutterWidth": 2,
   "workbench.activityBar.visible": false,
   "workbench.editor.showTabs": false,
