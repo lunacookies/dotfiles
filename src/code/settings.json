@@ -3,7 +3,7 @@
   // Colours and font
   //
 
-  "terminal.integrated.fontFamily": "Input Mono Narrow",
+  "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 13,
   "editor.lineHeight": 19,
   "workbench.colorTheme": "Icefall",
