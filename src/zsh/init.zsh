@@ -39,9 +39,14 @@ setopt share_history
 
 export PATH="$HOME/.cargo/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
-# Use Neovim for command-line editing.
-export VISUAL='nvim'
-export EDITOR='nvim'
+# Use Neovim for command-line editing if on code machine.
+if [ $(hostname) = "code-mbp" ]; then
+    export VISUAL='nvim'
+    export EDITOR='nvim'
+else
+    export VISUAL='vim'
+    export EDITOR='vim'
+fi
 
 # Allow cd-ing into my code, Google Drive, school, and home folders from anywhere, as well as into
 # any directory in the parent directory.
