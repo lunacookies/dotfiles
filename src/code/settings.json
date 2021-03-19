@@ -8,6 +8,22 @@
   "editor.fontSize": 13,
   "editor.lineHeight": 19,
   "workbench.colorTheme": "Pale Fire",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "comment": { "italic": true },
+      "comment.documentation": { "italic": true }
+    }
+  },
 
   //
   // Hide annoyances
