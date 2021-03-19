@@ -36,9 +36,10 @@ function hide_login_message() {
 function generate_brewfile() {
     cp "Brewfile-Common" "Brewfile"
 
-    if [ $(hostname) = "code-mbp" ]; then
-        cat "Brewfile-Code" >> "Brewfile"
-    fi
+    case $(hostname) in
+        "code-mbp" ) cat "Brewfile-Code" >> "Brewfile";;
+        "work-mbp" ) cat "Brewfile-Work" >> "Brewfile";;
+    esac
 }
 
 function brew_install() {
