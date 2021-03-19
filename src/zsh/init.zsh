@@ -48,9 +48,9 @@ else
     export EDITOR='vim'
 fi
 
-# Allow cd-ing into my code, Google Drive, school, and home folders from anywhere, as well as into
+# Allow cd-ing into my code, school, and home folders from anywhere, as well as into
 # any directory in the parent directory.
-export CDPATH=".:..:$HOME/Documents/Drive/Code:$HOME/Documents/Drive:$HOME/Documents/School/:$HOME"
+export CDPATH=".:..:$HOME/Documents/Code:$HOME/Documents/School/:$HOME"
 
 # Tell Homebrew to install casks in ~/Applications.
 export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
