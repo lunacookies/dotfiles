@@ -1,7 +1,6 @@
 tap "arzg/homebrew-t-tap"
 tap "arzg/homebrew-vim-strand"
 
-brew "ffmpeg"
 brew "fzf"
 brew "gnupg"
 brew "graphviz"
