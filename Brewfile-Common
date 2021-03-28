@@ -13,6 +13,7 @@ brew "youtube-dl"
 
 cask "appcleaner"
 cask "bitwarden"
+cask "displaperture"
 cask "font-ia-writer-duo"
 cask "font-ia-writer-mono"
 cask "font-ia-writer-quattro"
