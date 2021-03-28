@@ -85,3 +85,4 @@ generate_brewfile
 brew_install
 brew_cleanup
 cleanup_brewfile
+bash src/macos/defaults
