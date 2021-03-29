@@ -9,6 +9,14 @@
     "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
   },
   {
+    "key": "ctrl+shift+down",
+    "command": "rust-analyzer.moveItemDown"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "rust-analyzer.moveItemUp"
+  },
+  {
     "key": "alt+s",
     "command": "extension.aceJump.multiChar"
   },
