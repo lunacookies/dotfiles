@@ -7,16 +7,7 @@
   "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 20,
-  "workbench.colorTheme": "White Night",
-  "workbench.colorCustomizations": {
-    "tab.activeForeground": "#ffffff"
-  },
-  "editor.tokenColorCustomizations": {
-    "comments": {
-      "foreground": "#7d46fc",
-      "fontStyle": "italic"
-    }
-  },
+  "workbench.colorTheme": "Pale Fire",
 
   //
   // Hide annoyances
@@ -44,7 +35,6 @@
   //
 
   "editor.cursorBlinking": "phase",
-  "editor.renderLineHighlight": "all",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 23,
   "workbench.panel.defaultLocation": "right",
