@@ -10,6 +10,9 @@ zmodload -i zsh/complist
 # Make completion case-insensitive
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
+# Automatically correct completions
+zstyle ':completion:*' completer _complete _ignored _correct _approximate
+
 # Highlight selected completion match.
 zstyle ':completion:*:*:*:*:*' menu select
 
