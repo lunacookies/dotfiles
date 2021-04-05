@@ -92,5 +92,5 @@ alias lbe="lb export > $HOME/Documents/School/Software/Logbook.md"
 zle_highlight=(default:bold)
 
 export PROMPT=$'
-%{\e[38;2;125;70;252m%}$%{\e[0m%} '
+• '
 export RPROMPT='%F{8}%~%f'
