@@ -127,9 +127,6 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 # Move zoomed-in region continuously with the cursor.
 defaults write com.apple.universalaccess closeViewPanningMode -int 0
 
-# Set Displaperture screen rounding radius.
-defaults write com.manytricks.Displaperture Radius -int 10
-
 #
 # Restart affected applications
 #
@@ -143,4 +140,3 @@ killall SystemUIServer
 echo 'Changes have been made to the following applications; you may want to restart them.'
 echo '    Safari'
 echo '    iA Writer'
-echo '    Displaperture'
