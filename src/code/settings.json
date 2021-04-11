@@ -7,6 +7,14 @@
   "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 20,
+  "editor.tokenColorCustomizations": {
+    "comments": "#ffffff"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "comment": "#ffffff"
+    }
+  },
 
   //
   // Hide annoyances
