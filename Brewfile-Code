@@ -19,7 +19,7 @@ brew "tokei"
 brew "tree"
 brew "yarn"
 
+cask "alacritty"
 cask "discord"
-cask "kitty"
 cask "loopback"
 cask "visual-studio-code"

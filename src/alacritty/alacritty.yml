@@ -1,0 +1,57 @@
+window:
+  dimensions:
+    columns: 80
+    lines: 24
+
+  padding:
+    x: 5
+    y: 5
+
+scrolling:
+  history: 0
+
+font:
+  normal:
+    family: Input Mono
+    style: Light
+
+  size: 13.0
+
+  offset:
+    y: 5
+
+colors:
+  primary:
+    background: '#404040'
+    foreground: '#e0e0c9'
+    bright_foreground: '#fefee7'
+
+  cursor:
+    text: '#404040'
+    cursor: '#fefee7'
+
+  selection:
+    text: '#e0e0c9'
+    background: '#2e2e2e'
+
+  normal:
+    black:   '#2e2e2e'
+    red:     '#d49e9e'
+    green:   '#95b995'
+    yellow:  '#b9af80'
+    blue:    '#8bb3d4'
+    magenta: '#cfa487'
+    cyan:    '#7cbbbe'
+    white:   '#e0e0c9'
+
+  bright:
+    black:   '#9e9e9e'
+    red:     '#f5bebd'
+    green:   '#b4d9b4'
+    yellow:  '#d9cf9f'
+    blue:    '#aad3f5'
+    magenta: '#f0c3a6'
+    cyan:    '#9cdbde'
+    white:   '#fefee7'
+
+draw_bold_text_with_bright_colors: true
