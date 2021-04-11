@@ -32,12 +32,12 @@ colors:
 
   selection:
     text: '#d4d4d4'
-    background: '#264F78'
+    background: '#264f78'
 
   normal:
     black:   '#000000'
     red:     '#cd3131'
-    green:   '#0DBC79'
+    green:   '#0dbc79'
     yellow:  '#e5e510'
     blue:    '#2472c8'
     magenta: '#bc3fbc'
