@@ -105,7 +105,7 @@
     "commands": [
       {
         "match": "\\.html$",
-        "cmd": "prettier --write ${file}"
+        "cmd": "prettier --write \"${file}\""
       }
     ]
   }
