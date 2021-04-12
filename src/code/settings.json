@@ -12,7 +12,8 @@
   },
   "editor.semanticTokenColorCustomizations": {
     "rules": {
-      "comment": "#ffffff"
+      "comment": "#ffffff",
+      "unresolvedReference": "#f44747"
     }
   },
 
