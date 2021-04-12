@@ -105,6 +105,9 @@ defaults write pro.writer.mac 'Organizer Shows Favorites' -bool false
 defaults write pro.writer.mac 'Organizer Shows Hashtags' -bool false
 defaults write pro.writer.mac 'Organizer Shows Smart Folders' -bool false
 
+# Enable Inspect Element in the web preview.
+defaults write pro.writer.mac WebKitDeveloperExtras -bool true
+
 #
 # Other
 #
