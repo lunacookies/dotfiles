@@ -80,7 +80,7 @@
   "rust-analyzer.checkOnSave.command": "clippy",
 
   // Use Prettier for these languages.
-  "[js]": {
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
