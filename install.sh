@@ -65,6 +65,23 @@ function cleanup_brewfile() {
     rm "Brewfile.lock.json"
 }
 
+ia_writer_files="$HOME/Library/Containers/pro.writer.mac/Data/Library/Application Support/iA Writer"
+
+function is_ia_writer_template_missing() {
+    [ ! -e "$ia_writer_files/Templates/arzg.iatemplate" ]
+}
+
+function install_ia_writer_template() {
+    if is_ia_writer_template_missing; then
+        mkdir -p "$ia_writer_files"
+        rm_if_exists "$ia_writer_files/Templates"
+        git clone \
+            --quiet \
+            https://github.com/arzg/ia-writer-templates \
+            "$ia_writer_files/Templates"
+    fi
+}
+
 if [ $(hostname) = "code-mbp" ]; then
     install_rust_completions
 
@@ -85,4 +102,5 @@ generate_brewfile
 brew_install
 brew_cleanup
 cleanup_brewfile
+install_ia_writer_template
 bash src/macos/defaults
