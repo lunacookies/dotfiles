@@ -13,7 +13,9 @@
   "editor.semanticTokenColorCustomizations": {
     "rules": {
       "comment": "#ffffff",
-      "unresolvedReference": "#f44747"
+      "unresolvedReference": "#f44747",
+      "namespace": "#a5bdc7",
+      "*.attribute": "#b8a996"
     }
   },
 
