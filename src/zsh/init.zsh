@@ -68,7 +68,10 @@ export CARGO_TARGET_DIR="$HOME/.cache/cargo-target"
 
 # Enable optimisations specific for the CPU architecture we’re running on.
 # Warn about `pub`s that cannot be reached from the crate root.
-export RUSTFLAGS="--codegen target-cpu=native --warn unreachable-pub"
+# Warn about missing `Debug` implementations.
+export RUSTFLAGS="--codegen target-cpu=native \
+    --warn unreachable-pub \
+    --warn missing-debug-implementations"
 
 # Fix issue with ncurses GPG pinentry not connecting to TTY properly.
 export GPG_TTY=$(tty)
