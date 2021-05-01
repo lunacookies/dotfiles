@@ -7,17 +7,7 @@
   "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 20,
-  "editor.tokenColorCustomizations": {
-    "comments": "#ffffff"
-  },
-  "editor.semanticTokenColorCustomizations": {
-    "rules": {
-      "comment": "#ffffff",
-      "unresolvedReference": "#f44747",
-      "namespace": "#a5bdc7",
-      "*.attribute": "#b8a996"
-    }
-  },
+  "workbench.colorTheme": "sema",
 
   //
   // Hide annoyances
