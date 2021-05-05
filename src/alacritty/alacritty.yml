@@ -7,6 +7,8 @@ window:
     x: 5
     y: 5
 
+background_opacity: 0.97
+
 scrolling:
   history: 0
 
