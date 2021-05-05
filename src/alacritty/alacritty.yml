@@ -12,7 +12,7 @@ scrolling:
 
 font:
   normal:
-    family: Input Mono
+    family: Input Mono Condensed
     style: Light
 
   size: 13.0
