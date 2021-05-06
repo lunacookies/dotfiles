@@ -79,6 +79,11 @@ function install_ia_writer_template() {
             --quiet \
             https://github.com/arzg/ia-writer-templates \
             "$ia_writer_files/Templates"
+    else
+        old_pwd=$(pwd)
+        cd "$ia_writer_files/Templates"
+        git pull
+        cd "$old_pwd"
     fi
 }
 
