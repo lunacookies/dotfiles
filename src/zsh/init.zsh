@@ -94,6 +94,6 @@ alias lbe="lb export > $HOME/Documents/School/Software/Logbook.md"
 # the rest of the terminal output.
 zle_highlight=(default:bold)
 
-export PROMPT=$'
+export PROMPT='
+%F{8}%~%f
 • '
-export RPROMPT='%F{8}%~%f'
