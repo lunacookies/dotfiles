@@ -13,7 +13,6 @@
   // Hide annoyances
   //
 
-  "editor.codeLens": false,
   "editor.folding": false,
   "editor.glyphMargin": false,
   "editor.lightbulb.enabled": false,
@@ -69,6 +68,8 @@
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.assist.importMergeBehavior": "last",
   "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.lens.methodReferences": true,
+  "rust-analyzer.lens.references": true,
 
   // Use Prettier for these languages.
   "[javascript]": {
