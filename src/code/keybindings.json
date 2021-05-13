@@ -41,6 +41,11 @@
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
   {
+    "key": "alt+cmd+b",
+    "command": "editor.action.revealDefinitionAside",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
     "key": "shift+cmd+b",
     "command": "editor.action.goToTypeDefinition"
   },
