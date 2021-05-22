@@ -33,7 +33,7 @@
   // Small pleasant UI tweaks
   //
 
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "solid",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 23,
   "workbench.panel.defaultLocation": "right",
