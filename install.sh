@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-function install_rust_completions() {
-    rustup completions zsh > /usr/local/share/zsh/site-functions/_rustup
-    rustup completions zsh cargo > /usr/local/share/zsh/site-functions/_cargo
-}
-
 function rm_if_exists() {
     if [ -e "$1" ]; then
         rm -r "$1"
@@ -87,9 +82,22 @@ function install_ia_writer_template() {
     fi
 }
 
-if [ $(hostname) = "code-mbp" ]; then
-    install_rust_completions
+function default_shell() {
+    dscl . -read ~/ UserShell | sed 's/UserShell: //'
+}
 
+function install_fish() {
+    ( \
+        grep fish /etc/shells || \
+        echo /usr/local/bin/fish | sudo tee -a /etc/shells \
+    ) > /dev/null
+
+    if [ ! "$(default_shell)" = "/usr/local/bin/fish" ]; then
+        chsh -s /usr/local/bin/fish
+    fi
+}
+
+if [ $(hostname) = "code-mbp" ]; then
     link_config \
         src/code/keybindings.json \
         "$HOME/Library/Application Support/Code/User/keybindings.json"
@@ -100,7 +108,6 @@ if [ $(hostname) = "code-mbp" ]; then
 fi
 
 link_config src "$HOME/.config"
-link_config src/zsh/init.zsh "$HOME/.zshrc"
 link_desktop_to_downloads
 hide_login_message
 generate_brewfile
@@ -108,4 +115,5 @@ brew_install
 brew_cleanup
 cleanup_brewfile
 install_ia_writer_template
+install_fish
 bash src/macos/defaults
