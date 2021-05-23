@@ -12,8 +12,11 @@ scrolling:
 
 font:
   normal:
-    family: Input Mono
-    style: Regular
+    family: SF Mono
+    style: Medium
+
+  bold:
+    style: Bold
 
   size: 13.0
 
