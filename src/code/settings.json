@@ -66,7 +66,7 @@
   "git.enableCommitSigning": true,
   "rewrap.wrappingColumn": 100,
   "rust-analyzer.assist.importGroup": false,
-  "rust-analyzer.assist.importMergeBehavior": "last",
+  "rust-analyzer.assist.importMergeBehavior": "module",
   "rust-analyzer.checkOnSave.command": "clippy",
   "rust-analyzer.lens.methodReferences": true,
   "rust-analyzer.lens.references": true,
