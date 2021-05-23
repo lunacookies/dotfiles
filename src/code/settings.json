@@ -4,6 +4,7 @@
   //
 
   "editor.fontFamily": "SF Mono",
+  "editor.fontWeight": "500",
   "editor.fontSize": 14,
   "editor.lineHeight": 19,
   "workbench.colorTheme": "Xcode 11 Default Dark",
