@@ -1,15 +1,15 @@
 set -U fish_greeting ""
 
-set fish_color_command brblue
-set fish_color_operator brblue
-set fish_color_redirection brblue
-set fish_color_param cyan
-set fish_color_end normal
-set fish_color_quote green
-set fish_color_escape brgreen
-set fish_color_comment brwhite
-set fish_color_error red
+set fish_color_command magenta --bold
+set fish_color_operator cyan
+set fish_color_redirection cyan
+set fish_color_param green
+set fish_color_end cyan
+set fish_color_quote red
+set fish_color_escape normal
+set fish_color_comment brblack
+set fish_color_error red --underline
 
-abbr --add g git
 abbr --add c cargo
+abbr --add g git
 abbr --add vim nvim
