@@ -58,3 +58,9 @@ nnoremap ,f :Files<CR>
 nnoremap ,g :Rg<CR>
 nnoremap ,o :only<CR>
 
+"
+" Colourscheme
+"
+
+set termguicolors
+colorscheme xcodedark
