@@ -17,6 +17,7 @@
   "editor.glyphMargin": false,
   "editor.lightbulb.enabled": false,
   "editor.lineNumbers": "off",
+  "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
   "editor.parameterHints.enabled": false,
   "editor.renderWhitespace": "none",
