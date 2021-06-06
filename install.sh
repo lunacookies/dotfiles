@@ -97,6 +97,14 @@ function install_fish() {
     fi
 }
 
+function link_latex_class() {
+    texmfhome=$(kpsewhich -var-value=TEXMFHOME)
+    template_path="$texmfhome/tex/latex/arzg"
+    rm_if_exists "$template_path"
+    mkdir -p "$template_path"
+    link_config src/latex "$template_path"
+}
+
 if [ $(hostname) = "code-mbp" ]; then
     link_config \
         src/code/keybindings.json \
@@ -116,4 +124,5 @@ brew_cleanup
 cleanup_brewfile
 install_ia_writer_template
 install_fish
+link_latex_class
 bash src/macos/defaults
