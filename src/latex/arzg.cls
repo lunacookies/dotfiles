@@ -31,7 +31,7 @@
 \setlrmargins{*}{*}{1}
 \setulmargins{*}{*}{2}
 
-\setheadfoot{0bp}{3\baselineskip}
+\setheadfoot{\baselineskip}{3\baselineskip}
 \makepagestyle{arzg}
 \makeevenfoot{arzg}{\normalfont\thepage}{}{}
 \makeoddfoot{arzg}{}{}{\normalfont\thepage}
