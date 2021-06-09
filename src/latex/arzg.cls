@@ -20,7 +20,7 @@
 \setlength{\parindent}{\baselineskip}
 \abnormalparskip{0bp}
 
-\RequirePackage[osf]{newpxtext}
+\RequirePackage[osf, largesc]{newpxtext}
 \RequirePackage[euler-digits]{eulervm}
 
 \RequirePackage{calc}
