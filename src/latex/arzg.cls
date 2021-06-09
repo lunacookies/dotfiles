@@ -92,6 +92,13 @@
 \setbeforesubsecskip{\bls{-2}{-0.5}{0}}
 \setaftersubsecskip{\bls{1}{0.5}{0}}
 
+\captionstyle{\small\itshape}
+\captionnamefont{\small\scshape}
+\newlength{\cw}
+\settowidth{\cw}{\small\itshape\optimalline}
+\captionwidth{\cw}
+\changecaptionwidth
+
 \RequirePackage{xcolor}
 \definecolor{red}{HTML}{972f00}
 \RequirePackage[
