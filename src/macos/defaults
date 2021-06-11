@@ -133,6 +133,9 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 # Move zoomed-in region continuously with the cursor.
 defaults write com.apple.universalaccess closeViewPanningMode -int 0
 
+# Use Monday as the first day of the week.
+defaults write -g AppleFirstWeekday -dict gregorian 2
+
 #
 # Restart affected applications
 #
