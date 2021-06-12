@@ -62,5 +62,12 @@ nnoremap ,o :only<CR>
 " Colourscheme
 "
 
-set termguicolors
-colorscheme xcodedark
+if system('hostname') ==# 'code-mbp'
+    set termguicolors
+endif
+
+if system('defaults read -g AppleInterfaceStyle') ==# "Dark\n"
+    colorscheme xcodedark
+else
+    colorscheme xcodelight
+endif
