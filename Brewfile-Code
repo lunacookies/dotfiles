@@ -1,17 +1,13 @@
-tap "arzg/homebrew-vim-strand"
-
 brew "fzf"
 brew "gnupg"
 brew "graphviz"
 brew "hugo"
 brew "hyperfine"
 brew "mosh"
-brew "neovim"
 brew "node"
 brew "pastel"
 brew "pinentry-mac"
 brew "rustup-init"
-brew "strand"
 brew "tmux", args: ["HEAD"]
 brew "tokei"
 brew "tree"

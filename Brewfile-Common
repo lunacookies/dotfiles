@@ -1,3 +1,4 @@
+tap "arzg/homebrew-vim-strand"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
@@ -8,8 +9,10 @@ brew "fd"
 brew "ffmpeg"
 brew "fish"
 brew "git"
+brew "neovim"
 brew "renameutils"
 brew "ripgrep"
+brew "strand"
 brew "youtube-dl"
 
 cask "appcleaner"
