@@ -5,6 +5,8 @@
 \RequirePackage{xifthen}
 \newboolean{@arzg@twocolumn}\setboolean{@arzg@twocolumn}{false}
 \DeclareOptionX[arzg]<common>{twocolumn}{\setboolean{@arzg@twocolumn}{true}}
+\newboolean{@arzg@bibliography}\setboolean{@arzg@bibliography}{false}
+\DeclareOptionX[arzg]<common>{bibliography}{\setboolean{@arzg@bibliography}{true}}
 \ProcessOptionsX*[arzg]<common>
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
@@ -141,6 +143,12 @@
 \settowidth{\cw}{\small\itshape\optimalline}
 \captionwidth{\cw}
 \changecaptionwidth
+
+\ifthenelse{\boolean{@arzg@bibliography}}{
+    \usepackage[citestyle=authoryear,bibstyle=authortitle]{biblatex}
+    \addbibresource{References.bib}
+    \defbibheading{bibliography}[\bibname]{\section{#1}}
+}{}
 
 \RequirePackage{xcolor}
 \definecolor{red}{HTML}{972f00}
