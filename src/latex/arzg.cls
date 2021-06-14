@@ -140,10 +140,12 @@
 
 \captionstyle{\small\itshape}
 \captionnamefont{\small\scshape}
-\newlength{\cw}
-\settowidth{\cw}{\small\itshape\optimalline}
-\captionwidth{\cw}
-\changecaptionwidth
+\ifthenelse{\NOT \boolean{@arzg@twocolumn}}{
+    \newlength{\cw}
+    \settowidth{\cw}{\small\itshape\optimalline}
+    \captionwidth{\cw}
+    \changecaptionwidth
+}{}
 
 \ifthenelse{\boolean{@arzg@bibliography}}{
     \usepackage[citestyle=authoryear,bibstyle=authortitle]{biblatex}
