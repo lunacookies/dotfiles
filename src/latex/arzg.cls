@@ -22,11 +22,13 @@
 \ifthenelse{\boolean{@arzg@twocolumn}}{
     \renewcommand{\Large}{\@setfontsize\Large{15bp}{19bp}}
     \renewcommand{\large}{\@setfontsize\large{12bp}{15bp}}
+    \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{11bp}{13bp}}
     \renewcommand{\normalsize}{\@setfontsize\normalsize{10bp}{13bp}}
     \renewcommand{\small}{\@setfontsize\small{8bp}{10bp}}
 }{
     \renewcommand{\Large}{\@setfontsize\Large{18bp}{22bp}}
     \renewcommand{\large}{\@setfontsize\large{14bp}{18bp}}
+    \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{15bp}}
     \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{15bp}}
     \renewcommand{\small}{\@setfontsize\small{10bp}{13bp}}
 }
@@ -118,14 +120,18 @@
 \counterwithout{figure}{chapter}
 
 % number all document divisions
-% up to and including subsections
-\setsecnumdepth{subsection}
+% up to and including subsubsections
+\setsecnumdepth{subsubsection}
 
 \setsecheadstyle{\large}
+\setbeforesecskip{\bls{-4}{-1}{0}}
+\setaftersecskip{\bls{2}{0.5}{0}}
+
+\setsubsecheadstyle{\slightlylarger\itshape}
 \setbeforesecskip{\bls{-3}{-0.5}{0}}
 \setaftersecskip{\bls{1.5}{0.5}{0}}
 
-\setsubsecheadstyle{\itshape}
+\setsubsubsecheadstyle{\scshape\lowercase}
 \setbeforesubsecskip{\bls{-2}{-0.5}{0}}
 \setaftersubsecskip{\bls{1}{0.5}{0}}
 
