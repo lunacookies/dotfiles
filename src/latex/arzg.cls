@@ -16,6 +16,7 @@
 \LoadClass[a4paper, oneside]{memoir}
 
 \RequirePackage{amsmath}
+\RequirePackage[version=4]{mhchem}
 \RequirePackage[final]{graphicx}
 
 \RequirePackage[final, tracking=true, letterspace=100]{microtype}
