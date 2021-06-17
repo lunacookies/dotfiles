@@ -67,7 +67,7 @@ if system('hostname') ==# "code-mbp\n"
 endif
 
 if system('defaults read -g AppleInterfaceStyle') ==# "Dark\n"
-    colorscheme xcodedark
+    colorscheme one
 else
     colorscheme xcodelight
 endif
