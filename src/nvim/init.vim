@@ -62,7 +62,7 @@ nnoremap ,o :only<CR>
 " Colourscheme
 "
 
-if system('hostname') ==# 'code-mbp'
+if system('hostname') ==# "code-mbp\n"
     set termguicolors
 endif
 
