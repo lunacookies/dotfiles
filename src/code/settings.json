@@ -13,13 +13,18 @@
   // Hide annoyances
   //
 
+  "breadcrumbs.enabled": false,
+  "editor.codeLens": false,
   "editor.folding": false,
   "editor.glyphMargin": false,
+  "editor.hover.enabled": false,
   "editor.lightbulb.enabled": false,
   "editor.lineNumbers": "off",
   "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": false,
   "editor.parameterHints.enabled": false,
+  "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "none",
   "editor.roundedSelection": false,
   "editor.wordBasedSuggestions": false,
@@ -65,8 +70,7 @@
   "rust-analyzer.assist.importGranularity": "module",
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.lens.methodReferences": true,
-  "rust-analyzer.lens.references": true,
+  "rust-analyzer.inlayHints.chainingHints": false,
 
   // Use Prettier for these languages.
   "[javascript]": {
