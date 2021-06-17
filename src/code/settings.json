@@ -3,8 +3,8 @@
   // Colours and font
   //
 
-  "editor.fontFamily": "SF Mono",
-  "editor.fontWeight": "500",
+  "editor.fontFamily": "Input Sans",
+  "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 19,
   "workbench.colorTheme": "Gamut",
@@ -61,6 +61,9 @@
   //
 
   "customizeUI.stylesheet": {
+    ".mac, .view-line": "font-family: Input Sans !important; font-feature-settings: \"ss02\", \"ss11\", \"ss12\" !important",
+    ".mac": "--monaco-monospace-font: Input Sans",
+    ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\"",
     ".slider": "border-radius: 14px;"
   },
   "diffEditor.ignoreTrimWhitespace": false,
