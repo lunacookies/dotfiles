@@ -6,8 +6,8 @@
   "editor.fontFamily": "Input Sans",
   "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
-  "editor.lineHeight": 19,
   "workbench.colorTheme": "Gamut",
+  "editor.lineHeight": 21,
 
   //
   // Hide annoyances
