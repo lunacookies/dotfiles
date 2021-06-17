@@ -1,4 +1,8 @@
 function fish_prompt
+    printf (set_color black)
+    for i in (seq $COLUMNS)
+        echo -n "─"
+    end
     printf "\n"
 
     printf (set_color green)
@@ -7,7 +11,7 @@ function fish_prompt
     printf (set_color brblack)
     printf (fish_vcs_prompt)
 
-    printf (set_color brgreen)
-    printf "\n→ "
+    printf (set_color blue)
+    printf " → "
 end
 
