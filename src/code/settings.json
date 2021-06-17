@@ -6,8 +6,18 @@
   "editor.fontFamily": "Input Sans",
   "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
-  "workbench.colorTheme": "Gamut",
   "editor.lineHeight": 21,
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "variable": "#ABB2BF",
+      "parameter": {
+        "foreground": "#ABB2BF",
+        "fontStyle": ""
+      },
+      "namespace": "#ABB2BF"
+    }
+  },
 
   //
   // Hide annoyances
