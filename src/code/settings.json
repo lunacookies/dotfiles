@@ -46,6 +46,7 @@
   //
 
   "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 26,
   "workbench.panel.defaultLocation": "right",
