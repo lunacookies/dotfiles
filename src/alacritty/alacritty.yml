@@ -7,6 +7,9 @@ window:
     x: 5
     y: 5
 
+  title: ""
+  dynamic_title: false
+
 scrolling:
   history: 0
 
