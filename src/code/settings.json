@@ -80,6 +80,7 @@
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
   "rust-analyzer.inlayHints.chainingHints": false,
+  "rust-analyzer.lens.references": true,
 
   // Use Prettier for these languages.
   "[javascript]": {
