@@ -15,7 +15,7 @@ scrolling:
 
 font:
   normal:
-    family: Input Mono
+    family: Input Mono Condensed
     style: Regular
 
   size: 14.0
