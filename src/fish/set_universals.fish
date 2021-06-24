@@ -13,5 +13,5 @@ set fish_color_error red --underline
 abbr --add c cargo
 abbr --add g git
 abbr --add vim nvim
-abbr --add ls exa -l
+abbr --add ls exa
 abbr --add b brew
