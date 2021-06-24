@@ -45,7 +45,7 @@
   // Small pleasant UI tweaks
   //
 
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "phase",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 26,
   "workbench.panel.defaultLocation": "right",
