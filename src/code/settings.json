@@ -7,17 +7,7 @@
   "terminal.integrated.fontFamily": "Input Mono Condensed",
   "editor.fontSize": 14,
   "editor.lineHeight": 21,
-  "workbench.colorTheme": "One Dark Pro",
-  "editor.semanticTokenColorCustomizations": {
-    "rules": {
-      "variable": "#ABB2BF",
-      "parameter": {
-        "foreground": "#ABB2BF",
-        "fontStyle": ""
-      },
-      "namespace": "#ABB2BF"
-    }
-  },
+  "workbench.colorTheme": "Slate",
 
   //
   // Hide annoyances
