@@ -72,7 +72,6 @@
   "rust-analyzer.checkOnSave.command": "clippy",
   "rust-analyzer.inlayHints.chainingHints": false,
   "rust-analyzer.lens.references": true,
-  "rust-analyzer.server.path": "~/.cargo/bin/rust-analyzer",
 
   // Use Prettier for these languages.
   "[javascript]": {
