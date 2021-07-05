@@ -92,10 +92,11 @@
 
 \RequirePackage{environ}
 \RenewEnviron{abstract}{
-    {
-        \ifthenelse{\boolean{@arzg@twocolumn}}{
-            \section*{Abstract}
-        }{
+    \ifthenelse{\boolean{@arzg@twocolumn}}{
+        \section*{Abstract}
+        \BODY
+    }{
+        {
             \small
             \begin{center}
                 \begin{minipage}[c]{\optimallinewidth}
@@ -103,16 +104,14 @@
                         \centering
                         \textsc{abstract}\par
                     }
-        }
                     \vspace{\bls{0.5}{0.5}{0.5}}
                     \BODY
-        \ifthenelse{\boolean{@arzg@twocolumn}}{}{
                 \end{minipage}
             \end{center}
         }
+        \vspace{\bls{1}{0.5}{0.5}}
+        \@afterindentfalse\@afterheading
     }
-    \vspace{\bls{1}{0.5}{0.5}}
-    \@afterindentfalse\@afterheading
 }
 
 % remove chapter numbers from
