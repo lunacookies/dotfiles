@@ -168,6 +168,11 @@
         sorting=nyt,
         sortcites=true,
     ]{biblatex}
+
+    % always put given name before family name
+    \DeclareNameAlias{sortname}{given-family}
+    \DeclareNameAlias{default}{given-family}
+
     \addbibresource{References.bib}
     \defbibheading{bibliography}[\bibname]{\section{#1}}
 }{}
