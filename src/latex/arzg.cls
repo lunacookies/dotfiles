@@ -166,5 +166,5 @@
     breaklinks,
 ]{hyperref}
 
-% Sans serif URLs
+% sans serif URLs
 \urlstyle{sf}
