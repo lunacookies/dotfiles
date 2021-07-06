@@ -152,6 +152,7 @@
     \RequirePackage[
         citestyle=authoryear,
         bibstyle=authortitle,
+        giveninits=true,
         backref,
         %
         % if there are three or more names
