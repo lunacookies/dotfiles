@@ -165,3 +165,6 @@
     allcolors=red,
     breaklinks,
 ]{hyperref}
+
+% Sans serif URLs
+\urlstyle{sf}
