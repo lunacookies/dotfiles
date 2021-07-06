@@ -148,7 +148,8 @@
 }{}
 
 \ifthenelse{\boolean{@arzg@bibliography}}{
-    \usepackage[
+    \RequirePackage[UKenglish]{babel}
+    \RequirePackage[
         citestyle=authoryear,
         bibstyle=authortitle,
         backref,
