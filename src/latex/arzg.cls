@@ -147,7 +147,11 @@
 }{}
 
 \ifthenelse{\boolean{@arzg@bibliography}}{
-    \usepackage[citestyle=authoryear,bibstyle=authortitle]{biblatex}
+    \usepackage[
+        citestyle=authoryear,
+        bibstyle=authortitle,
+        backref,
+    ]{biblatex}
     \addbibresource{References.bib}
     \defbibheading{bibliography}[\bibname]{\section{#1}}
 }{}
