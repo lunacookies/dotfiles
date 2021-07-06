@@ -44,6 +44,7 @@
 \abnormalparskip{0bp}
 
 \RequirePackage[osf, largesc]{newpxtext}
+\RequirePackage[osf]{AlegreyaSans}
 \RequirePackage[euler-digits]{eulervm}
 
 \RequirePackage{calc}
