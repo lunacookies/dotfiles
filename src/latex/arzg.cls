@@ -163,6 +163,10 @@
         % appear to have the same author
         % when they do not
         uniquelist=false,
+        %
+        % sort author, year, title
+        sorting=nyt,
+        sortcites=true,
     ]{biblatex}
     \addbibresource{References.bib}
     \defbibheading{bibliography}[\bibname]{\section{#1}}
