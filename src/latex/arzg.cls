@@ -155,10 +155,8 @@
         bibstyle=authortitle,
         giveninits=true,
         backref,
-        %
-        % if there are three or more names
-        % truncate using ‘et al.’
-        maxnames=2,
+        maxcitenames=2,
+        maxbibnames=10,
         %
         % still truncate authors
         % even if this would make two sources
