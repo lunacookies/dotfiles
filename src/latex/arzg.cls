@@ -152,6 +152,16 @@
         citestyle=authoryear,
         bibstyle=authortitle,
         backref,
+        %
+        % if there are three or more names
+        % truncate using ‘et al.’
+        maxnames=2,
+        %
+        % still truncate authors
+        % even if this would make two sources
+        % appear to have the same author
+        % when they do not
+        uniquelist=false,
     ]{biblatex}
     \addbibresource{References.bib}
     \defbibheading{bibliography}[\bibname]{\section{#1}}
