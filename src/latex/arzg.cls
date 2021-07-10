@@ -7,6 +7,8 @@
 \DeclareOptionX[arzg]<common>{twocolumn}{\setboolean{@arzg@twocolumn}{true}}
 \newboolean{@arzg@bibliography}\setboolean{@arzg@bibliography}{false}
 \DeclareOptionX[arzg]<common>{bibliography}{\setboolean{@arzg@bibliography}{true}}
+\newboolean{@arzg@darkmode}\setboolean{@arzg@darkmode}{false}
+\DeclareOptionX[arzg]<common>{darkmode}{\setboolean{@arzg@darkmode}{true}}
 \ProcessOptionsX*[arzg]<common>
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
@@ -178,11 +180,20 @@
 }{}
 
 \RequirePackage{xcolor}
-\definecolor{red}{HTML}{972f00}
+\ifthenelse{\boolean{@arzg@darkmode}}{
+    \definecolor{links}{HTML}{7cc3e8}
+    \definecolor{bg}{HTML}{222222}
+    \definecolor{fg}{HTML}{dddddd}
+    \pagecolor{bg}
+    \color{fg}
+}{
+    \definecolor{links}{HTML}{972f00}
+}
+
 \RequirePackage[
     final,
     colorlinks=true,
-    allcolors=red,
+    allcolors=links,
     breaklinks,
 ]{hyperref}
 
