@@ -200,3 +200,5 @@
 
 % sans serif URLs
 \urlstyle{sf}
+
+\RequirePackage{cleveref}
