@@ -149,9 +149,10 @@
     \changecaptionwidth
 }{}
 
+\RequirePackage[british]{babel}
+\RequirePackage{csquotes}
+
 \ifthenelse{\boolean{@arzg@bibliography}}{
-    \RequirePackage[british]{babel}
-    \RequirePackage{csquotes}
     \RequirePackage[
         citestyle=authoryear,
         bibstyle=authortitle,
