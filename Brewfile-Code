@@ -14,7 +14,6 @@ brew "tree"
 brew "yarn"
 
 cask "alacritty"
-cask "discord"
 cask "loopback"
 cask "steam"
 cask "visual-studio-code"
