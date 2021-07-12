@@ -154,8 +154,6 @@
 
 \ifthenelse{\boolean{@arzg@bibliography}}{
     \RequirePackage[
-        citestyle=authoryear,
-        bibstyle=authortitle,
         giveninits=true,
         backref,
         maxcitenames=2,
