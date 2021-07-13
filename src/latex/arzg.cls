@@ -200,3 +200,22 @@
 \urlstyle{sf}
 
 \RequirePackage[noabbrev]{cleveref}
+
+% custom quote environment that allows microtype protrusion
+% (quotes often start with an opening quote character,
+% which can now be hung in the margin)
+\renewenvironment{quote}{
+    \par
+    \begingroup
+    \vspace{\bls{1}{0.25}{0.25}}
+    \leftskip=\baselineskip
+    \rightskip=\baselineskip
+    \noindent
+    \ignorespaces
+}{
+    \vspace{\bls{1}{0.25}{0.25}}
+    \par
+    \endgroup
+    \noindent
+    \ignorespacesafterend
+}
