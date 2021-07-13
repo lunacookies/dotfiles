@@ -18,6 +18,8 @@
 \LoadClass[a4paper, oneside]{memoir}
 
 \RequirePackage{amsmath}
+\allowdisplaybreaks % allow page breaks in display math
+
 \RequirePackage[version=4]{mhchem}
 \RequirePackage[final]{graphicx}
 
