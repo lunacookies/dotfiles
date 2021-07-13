@@ -5,6 +5,8 @@
 \RequirePackage{xifthen}
 \newboolean{@arzg@twocolumn}\setboolean{@arzg@twocolumn}{false}
 \DeclareOptionX[arzg]<common>{twocolumn}{\setboolean{@arzg@twocolumn}{true}}
+\newboolean{@arzg@doublespace}\setboolean{@arzg@doublespace}{false}
+\DeclareOptionX[arzg]<common>{doublespace}{\setboolean{@arzg@doublespace}{true}}
 \newboolean{@arzg@bibliography}\setboolean{@arzg@bibliography}{false}
 \DeclareOptionX[arzg]<common>{bibliography}{\setboolean{@arzg@bibliography}{true}}
 \newboolean{@arzg@darkmode}\setboolean{@arzg@darkmode}{false}
@@ -48,11 +50,19 @@
     \renewcommand{\normalsize}{\@setfontsize\normalsize{10bp}{13bp}}
     \renewcommand{\small}{\@setfontsize\small{8bp}{10bp}}
 }{
-    \renewcommand{\Large}{\@setfontsize\Large{18bp}{22bp}}
-    \renewcommand{\large}{\@setfontsize\large{14bp}{18bp}}
-    \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{15bp}}
-    \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{15bp}}
-    \renewcommand{\small}{\@setfontsize\small{10bp}{13bp}}
+    \ifthenelse{\boolean{@arzg@doublespace}}{
+        \renewcommand{\Large}{\@setfontsize\Large{18bp}{36bp}}
+        \renewcommand{\large}{\@setfontsize\large{14bp}{28bp}}
+        \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{26bp}}
+        \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{24bp}}
+        \renewcommand{\small}{\@setfontsize\small{10bp}{20bp}}
+    }{
+        \renewcommand{\Large}{\@setfontsize\Large{18bp}{22bp}}
+        \renewcommand{\large}{\@setfontsize\large{14bp}{18bp}}
+        \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{15bp}}
+        \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{15bp}}
+        \renewcommand{\small}{\@setfontsize\small{10bp}{13bp}}
+    }
 }
 
 \normalsize
@@ -74,7 +84,11 @@
     \settypeblocksize{52\baselineskip}{\optimallinewidth * \real{1.618}}{*}
     \setlength\columnsep{1.5\baselineskip}
 }{
-    \settypeblocksize{42\baselineskip}{\optimallinewidth}{*}
+    \ifthenelse{\boolean{@arzg@doublespace}}{
+        \settypeblocksize{26\baselineskip}{\optimallinewidth}{*}
+    }{
+        \settypeblocksize{42\baselineskip}{\optimallinewidth}{*}
+    }
 }
 \setlrmargins{*}{*}{1}
 \setulmargins{*}{*}{2}
