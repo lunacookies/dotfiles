@@ -59,8 +59,8 @@
     }{
         \renewcommand{\Large}{\@setfontsize\Large{18bp}{22bp}}
         \renewcommand{\large}{\@setfontsize\large{14bp}{18bp}}
-        \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{15bp}}
-        \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{15bp}}
+        \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{16bp}}
+        \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{16bp}}
         \renewcommand{\small}{\@setfontsize\small{10bp}{13bp}}
     }
 }
