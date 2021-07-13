@@ -23,6 +23,19 @@
 \RequirePackage[version=4]{mhchem}
 \RequirePackage[final]{graphicx}
 
+\RequirePackage[
+    % use math font when typesetting in math
+    % and use text font when in text
+    mode=match,
+    % separate digit groups with comma
+    group-separator={,},
+    % show digit group separator with four digits (e.g. 1,000)
+    group-minimum-digits=4,
+    % J/kg/°C instead of J kg⁻¹ °C⁻¹
+    per-mode=repeated-symbol,
+]{siunitx}
+\DeclareSIUnit{\atm}{atm}
+
 \RequirePackage[final, tracking=true, letterspace=100]{microtype}
 \frenchspacing
 
