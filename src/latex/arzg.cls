@@ -27,6 +27,8 @@
     % use math font when typesetting in math
     % and use text font when in text
     mode=match,
+    % appear as italic when in an italic context
+    reset-text-shape=false,
     % separate digit groups with comma
     group-separator={,},
     % show digit group separator with four digits (e.g. 1,000)
