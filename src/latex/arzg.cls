@@ -67,7 +67,14 @@
 
 \normalsize
 
-\newcommand{\bls}[3]{#1\baselineskip plus #2\baselineskip minus #3\baselineskip}
+\newlength{\spaceinc}
+\ifthenelse{\boolean{@arzg@doublespace}}{
+    \setlength{\spaceinc}{16bp}
+}{
+    \setlength{\spaceinc}{\baselineskip}
+}
+
+\newcommand{\bls}[3]{#1\spaceinc plus #2\spaceinc minus #3\spaceinc}
 
 \setlength{\parindent}{\baselineskip}
 \abnormalparskip{0bp}
@@ -85,7 +92,7 @@
     \setlength\columnsep{1.5\baselineskip}
 }{
     \ifthenelse{\boolean{@arzg@doublespace}}{
-        \settypeblocksize{26\baselineskip}{\optimallinewidth}{*}
+        \settypeblocksize{28\baselineskip}{\optimallinewidth}{*}
     }{
         \settypeblocksize{42\baselineskip}{\optimallinewidth}{*}
     }
@@ -93,7 +100,7 @@
 \setlrmargins{*}{*}{1}
 \setulmargins{*}{*}{2}
 
-\setheadfoot{\baselineskip}{3\baselineskip}
+\setheadfoot{\baselineskip}{3\spaceinc}
 \makepagestyle{arzg}
 \makeevenfoot{arzg}{\normalfont\thepage}{}{}
 \makeoddfoot{arzg}{}{}{\normalfont\thepage}
@@ -244,8 +251,8 @@
     \par
     \begingroup
     \vspace{\bls{1}{0.25}{0.25}}
-    \leftskip=\baselineskip
-    \rightskip=\baselineskip
+    \leftskip=\spaceinc
+    \rightskip=\spaceinc
     \noindent
     \ignorespaces
 }{
