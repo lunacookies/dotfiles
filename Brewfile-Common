@@ -16,7 +16,6 @@ brew "strand"
 brew "youtube-dl"
 
 cask "appcleaner"
-cask "bitwarden"
 cask "coconutbattery"
 cask "discord"
 cask "font-ia-writer-duo"
