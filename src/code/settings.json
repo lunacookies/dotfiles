@@ -35,7 +35,7 @@
   // Small pleasant UI tweaks
   //
 
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "solid",
   "editor.cursorWidth": 1,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 26,
