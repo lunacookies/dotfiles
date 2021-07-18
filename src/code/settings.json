@@ -4,7 +4,7 @@
   //
 
   "editor.fontFamily": "Input Sans Narrow",
-  "terminal.integrated.fontFamily": "Input Mono Condensed",
+  "terminal.integrated.fontFamily": "Input Mono Narrow",
   "editor.fontSize": 14,
   "editor.lineHeight": 21,
   "workbench.colorTheme": "Slate",
