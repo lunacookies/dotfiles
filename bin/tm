@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+import subprocess
+import time
+
+NEW_SESSION = "New session"
+TMUX = "/usr/local/bin/tmux"
+
+def run(program, *args):
+    command = [program] + list(args)
+    output = subprocess.run(command, stdout=subprocess.PIPE).stdout
+    return output.decode('utf-8').splitlines()
+
+def select(prompt, options):
+    print(f"{prompt}: ")
+
+    for idx, option in enumerate(options):
+        print(f"{idx + 1}) {option}")
+
+    choice = int(input("> "))
+    return options[choice - 1]
+
+def available_tmux_sessions():
+    return run(TMUX, "list-sessions", "-F", "#S")
+
+sessions = available_tmux_sessions() + [NEW_SESSION]
+
+session = select("Please choose your session", sessions)
+
+if session == NEW_SESSION:
+    name = input("Enter new session name: ")
+    run(TMUX, "new-session", "-s", name)
+else:
+    run(TMUX, "attach-session", "-t", session)
