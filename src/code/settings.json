@@ -36,7 +36,6 @@
   //
 
   "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorWidth": 1,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestLineHeight": 26,
