@@ -63,6 +63,8 @@
     ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\"",
     ".slider": "border-radius: 14px;"
   },
+  "customizeUI.titleBar": "frameless",
+  "window.titleBarStyle": "native", // required by customizeUI.titleBar
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "git.enableCommitSigning": true,
