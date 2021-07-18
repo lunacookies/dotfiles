@@ -41,7 +41,7 @@ colors:
     background: '#454A56'
 
   normal:
-    black:   '#272C36'
+    black:   '#454A56'
     red:     '#C4757B'
     green:   '#90A879'
     yellow:  '#E3CB99'
