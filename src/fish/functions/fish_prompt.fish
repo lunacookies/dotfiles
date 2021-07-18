@@ -6,7 +6,14 @@ function fish_prompt
     tmux rename-window $pwd
 
     printf "\n"
-    printf "%s λ " $pwd
+
+    printf $pwd
+
+    set_color cyan
+    fish_vcs_prompt
+    set_color normal
+
+    printf " λ "
 
     printf "\e[6 q" # use line-shaped cursor
 end
