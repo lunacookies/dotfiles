@@ -1,10 +1,12 @@
 function fish_prompt
-    printf (prompt_pwd)
+    set pwd (prompt_pwd)
 
-    printf (set_color cyan)
-    printf (fish_vcs_prompt)
+    # set the current directory
+    # as the title of the current tmux window
+    tmux rename-window $pwd
 
-    printf (set_color reset)
-    printf " λ "
+    printf "\n"
+    printf "%s λ " $pwd
+
+    printf "\e[6 q" # use line-shaped cursor
 end
-
