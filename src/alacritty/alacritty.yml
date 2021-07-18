@@ -23,6 +23,10 @@ font:
   offset:
     y: 4
 
+cursor:
+  style:
+    blinking: Always
+
 colors:
   primary:
     background: '#222630'
