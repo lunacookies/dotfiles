@@ -10,6 +10,8 @@ window:
   title: ""
   dynamic_title: false
 
+  dynamic_padding: true
+
 scrolling:
   history: 0
 
