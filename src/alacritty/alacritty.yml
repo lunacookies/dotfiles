@@ -4,12 +4,13 @@ window:
     lines: 24
 
   padding:
-    x: 5
-    y: 5
+    x: 20
+    y: 20
 
   title: ""
   dynamic_title: false
 
+  decorations: buttonless
   dynamic_padding: true
 
 scrolling:
