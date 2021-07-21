@@ -1,9 +1,11 @@
 function fish_prompt
     set pwd (prompt_pwd)
 
-    # set the current directory
-    # as the title of the current tmux window
-    tmux rename-window $pwd
+    if test (hostname) = "code-mbp"
+        # set the current directory
+        # as the title of the current tmux window
+        tmux rename-window $pwd
+    end
 
     printf "\n"
 
