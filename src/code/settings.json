@@ -3,8 +3,8 @@
   // Colours and font
   //
 
-  "editor.fontFamily": "Input Sans Narrow",
-  "terminal.integrated.fontFamily": "Input Mono Narrow",
+  "editor.fontFamily": "Input Sans",
+  "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 21,
   "workbench.colorTheme": "Slate",
@@ -59,7 +59,7 @@
   //
 
   "customizeUI.stylesheet": {
-    ".mac": "font-family: Input Sans Narrow !important; --monaco-monospace-font: Input Sans Narrow",
+    ".mac": "font-family: Input Sans !important; --monaco-monospace-font: Input Sans",
     ".mac, .view-line": "font-feature-settings: \"ss11\", \"ss12\" !important",
     ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\"",
     ".slider": "border-radius: 14px;"
