@@ -12,6 +12,8 @@ window:
 
   dynamic_padding: true
 
+  decorations: buttonless
+
 scrolling:
   history: 0
 
