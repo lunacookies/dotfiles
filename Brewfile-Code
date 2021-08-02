@@ -1,9 +1,12 @@
+tap "filosottile/musl-cross"
+
 brew "fzf"
 brew "gnupg"
 brew "graphviz"
 brew "hugo"
 brew "hyperfine"
 brew "mosh"
+brew "musl-cross", args: ["without-x86_64", "with-arm-hf"]
 brew "node"
 brew "pastel"
 brew "pinentry-mac"
