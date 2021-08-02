@@ -25,7 +25,7 @@ font:
   size: 14.0
 
   offset:
-    y: 4
+    y: 8
 
 colors:
   primary:
