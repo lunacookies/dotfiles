@@ -60,7 +60,7 @@
 
   "customizeUI.stylesheet": {
     ".mac": "font-family: Input Sans Narrow !important; --monaco-monospace-font: Input Sans Narrow",
-    ".mac, .view-line": "font-feature-settings: \"ss02\", \"ss11\", \"ss12\" !important",
+    ".mac, .view-line": "font-feature-settings: \"ss11\", \"ss12\" !important",
     ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\"",
     ".slider": "border-radius: 14px;"
   },
