@@ -24,6 +24,7 @@
 
 \RequirePackage[version=4]{mhchem}
 \RequirePackage[final]{graphicx}
+\RequirePackage{pdfpages}
 
 \RequirePackage[
     % use math font when typesetting in math
