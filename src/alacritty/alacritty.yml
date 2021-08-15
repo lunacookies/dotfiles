@@ -15,10 +15,10 @@ font:
     family: Input Mono
     style: Light
 
-  size: 14.0
+  size: 12.0
 
   offset:
-    y: 8
+    y: 4
 
 colors:
   primary:
