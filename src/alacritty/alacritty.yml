@@ -7,9 +7,6 @@ window:
     x: 30
     y: 30
 
-  title: ""
-  dynamic_title: false
-
   dynamic_padding: true
 
   decorations: buttonless
