@@ -1,4 +1,5 @@
 fish_add_path /usr/local/opt/coreutils/libexec/gnubin
+fish_add_path /usr/local/opt/llvm/bin
 fish_add_path ~/.cargo/bin
 
 set -gx CDPATH . .. ~/Documents/Code ~/Documents/School/ ~/Documents $HOME
