@@ -60,26 +60,6 @@
     "command": "editor.action.showHover",
     "when": "editorTextFocus"
   },
-  {
-    "key": "=",
-    "command": "git.stageSelectedRanges",
-    "when": "isInDiffEditor"
-  },
-  {
-    "key": "-",
-    "command": "git.unstageSelectedRanges",
-    "when": "isInDiffEditor"
-  },
-  {
-    "key": "=",
-    "command": "git.stage",
-    "when": "listHasSelectionOrFocus"
-  },
-  {
-    "key": "-",
-    "command": "git.unstage",
-    "when": "listHasSelectionOrFocus"
-  },
   // Mnemonic: explorer
   {
     "key": "shift+alt+e",
