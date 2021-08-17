@@ -40,6 +40,7 @@
     per-mode=repeated-symbol,
 ]{siunitx}
 \DeclareSIUnit{\atm}{atm}
+\DeclareSIUnit{\M}{M}
 
 \RequirePackage[final, tracking=true, letterspace=100]{microtype}
 \frenchspacing
