@@ -49,6 +49,8 @@ nnoremap ,c :close<CR>
 nnoremap ,f :Files<CR>
 nnoremap ,g :Rg<CR>
 nnoremap ,o :only<CR>
+nnoremap ,s :split<CR>
+nnoremap ,v :vsplit<CR>
 
 "
 " Colourscheme
