@@ -14,7 +14,6 @@ brew "pinentry-mac"
 brew "rustup-init"
 brew "tmux", args: ["HEAD"]
 brew "tokei"
-brew "tree"
 brew "yarn"
 
 cask "alacritty"
