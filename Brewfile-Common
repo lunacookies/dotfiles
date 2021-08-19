@@ -12,6 +12,6 @@ brew "neovim"
 brew "renameutils"
 brew "ripgrep"
 brew "strand"
-brew "tmux", args: ["HEAD"]
+brew "tmux"
 brew "tree"
 brew "youtube-dl"
