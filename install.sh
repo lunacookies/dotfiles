@@ -32,8 +32,9 @@ function generate_brewfile() {
     cp "Brewfile-Common" "Brewfile"
 
     case $(hostname) in
-        "code-mbp" ) cat "Brewfile-Code" >> "Brewfile";;
-        "work-mbp" ) cat "Brewfile-Work" >> "Brewfile";;
+        "code-mbp" ) cat "Brewfile-Gui" "Brewfile-Code" >> "Brewfile";;
+        "work-mbp" ) cat "Brewfile-Gui" "Brewfile-Work" >> "Brewfile";;
+        * ) ;;
     esac
 }
 
