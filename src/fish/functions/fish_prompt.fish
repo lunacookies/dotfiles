@@ -7,15 +7,26 @@ function fish_prompt
         tmux rename-window $pwd
     end
 
-    printf "\n"
+    if test -z $SSH_TTY
+    else
+        set_color brblue
+        printf "%s" (whoami)
+        set_color normal
+        printf "@"
+        set_color blue
+        printf "%s " (hostname)
+    end
 
+    set_color brgreen
     printf $pwd
 
-    set_color cyan
-    fish_vcs_prompt
-    set_color normal
+    if set branch (git rev-parse --abbrev-ref HEAD 2> /dev/null)
+	    set_color green
+        printf " $branch"
+    end
 
-    printf " λ "
+    set_color normal
+    printf " \$ "
 
     printf "\e[6 q" # use line-shaped cursor
 end
