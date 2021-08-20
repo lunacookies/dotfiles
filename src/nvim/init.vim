@@ -57,7 +57,8 @@ nnoremap ,v :vsplit<CR>
 "
 
 if system('defaults read -g AppleInterfaceStyle') ==# "Dark\n"
-    colorscheme delek
+    set termguicolors
+    colorscheme xcodedark
 else
     colorscheme xcodelight
 endif
