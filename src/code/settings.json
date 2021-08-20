@@ -57,12 +57,6 @@
   // Plugins and languages
   //
 
-  "customizeUI.stylesheet": {
-    ".mac": "font-family: Input Sans !important; --monaco-monospace-font: Input Sans",
-    ".mac, .view-line": "font-feature-settings: \"ss11\", \"ss12\" !important",
-    ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\"",
-    ".slider": "border-radius: 14px;"
-  },
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "git.enableCommitSigning": true,
