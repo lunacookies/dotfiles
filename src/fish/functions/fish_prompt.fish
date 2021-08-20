@@ -21,11 +21,11 @@ function fish_prompt
     printf $pwd
 
     if set branch (git rev-parse --abbrev-ref HEAD 2> /dev/null)
-	    set_color magenta
+        set_color magenta
         printf " $branch"
     end
 
-    set_color magenta
+    set_color normal
     printf " → "
 
     printf "\e[6 q" # use line-shaped cursor
