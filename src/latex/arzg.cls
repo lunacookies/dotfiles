@@ -44,7 +44,7 @@
 \DeclareSIUnit{\atm}{atm}
 \DeclareSIUnit{\M}{M}
 
-\RequirePackage[final, tracking=true, letterspace=100]{microtype}
+\RequirePackage[final, tracking=true, letterspace=50]{microtype}
 \frenchspacing
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
