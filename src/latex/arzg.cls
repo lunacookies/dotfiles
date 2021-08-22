@@ -84,7 +84,7 @@
 \abnormalparskip{0bp}
 
 \RequirePackage[osf, largesc]{newpxtext}
-\RequirePackage[osf]{AlegreyaSans}
+\RequirePackage[osf, scale=1.02]{AlegreyaSans}
 \RequirePackage[euler-digits]{eulervm}
 
 \ifthenelse{\boolean{@arzg@sans}}{
