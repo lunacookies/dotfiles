@@ -11,10 +11,12 @@
 \DeclareOptionX[arzg]<common>{bibliography}{\setboolean{@arzg@bibliography}{true}}
 \newboolean{@arzg@darkmode}\setboolean{@arzg@darkmode}{false}
 \DeclareOptionX[arzg]<common>{darkmode}{\setboolean{@arzg@darkmode}{true}}
+\newboolean{@arzg@sans}\setboolean{@arzg@sans}{false}
+\DeclareOptionX[arzg]<common>{sans}{\setboolean{@arzg@sans}{true}}
 \ProcessOptionsX*[arzg]<common>
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
-      \PassOptionsToClass{twocolumn}{memoir}
+    \PassOptionsToClass{twocolumn}{memoir}
 }{}
 
 \LoadClass[a4paper, oneside]{memoir}
@@ -84,6 +86,10 @@
 \RequirePackage[osf, largesc]{newpxtext}
 \RequirePackage[osf]{AlegreyaSans}
 \RequirePackage[euler-digits]{eulervm}
+
+\ifthenelse{\boolean{@arzg@sans}}{
+    \renewcommand{\familydefault}{\sfdefault}
+}{}
 
 \RequirePackage{calc}
 \newcommand{\optimalline}{Cras dignissim nisi nec dolor blandit, ut varius ex pellentesque. Vestib-}
