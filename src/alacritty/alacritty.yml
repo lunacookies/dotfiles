@@ -42,21 +42,21 @@ colors:
   normal:
     black: "#505674"
     red: "#FE8673"
-    green: "#8DBF70"
+    green: "#72BFB0"
     yellow: "#CDC072"
     blue: "#3DBFE2"
     magenta: "#B682ED"
-    cyan: "#72BFB0"
+    cyan: "#FE7BB3"
     white: "#DCDEE5"
 
   bright:
     black: "#5E6275"
     red: "#FE8673"
-    green: "#B2DD9A"
+    green: "#8FF4E0"
     yellow: "#CDC072"
     blue: "#7DDDFB"
     magenta: "#D0AAFC"
-    cyan: "#8FF4E0"
+    cyan: "#FE7BB3"
     white: "#DCDEE5"
 
 draw_bold_text_with_bright_colors: true
