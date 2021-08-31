@@ -33,9 +33,6 @@ defaults write -globalDomain AppleShowAllExtensions -bool true
 # Dock, Spaces, Mission Control, Exposé
 #
 
-# Enable autohide.
-defaults write com.apple.Dock autohide -bool true
-
 # Only show running applications.
 defaults write com.apple.Dock static-only -bool true
 
