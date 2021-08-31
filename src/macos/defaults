@@ -115,6 +115,9 @@ defaults write pro.writer.mac WebKitDeveloperExtras -bool true
 # Other
 #
 
+# Preserve open windows when quitting applications.
+defaults write -globalDomain NSQuitAlwaysKeepsWindows -bool true
+
 # Remove delay when hovering over a window’s title to display the proxy icon.
 defaults write -globalDomain NSToolbarTitleViewRolloverDelay -float 0
 
