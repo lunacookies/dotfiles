@@ -274,3 +274,15 @@
 \newcommand{\abbr}[1]{\textsc{\MakeLowercase{#1}}}
 
 \RequirePackage[toc, eqno, enum, bib, lineno]{tabfigures}
+
+\cftsetindents{section}{0em}{1em}
+\renewcommand{\cftsectionleader}{\hfill}
+\renewcommand\@tocmaketitle{\section*{\contentsname}}
+
+\newcommand{\toc}{
+    \begingroup
+    \let\onecolumn\twocolumn
+    \let\clearpage\relax
+    \tableofcontents*
+    \endgroup
+}
