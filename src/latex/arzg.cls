@@ -270,3 +270,5 @@
     \noindent
     \ignorespacesafterend
 }
+
+\newcommand{\abbr}[1]{\textsc{\MakeLowercase{#1}}}
