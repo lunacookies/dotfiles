@@ -272,3 +272,5 @@
 }
 
 \newcommand{\abbr}[1]{\textsc{\MakeLowercase{#1}}}
+
+\RequirePackage[toc, eqno, enum, bib, lineno]{tabfigures}
