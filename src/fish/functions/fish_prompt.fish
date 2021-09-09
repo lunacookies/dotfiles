@@ -7,24 +7,20 @@ function fish_prompt
         tmux rename-window $pwd
     end
 
+    set_color brblack
+
     if test -z $SSH_TTY
     else
-        set_color brgreen
         printf "%s" (whoami)
-        set_color normal
         printf "@"
-        set_color green
         printf "%s " (hostname)
     end
 
-    set_color brmagenta
     printf $pwd
 
     if set branch (git rev-parse --abbrev-ref HEAD 2> /dev/null)
-        set_color magenta
         printf " $branch"
     end
 
-    set_color normal
-    printf " → "
+    printf " "
 end
