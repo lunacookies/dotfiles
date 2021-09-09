@@ -7,7 +7,8 @@
   "editor.fontWeight": "500",
   "editor.fontSize": 14,
   "editor.lineHeight": 21,
-  "workbench.colorTheme": "Gamut",
+  "workbench.colorTheme": "Darcula IntelliJ",
+  "workbench.productIconTheme": "IntelliJ",
 
   //
   // Hide annoyances
