@@ -27,6 +27,4 @@ function fish_prompt
 
     set_color normal
     printf " → "
-
-    printf "\e[6 q" # use line-shaped cursor
 end
