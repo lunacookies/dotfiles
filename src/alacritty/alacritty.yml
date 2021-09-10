@@ -22,37 +22,37 @@ font:
 
 colors:
   primary:
-    background: '#2B2B2B'
-    foreground: '#A8B6C5'
-    bright_foreground: '#A8B6C5'
+    background: '#404040'
+    foreground: '#E0E0C9'
+    bright_foreground: '#FEFEE7'
 
   cursor:
-    text: '#2B2B2B'
-    cursor: '#BCBCBC'
+    text: '#404040'
+    cursor: '#FEFEE7'
 
   selection:
     text: CellForeground
-    background: '#214283'
+    background: '#2E2E2E'
 
   normal:
-    black:   '#313131'
-    red:     '#F0524F'
-    green:   '#5C962C'
-    yellow:  '#A68A0D'
-    blue:    '#3993D4'
-    magenta: '#A771BF'
-    cyan:    '#00A3A3'
-    white:   '#A8B6C5'
+    black:   '#2E2E2E'
+    red:     '#D49E9E'
+    green:   '#95B995'
+    yellow:  '#B9AF80'
+    blue:    '#8BB3D4'
+    magenta: '#B4A5D1'
+    cyan:    '#7CBBBE'
+    white:   '#E0E0C9'
 
   bright:
-    black:   '#79828B'
-    red:     '#FF4050'
-    green:   '#4FC414'
-    yellow:  '#E5BF00'
-    blue:    '#1FB0FF'
-    magenta: '#ED7EED'
-    cyan:    '#00E5E5'
-    white:   '#A8B6C5'
+    black:   '#9E9E9E'
+    red:     '#F5BEBD'
+    green:   '#B4D9B4'
+    yellow:  '#D9CF9F'
+    blue:    '#AAD3F5'
+    magenta: '#D4C5F2'
+    cyan:    '#9CDBDE'
+    white:   '#FEFEE7'
 
 draw_bold_text_with_bright_colors: true
 
