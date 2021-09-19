@@ -11,7 +11,7 @@ brew "rustup-init"
 brew "tokei"
 brew "yarn"
 
-cask "alacritty"
+cask "kitty"
 cask "loopback"
 cask "steam"
 cask "visual-studio-code"
