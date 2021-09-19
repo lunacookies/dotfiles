@@ -17,10 +17,6 @@
     "command": "rust-analyzer.moveItemUp"
   },
   {
-    "key": "alt+s",
-    "command": "extension.aceJump.multiChar"
-  },
-  {
     "key": "ctrl+w",
     "command": "editor.action.smartSelect.expand",
     "when": "editorTextFocus"
