@@ -3,11 +3,23 @@
   // Colours and font
   //
 
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Input Sans",
+  "terminal.integrated.fontFamily": "Input Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.lineHeight": 20,
-  "workbench.colorTheme": "Pale Fire",
+  "editor.fontSize": 11,
+  "terminal.integrated.fontSize": 11,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorCustomizations": {
+    "rust_analyzer.inlayHints.foreground": "#636B78"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "variable": "#ABB2BF",
+      "parameter": { "foreground": "#ABB2BF", "fontStyle": "" },
+      "namespace": "#ABB2BF",
+      "lifetime": "#56B6C2"
+    }
+  },
 
   //
   // Hide annoyances
@@ -57,11 +69,22 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
+
+  "customizeUI.stylesheet": {
+    // disable macOS artificial thickening of text
+    // that precludes hinting from being used
+    "html": "-webkit-font-smoothing: antialiased !important",
+    ".view-lines": "font-feature-settings: \"ss02\", \"ss11\", \"ss12\", \"ss13\" !important",
+    ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\", \"ss13\""
+  },
+
   "git.enableCommitSigning": true,
   "rewrap.wrappingColumn": 100,
   "rust-analyzer.assist.importGranularity": "module",
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
+  // prevents pixel misalignment on text following inlay hints
+  "rust-analyzer.inlayHints.smallerHints": false,
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
