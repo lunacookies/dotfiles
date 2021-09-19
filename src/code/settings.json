@@ -93,5 +93,12 @@
         "cmd": "prettier --write \"${file}\""
       }
     ]
+  },
+
+  // disable language detection for git commit messages,
+  // since the presence of code in other languages
+  // confuses the detection system
+  "[git-commit]": {
+    "workbench.editor.languageDetection": false
   }
 }
