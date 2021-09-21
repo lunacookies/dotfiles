@@ -81,6 +81,9 @@ defaults write com.apple.Safari AutoFillPasswords -bool false
 defaults write com.apple.Safari NewTabBehavior -int 1
 defaults write com.apple.Safari NewWindowBehavior -int 1
 
+# Disable colouring of toolbar based on website colour.
+defaults write com.apple.Safari NeverUseBackgroundColorInToolbar -bool true
+
 # Use DuckDuckGo for searches.
 defaults write com.apple.Safari SearchProviderIdentifier -string 'com.duckduckgo'
 /usr/libexec/PlistBuddy \
