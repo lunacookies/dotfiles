@@ -39,6 +39,7 @@
   "editor.roundedSelection": false,
   "editor.wordBasedSuggestions": false,
   "scm.diffDecorationsGutterWidth": 2,
+  "security.workspace.trust.enabled": false,
   "workbench.activityBar.visible": false,
   "workbench.editor.showTabs": false,
   "workbench.list.automaticKeyboardNavigation": false,
