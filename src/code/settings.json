@@ -80,7 +80,6 @@
   },
 
   "git.enableCommitSigning": true,
-  "rewrap.wrappingColumn": 100,
   "rust-analyzer.assist.importGranularity": "module",
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
