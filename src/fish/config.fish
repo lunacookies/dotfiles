@@ -4,13 +4,8 @@ fish_add_path ~/.cargo/bin
 
 set -gx CDPATH . .. ~/Documents/Code ~/Documents/School/ ~/Documents $HOME
 
-if test (hostname) = code-mbp
-    set -gx VISUAL nvim
-    set -gx EDITOR nvim
-else
-    set -gx VISUAL vim
-    set -gx EDITOR vim
-end
+set -gx VISUAL nvim
+set -gx EDITOR nvim
 
 set -gx HOMEBREW_CASK_OPTS --appdir=~/Applications
 

@@ -32,8 +32,7 @@ function generate_brewfile() {
     cp "Brewfile-Common" "Brewfile"
 
     case $(hostname) in
-        "code-mbp" ) cat "Brewfile-Gui" "Brewfile-Code" >> "Brewfile";;
-        "work-mbp" ) cat "Brewfile-Gui" "Brewfile-Work" >> "Brewfile";;
+        "code-mbp" ) cat "Brewfile-Code" >> "Brewfile";;
         * ) ;;
     esac
 }
@@ -106,15 +105,13 @@ function link_latex_class() {
     link_config src/latex "$template_path"
 }
 
-if [ $(hostname) = "code-mbp" ]; then
-    link_config \
-        src/code/keybindings.json \
-        "$HOME/Library/Application Support/Code/User/keybindings.json"
+link_config \
+    src/code/keybindings.json \
+    "$HOME/Library/Application Support/Code/User/keybindings.json"
 
-    link_config \
-        src/code/settings.json \
-        "$HOME/Library/Application Support/Code/User/settings.json"
-fi
+link_config \
+    src/code/settings.json \
+    "$HOME/Library/Application Support/Code/User/settings.json"
 
 link_config src "$HOME/.config"
 link_desktop_to_downloads
