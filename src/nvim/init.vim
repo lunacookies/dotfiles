@@ -51,13 +51,3 @@ nnoremap ,g :Rg<CR>
 nnoremap ,o :only<CR>
 nnoremap ,s :split<CR>
 nnoremap ,v :vsplit<CR>
-
-"
-" Colourscheme
-"
-
-if system('defaults read -g AppleInterfaceStyle') ==# "Dark\n"
-    colorscheme xcodedark
-else
-    colorscheme xcodelight
-endif
