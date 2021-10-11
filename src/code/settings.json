@@ -85,6 +85,7 @@
   "rust-analyzer.checkOnSave.command": "clippy",
   // prevents pixel misalignment on text following inlay hints
   "rust-analyzer.inlayHints.smallerHints": false,
+  "rust-analyzer.procMacro.enable": false,
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
