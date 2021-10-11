@@ -26,6 +26,9 @@ defaults write com.apple.Finder NewWindowTargetPath -string 'file://$HOME'
 # Don’t show internal hard drives on the Desktop.
 defaults write com.apple.Finder ShowHardDrivesOnDesktop -bool false
 
+# Hide Google Drive virtual drive from the Desktop.
+defaults write com.apple.Finder ShowExternalHardDrivesOnDesktop -bool false
+
 # Always show file extensions.
 defaults write -globalDomain AppleShowAllExtensions -bool true
 
