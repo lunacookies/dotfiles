@@ -7,6 +7,10 @@ TMUX = "/usr/local/bin/tmux"
 
 
 def run(*args):
+    subprocess.run(list(args))
+
+
+def run_with_output(*args):
     output = subprocess.run(list(args), stdout=subprocess.PIPE).stdout
     return output.decode("utf-8").splitlines()
 
@@ -23,7 +27,7 @@ def select(prompt, options):
 
 
 def available_tmux_sessions():
-    return run(TMUX, "list-sessions", "-F", "#S")
+    return run_with_output(TMUX, "list-sessions", "-F", "#S")
 
 
 def new_session():
@@ -33,6 +37,14 @@ def new_session():
 
 def attach_session(name):
     run(TMUX, "attach-session", "-t", name)
+
+
+def remote():
+    run(
+        "/usr/local/bin/mosh",
+        "--server=/usr/local/bin/mosh-server",
+        "osmium@osmium.local",
+    )
 
 
 options = (
@@ -45,7 +57,7 @@ options = (
             available_tmux_sessions(),
         )
     )
-    + [("New session", new_session)]
+    + [("New session", new_session), ("Remote", remote)]
 )
 
 select("Please choose your session", options)
