@@ -3,32 +3,49 @@
 import subprocess
 import time
 
-NEW_SESSION = "New session"
 TMUX = "/usr/local/bin/tmux"
 
-def run(program, *args):
-    command = [program] + list(args)
-    output = subprocess.run(command, stdout=subprocess.PIPE).stdout
-    return output.decode('utf-8').splitlines()
+
+def run(*args):
+    output = subprocess.run(list(args), stdout=subprocess.PIPE).stdout
+    return output.decode("utf-8").splitlines()
+
 
 def select(prompt, options):
     print(f"{prompt}: ")
 
-    for idx, option in enumerate(options):
-        print(f"{idx + 1}) {option}")
+    for idx, (name, _) in enumerate(options):
+        print(f"{idx + 1}) {name}")
 
     choice = int(input("> "))
-    return options[choice - 1]
+    _, code = options[choice - 1]
+    code()
+
 
 def available_tmux_sessions():
     return run(TMUX, "list-sessions", "-F", "#S")
 
-sessions = available_tmux_sessions() + [NEW_SESSION]
 
-session = select("Please choose your session", sessions)
-
-if session == NEW_SESSION:
+def new_session():
     name = input("Enter new session name: ")
     run(TMUX, "new-session", "-s", name)
-else:
-    run(TMUX, "attach-session", "-t", session)
+
+
+def attach_session(name):
+    run(TMUX, "attach-session", "-t", name)
+
+
+options = (
+    list(
+        map(
+            lambda session_name: (
+                session_name,
+                lambda: attach_session(session_name),
+            ),
+            available_tmux_sessions(),
+        )
+    )
+    + [("New session", new_session)]
+)
+
+select("Please choose your session", options)
