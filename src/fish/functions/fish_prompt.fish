@@ -5,14 +5,15 @@ function fish_prompt
     # as the title of the current tmux window
     tmux rename-window $pwd
 
-    set_color brblack
-
     if test -z $SSH_TTY
     else
+        set_color --bold red
         printf "%s" (whoami)
         printf "@"
         printf "%s " (hostname)
     end
+
+    set_color brblack
 
     printf $pwd
 
