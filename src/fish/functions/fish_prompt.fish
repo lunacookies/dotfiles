@@ -8,18 +8,9 @@ function fish_prompt
     if test -z $SSH_TTY
     else
         set_color --bold red
-        printf "%s" (whoami)
-        printf "@"
-        printf "%s " (hostname)
+        printf "%s@%s " (whoami) (hostname)
     end
 
-    set_color brblack
-
-    printf $pwd
-
-    if set branch (git rev-parse --abbrev-ref HEAD 2> /dev/null)
-        printf " $branch"
-    end
-
-    printf " "
+    set_color normal
+    printf "\$ "
 end
