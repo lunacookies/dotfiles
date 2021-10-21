@@ -1,9 +1,7 @@
 function fish_prompt
-    set pwd (prompt_pwd)
-
     # set the current directory
     # as the title of the current tmux window
-    tmux rename-window $pwd
+    tmux rename-window (basename (prompt_pwd))
 
     if test -z $SSH_TTY
     else
