@@ -124,9 +124,6 @@ defaults write pro.writer.mac WebKitDeveloperExtras -bool true
 # Preserve open windows when quitting applications.
 defaults write -globalDomain NSQuitAlwaysKeepsWindows -bool true
 
-# Remove delay when hovering over a window’s title to display the proxy icon.
-defaults write -globalDomain NSToolbarTitleViewRolloverDelay -float 0
-
 # Customise date format in menu bar: <day> <month>  <hours>:<minutes>
 defaults write com.apple.menuextra.clock DateFormat -string 'd MMM  HH:mm'
 
@@ -141,6 +138,9 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 
 # Move zoomed-in region continuously with the cursor.
 defaults write com.apple.universalaccess closeViewPanningMode -int 0
+
+# Always show proxy icons.
+defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 
 # Use Monday as the first day of the week.
 defaults write -globalDomain AppleFirstWeekday -dict gregorian 2
