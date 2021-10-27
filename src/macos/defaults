@@ -145,9 +145,6 @@ defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 # Use Monday as the first day of the week.
 defaults write -globalDomain AppleFirstWeekday -dict gregorian 2
 
-# Disable artificial thickening of text.
-defaults write -globalDomain AppleFontSmoothing -bool false
-
 #
 # Restart affected applications
 #
