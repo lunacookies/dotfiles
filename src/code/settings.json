@@ -72,9 +72,6 @@
   "diffEditor.renderSideBySide": false,
 
   "customizeUI.stylesheet": {
-    // disable macOS artificial thickening of text
-    // that precludes hinting from being used
-    "html": "-webkit-font-smoothing: antialiased !important",
     ".view-lines": "font-feature-settings: \"ss02\", \"ss11\", \"ss12\", \"ss13\" !important",
     ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\", \"ss13\""
   },
@@ -83,8 +80,6 @@
   "rust-analyzer.assist.importGranularity": "module",
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
-  // prevents pixel misalignment on text following inlay hints
-  "rust-analyzer.inlayHints.smallerHints": false,
   "rust-analyzer.procMacro.enable": false,
 
   "[javascript]": {
