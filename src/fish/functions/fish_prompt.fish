@@ -10,5 +10,5 @@ function fish_prompt
     end
 
     set_color normal
-    printf "\$ "
+    printf "λ "
 end
