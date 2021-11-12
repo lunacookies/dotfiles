@@ -4,7 +4,9 @@ function fish_right_prompt
     printf (prompt_pwd)
 
     if set branch (git rev-parse --abbrev-ref HEAD 2> /dev/null)
-	set_color --italics green
+	set_color green
         printf " $branch"
     end
+
+    set_color normal
 end
