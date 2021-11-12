@@ -148,6 +148,9 @@ defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 # Use Monday as the first day of the week.
 defaults write -globalDomain AppleFirstWeekday -dict gregorian 2
 
+# Autohide menu bar on the Desktop.
+defaults write -globalDomain _HIHideMenuBar -bool true
+
 #
 # Restart affected applications
 #
