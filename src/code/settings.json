@@ -58,6 +58,7 @@
   "diffEditor.renderSideBySide": false,
 
   "customizeUI.stylesheet": {
+    ".mac": "font-family: Input Sans !important",
     ".view-lines": "font-feature-settings: \"ss02\", \"ss11\", \"ss12\", \"ss13\" !important",
     ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\", \"ss13\""
   },
