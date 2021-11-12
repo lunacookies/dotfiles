@@ -5,21 +5,9 @@
 
   "editor.fontFamily": "Input Sans",
   "terminal.integrated.fontFamily": "Input Mono",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 11,
-  "terminal.integrated.fontSize": 11,
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.colorCustomizations": {
-    "rust_analyzer.inlayHints.foreground": "#636B78"
-  },
-  "editor.semanticTokenColorCustomizations": {
-    "rules": {
-      "variable": "#ABB2BF",
-      "parameter": { "foreground": "#ABB2BF", "fontStyle": "" },
-      "namespace": "#ABB2BF",
-      "lifetime": "#56B6C2"
-    }
-  },
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 10,
+  "workbench.colorTheme": "Slate",
 
   //
   // Hide annoyances
