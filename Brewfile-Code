@@ -14,6 +14,7 @@ brew "rustup-init"
 brew "tokei"
 brew "yarn"
 
+cask "adobe-creative-cloud"
 cask "anki"
 cask "appcleaner"
 cask "coconutbattery"
