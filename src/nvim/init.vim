@@ -9,6 +9,8 @@ set hidden
 set ignorecase
 set inccommand=split
 set linebreak
+set list
+set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 set mouse=a
 set numberwidth=5
 set smartcase
