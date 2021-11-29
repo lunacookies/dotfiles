@@ -96,7 +96,7 @@
     "commands": [
       {
         "match": "\\.html$",
-        "cmd": "prettier --write \"${file}\""
+        "cmd": "prettier --parser go-template --write \"${file}\""
       }
     ]
   },
