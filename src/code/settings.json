@@ -3,11 +3,11 @@
   // Colours and font
   //
 
-  "editor.fontFamily": "Input Sans",
-  "terminal.integrated.fontFamily": "Input Mono",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 10,
-  "workbench.colorTheme": "Slate",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Pale Fire",
 
   //
   // Hide annoyances
@@ -56,12 +56,6 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
-
-  "customizeUI.stylesheet": {
-    ".mac": "font-family: Input Sans !important",
-    ".view-lines": "font-feature-settings: \"ss02\", \"ss11\", \"ss12\", \"ss13\" !important",
-    ".mtki": "font-feature-settings: \"ss01\", \"ss02\", \"ss11\", \"ss12\", \"ss13\""
-  },
 
   "git.enableCommitSigning": true,
   "rust-analyzer.assist.importGranularity": "module",
