@@ -36,6 +36,7 @@
 
   "editor.cursorBlinking": "phase",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "window.titleBarStyle": "native",
   "workbench.panel.defaultLocation": "right",
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 16,
