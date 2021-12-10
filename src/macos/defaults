@@ -87,9 +87,6 @@ defaults write com.apple.Safari AutoFillPasswords -bool false
 defaults write com.apple.Safari NewTabBehavior -int 1
 defaults write com.apple.Safari NewWindowBehavior -int 1
 
-# Use compact tab layout.
-defaults write com.apple.Safari ShowStandaloneTabBar -bool false
-
 #
 # iA Writer
 #
