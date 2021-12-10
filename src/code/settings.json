@@ -8,6 +8,7 @@
   "terminal.integrated.fontSize": 12,
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Pale Fire",
+  "workbench.productIconTheme": "IntelliJ",
 
   //
   // Hide annoyances
