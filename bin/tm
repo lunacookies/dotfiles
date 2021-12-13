@@ -1,21 +1,39 @@
 #!/usr/bin/env python3
 
+from __future__ import annotations
+import os
+import pathlib
 import subprocess
-import time
+import typing
 
+FD = "/usr/local/bin/fd"
+FZF = "/usr/local/bin/fzf"
+MOSH = "/usr/local/bin/mosh"
 TMUX = "/usr/local/bin/tmux"
 
 
-def run(*args):
-    subprocess.run(list(args))
+class Cmd:
+    def __init__(self, *args):
+        self.args = list(args)
+
+    def run(self):
+        subprocess.run(self.args)
+
+    def run_with_output(self):
+        output = subprocess.run(self.args, stdout=subprocess.PIPE).stdout
+        return output.decode("utf-8").splitlines()
+
+    def pipe(self, other: Cmd):
+        from_cmd = subprocess.Popen(self.args, stdout=subprocess.PIPE)
+
+        output = subprocess.run(
+            other.args, stdin=from_cmd.stdout, stdout=subprocess.PIPE
+        ).stdout
+
+        return output.decode("utf-8").splitlines()
 
 
-def run_with_output(*args):
-    output = subprocess.run(list(args), stdout=subprocess.PIPE).stdout
-    return output.decode("utf-8").splitlines()
-
-
-def select(prompt, options):
+def select(prompt: str, options: list[tuple[str, typing.Callable]]):
     print(f"{prompt}: ")
 
     for idx, (name, _) in enumerate(options):
@@ -26,38 +44,66 @@ def select(prompt, options):
     code()
 
 
+def tmux(subcommand: str, **kwargs) -> Cmd:
+    args = [TMUX, subcommand]
+
+    for (name, value) in kwargs.items():
+        args += [f"-{name}", value]
+
+    return Cmd(*args)
+
+
 def available_tmux_sessions():
-    return run_with_output(TMUX, "list-sessions", "-F", "#S")
+    return tmux("list-sessions", F="#S").run_with_output()
 
 
-def new_session():
+def find_dirs_command(dir: str, excluding: list[str]):
+    args = [FD, ".", "--type", "d"]
+
+    for excluded_dir in excluding:
+        args += ["--exclude", excluded_dir]
+
+    args += [dir]
+
+    return Cmd(*args)
+
+
+def choose_dir(dir: str, excluding: list[str]):
+    print("Enter new session directory: ")
+    return find_dirs_command(dir, excluding).pipe(Cmd(FZF, "--height=10"))[0]
+
+
+def new_session_from_dir():
+    dir = choose_dir(pathlib.Path.home(), ["Library", "Applications"])
+    name = os.path.basename(dir)
+    tmux("new-session", s=name, c=dir).run()
+
+
+def new_session_from_name():
     name = input("Enter new session name: ")
-    run(TMUX, "new-session", "-s", name)
-
-
-def attach_session(name):
-    run(TMUX, "attach-session", "-t", name)
+    tmux("new-session", s=name).run()
 
 
 def remote():
-    run(
-        "/usr/local/bin/mosh",
+    Cmd(
+        MOSH,
         "--server=/usr/local/bin/mosh-server",
         "osmium@osmium.local",
-    )
+    ).run()
 
 
-options = (
-    list(
-        map(
-            lambda session_name: (
-                session_name,
-                lambda: attach_session(session_name),
-            ),
-            available_tmux_sessions(),
-        )
+options = list(
+    map(
+        lambda session_name: (
+            session_name,
+            lambda: tmux("attach-session", t=session_name).run(),
+        ),
+        available_tmux_sessions(),
     )
-    + [("New session", new_session), ("Remote", remote)]
-)
+) + [
+    ("New session from directory", new_session_from_dir),
+    ("New session from name", new_session_from_name),
+    ("Remote", remote),
+]
 
 select("Please choose your session", options)
