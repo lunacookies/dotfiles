@@ -4,9 +4,9 @@
     "command": "rust-analyzer.run"
   },
   {
-    "key": "enter",
-    "command": "rust-analyzer.onEnter",
-    "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
+    "key": "ctrl-j",
+    "command": "rust-analyzer.joinLines",
+    "when": "editorTextFocus && editorLangId == rust"
   },
   {
     "key": "ctrl+shift+down",
