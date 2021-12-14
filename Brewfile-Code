@@ -16,6 +16,7 @@ brew "yarn"
 
 cask "anki"
 cask "appcleaner"
+cask "balance-lock"
 cask "coconutbattery"
 cask "discord"
 cask "font-fira-mono"
