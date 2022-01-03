@@ -36,9 +36,6 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
 
-  "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.renderSideBySide": false,
-
   "git.enableCommitSigning": true,
   "rust-analyzer.assist.importGranularity": "module",
   "rust-analyzer.assist.importGroup": false,
