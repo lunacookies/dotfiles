@@ -40,7 +40,6 @@
   "rust-analyzer.assist.importGranularity": "module",
   "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.procMacro.enable": false,
   "rust-analyzer.workspace.symbol.search.kind": "all_symbols",
 
   "[javascript]": {
