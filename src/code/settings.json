@@ -1,18 +1,10 @@
 {
-  //
-  // Colours and font
-  //
-
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 12,
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Pale Fire",
   "workbench.productIconTheme": "IntelliJ",
-
-  //
-  // Hide annoyances
-  //
 
   "editor.codeLens": false,
   "editor.folding": false,
@@ -31,10 +23,6 @@
   "workbench.editor.showTabs": false,
   "workbench.list.automaticKeyboardNavigation": false,
 
-  //
-  // Small pleasant UI tweaks
-  //
-
   "editor.cursorBlinking": "phase",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "window.titleBarStyle": "native",
@@ -42,19 +30,11 @@
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 16,
 
-  //
-  // Clean up automatically
-  //
-
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-
-  //
-  // Plugins and languages
-  //
 
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
