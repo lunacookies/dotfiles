@@ -35,6 +35,15 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "‘": true,
+    "’": true,
+    "“": true,
+    "”": true
+  },
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.unicodeHighlight.includeComments": true,
 
   "git.enableCommitSigning": true,
   "rust-analyzer.assist.importGranularity": "module",
