@@ -17,3 +17,6 @@ abbr --add g git
 abbr --add vim nvim
 abbr --add ls exa
 abbr --add b brew
+abbr --add bi brew install
+abbr --add bu brew uninstall
+abbr --add bz brew uninstall --zap
