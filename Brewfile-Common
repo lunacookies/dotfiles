@@ -1,4 +1,5 @@
 tap "arzg/homebrew-vim-strand"
+tap "lhvy/tap"
 
 brew "coreutils"
 brew "dust"
@@ -9,6 +10,7 @@ brew "fish"
 brew "git"
 brew "mosh"
 brew "neovim"
+brew "pipes-rs"
 brew "renameutils"
 brew "ripgrep"
 brew "strand"
