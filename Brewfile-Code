@@ -1,17 +1,13 @@
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
-brew "fzf"
 brew "gnupg"
 brew "graphviz"
 brew "hugo"
-brew "hyperfine"
 brew "llvm"
 brew "node"
-brew "pastel"
 brew "pinentry-mac"
 brew "rustup-init"
-brew "tokei"
 brew "yarn"
 
 cask "anki"
