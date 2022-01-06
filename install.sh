@@ -124,3 +124,4 @@ install_ia_writer_template
 install_fish
 link_latex_class
 bash src/macos/defaults
+fish src/fish/set_universals.fish
