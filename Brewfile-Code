@@ -6,7 +6,6 @@ brew "graphviz"
 brew "hugo"
 brew "llvm"
 brew "node"
-brew "pinentry-mac"
 brew "rustup-init"
 brew "yarn"
 
