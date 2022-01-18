@@ -28,15 +28,6 @@ function hide_login_message() {
     touch "$HOME/.hushlogin"
 }
 
-function generate_brewfile() {
-    cp "Brewfile-Common" "Brewfile"
-
-    case $(hostname) in
-        "lunas-mbp" ) cat "Brewfile-Code" >> "Brewfile";;
-        * ) ;;
-    esac
-}
-
 function brew_install() {
     brew bundle --verbose
 }
@@ -55,8 +46,7 @@ function brew_cleanup() {
     done
 }
 
-function cleanup_brewfile() {
-    rm "Brewfile"
+function cleanup_brewfile_lock() {
     rm "Brewfile.lock.json"
 }
 
@@ -96,10 +86,9 @@ link_config \
 link_config src "$HOME/.config"
 link_desktop_to_downloads
 hide_login_message
-generate_brewfile
 brew_install
 brew_cleanup
-cleanup_brewfile
+cleanup_brewfile_lock
 install_fish
 link_latex_class
 bash src/macos/defaults
