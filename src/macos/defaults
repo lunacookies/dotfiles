@@ -115,9 +115,6 @@ defaults write pro.writer.mac WebKitDeveloperExtras -bool true
 # Preserve open windows when quitting applications.
 defaults write -globalDomain NSQuitAlwaysKeepsWindows -bool true
 
-# Customise date format in menu bar: <day> <month>  <hours>:<minutes>
-defaults write com.apple.menuextra.clock DateFormat -string 'd MMM  HH:mm'
-
 # Only show the ‘normal’ expanded control strip on the touchbar.
 defaults write com.apple.touchbar.agent PresentationModeGlobal -string 'fullControlStrip'
 
