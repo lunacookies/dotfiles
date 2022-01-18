@@ -32,7 +32,7 @@ function generate_brewfile() {
     cp "Brewfile-Common" "Brewfile"
 
     case $(hostname) in
-        "lunas-macbook-pro" ) cat "Brewfile-Code" >> "Brewfile";;
+        "lunas-mbp" ) cat "Brewfile-Code" >> "Brewfile";;
         * ) ;;
     esac
 }
