@@ -115,9 +115,6 @@ defaults write pro.writer.mac WebKitDeveloperExtras -bool true
 # Preserve open windows when quitting applications.
 defaults write -globalDomain NSQuitAlwaysKeepsWindows -bool true
 
-# Only show the ‘normal’ expanded control strip on the touchbar.
-defaults write com.apple.touchbar.agent PresentationModeGlobal -string 'fullControlStrip'
-
 # Enable screen zoom with ^Scroll.
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
 
