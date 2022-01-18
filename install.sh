@@ -67,11 +67,11 @@ function default_shell() {
 function install_fish() {
     ( \
         grep fish /etc/shells || \
-        echo /usr/local/bin/fish | sudo tee -a /etc/shells \
+        echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells \
     ) > /dev/null
 
-    if [ ! "$(default_shell)" = "/usr/local/bin/fish" ]; then
-        chsh -s /usr/local/bin/fish
+    if [ ! "$(default_shell)" = "/opt/homebrew/bin/fish" ]; then
+        chsh -s /opt/homebrew/bin/fish
     fi
 }
 
@@ -82,6 +82,8 @@ function link_latex_class() {
     mkdir -p "$template_path"
     link_config src/latex "$template_path"
 }
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 link_config \
     src/code/keybindings.json \

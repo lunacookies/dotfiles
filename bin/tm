@@ -6,10 +6,10 @@ import pathlib
 import subprocess
 import typing
 
-FD = "/usr/local/bin/fd"
-FZF = "/usr/local/bin/fzf"
-MOSH = "/usr/local/bin/mosh"
-TMUX = "/usr/local/bin/tmux"
+FD = "/opt/homebrew/bin/fd"
+FZF = "/opt/homebrew/bin/fzf"
+MOSH = "/opt/homebrew/bin/mosh"
+TMUX = "/opt/homebrew/bin/tmux"
 
 
 class Cmd:

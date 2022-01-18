@@ -1,5 +1,6 @@
-fish_add_path /usr/local/opt/coreutils/libexec/gnubin
-fish_add_path /usr/local/opt/llvm/bin
+eval (/opt/homebrew/bin/brew shellenv)
+fish_add_path /opt/homebrew/opt/coreutils/libexec/gnubin
+fish_add_path /opt/homebrew/opt/llvm/bin
 fish_add_path ~/.cargo/bin
 
 set -gx CDPATH . .. ~/Documents/Code ~/Documents/School/ ~/Documents $HOME
