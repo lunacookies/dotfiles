@@ -7,8 +7,6 @@ set -gx CDPATH . .. ~/Documents/Code ~/Documents/School/ ~/Documents $HOME
 set -gx VISUAL nvim
 set -gx EDITOR nvim
 
-set -gx HOMEBREW_CASK_OPTS --appdir=~/Applications
-
 set -gx FZF_DEFAULT_COMMAND fd
 
 set -gx CARGO_TARGET_DIR ~/.cache/cargo-target
