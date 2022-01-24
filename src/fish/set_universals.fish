@@ -16,6 +16,7 @@ abbr --add c cargo
 abbr --add g git
 abbr --add vim nvim
 abbr --add ls exa
+abbr --add tree exa --tree
 abbr --add b brew
 abbr --add bi brew install
 abbr --add bu brew uninstall

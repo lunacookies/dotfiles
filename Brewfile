@@ -27,7 +27,6 @@ brew "rustup-init"
 brew "strand"
 brew "tmux"
 brew "tokei"
-brew "tree"
 brew "yarn"
 brew "yt-dlp"
 
