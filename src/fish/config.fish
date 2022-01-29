@@ -15,7 +15,7 @@ if test ! -e "$CARGO_TARGET_DIR"
     mkdir -p "$CARGO_TARGET_DIR"
 end
 
-set -gx RUSTFLAGS "--codegen target-cpu=native --warn unreachable-pub --warn rust-2018-idioms"
+set -gx RUSTFLAGS "--warn unreachable-pub --warn rust-2018-idioms"
 
 # Fix issue with ncurses GPG pinentry not connecting to TTY properly.
 set -gx GPG_TTY (tty)
