@@ -3,6 +3,21 @@
   "editor.fontSize": 13,
   "terminal.integrated.fontSize": 12,
   "editor.fontLigatures": true,
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "unresolvedReference": { "foreground": "#F44747", "fontStyle": "bold" },
+      "*.unsafe": "#ee6864",
+      "namespace": "#aabdd1",
+      "arithmetic": "#B4B4B4",
+      "logical": "#B4B4B4",
+      "comparison": "#B4B4B4",
+      "bitwise": "#B4B4B4",
+      "macro": "#BD63C5",
+      "derive": "#BD63C5",
+      "enumMember": "#B8D7A3",
+      "comment": "#FFFFFF"
+    }
+  },
 
   "editor.codeLens": false,
   "editor.folding": false,
