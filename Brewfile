@@ -31,7 +31,7 @@ brew "tokei"
 brew "yarn"
 brew "yt-dlp"
 
-cask "anki"
+cask "adobe-creative-cloud"
 cask "appcleaner"
 cask "balance-lock"
 cask "coconutbattery"
