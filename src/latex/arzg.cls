@@ -81,9 +81,8 @@
 \setlength{\parindent}{\baselineskip}
 \abnormalparskip{0bp}
 
-\RequirePackage[osf, largesc]{newpxtext}
-\RequirePackage[osf, scale=1.02]{AlegreyaSans}
-\RequirePackage[euler-digits]{eulervm}
+\RequirePackage[oldstylenums, oldstylenumsmath, largesmallcaps]{kpfonts}
+\RequirePackage[osf, scale=0.99]{AlegreyaSans}
 
 \ifthenelse{\boolean{@arzg@sans}}{
     \renewcommand{\familydefault}{\sfdefault}
