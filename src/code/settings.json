@@ -1,21 +1,26 @@
 {
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 13,
+  "editor.fontFamily": "SF Mono",
+  "editor.fontWeight": "500",
+  "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "editor.fontLigatures": true,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "editor.semanticTokenColorCustomizations": {
-    "rules": {
-      "unresolvedReference": { "foreground": "#F44747", "fontStyle": "bold" },
-      "*.unsafe": "#ee6864",
-      "namespace": "#aabdd1",
-      "arithmetic": "#B4B4B4",
-      "logical": "#B4B4B4",
-      "comparison": "#B4B4B4",
-      "bitwise": "#B4B4B4",
-      "macro": "#BD63C5",
-      "derive": "#BD63C5",
-      "enumMember": "#B8D7A3",
-      "comment": "#FFFFFF"
+    "[GitHub Dark Dimmed]": {
+      "rules": {
+        "builtinType": "#F69D50",
+        "enumMember": "#6CB6FF",
+        "lifetime": "#6CB6FF",
+        "parameter": "#ADBAC7",
+        "namespace": "#ADBAC7"
+      }
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[GitHub Dark Dimmed]": {
+      "rust_analyzer.inlayHints.foreground": "#545d68"
     }
   },
 
@@ -105,5 +110,6 @@
   // confuses the detection system
   "[git-commit]": {
     "workbench.editor.languageDetection": false
-  }
+  },
+  "workbench.colorTheme": "GitHub Dark Dimmed"
 }
