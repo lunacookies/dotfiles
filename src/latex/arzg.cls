@@ -196,6 +196,62 @@
 \RequirePackage[british]{babel}
 \RequirePackage{csquotes}
 
+\RequirePackage[noEnd=false]{algpseudocodex}
+\tikzset{algpxIndentLine/.style={draw=gray,very thin,dashed}}
+
+\algrenewcommand\algorithmicif{}
+\algrenewcommand\algorithmicthen{}
+\algrenewcommand\algorithmicend{}
+
+\newcommand{\keyword}[1]{\textsc{#1}}
+\newcommand{\function}[1]{\textnormal{\underline{\smash{#1}}}}
+
+\ifthenelse{\boolean{@arzg@sans}}{
+    \newcommand{\fakenest}{\If{}\hspace{-0.36em}}
+    \newcommand{\fakeunnest}{\EndIf\hspace{-0.2em}}
+}{
+    \newcommand{\fakenest}{\If{}\hspace{-0.55em}}
+    \newcommand{\fakeunnest}{\EndIf\hspace{-0.3em}}
+}
+
+\newcommand{\TEXT}[1]{\textnormal{#1}}
+\newcommand{\V}[1]{\textit{#1}}
+\newcommand{\CALL}[2]{\function{#1}(#2)}
+\newcommand{\RETURN}[1]{\keyword{return}\ #1}
+\newcommand{\TRUE}{\keyword{true}\ }
+\newcommand{\FALSE}{\keyword{false}\ }
+\newcommand{\AND}{\keyword{and}\ }
+\newcommand{\OR}{\keyword{or}\ }
+\newcommand{\NOT}{\keyword{not}\ }
+\newcommand{\FN}[3]{
+    \fakenest\keyword{begin} \function{#1}(#2)
+    #3
+    \fakeunnest\keyword{end} \function{#1}
+}
+\newcommand{\IF}[2]{
+    \fakenest\keyword{if} $#1$
+    #2
+    \fakeunnest\keyword{endif}
+}
+\newcommand{\WHILE}[2]{
+    \fakenest\keyword{while} $#1$
+    #2
+    \fakeunnest\keyword{endwhile}
+}
+\newcommand{\FOR}[4]{
+    \fakenest\keyword{for} $#2$ \keyword{to} $#3$
+    #4
+    \fakeunnest\keyword{next} \V{#1}
+}
+\newcommand{\REPEAT}[2]{
+    \fakenest\keyword{repeat}
+    #1
+    \fakeunnest\keyword{until} $#2$
+}
+\newcommand{\STATE}[1]{\State $#1$}
+
+\newfloat{program}{lop}{Program}
+
 \ifthenelse{\boolean{@arzg@bibliography}}{
     \RequirePackage[
         giveninits=true,
