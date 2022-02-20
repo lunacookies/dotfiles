@@ -83,6 +83,8 @@
 
 \RequirePackage[oldstylenums, oldstylenumsmath, largesmallcaps]{kpfonts}
 \RequirePackage[osf, scale=0.99]{AlegreyaSans}
+\RequirePackage[scale=0.85]{FiraMono}
+\RequirePackage[T1]{fontenc}
 
 \ifthenelse{\boolean{@arzg@sans}}{
     \renewcommand{\familydefault}{\sfdefault}
