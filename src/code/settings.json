@@ -14,7 +14,11 @@
         "enumMember": "#6CB6FF",
         "lifetime": "#6CB6FF",
         "parameter": "#ADBAC7",
-        "namespace": "#ADBAC7"
+        "namespace": "#ADBAC7",
+        "unresolvedReference": {
+          "foreground": "#F47067",
+          "fontStyle": "underline"
+        }
       }
     }
   },
