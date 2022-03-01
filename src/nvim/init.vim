@@ -5,6 +5,7 @@
 set clipboard^=unnamed
 set colorcolumn=+1
 set completeopt+=menuone,noselect
+set cursorline
 set hidden
 set ignorecase
 set inccommand=split
@@ -12,6 +13,7 @@ set linebreak
 set list
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 set mouse=a
+set number
 set numberwidth=5
 set smartcase
 set splitbelow
