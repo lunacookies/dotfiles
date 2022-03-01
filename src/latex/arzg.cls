@@ -216,6 +216,7 @@
 }
 
 \newcommand{\TEXT}[1]{\textnormal{#1}}
+\newcommand{\STRING}[1]{\texttt{"#1"}}
 \newcommand{\V}[1]{\textit{#1}}
 \newcommand{\CALL}[2]{\function{#1}(#2)}
 \newcommand{\RETURN}[1]{\keyword{return}\ #1}
@@ -230,8 +231,15 @@
     \fakeunnest\keyword{end} \function{#1}
 }
 \newcommand{\IF}[2]{
-    \fakenest\keyword{if} $#1$
+    \fakenest\keyword{if} $#1$ \keyword{then}
     #2
+    \fakeunnest\keyword{endif}
+}
+\newcommand{\IFELSE}[3]{
+    \fakenest\keyword{if} $#1$ \keyword{then}
+    #2
+    \fakeunnest\fakenest\keyword{else}
+    #3
     \fakeunnest\keyword{endif}
 }
 \newcommand{\WHILE}[2]{
@@ -248,6 +256,14 @@
     \fakenest\keyword{repeat}
     #1
     \fakeunnest\keyword{until} $#2$
+}
+\newcommand{\CASE}[2]{
+    \fakenest\keyword{casewhere} $#1$ is
+    #2
+    \fakeunnest\keyword{endcase}
+}
+\newcommand{\CHOICE}[2] {
+    \STATE{#1 : #2}
 }
 \newcommand{\STATE}[1]{\State $#1$}
 
