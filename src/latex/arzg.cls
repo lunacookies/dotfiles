@@ -342,6 +342,44 @@
 \setlist[4]{leftmargin=3em}
 \setlist[5]{leftmargin=4em}
 
+\RequirePackage{multicol}
+\RequirePackage{changepage}
+\newenvironment{datadictionary}{
+    \ifthenelse{\boolean{@arzg@twocolumn}}{}{
+        \begin{adjustwidth}{-5\baselineskip}{-5\baselineskip}
+        \begin{multicols}{2}
+        \raggedcolumns
+    }
+    \begin{itemize}[label={}, itemsep=\bls{1}{0.5}{0.5}]
+}{
+    \end{itemize}
+    \ifthenelse{\boolean{@arzg@twocolumn}}{}{
+        \end{multicols}
+        \end{adjustwidth}
+    }
+}
+
+\newcommand{\ddentry}[5]{
+    \item {
+        \begin{samepage}
+            \begin{description}[
+                font=\color{links}\normalfont\itshape,
+                align=right,
+                leftmargin=!,
+                labelwidth=3.5em
+            ]
+                \raggedright
+                \small
+                \item[name] \texttt{#1}
+                \item[type] #2
+                \item[length] #3
+                \item[description] #4
+                \item[example] #5
+            \end{description}
+        \end{samepage}
+    }
+}
+
 \RequirePackage{tabulary}
 \RequirePackage[toc, eqno, enum, bib, lineno]{tabfigures}
 
