@@ -306,6 +306,8 @@
 \urlstyle{sf}
 
 \RequirePackage[noabbrev]{cleveref}
+\crefname{program}{program}{programs}
+\Crefname{program}{Program}{Programs}
 
 % custom quote environment that allows microtype protrusion
 % (quotes often start with an opening quote character,
