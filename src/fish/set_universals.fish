@@ -1,14 +1,14 @@
 set -U fish_greeting ""
 
-set -U fish_color_command DCBDFB
-set -U fish_color_keyword F47067
-set -U fish_color_operator ADBAC7
-set -U fish_color_redirection ADBAC7
-set -U fish_color_param ADBAC7
-set -U fish_color_end ADBAC7
-set -U fish_color_quote 96D0FF
-set -U fish_color_escape 6CB6FF
-set -U fish_color_comment 768390
+set -U fish_color_command --bold magenta
+set -U fish_color_keyword --bold magenta
+set -U fish_color_operator white
+set -U fish_color_redirection white
+set -U fish_color_param green
+set -U fish_color_end white
+set -U fish_color_quote red
+set -U fish_color_escape white
+set -U fish_color_comment brblack
 set -U fish_color_error --underline red
 set -U fish_color_autosuggestion brblack
 

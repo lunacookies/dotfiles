@@ -56,3 +56,10 @@ nnoremap ,g :Rg<CR>
 nnoremap ,o :only<CR>
 nnoremap ,s :split<CR>
 nnoremap ,v :vsplit<CR>
+
+"
+" Colour scheme
+"
+
+set termguicolors
+colorscheme xcodedark

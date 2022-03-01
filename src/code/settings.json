@@ -4,29 +4,7 @@
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "editor.fontLigatures": true,
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
-  "editor.semanticTokenColorCustomizations": {
-    "[GitHub Dark Dimmed]": {
-      "rules": {
-        "builtinType": "#F69D50",
-        "enumMember": "#6CB6FF",
-        "lifetime": "#6CB6FF",
-        "parameter": "#ADBAC7",
-        "namespace": "#ADBAC7",
-        "unresolvedReference": {
-          "foreground": "#F47067",
-          "fontStyle": "underline"
-        }
-      }
-    }
-  },
-  "workbench.colorCustomizations": {
-    "[GitHub Dark Dimmed]": {
-      "rust_analyzer.inlayHints.foreground": "#545d68"
-    }
-  },
+  "workbench.colorTheme": "Xcode 11 Default Dark",
 
   "editor.codeLens": false,
   "editor.folding": false,
@@ -115,5 +93,4 @@
   "[git-commit]": {
     "workbench.editor.languageDetection": false
   },
-  "workbench.colorTheme": "GitHub Dark Dimmed"
 }

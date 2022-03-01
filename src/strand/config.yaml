@@ -1,6 +1,7 @@
 plugin_dir: ~/.config/nvim/pack/strand/start
 
 plugins:
+  - Git: arzg/vim-colors-xcode
   - Git: arzg/vim-rust-syntax-ext
   - Git: jiangmiao/auto-pairs
   - Git: junegunn/fzf.vim
