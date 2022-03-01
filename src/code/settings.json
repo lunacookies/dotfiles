@@ -92,4 +92,11 @@
   "[git-commit]": {
     "workbench.editor.languageDetection": false
   },
+
+  "[latex]": {
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 66
+  },
+  "latex-workshop.view.pdf.viewer": "tab"
 }
