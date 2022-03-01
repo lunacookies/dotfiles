@@ -19,7 +19,6 @@
   "workbench.editor.showTabs": false,
   "workbench.list.automaticKeyboardNavigation": false,
 
-  "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 1,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
