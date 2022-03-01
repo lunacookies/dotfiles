@@ -3,7 +3,6 @@
   "editor.fontWeight": "500",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
-  "editor.fontLigatures": true,
   "workbench.colorTheme": "Xcode 11 Default Dark",
 
   "editor.codeLens": false,
