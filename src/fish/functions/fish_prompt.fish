@@ -8,7 +8,7 @@ function fish_prompt
         set_color normal
     end
 
-    set_color brblack
+    set_color cyan
     printf "%s " (prompt_pwd)
 
     if set branch (git rev-parse --abbrev-ref HEAD 2> /dev/null)
@@ -18,6 +18,6 @@ function fish_prompt
 
     printf "\n"
 
-    set_color normal
+    set_color brcyan
     printf "→ "
 end
