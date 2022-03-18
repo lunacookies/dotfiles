@@ -28,7 +28,7 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "window.titleBarStyle": "native",
   "workbench.sideBar.location": "right",
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 24,
 
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
