@@ -34,6 +34,8 @@
     detect-all,
     % separate digit groups with comma
     group-separator={,},
+    % don’t group digits after the decimal point
+    group-digits=integer,
     % show digit group separator with four digits (e.g. 1,000)
     group-minimum-digits=4,
     % J/kg/°C instead of J kg⁻¹ °C⁻¹
