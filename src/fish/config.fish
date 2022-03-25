@@ -3,7 +3,7 @@ fish_add_path /opt/homebrew/opt/coreutils/libexec/gnubin
 fish_add_path /opt/homebrew/opt/llvm/bin
 fish_add_path ~/.cargo/bin
 
-set -gx CDPATH . .. ~/Documents/Code ~/Documents/School/ ~/Documents $HOME
+set -gx CDPATH . .. ~/Documents/Code ~/My\ Drive/ ~/Documents $HOME
 
 set -gx VISUAL nvim
 set -gx EDITOR nvim
