@@ -108,5 +108,26 @@
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none"
   },
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "main",
+      "tools": ["luna"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "luna",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-lualatex",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
   "latex-workshop.view.pdf.viewer": "tab"
 }
