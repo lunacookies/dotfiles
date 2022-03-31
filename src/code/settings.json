@@ -97,7 +97,16 @@
   "[latex]": {
     "editor.formatOnSave": false,
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 66
+    "editor.wordWrapColumn": 66,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0,
+    "editor.fontFamily": "iA Writer Duo S",
+    "editor.lineNumbers": "off",
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "none"
   },
   "latex-workshop.view.pdf.viewer": "tab"
 }
