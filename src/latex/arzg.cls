@@ -83,10 +83,33 @@
 \setlength{\parindent}{\baselineskip}
 \abnormalparskip{0bp}
 
-\RequirePackage[oldstylenums, oldstylenumsmath, largesmallcaps]{kpfonts}
-\RequirePackage[osf, scale=0.99]{AlegreyaSans}
-\RequirePackage[scale=0.85]{FiraMono}
-\RequirePackage[T1]{fontenc}
+\RequirePackage{fontspec}
+\setmainfont[
+    Scale=1.1,
+    Numbers={OldStyle, Proportional},
+    SizeFeatures={
+        {Size={-8.5}, OpticalSize=8},
+        {Size={8.5-11}, OpticalSize=10},
+        {Size={11-14}, OpticalSize=12},
+        {Size={14-21.5}, OpticalSize=18},
+        {Size={21.5-}, OpticalSize=36}
+    }
+]{Arno Pro}
+\setsansfont[
+    Scale=MatchLowercase,
+    Numbers={OldStyle, Proportional},
+    SizeFeatures={
+        {Size={-8.4}, OpticalSize=8},
+        {Size={8.4-13}, OpticalSize=11},
+        {Size={13-19.9}, OpticalSize=19},
+        {Size={19.9-}, OpticalSize=72}
+    }
+]{Cronos Pro}
+\setmonofont[
+    Scale=MatchLowercase,
+    Numbers=OldStyle
+]{Fira Mono}
+\RequirePackage[euler-digits]{eulervm}
 
 \ifthenelse{\boolean{@arzg@sans}}{
     \renewcommand{\familydefault}{\sfdefault}
