@@ -214,12 +214,12 @@
 \setbeforesecskip{\bls{-3}{-0.5}{0}}
 \setaftersecskip{\bls{1.5}{0.5}{0}}
 
-\setsubsubsecheadstyle{\scshape\lowercase}
 \setbeforesubsecskip{\bls{-2}{-0.5}{0}}
 \setaftersubsecskip{\bls{1}{0.5}{0}}
 
 \captionstyle{\small\itshape}
 \captionnamefont{\small\scshape}
+\setsubsubsecheadstyle{\scshape\addfontfeature{Letters=UppercaseSmallCaps}}
 \ifthenelse{\NOT \boolean{@arzg@twocolumn}}{
     \newlength{\cw}
     \settowidth{\cw}{\small\itshape\optimalline}
@@ -377,7 +377,7 @@
     \ignorespacesafterend
 }
 
-\newcommand{\abbr}[1]{\textsc{\MakeLowercase{#1}}}
+\newcommand{\abbr}[1]{\textsc{\addfontfeature{Letters=UppercaseSmallCaps}#1}}
 
 \RequirePackage{enumitem}
 \setlist{nosep}
