@@ -107,7 +107,9 @@
     "editor.folding": false,
     "editor.glyphMargin": false,
     "editor.minimap.enabled": false,
-    "editor.renderLineHighlight": "none"
+    "editor.renderLineHighlight": "none",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false
   },
   "latex-workshop.latex.recipes": [
     {
