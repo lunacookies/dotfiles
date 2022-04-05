@@ -50,20 +50,20 @@
 \frenchspacing
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
-    \renewcommand{\Large}{\@setfontsize\Large{15bp}{19bp}}
+    \renewcommand{\Large}{\@setfontsize\Large{22bp}{29bp}}
     \renewcommand{\large}{\@setfontsize\large{12bp}{15bp}}
     \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{11bp}{13bp}}
     \renewcommand{\normalsize}{\@setfontsize\normalsize{10bp}{13bp}}
     \renewcommand{\small}{\@setfontsize\small{8bp}{10bp}}
 }{
     \ifthenelse{\boolean{@arzg@doublespace}}{
-        \renewcommand{\Large}{\@setfontsize\Large{18bp}{36bp}}
+        \renewcommand{\Large}{\@setfontsize\Large{22bp}{44bp}}
         \renewcommand{\large}{\@setfontsize\large{14bp}{28bp}}
         \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{26bp}}
         \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{24bp}}
         \renewcommand{\small}{\@setfontsize\small{10bp}{20bp}}
     }{
-        \renewcommand{\Large}{\@setfontsize\Large{18bp}{22bp}}
+        \renewcommand{\Large}{\@setfontsize\Large{22bp}{29bp}}
         \renewcommand{\large}{\@setfontsize\large{14bp}{18bp}}
         \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{16bp}}
         \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{16bp}}
@@ -152,9 +152,12 @@
         \vspace{\bls{2}{1}{0.5}}
         {
             \begin{center}
-                {\Large\thetitle}\\
+                \Large
+                \thetitle\\
                 \vspace{\bls{1}{0.5}{0}}
+                \large
                 \theauthor\\
+                \vspace{\bls{0.5}{0.25}{0.25}}
                 \thedate
             \end{center}
         }
