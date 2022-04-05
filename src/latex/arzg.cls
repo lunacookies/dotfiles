@@ -211,15 +211,15 @@
 \setaftersecskip{\bls{2}{0.5}{0}}
 
 \setsubsecheadstyle{\slightlylarger\itshape}
-\setbeforesecskip{\bls{-3}{-0.5}{0}}
-\setaftersecskip{\bls{1.5}{0.5}{0}}
-
 \setbeforesubsecskip{\bls{-2}{-0.5}{0}}
 \setaftersubsecskip{\bls{1}{0.5}{0}}
 
-\captionstyle{\small\itshape}
-\captionnamefont{\small\scshape}
 \setsubsubsecheadstyle{\scshape\addfontfeature{Letters=UppercaseSmallCaps}}
+\setbeforesubsubsecskip{\bls{-0.5}{-0.25}{0}}
+\setaftersubsubsecskip{\bls{0.5}{0.25}{0}}
+
+\captionstyle{\small\sffamily}
+\captionnamefont{\small\sffamily\scshape\addfontfeature{Letters=UppercaseSmallCaps}}
 \ifthenelse{\NOT \boolean{@arzg@twocolumn}}{
     \newlength{\cw}
     \settowidth{\cw}{\small\itshape\optimalline}
