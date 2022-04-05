@@ -46,7 +46,7 @@
 \DeclareSIUnit{\atm}{atm}
 \DeclareSIUnit{\M}{M}
 
-\RequirePackage[final, tracking=true, letterspace=50]{microtype}
+\RequirePackage[final]{microtype}
 \frenchspacing
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
@@ -89,6 +89,7 @@
 \setmainfont[
     Scale=1.1,
     Numbers={OldStyle, Proportional},
+    SmallCapsFeatures={LetterSpace=5},
     SizeFeatures={
         {Size={-8.5}, OpticalSize=8},
         {Size={8.5-11}, OpticalSize=10},
@@ -100,6 +101,7 @@
 \setsansfont[
     Scale=MatchLowercase,
     Numbers={OldStyle, Proportional},
+    SmallCapsFeatures={LetterSpace=5},
     SizeFeatures={
         {Size={-8.4}, OpticalSize=8},
         {Size={8.4-13}, OpticalSize=11},
