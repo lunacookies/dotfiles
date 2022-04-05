@@ -1,3 +1,5 @@
+% vim: set filetype=tex nomodeline:
+
 \ProvidesClass{arzg}
 \NeedsTeXFormat{LaTeX2e}
 
