@@ -132,5 +132,6 @@
       "env": {}
     }
   ],
-  "latex-workshop.view.pdf.viewer": "tab"
+  "latex-workshop.view.pdf.viewer": "tab",
+  "ltex.language": "en-GB"
 }
