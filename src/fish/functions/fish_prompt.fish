@@ -19,5 +19,5 @@ function fish_prompt
     printf "\n"
 
     set_color brcyan
-    printf "→ "
+    printf "λ "
 end
