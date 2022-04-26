@@ -9,11 +9,6 @@
     "when": "editorTextFocus && editorLangId == rust"
   },
   {
-    "key": "ctrl-j",
-    "command": "rust-analyzer.joinLines",
-    "when": "editorTextFocus && editorLangId == rust"
-  },
-  {
     "key": "ctrl+shift+down",
     "command": "rust-analyzer.moveItemDown"
   },
