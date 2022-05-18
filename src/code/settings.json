@@ -17,7 +17,7 @@
   "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
   "editor.parameterHints.enabled": false,
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "trailing",
   "editor.roundedSelection": false,
   "editor.wordBasedSuggestions": false,
   "scm.diffDecorationsGutterWidth": 2,
