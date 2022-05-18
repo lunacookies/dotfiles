@@ -49,10 +49,10 @@
   "editor.unicodeHighlight.includeComments": true,
 
   "git.enableCommitSigning": true,
-  "rust-analyzer.assist.importGranularity": "module",
-  "rust-analyzer.assist.importGroup": false,
   "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.diagnostics.enableExperimental": true,
+  "rust-analyzer.diagnostics.experimental.enable": true,
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.imports.group.enable": false,
   "rust-analyzer.workspace.symbol.search.kind": "all_symbols",
 
   "[css]": {
