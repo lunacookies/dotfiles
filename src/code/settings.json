@@ -28,7 +28,6 @@
 
   "editor.cursorWidth": 1,
   "editor.renderLineHighlight": "all",
-  "editor.rulers": [100],
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "window.titleBarStyle": "native",
   "workbench.sideBar.location": "right",
