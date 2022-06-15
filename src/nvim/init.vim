@@ -38,7 +38,6 @@ let g:rustfmt_autosave = 1
 
 " MUcomplete
 
-let g:mucomplete#enable_auto_at_startup = 1
 let g:mucomplete#chains = {
 			\ 'vim': ['path', 'cmd', 'c-n'],
 			\ 'default': ['path', 'omni', 'c-n', 'dict', 'uspl']
