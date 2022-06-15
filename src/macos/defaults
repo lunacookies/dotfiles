@@ -118,15 +118,6 @@ defaults write -globalDomain NSQuitAlwaysKeepsWindows -bool true
 # Always show the menu bar in fullscreen.
 defaults write -globalDomain AppleMenuBarVisibleInFullscreen -bool true
 
-# Enable screen zoom with ^Scroll.
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-
-# Disable smoothing of screen when zoomed in.
-defaults write com.apple.universalaccess closeViewSmoothImages -bool false
-
-# Move zoomed-in region continuously with the cursor.
-defaults write com.apple.universalaccess closeViewPanningMode -int 0
-
 # Always show proxy icons.
 defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 
