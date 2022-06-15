@@ -5,14 +5,12 @@
 set clipboard^=unnamed
 set colorcolumn=+1
 set completeopt+=menuone,noselect
-set cursorline
 set hidden
 set ignorecase
 set inccommand=split
 set linebreak
 set list
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
-set number
 set numberwidth=5
 set smartcase
 set splitbelow
@@ -61,5 +59,21 @@ nnoremap ,v :vsplit<CR>
 " Colour scheme
 "
 
-set termguicolors
-colorscheme xcodedark
+highlight Statement ctermfg=darkmagenta
+highlight Comment ctermfg=white cterm=bold
+highlight Special ctermfg=darkcyan
+highlight Identifier ctermfg=NONE cterm=NONE
+highlight Type ctermfg=cyan
+highlight Function ctermfg=blue
+highlight PreProc ctermfg=green
+highlight Constant ctermfg=green
+highlight Visual ctermfg=white ctermbg=8 cterm=NONE
+highlight StatusLine ctermfg=8 ctermbg=NONE cterm=bold
+highlight StatusLineNC ctermfg=8 ctermbg=NONE cterm=NONE
+highlight VertSplit ctermfg=black ctermbg=black cterm=NONE
+highlight ModeMsg ctermfg=8 cterm=NONE
+highlight ColorColumn ctermbg=black
+highlight LineNr ctermfg=8 ctermbg=black
+highlight CursorLineNr ctermfg=NONE ctermbg=black cterm=NONE
+highlight CursorLine ctermbg=black cterm=NONE
+highlight NonText ctermfg=8
