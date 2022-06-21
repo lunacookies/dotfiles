@@ -1,7 +1,3 @@
-"
-" Options
-"
-
 set clipboard^=unnamed
 set colorcolumn=+1
 set completeopt+=menuone,noselect
@@ -18,33 +14,21 @@ set splitright
 
 let &statusline = " %f %w%r%m%=%l:%-6c "
 
-"
 " Plugin config
-"
-
-" EasyAlign
 
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
-" fzf
-
 set runtimepath+=/opt/homebrew/opt/fzf
 
-" Rust
-
 let g:rustfmt_autosave = 1
-
-" MUcomplete
 
 let g:mucomplete#chains = {
 			\ 'vim': ['path', 'cmd', 'c-n'],
 			\ 'default': ['path', 'omni', 'c-n', 'dict', 'uspl']
 			\ }
 
-"
 " Mappings
-"
 
 nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
 nnoremap <expr> j v:count == 0 ? 'gj' : 'j'
@@ -60,9 +44,7 @@ nnoremap ,o :only<CR>
 nnoremap ,s :split<CR>
 nnoremap ,v :vsplit<CR>
 
-"
 " Colour scheme
-"
 
 highlight Statement ctermfg=darkmagenta
 highlight Comment ctermfg=white cterm=bold
