@@ -47,6 +47,9 @@ let g:mucomplete#chains = {
 nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
 nnoremap <expr> j v:count == 0 ? 'gj' : 'j'
 
+vnoremap < <gv
+vnoremap > >gv
+
 nnoremap ,b :Buffers<CR>
 nnoremap ,c :close<CR>
 nnoremap ,f :Files<CR>
