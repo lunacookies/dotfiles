@@ -80,5 +80,11 @@ highlight LineNr ctermfg=8 ctermbg=black
 highlight CursorLineNr ctermfg=NONE ctermbg=black cterm=NONE
 highlight CursorLine ctermbg=black cterm=NONE
 highlight NonText ctermfg=8
+highlight Search ctermfg=white ctermbg=darkcyan cterm=NONE
+highlight IncSearch ctermfg=black ctermbg=yellow cterm=NONE
+highlight Pmenu ctermfg=white ctermbg=black cterm=NONE
+highlight PmenuSel ctermfg=white ctermbg=8 cterm=NONE
+highlight PmenuSbar ctermfg=black ctermbg=black
+highlight PmenuThumb ctermfg=white ctermbg=white
 highlight diffAdded ctermfg=green
 highlight diffRemoved ctermfg=red
