@@ -71,7 +71,7 @@ highlight Function ctermfg=blue
 highlight PreProc ctermfg=green
 highlight Constant ctermfg=green
 highlight Visual ctermfg=white ctermbg=8 cterm=NONE
-highlight StatusLine ctermfg=8 ctermbg=NONE cterm=bold
+highlight StatusLine ctermfg=white ctermbg=8 cterm=NONE
 highlight StatusLineNC ctermfg=8 ctermbg=NONE cterm=NONE
 highlight VertSplit ctermfg=black ctermbg=black cterm=NONE
 highlight ModeMsg ctermfg=8 cterm=NONE
