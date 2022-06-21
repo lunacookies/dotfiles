@@ -80,3 +80,5 @@ highlight LineNr ctermfg=8 ctermbg=black
 highlight CursorLineNr ctermfg=NONE ctermbg=black cterm=NONE
 highlight CursorLine ctermbg=black cterm=NONE
 highlight NonText ctermfg=8
+highlight diffAdded ctermfg=green
+highlight diffRemoved ctermfg=red
