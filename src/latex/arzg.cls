@@ -345,9 +345,9 @@
     \pagecolor{bg}
     \color{fg}
 }{
-    \definecolor{red}{HTML}{972f00}
-    \colorlet{links}{red}
-    \colorlet{computed}{red}
+    \definecolor{blue}{HTML}{385FAB}
+    \colorlet{links}{blue}
+    \colorlet{computed}{blue}
 }
 
 \RequirePackage[
