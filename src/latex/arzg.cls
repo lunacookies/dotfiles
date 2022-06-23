@@ -128,7 +128,7 @@
 \newcommand{\optimallinewidth}{\widthof{\optimalline}}
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
-    \settypeblocksize{52\baselineskip}{\optimallinewidth * \real{1.618}}{*}
+    \settypeblocksize{52\baselineskip}{\optimallinewidth * \real{1.7}}{*}
     \setlength\columnsep{1.5\baselineskip}
 }{
     \ifthenelse{\boolean{@arzg@doublespace}}{
