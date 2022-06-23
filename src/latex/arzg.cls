@@ -120,6 +120,9 @@
     \renewcommand{\familydefault}{\sfdefault}
 }{}
 
+\usepackage{selnolig}
+\nolig{Th}{T|h}
+
 \RequirePackage{calc}
 \newcommand{\optimalline}{Cras dignissim nisi nec dolor blandit, ut varius ex pellentesque. Vestib-}
 \newcommand{\optimallinewidth}{\widthof{\optimalline}}
