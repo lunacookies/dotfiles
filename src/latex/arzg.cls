@@ -141,9 +141,17 @@
 \setulmargins{*}{*}{2}
 
 \setheadfoot{\baselineskip}{3\spaceinc}
+\RequirePackage{lastpage}
 \makepagestyle{arzg}
-\makeevenfoot{arzg}{\normalfont\thepage}{}{}
-\makeoddfoot{arzg}{}{}{\normalfont\thepage}
+\makeoddfoot{arzg}
+    {
+        \normalfont
+        \sffamily
+        \textsc{\addfontfeature{Letters=UppercaseSmallCaps}\thetitle}
+    }
+    {}
+    % \pageref* suppresses making a hyperlink to the last page
+    {\normalfont\sffamily{}page \thepage{} of \pageref*{LastPage}}
 \pagestyle{arzg}
 
 \checkandfixthelayout
