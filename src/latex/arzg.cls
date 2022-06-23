@@ -325,7 +325,7 @@
     \DeclareNameAlias{default}{given-family}
 
     \addbibresource{References.bib}
-    \defbibheading{bibliography}[\bibname]{\section{#1}}
+    \defbibheading{bibliography}[\bibname]{\section*{#1}}
 }{}
 
 \RequirePackage{xcolor}
