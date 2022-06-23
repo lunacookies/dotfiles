@@ -336,12 +336,12 @@
 
 \RequirePackage{xcolor}
 \ifthenelse{\boolean{@arzg@darkmode}}{
-    \definecolor{blue}{HTML}{6699FF}
+    \definecolor{blue}{HTML}{9CD9F0}
     \colorlet{links}{blue}
     \colorlet{computed}{blue}
 
-    \definecolor{bg}{HTML}{292A30}
-    \definecolor{fg}{HTML}{DFDFE0}
+    \definecolor{bg}{HTML}{242424}
+    \definecolor{fg}{HTML}{F7F7F7}
     \pagecolor{bg}
     \color{fg}
 }{
