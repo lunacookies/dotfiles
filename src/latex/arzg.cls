@@ -326,6 +326,9 @@
 
     \addbibresource{References.bib}
     \defbibheading{bibliography}[\bibname]{\section*{#1}}
+
+    % make bibliography smaller than body text
+    \renewcommand*{\bibfont}{\small}
 }{}
 
 \RequirePackage{xcolor}
