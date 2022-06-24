@@ -97,7 +97,28 @@
         {Size={11-14}, OpticalSize=12},
         {Size={14-21.5}, OpticalSize=18},
         {Size={21.5-}, OpticalSize=36}
-    }
+    },
+    ItalicFeatures={SizeFeatures={
+        {Size={-8.5}, OpticalSize=8},
+        {Size={8.5-11}, OpticalSize=10},
+        {Size={11-14}, OpticalSize=12},
+        {Size={14-21.5}, OpticalSize=18},
+        {Size={21.5-}, OpticalSize=36}
+    }},
+    BoldFeatures={SizeFeatures={
+        {Size={-8.5}, OpticalSize=8},
+        {Size={8.5-11}, OpticalSize=10},
+        {Size={11-14}, OpticalSize=12},
+        {Size={14-21.5}, OpticalSize=18},
+        {Size={21.5-}, OpticalSize=36}
+    }},
+    BoldItalicFeatures={SizeFeatures={
+        {Size={-8.5}, OpticalSize=8},
+        {Size={8.5-11}, OpticalSize=10},
+        {Size={11-14}, OpticalSize=12},
+        {Size={14-21.5}, OpticalSize=18},
+        {Size={21.5-}, OpticalSize=36}
+    }}
 ]{Arno Pro}
 \setsansfont[
     Scale=MatchLowercase,
@@ -108,7 +129,25 @@
         {Size={8.4-13}, OpticalSize=11},
         {Size={13-19.9}, OpticalSize=19},
         {Size={19.9-}, OpticalSize=72}
-    }
+    },
+    ItalicFeatures={SizeFeatures={
+        {Size={-8.4}, OpticalSize=8},
+        {Size={8.4-13}, OpticalSize=11},
+        {Size={13-19.9}, OpticalSize=19},
+        {Size={19.9-}, OpticalSize=72}
+    }},
+    BoldFeatures={SizeFeatures={
+        {Size={-8.4}, OpticalSize=8},
+        {Size={8.4-13}, OpticalSize=11},
+        {Size={13-19.9}, OpticalSize=19},
+        {Size={19.9-}, OpticalSize=72}
+    }},
+    BoldItalicFeatures={SizeFeatures={
+        {Size={-8.4}, OpticalSize=8},
+        {Size={8.4-13}, OpticalSize=11},
+        {Size={13-19.9}, OpticalSize=19},
+        {Size={19.9-}, OpticalSize=72}
+    }}
 ]{Cronos Pro}
 \setmonofont[
     Scale=MatchLowercase,
