@@ -187,6 +187,7 @@
         \normalfont
         \sffamily
         \textsc{\addfontfeature{Letters=UppercaseSmallCaps}\thetitle}
+        \quad•\quad\theauthor
     }
     {}
     % \pageref* suppresses making a hyperlink to the last page
