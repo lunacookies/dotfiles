@@ -11,10 +11,6 @@ defaults write -globalDomain KeyRepeat -float 2
 # Press the Fn key to show Emoji & Symbols.
 defaults write com.apple.HIToolbox AppleFnUsageType -int 2
 
-# Use the Light click force.
-defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
-defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 0
-
 #
 # Finder
 #
