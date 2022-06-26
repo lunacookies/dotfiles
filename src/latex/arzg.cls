@@ -50,6 +50,7 @@
 \frenchspacing
 
 \ifthenelse{\boolean{@arzg@twocolumn}}{
+    \renewcommand{\LARGE}{\@setfontsize\LARGE{35bp}{46bp}}
     \renewcommand{\Large}{\@setfontsize\Large{22bp}{29bp}}
     \renewcommand{\large}{\@setfontsize\large{12bp}{15bp}}
     \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{11bp}{14bp}}
@@ -57,12 +58,14 @@
     \renewcommand{\small}{\@setfontsize\small{8bp}{10bp}}
 }{
     \ifthenelse{\boolean{@arzg@doublespace}}{
+        \renewcommand{\LARGE}{\@setfontsize\LARGE{35bp}{70bp}}
         \renewcommand{\Large}{\@setfontsize\Large{22bp}{44bp}}
         \renewcommand{\large}{\@setfontsize\large{14bp}{28bp}}
         \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{26bp}}
         \renewcommand{\normalsize}{\@setfontsize\normalsize{12bp}{24bp}}
         \renewcommand{\small}{\@setfontsize\small{10bp}{20bp}}
     }{
+        \renewcommand{\LARGE}{\@setfontsize\LARGE{35bp}{47bp}}
         \renewcommand{\Large}{\@setfontsize\Large{22bp}{29bp}}
         \renewcommand{\large}{\@setfontsize\large{14bp}{18bp}}
         \newcommand{\slightlylarger}{\@setfontsize\slightlylarger{13bp}{17bp}}
@@ -207,7 +210,7 @@
         \vspace{\bls{2}{1}{0.5}}
         {
             \begin{center}
-                \Large
+                \LARGE
                 \thetitle\\
                 \vspace{\bls{1}{0.5}{0}}
                 \large
