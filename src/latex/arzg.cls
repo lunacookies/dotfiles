@@ -89,7 +89,6 @@
 \setmainfont[
     Scale=1.1,
     Numbers={OldStyle, Proportional},
-    StylisticSet={1},
     SmallCapsFeatures={LetterSpace=5},
     SizeFeatures={
         {Size={-8.5}, OpticalSize=8},
