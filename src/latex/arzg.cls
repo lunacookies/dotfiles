@@ -440,14 +440,14 @@
 \RequirePackage{enumitem}
 \setlist{nosep}
 \setlist[1]{
-    leftmargin=0em,
+    leftmargin=1em,
     topsep=\bls{1}{0.5}{0.5},
     itemsep=\bls{0.5}{0.25}{0.25}
 }
-\setlist[2]{leftmargin=1em}
-\setlist[3]{leftmargin=2em}
-\setlist[4]{leftmargin=3em}
-\setlist[5]{leftmargin=4em}
+\setlist[2]{leftmargin=2em}
+\setlist[3]{leftmargin=3em}
+\setlist[4]{leftmargin=4em}
+\setlist[5]{leftmargin=5em}
 
 \RequirePackage{multicol}
 \RequirePackage{changepage}
