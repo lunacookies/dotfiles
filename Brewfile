@@ -4,7 +4,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "lhvy/tap"
 
-brew "coreutils"
 brew "dust"
 brew "exa"
 brew "fd"

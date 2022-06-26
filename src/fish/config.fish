@@ -1,5 +1,4 @@
 eval (/opt/homebrew/bin/brew shellenv)
-fish_add_path /opt/homebrew/opt/coreutils/libexec/gnubin
 fish_add_path /opt/homebrew/opt/llvm/bin
 fish_add_path ~/.cargo/bin
 
