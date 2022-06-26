@@ -3,7 +3,6 @@
 [user]
 name = Luna Razzaghipour
 email = aramisnoah@gmail.com
-signingkey = 1A3A9C4A5CDB108B
 
 [alias]
 br = branch
@@ -15,7 +14,6 @@ sync = !git checkout master && git pull && git fetch upstream && git rebase upst
 
 [commit]
 verbose = true # Show the diff of each commit when editing the message.
-gpgsign = true # Sign all commits
 
 [status]
 short = true # Use short status format
