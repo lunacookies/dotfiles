@@ -95,14 +95,16 @@
         {Size={8.5-11}, OpticalSize=10},
         {Size={11-14}, OpticalSize=12},
         {Size={14-21.5}, OpticalSize=18},
-        {Size={21.5-}, OpticalSize=36}
+        {Size={21.5-30}, OpticalSize=36},
+        {Size={30-}, Font={Arno Pro Light Display}}
     },
     ItalicFeatures={SizeFeatures={
         {Size={-8.5}, OpticalSize=8},
         {Size={8.5-11}, OpticalSize=10},
         {Size={11-14}, OpticalSize=12},
         {Size={14-21.5}, OpticalSize=18},
-        {Size={21.5-}, OpticalSize=36}
+        {Size={21.5-30}, OpticalSize=36},
+        {Size={30-}, Font={Arno Pro Light Italic Display}}
     }},
     BoldFeatures={SizeFeatures={
         {Size={-8.5}, OpticalSize=8},
