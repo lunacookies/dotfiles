@@ -44,6 +44,14 @@ nnoremap ,o :only<CR>
 nnoremap ,s :split<CR>
 nnoremap ,v :vsplit<CR>
 
+" Autocmds
+
+augroup vimrc
+	autocmd!
+	autocmd BufWritePost *.html,*.scss,*.md silent! !prettier -w %
+	autocmd BufRead *.html,*.scss,*.md set sts=2 sw=2 et
+augroup END
+
 " Colour scheme
 
 highlight Statement ctermfg=darkmagenta
