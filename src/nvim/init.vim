@@ -12,7 +12,7 @@ set smartcase
 set splitbelow
 set splitright
 
-let &statusline = " %f %w%r%m%=%l:%-6c "
+let &statusline = " %f %y%w%r%m%=%l:%-6c "
 
 " Plugin config
 
