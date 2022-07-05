@@ -13,6 +13,7 @@ syntax match psyString '\\.*'
 syntax region psyCharacter start="'" end="'" skip="\\'" oneline
 syntax match psyNumber '\v[0-9]+'
 syntax match psyComment '#.*'
+syntax match psyOperator '[+\-*/=><|&.!]'
 
 highlight default link psyKeyword Keyword
 highlight default link psyType Type
@@ -22,3 +23,4 @@ highlight default link psyString String
 highlight default link psyNumber Number
 highlight default link psyCharacter Character
 highlight default link psyComment Comment
+highlight default link psyOperator Operator
