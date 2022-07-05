@@ -75,14 +75,6 @@ function link_latex_class() {
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-link_config \
-    src/code/keybindings.json \
-    "$HOME/Library/Application Support/Code/User/keybindings.json"
-
-link_config \
-    src/code/settings.json \
-    "$HOME/Library/Application Support/Code/User/settings.json"
-
 link_config src "$HOME/.config"
 link_desktop_to_downloads
 hide_login_message
