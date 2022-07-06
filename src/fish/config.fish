@@ -18,3 +18,6 @@ set -gx RUSTFLAGS "--warn unreachable-pub --warn rust-2018-idioms"
 
 # open manpages in Nvim
 set -gx MANPAGER "nvim +Man!"
+
+# wrap manpage to a narrower width for ease of reading
+set -gx MANWIDTH 72
