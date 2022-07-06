@@ -4,7 +4,7 @@ endif
 
 let b:current_syntax = "psychictelegram"
 
-syntax keyword psyKeyword fn struct let if else for return break
+syntax keyword psyKeyword fn struct enum let if else for return break make append slicelen
 syntax keyword psyType int char
 syntax match psyIdentifier '\v[a-zA-Z_][a-zA-Z0-9_]*'
 syntax match psyFunction '\v[a-zA-Z_][a-zA-Z0-9_]*(\()@='
