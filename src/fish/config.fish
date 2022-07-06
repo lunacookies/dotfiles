@@ -15,3 +15,6 @@ if test ! -e "$CARGO_TARGET_DIR"
 end
 
 set -gx RUSTFLAGS "--warn unreachable-pub --warn rust-2018-idioms"
+
+# open manpages in Nvim
+set -gx MANPAGER "nvim +Man!"
