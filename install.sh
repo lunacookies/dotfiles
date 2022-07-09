@@ -65,14 +65,6 @@ function install_fish() {
     fi
 }
 
-function link_latex_class() {
-    texmfhome=$(kpsewhich -var-value=TEXMFHOME)
-    template_path="$texmfhome/tex/latex/arzg"
-    rm_if_exists "$template_path"
-    mkdir -p "$template_path"
-    link_config src/latex "$template_path"
-}
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 link_config src "$HOME/.config"
@@ -82,6 +74,5 @@ brew_install
 brew_cleanup
 cleanup_brewfile_lock
 install_fish
-link_latex_class
 bash src/macos/defaults
 fish src/fish/set_universals.fish
