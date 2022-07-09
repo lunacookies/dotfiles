@@ -91,9 +91,6 @@ defaults write pro.writer.mac WebKitDeveloperExtras -bool true
 # Preserve open windows when quitting applications.
 defaults write -globalDomain NSQuitAlwaysKeepsWindows -bool true
 
-# Always show the menu bar in fullscreen.
-defaults write -globalDomain AppleMenuBarVisibleInFullscreen -bool true
-
 # Always show proxy icons.
 defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 
