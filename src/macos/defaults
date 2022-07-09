@@ -8,9 +8,6 @@
 defaults write -globalDomain InitialKeyRepeat -float 15
 defaults write -globalDomain KeyRepeat -float 2
 
-# Press the Fn key to show Emoji & Symbols.
-defaults write com.apple.HIToolbox AppleFnUsageType -int 2
-
 #
 # Finder
 #
@@ -18,12 +15,6 @@ defaults write com.apple.HIToolbox AppleFnUsageType -int 2
 # New windows open with the home folder.
 defaults write com.apple.Finder NewWindowTarget -string 'PfHm'
 defaults write com.apple.Finder NewWindowTargetPath -string 'file://$HOME'
-
-# Don’t show internal hard drives on the Desktop.
-defaults write com.apple.Finder ShowHardDrivesOnDesktop -bool false
-
-# Hide Google Drive virtual drive from the Desktop.
-defaults write com.apple.Finder ShowExternalHardDrivesOnDesktop -bool false
 
 # Always show file extensions.
 defaults write -globalDomain AppleShowAllExtensions -bool true
@@ -70,9 +61,6 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 # Hide the Favourites window that shows when the search field has focus.
 defaults write com.apple.Safari ShowFavoritesUnderSmartSearchField -bool false
 
-# Show favicons.
-defaults write com.apple.Safari ShowIconsInTabs -bool true
-
 # Disable AutoFill.
 defaults write com.apple.Safari AutoFillCreditCardData -bool false
 defaults write com.apple.Safari AutoFillFromAddressBook -bool false
@@ -117,9 +105,6 @@ defaults write -globalDomain AppleMenuBarVisibleInFullscreen -bool true
 # Always show proxy icons.
 defaults write com.apple.universalaccess showWindowTitlebarIcons -bool true
 
-# Use Monday as the first day of the week.
-defaults write -globalDomain AppleFirstWeekday -dict gregorian 2
-
 #
 # Restart affected applications
 #
@@ -127,7 +112,6 @@ defaults write -globalDomain AppleFirstWeekday -dict gregorian 2
 # We restart the applications that reopen themselves automatically.
 killall Finder
 killall Dock
-killall SystemUIServer
 
 # We prompt the user to restart all the other applications.
 echo 'Changes have been made to the following applications; you may want to restart them.'
