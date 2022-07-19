@@ -1,0 +1,12 @@
+--colors
+path:fg:green
+--colors
+line:fg:8
+--colors
+column:fg:8
+--colors
+match:style:nobold
+--colors
+match:fg:black
+--colors
+match:bg:12

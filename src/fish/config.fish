@@ -9,6 +9,8 @@ set -gx EDITOR nvim
 
 set -gx FZF_DEFAULT_COMMAND fd
 
+set -gx RIPGREP_CONFIG_PATH "$HOME/.config/rg/rgrc"
+
 set -gx CARGO_TARGET_DIR ~/.cache/cargo-target
 if test ! -e "$CARGO_TARGET_DIR"
     mkdir -p "$CARGO_TARGET_DIR"
