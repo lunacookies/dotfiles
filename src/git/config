@@ -1,4 +1,4 @@
-# vim: set filetype=gitconfig nomodeline:
+# vim: set filetype=gitconfig:
 
 [user]
 name = Luna Razzaghipour
