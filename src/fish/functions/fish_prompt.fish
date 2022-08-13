@@ -1,3 +1,3 @@
 function fish_prompt
-    printf "%s%% " (basename $PWD)
+    printf "%s\$ " (prompt_pwd)
 end
