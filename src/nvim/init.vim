@@ -76,6 +76,7 @@ highlight StatusLine   ctermfg=8    ctermbg=NONE cterm=NONE
 highlight StatusLineNC ctermfg=8    ctermbg=NONE cterm=NONE
 highlight VertSplit    ctermfg=8    ctermbg=NONE cterm=NONE
 highlight NonText      ctermfg=8    ctermbg=NONE cterm=NONE
+highlight SpecialKey   ctermfg=8    ctermbg=NONE cterm=bold
 highlight CursorLine   ctermfg=7    ctermbg=8    cterm=NONE
 highlight CursorColumn ctermfg=NONE ctermbg=NONE cterm=NONE
 highlight LineNr       ctermfg=8    ctermbg=NONE cterm=NONE
