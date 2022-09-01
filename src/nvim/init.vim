@@ -81,7 +81,7 @@ highlight CursorLine   ctermfg=7    ctermbg=8    cterm=NONE
 highlight CursorColumn ctermfg=NONE ctermbg=NONE cterm=NONE
 highlight LineNr       ctermfg=8    ctermbg=NONE cterm=NONE
 highlight CursorLineNr ctermfg=8    ctermbg=NONE cterm=NONE
-highlight Title        ctermfg=15   ctermbg=NONE cterm=NONE
+highlight Title        ctermfg=15   ctermbg=NONE cterm=bold
 highlight Pmenu        ctermfg=0    ctermbg=8    cterm=NONE
 highlight PmenuSel     ctermfg=7    ctermbg=8    cterm=NONE
 highlight PmenuSbar    ctermfg=8    ctermbg=8    cterm=NONE
