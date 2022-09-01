@@ -90,3 +90,11 @@ highlight MatchParen   ctermfg=2    ctermbg=NONE cterm=underline
 highlight ColorColumn  ctermfg=1    ctermbg=8    cterm=NONE
 highlight diffRemoved  ctermfg=1    ctermbg=NONE cterm=NONE
 highlight diffAdded    ctermfg=2    ctermbg=NONE cterm=NONE
+
+highlight link fugitiveHash             NonText
+highlight link fugitiveHeader           NonText
+highlight link fugitiveHeading          Title
+highlight link fugitiveHelpHeader       NonText
+highlight link fugitiveUnstagedHeading  Title
+highlight link fugitiveUntrackedHeading Title
+highlight link gitCommitOverflow        Error
