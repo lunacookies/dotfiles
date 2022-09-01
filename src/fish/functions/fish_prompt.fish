@@ -1,3 +1,3 @@
 function fish_prompt
-    printf "%s\$ " (prompt_pwd)
+    printf "%s%s%s\$ " (set_color blue) (prompt_pwd) (set_color normal)
 end
