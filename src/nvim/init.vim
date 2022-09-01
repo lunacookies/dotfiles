@@ -1,5 +1,6 @@
 set clipboard^=unnamed
 set completeopt+=menuone,noselect
+set fillchars+=stl:─,stlnc:─
 set hidden
 set ignorecase
 set inccommand=split
@@ -11,7 +12,7 @@ set smartcase
 set splitbelow
 set splitright
 
-let &statusline = " %f %y%w%r%m%=%l:%-6c "
+let &statusline = "%f %r%m"
 
 " Plugin config
 
