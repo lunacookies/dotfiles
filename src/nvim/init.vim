@@ -1,5 +1,4 @@
 set clipboard^=unnamed
-set colorcolumn=+1
 set completeopt+=menuone,noselect
 set hidden
 set ignorecase
