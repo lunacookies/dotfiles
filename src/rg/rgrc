@@ -1,5 +1,5 @@
 --colors
-path:fg:green
+path:fg:4
 --colors
 line:fg:8
 --colors
@@ -7,6 +7,6 @@ column:fg:8
 --colors
 match:style:nobold
 --colors
-match:fg:black
+match:fg:0
 --colors
-match:bg:12
+match:bg:3
