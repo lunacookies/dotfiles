@@ -95,6 +95,7 @@ highlight link fugitiveHash             NonText
 highlight link fugitiveHeader           NonText
 highlight link fugitiveHeading          Title
 highlight link fugitiveHelpHeader       NonText
+highlight link fugitiveStagedHeading    Title
 highlight link fugitiveUnstagedHeading  Title
 highlight link fugitiveUntrackedHeading Title
 highlight link gitCommitOverflow        Error
