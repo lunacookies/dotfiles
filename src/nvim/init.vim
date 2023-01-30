@@ -17,6 +17,11 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 set runtimepath+=/opt/homebrew/opt/fzf
+let g:fzf_layout = { 'window': {
+		\ 	'width': 1.0,
+		\ 	'height': 0.4,
+		\ 	'yoffset': 1.0,
+		\ } }
 
 let g:rustfmt_autosave = 1
 
