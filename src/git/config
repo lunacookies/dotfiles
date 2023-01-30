@@ -10,7 +10,6 @@ co = checkout
 c = commit
 s = status
 l = log --oneline --graph --all
-sync = !git checkout master && git pull && git fetch upstream && git rebase upstream/master && git push && git checkout -
 
 [commit]
 verbose = true # Show the diff of each commit when editing the message.
