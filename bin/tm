@@ -69,7 +69,7 @@ def find_dirs_command(dir: str, excluding: list[str]):
 
 def choose_dir(dir: str, excluding: list[str]):
     print("Enter new session directory: ")
-    dir = find_dirs_command(dir, excluding).pipe(Cmd(FZF, "--height=10"))[0]
+    dir = find_dirs_command(dir, excluding).pipe(Cmd(FZF, "--height=50%"))[0]
     return os.path.normpath(dir)
 
 
