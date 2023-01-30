@@ -50,8 +50,8 @@ nnoremap ,v :vsplit<CR>
 
 augroup vimrc
 	autocmd!
-	autocmd BufWritePost *.html,*.scss,*.md silent! !prettier -w %
-	autocmd BufRead *.html,*.scss,*.md set sts=2 sw=2 et
+	autocmd BufWritePost *.html,*.css,*.scss,*.md silent! !prettier -w %
+	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
 augroup END
 
 " Colour scheme
