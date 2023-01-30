@@ -54,7 +54,7 @@ augroup vimrc
 	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
 augroup END
 
-" Colour scheme
+" Color scheme
 
 highlight Comment      ctermfg=12   ctermbg=NONE cterm=NONE
 highlight Constant     ctermfg=7    ctermbg=NONE cterm=NONE
