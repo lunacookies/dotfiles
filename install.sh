@@ -41,21 +41,6 @@ function cleanup_brewfile_lock() {
     rm "Brewfile.lock.json"
 }
 
-function default_shell() {
-    dscl . -read ~/ UserShell | sed 's/UserShell: //'
-}
-
-function install_fish() {
-    ( \
-        grep fish /etc/shells || \
-        echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells \
-    ) > /dev/null
-
-    if [ ! "$(default_shell)" = "/opt/homebrew/bin/fish" ]; then
-        chsh -s /opt/homebrew/bin/fish
-    fi
-}
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 link_config src "$HOME/.config"
@@ -63,6 +48,5 @@ hide_login_message
 brew_install
 brew_cleanup
 cleanup_brewfile_lock
-install_fish
 bash src/macos/defaults
 fish src/fish/set_universals.fish
