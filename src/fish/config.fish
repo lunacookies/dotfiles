@@ -10,8 +10,6 @@ set -gx FZF_DEFAULT_COMMAND fd
 
 set -gx RIPGREP_CONFIG_PATH "$HOME/.config/rg/rgrc"
 
-set -gx RUSTFLAGS "--warn unreachable-pub --warn rust-2018-idioms"
-
 # open manpages in Nvim
 set -gx MANPAGER "nvim +Man!"
 
