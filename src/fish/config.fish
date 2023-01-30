@@ -10,11 +10,6 @@ set -gx FZF_DEFAULT_COMMAND fd
 
 set -gx RIPGREP_CONFIG_PATH "$HOME/.config/rg/rgrc"
 
-set -gx CARGO_TARGET_DIR ~/.cache/cargo-target
-if test ! -e "$CARGO_TARGET_DIR"
-    mkdir -p "$CARGO_TARGET_DIR"
-end
-
 set -gx RUSTFLAGS "--warn unreachable-pub --warn rust-2018-idioms"
 
 # open manpages in Nvim
