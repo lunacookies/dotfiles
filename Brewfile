@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 brew "dust"
+brew "clang-format"
 brew "exa"
 brew "fd"
 brew "ffmpeg"
