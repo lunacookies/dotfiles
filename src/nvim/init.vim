@@ -26,8 +26,8 @@ let g:fzf_layout = { 'window': {
 let g:rustfmt_autosave = 1
 
 let g:mucomplete#chains = {
-			\ 'vim': ['path', 'cmd', 'c-n'],
-			\ 'default': ['path', 'omni', 'c-n', 'dict', 'uspl']
+			\ 'vim': ['cmd', 'c-n'],
+			\ 'default': ['omni', 'c-n']
 			\ }
 
 " Mappings
