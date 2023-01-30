@@ -1,7 +1,6 @@
 tap "arzg/homebrew-vim-strand"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 
 brew "dust"
 brew "exa"
@@ -25,7 +24,7 @@ brew "yarn"
 brew "yt-dlp"
 
 cask "appcleaner"
-cask "discord-ptb"
+cask "discord"
 cask "font-input"
 cask "kitty"
 cask "spotify"
