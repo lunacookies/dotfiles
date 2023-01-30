@@ -1,6 +1,7 @@
 plugin_dir: ~/.config/nvim/pack/strand/start
 
 plugins:
+  - Git: bfrg/vim-cpp-modern
   - Git: junegunn/fzf.vim
   - Git: junegunn/vim-easy-align
   - Git: lifepillar/vim-mucomplete
