@@ -11,7 +11,7 @@ set splitright
 
 let &statusline = " %f %r%m%=%l:%-2c "
 
-" Plugin config
+" Plugins
 
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
