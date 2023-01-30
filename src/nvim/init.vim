@@ -1,5 +1,4 @@
 set clipboard^=unnamed
-set completeopt+=menuone,noselect
 set fillchars+=stl:─,stlnc:─
 set ignorecase
 set inccommand=split
