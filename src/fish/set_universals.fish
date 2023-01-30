@@ -1,13 +1,13 @@
 set -U fish_greeting ""
 
-set -U fish_color_command --bold white
-set -U fish_color_keyword white
-set -U fish_color_operator white
+set -U fish_color_command brblue
+set -U fish_color_keyword brblue
+set -U fish_color_operator brblue
 set -U fish_color_redirection white
 set -U fish_color_param white
-set -U fish_color_end white
-set -U fish_color_quote white
-set -U fish_color_escape white
+set -U fish_color_end brblue
+set -U fish_color_quote brgreen
+set -U fish_color_escape green
 set -U fish_color_comment brblack
 set -U fish_color_error --underline red
 set -U fish_color_autosuggestion brblack

@@ -5,6 +5,7 @@ plugins:
   - Git: junegunn/vim-easy-align
   - Git: lifepillar/vim-colortemplate
   - Git: lifepillar/vim-mucomplete
+  - Git: vim-scripts/Sorcerer
   - Git: romainl/vim-cool
   - Git: romainl/vim-qf
   - Git: rust-lang/rust.vim
