@@ -12,16 +12,14 @@ s = status
 l = log --oneline --graph --all
 
 [commit]
-verbose = true # Show the diff of each commit when editing the message.
+verbose = true
 
 [status]
-short = true # Use short status format
-branch = true # Show information on how many commits ahead/behind of remote
+short = true
+branch = true
 
-# Prune deleted branches when fetching from a remote.
 [fetch]
 prune = true
 
-# Rebase upstream changes upon pull.
 [pull]
 rebase = true
