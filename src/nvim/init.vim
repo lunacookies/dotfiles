@@ -58,3 +58,4 @@ augroup END
 
 set termguicolors
 colorscheme sorcerer
+hi link Searchlight IncSearch
