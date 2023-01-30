@@ -73,8 +73,15 @@ def choose_dir(dir: str, excluding: list[str]):
     return os.path.normpath(dir)
 
 
-def new_session_from_dir():
+def new_session_from_existing_dir():
     dir = choose_dir(pathlib.Path.home(), ["Library", "Applications"])
+    name = os.path.basename(dir)
+    tmux("new-session", s=name, c=dir).run()
+
+def new_session_from_new_dir():
+    print("Enter path for new directory:")
+    dir = input("> ")
+    os.makedirs(dir)
     name = os.path.basename(dir)
     tmux("new-session", s=name, c=dir).run()
 
@@ -93,7 +100,8 @@ options = list(
         available_tmux_sessions(),
     )
 ) + [
-    ("New session from directory", new_session_from_dir),
+    ("New session from existing directory", new_session_from_existing_dir),
+    ("New session from new directory", new_session_from_new_dir),
     ("New session from name", new_session_from_name),
 ]
 
