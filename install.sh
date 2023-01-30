@@ -15,15 +15,6 @@ function link_config() {
     ln -sf "$PWD/$1" "$2"
 }
 
-function link_desktop_to_downloads() {
-    if [ -d "$HOME/Downloads" ] && [ ! -L "$HOME/Downloads" ]; then
-        mv "$HOME/Downloads/"* "$HOME/Desktop"
-        sudo rm -rf "$HOME/Downloads"
-
-        ln -s "$HOME/Desktop" "$HOME/Downloads"
-    fi
-}
-
 function hide_login_message() {
     touch "$HOME/.hushlogin"
 }
@@ -68,7 +59,6 @@ function install_fish() {
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 link_config src "$HOME/.config"
-link_desktop_to_downloads
 hide_login_message
 brew_install
 brew_cleanup
