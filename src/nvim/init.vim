@@ -1,5 +1,4 @@
 set clipboard^=unnamed
-set fillchars+=stl:─,stlnc:─
 set ignorecase
 set inccommand=split
 set linebreak
@@ -10,7 +9,7 @@ set smartcase
 set splitbelow
 set splitright
 
-let &statusline = "%f %r%m"
+let &statusline = " %f %r%m%=%l:%-2c "
 
 " Plugin config
 
