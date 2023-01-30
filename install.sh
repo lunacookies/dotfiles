@@ -48,5 +48,4 @@ hide_login_message
 brew_install
 brew_cleanup
 cleanup_brewfile_lock
-bash src/macos/defaults
 fish src/fish/set_universals.fish
