@@ -26,7 +26,6 @@ brew "yt-dlp"
 
 cask "appcleaner"
 cask "discord-ptb"
-cask "font-consolas-for-powerline"
 cask "font-input"
 cask "kitty"
 cask "spotify"
