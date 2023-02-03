@@ -30,6 +30,8 @@ let g:mucomplete#chains = {
 			\ 'default': ['omni', 'c-n']
 			\ }
 
+let g:cpp_simple_highlight = 1
+
 " Mappings
 
 nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
