@@ -1,4 +1,3 @@
-tap "arzg/homebrew-vim-strand"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
@@ -18,7 +17,6 @@ brew "node"
 brew "pastel"
 brew "ripgrep"
 brew "rustup-init"
-brew "strand"
 brew "tmux"
 brew "tokei"
 brew "yarn"

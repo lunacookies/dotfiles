@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+rm -rf "$HOME/.config/nvim/pack"
+mkdir -p "$HOME/.config/nvim/pack/bundle/start"
+cd "$HOME/.config/nvim/pack/bundle/start"
+
+install_plugin() {
+	line="$1"
+	user=$(echo "$line" | cut -d/ -f 1)
+	repo_and_ref=$(echo "$line" | cut -d/ -f 2)
+	repo=$(echo "$repo_and_ref" | cut -d: -f1)
+	ref=$(echo "$repo_and_ref" | cut -d: -f2)
+	archive_path="$repo.tar.gz"
+	url="https://codeload.github.com/$user/$repo/tar.gz/$ref"
+	curl --no-progress-meter --output "$archive_path" "$url"
+	tar -zxf "$archive_path"
+	rm "$archive_path"
+	printf "Installed %s\n" "$repo"
+}
+
+while read line; do
+	install_plugin "$line" &
+done < "$HOME/.config/nvim/plugins"
+wait
