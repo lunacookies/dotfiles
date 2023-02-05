@@ -4,11 +4,11 @@ endif
 
 let b:current_syntax = "minic"
 
-syntax keyword minicKeyword func return var
+syntax keyword minicKeyword func return var set if else
 syntax match minicFunction '\v[a-zA-Z_][a-zA-Z0-9_]*(\()@='
 syntax match minicFunction '\v<(func\s+)@<=[a-zA-Z_][a-zA-Z0-9_]*'
 syntax match minicNumber '\v[0-9]+'
-syntax match minicOperator '[+\-*/=><|&.!]'
+syntax match minicOperator '[+\-*/=><|&!]'
 
 highlight default link minicKeyword Keyword
 highlight default link minicFunction Function
