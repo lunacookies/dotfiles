@@ -53,8 +53,11 @@ nnoremap ,v :vsplit<CR>
 
 augroup vimrc
 	autocmd!
+
 	autocmd BufWritePost *.html,*.css,*.scss,*.md silent! !prettier -w %
 	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
+
+	autocmd ColorScheme sorcerer hi NonText guibg=NONE
 augroup END
 
 " Color scheme
