@@ -1,5 +1,5 @@
 eval (/opt/homebrew/bin/brew shellenv)
-fish_add_path ~/.cargo/bin
+set -gx PATH "$HOME/Code/dotfiles/bin" "$HOME/.cargo/bin" $PATH
 
 set -gx CDPATH . .. ~/Code $HOME
 
