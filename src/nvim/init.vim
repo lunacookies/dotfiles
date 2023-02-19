@@ -59,6 +59,8 @@ augroup vimrc
 
 	autocmd ColorScheme * hi link Searchlight IncSearch
 	autocmd ColorScheme sorcerer hi NonText guibg=NONE
+	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
+	autocmd ColorScheme sorcerer hi link htmlEndTag htmlTagName
 augroup END
 
 " Color scheme
