@@ -37,8 +37,8 @@ abbr --add g git
 abbr --add git echo "use g!"
 
 abbr --add vi nvim
+abbr --add vim nvim
 abbr --add nvim echo "use vi!"
-abbr --add vim echo "use vi!"
 
 abbr --add b brew
 abbr --add brew echo "use b!"
