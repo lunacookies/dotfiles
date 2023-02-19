@@ -18,7 +18,7 @@ function fish_prompt
 	if git rev-parse --is-inside-work-tree &> /dev/null
 		set -l git_branch ( \
 			git symbolic-ref --quiet --short HEAD || \
-			git describe --tags --exact-match HEAD || \
+			git describe --tags --exact-match HEAD 2> /dev/null || \
 			git rev-parse --short HEAD
 		)
 		printf  " %s%s%s" (set_color $git_branch_color) $git_branch (set_color normal)
@@ -56,12 +56,12 @@ function fish_prompt
 			set git_status "$git_status?"
 		end
 
-		set -l unpushed_commits (git rev-list '@{u}..HEAD')
+		set -l unpushed_commits (git rev-list '@{u}..HEAD' 2> /dev/null)
 		if test -n "$unpushed_commits"
 			set git_status "$git_status↑"
 		end
 
-		set -l unpulled_commits (git rev-list 'HEAD..@{u}')
+		set -l unpulled_commits (git rev-list 'HEAD..@{u}' 2> /dev/null)
 		if test -n "$unpulled_commits"
 			set git_status "$git_status↓"
 		end
