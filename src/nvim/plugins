@@ -1,5 +1,6 @@
 PeterRincker/vim-searchlight:master
 bfrg/vim-cpp-modern:master
+dag/vim-fish:master
 junegunn/fzf.vim:master
 junegunn/vim-easy-align:master
 lifepillar/vim-mucomplete:master
