@@ -16,7 +16,7 @@ set -gx MANPAGER "nvim +Man!"
 # wrap manpage to a narrower width for ease of reading
 set -gx MANWIDTH 72
 
-rm ~/.config/fish/fish_variables
+rm ~/.config/fish/fish_variables 2> /dev/null
 set -g fish_greeting ""
 set -g fish_color_command brblue
 set -g fish_color_keyword brblue
