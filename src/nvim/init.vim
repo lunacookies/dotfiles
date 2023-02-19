@@ -57,6 +57,7 @@ augroup vimrc
 	autocmd BufWritePost *.html,*.css,*.scss,*.md silent! !prettier -w %
 	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
 
+	autocmd ColorScheme * hi link Searchlight IncSearch
 	autocmd ColorScheme sorcerer hi NonText guibg=NONE
 augroup END
 
@@ -64,4 +65,3 @@ augroup END
 
 set termguicolors
 colorscheme sorcerer
-hi link Searchlight IncSearch
