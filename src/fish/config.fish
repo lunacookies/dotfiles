@@ -31,17 +31,8 @@ set -g fish_color_error --underline red
 set -g fish_color_autosuggestion brblack
 
 abbr --add c cargo
-abbr --add cargo echo "use c!"
-
 abbr --add g git
-abbr --add git echo "use g!"
-
 abbr --add vi nvim
 abbr --add vim nvim
-abbr --add nvim echo "use vi!"
-
 abbr --add b brew
-abbr --add brew echo "use b!"
-
 abbr --add m make -j10
-abbr --add make echo "use m!"
