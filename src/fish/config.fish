@@ -6,7 +6,7 @@ set -gx CDPATH . .. ~/Code $HOME
 set -gx VISUAL nvim
 set -gx EDITOR nvim
 
-set -gx FZF_DEFAULT_COMMAND fd
+set -gx FZF_DEFAULT_COMMAND fd --hidden
 
 set -gx RIPGREP_CONFIG_PATH "$HOME/.config/rg/rgrc"
 
