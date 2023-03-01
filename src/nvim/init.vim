@@ -58,7 +58,7 @@ augroup vimrc
 	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
 
 	autocmd ColorScheme * hi link Searchlight IncSearch
-	autocmd ColorScheme lucius hi Search ctermfg=236 ctermbg=230 cterm=underline
+	autocmd ColorScheme lucius hi Search ctermfg=236 ctermbg=230 cterm=NONE
 augroup END
 
 " Color scheme
