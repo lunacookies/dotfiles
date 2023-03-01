@@ -9,7 +9,7 @@ set smartcase
 set splitbelow
 set splitright
 
-let &statusline = " %f %r%m%=%l:%-2c "
+let &statusline = " %f %r%m%=%3l %3c/%-3v "
 
 " Plugins
 
