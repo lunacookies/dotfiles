@@ -3,7 +3,9 @@ syntax on
 
 set autoindent
 set clipboard^=unnamed
+set hlsearch
 set ignorecase
+set incsearch
 set linebreak
 set list
 set listchars=tab:\ \ ,nbsp:•,trail:•
