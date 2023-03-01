@@ -58,12 +58,10 @@ augroup vimrc
 	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
 
 	autocmd ColorScheme * hi link Searchlight IncSearch
-	autocmd ColorScheme sorcerer hi NonText guibg=NONE
-	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
-	autocmd ColorScheme sorcerer hi link htmlEndTag htmlTagName
+	autocmd ColorScheme lucius hi Search ctermfg=236 ctermbg=230 cterm=underline
 augroup END
 
 " Color scheme
 
-set termguicolors
-colorscheme sorcerer
+colorscheme lucius
+LuciusDarkHighContrast

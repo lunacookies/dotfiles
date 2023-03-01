@@ -1,6 +1,7 @@
 PeterRincker/vim-searchlight:master
 bfrg/vim-cpp-modern:master
 dag/vim-fish:master
+jonathanfilip/vim-lucius:master
 junegunn/fzf.vim:master
 junegunn/vim-easy-align:master
 lifepillar/vim-mucomplete:master
@@ -10,6 +11,5 @@ tpope/vim-endwise:master
 tpope/vim-fugitive:master
 tpope/vim-surround:master
 tpope/vim-unimpaired:master
-vim-scripts/Sorcerer:master
 wellle/targets.vim:master
 ziglang/zig.vim:master
