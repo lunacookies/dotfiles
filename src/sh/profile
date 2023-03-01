@@ -14,4 +14,10 @@ export RIPGREP_CONFIG_PATH="$HOME/.config/rg/rgrc"
 export MANPAGER="col -b | vim --not-a-term -c 'set filetype=man nomodified' - "
 export MANWIDTH="72"
 
+# This disables terminal flow control (whatever that is)
+# which frees up C-s and C-q for keybindings.
+# We want this because # C-s defaults to
+# going forward in incremental history search.
+stty -ixon
+
 export ENV=$HOME/.shrc
