@@ -7,6 +7,7 @@ set numberwidth=5
 set smartcase
 set splitbelow
 set splitright
+set ttimeoutlen=0 " remove delay when pressing <Esc> to exit command-line mode
 
 let &statusline = " %f %r%m%=%3l %3c/%-3v "
 
