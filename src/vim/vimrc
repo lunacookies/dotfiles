@@ -1,6 +1,5 @@
 set clipboard^=unnamed
 set ignorecase
-set inccommand=split
 set linebreak
 set list
 set listchars=tab:\ \ ,nbsp:•,trail:•
