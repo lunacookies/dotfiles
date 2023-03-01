@@ -1,3 +1,19 @@
 source "$ENV"
 
+bindkey -e # emacs key bindings
+setopt nomatch # error when glob doesn’t match
+
+# completion
+autoload compinit && compinit
+zstyle ':completion:*' menu select # highlight selected match
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # case and -/_ insensitive
+setopt correct_all # offer command corrections
+
+# history
+HISTSIZE=100000
+SAVEHIST=100000
+setopt hist_ignore_all_dups
+setopt inc_append_history # append history after each command
+precmd() { fc -R } # reload history before each command
+
 export PROMPT=$'%{\e[32m%}%n@%m%{\e[m%} %1~ %(?..[%{\e[31m%}%?%{\e[m%}] )%% '
