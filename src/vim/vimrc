@@ -1,6 +1,7 @@
 filetype plugin indent on
 syntax on
 
+set autoindent
 set clipboard^=unnamed
 set ignorecase
 set linebreak
