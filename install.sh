@@ -44,7 +44,11 @@ cleanup_brewfile_lock() {
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 link_config src "$HOME/.config"
+link_config src/sh/profile "$HOME/.profile"
+link_config src/sh/shrc "$HOME/.shrc"
+link_config src/zsh/zprofile "$HOME/.zprofile"
 link_config src/zsh/zshrc "$HOME/.zshrc"
+link_config src/bash/bashrc "$HOME/.bashrc"
 hide_login_message
 brew_install
 brew_cleanup

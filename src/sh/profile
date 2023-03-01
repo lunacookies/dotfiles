@@ -1,0 +1,18 @@
+# vim: filetype=bash
+
+eval $(/opt/homebrew/bin/brew shellenv)
+export PATH="$HOME/Code/dotfiles/bin:$HOME/.cargo/bin:$PATH"
+
+export CDPATH=".:..:$HOME/Code:$HOME"
+
+export VISUAL="nvim"
+export EDITOR="nvim"
+
+export FZF_DEFAULT_COMMAND="fd --hidden"
+
+export RIPGREP_CONFIG_PATH="$HOME/.config/rg/rgrc"
+
+export MANPAGER="nvim +Man!"
+export MANWIDTH="72"
+
+export ENV=$HOME/.shrc

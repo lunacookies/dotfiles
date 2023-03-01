@@ -1,0 +1,12 @@
+# vim: filetype=bash
+
+alias vim=nvim
+alias g=git
+alias c=cargo
+alias b=brew
+alias m='make -j10'
+
+mkcd() {
+	mkdir -p "$1"
+	cd "$1"
+}
