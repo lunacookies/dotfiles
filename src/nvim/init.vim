@@ -3,7 +3,7 @@ set ignorecase
 set inccommand=split
 set linebreak
 set list
-set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:•,trail:•
+set listchars=tab:\ \ ,nbsp:•,trail:•
 set numberwidth=5
 set smartcase
 set splitbelow
