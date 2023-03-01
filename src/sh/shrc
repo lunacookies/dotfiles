@@ -1,6 +1,5 @@
 # vim: filetype=bash
 
-alias vim=nvim
 alias g=git
 alias c=cargo
 alias b=brew
