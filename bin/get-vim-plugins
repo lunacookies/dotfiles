@@ -2,9 +2,9 @@
 
 set -e
 
-rm -rf "$HOME/.config/nvim/pack"
-mkdir -p "$HOME/.config/nvim/pack/bundle/start"
-cd "$HOME/.config/nvim/pack/bundle/start"
+rm -rf "$HOME/.vim/pack"
+mkdir -p "$HOME/.vim/pack/bundle/start"
+cd "$HOME/.vim/pack/bundle/start"
 
 install_plugin() {
 	line="$1"
@@ -22,5 +22,5 @@ install_plugin() {
 
 while read line; do
 	install_plugin "$line" &
-done < "$HOME/.config/nvim/plugins"
+done < "$HOME/.vim/plugins"
 wait

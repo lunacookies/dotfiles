@@ -5,13 +5,13 @@ export PATH="$HOME/Code/dotfiles/bin:$HOME/.cargo/bin:$PATH"
 
 export CDPATH=".:..:$HOME/Code:$HOME"
 
-export VISUAL="nvim"
-export EDITOR="nvim"
+export VISUAL="vim"
+export EDITOR="vim"
 
 export CLICOLOR="1"
 export FZF_DEFAULT_COMMAND="fd --hidden"
 export RIPGREP_CONFIG_PATH="$HOME/.config/rg/rgrc"
-export MANPAGER="nvim +Man!"
+export MANPAGER="vim +Man!"
 export MANWIDTH="72"
 
 export ENV=$HOME/.shrc
