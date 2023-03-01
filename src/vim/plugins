@@ -2,10 +2,10 @@ PeterRincker/vim-searchlight:master
 bfrg/vim-cpp-modern:master
 jonathanfilip/vim-lucius:master
 junegunn/fzf.vim:master
-junegunn/vim-easy-align:master
 lifepillar/vim-mucomplete:master
 markonm/traces.vim:master
 romainl/vim-cool:master
+tommcdo/vim-lion:master
 tpope/vim-commentary:master
 tpope/vim-endwise:master
 tpope/vim-fugitive:master

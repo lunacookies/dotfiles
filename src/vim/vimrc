@@ -19,8 +19,7 @@ let &statusline = " %f %r%m%=%3l %3c/%-3v "
 
 " Plugins
 
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
+let g:lion_squeeze_spaces = 1
 
 set runtimepath+=/opt/homebrew/opt/fzf
 let g:fzf_layout = { 'down': '~40%' }
