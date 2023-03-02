@@ -61,7 +61,7 @@ nnoremap ,v :vsplit<CR>
 augroup vimrc
 	autocmd!
 
-	autocmd BufWritePost *.html,*.css,*.scss,*.md silent! !prettier -w %
+	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
 	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
 
 	autocmd ColorScheme * hi link Searchlight IncSearch
