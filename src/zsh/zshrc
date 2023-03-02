@@ -16,4 +16,7 @@ setopt hist_ignore_all_dups
 setopt inc_append_history # append history after each command
 precmd() { fc -R } # reload history before each command
 
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
 export PROMPT=$'%{\e[32m%}%n@%m%{\e[m%} %1~ %(?..[%{\e[31m%}%?%{\e[m%}] )%% '
