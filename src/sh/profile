@@ -1,6 +1,6 @@
-# vim: filetype=bash
+#!/bin/sh
 
-eval $(/opt/homebrew/bin/brew shellenv)
+eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOME/Code/dotfiles/bin:$HOME/.cargo/bin:$PATH"
 
 export CDPATH=".:..:$HOME/Code:$HOME"
@@ -20,5 +20,6 @@ export MANWIDTH="72"
 # going forward in incremental history search.
 stty -ixon
 
-export ENV=$HOME/.shrc
-source "$ENV"
+export ENV="$HOME/.shrc"
+# shellcheck disable=SC1090
+. "$ENV"

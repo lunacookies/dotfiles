@@ -20,7 +20,7 @@ install_plugin() {
 	printf "Installed %s\n" "$repo"
 }
 
-while read line; do
+while read -r line; do
 	install_plugin "$line" &
 done < "$HOME/.vim/plugins"
 wait

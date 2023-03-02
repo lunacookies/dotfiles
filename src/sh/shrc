@@ -1,4 +1,4 @@
-# vim: filetype=bash
+#!/bin/sh
 
 alias g=git
 alias c=cargo
@@ -7,6 +7,7 @@ alias m='make -j10'
 
 mkcd() {
 	mkdir -p "$1"
+	# shellcheck disable=SC2164
 	cd "$1"
 }
 

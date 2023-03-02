@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 rm_if_exists() {
 	if [ -e "$1" ]; then
@@ -32,7 +32,7 @@ brew_cleanup() {
 
 	while true; do
 		printf "\n\nDo you wish to continue? [y/n] "
-		read yn
+		read -r yn
 		case $yn in
 			[Yy]* ) brew bundle cleanup --force; break;;
 			[Nn]* ) break;;
