@@ -64,7 +64,7 @@ augroup vimrc
 	autocmd!
 
 	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
-	autocmd BufRead *.html,*.css,*.scss,*.md set sts=2 sw=2 et
+	autocmd BufRead *.html,*.css,*.scss,*.md setlocal softtabstop=2 shiftwidth=2 expandtab
 
 	autocmd ColorScheme * hi link Searchlight IncSearch
 	autocmd ColorScheme lucius hi Search ctermfg=236 ctermbg=230 cterm=NONE
