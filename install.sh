@@ -19,6 +19,10 @@ hide_login_message() {
 	touch "$HOME/.hushlogin"
 }
 
+create_swapfiles_dir() {
+	mkdir -p "$HOME/.vim/swapfiles"
+}
+
 brew_install() {
 	brew bundle --verbose
 }
@@ -53,6 +57,7 @@ link_config src/bash/bash_profile "$HOME/.bash_profile"
 link_config src/vim "$HOME/.vim"
 link_config src/ssh/config "$HOME/.ssh/config"
 hide_login_message
+create_swapfiles_dir
 brew_install
 brew_cleanup
 cleanup_brewfile_lock
