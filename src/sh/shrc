@@ -10,4 +10,4 @@ mkcd() {
 	cd "$1"
 }
 
-export PS1="$ "
+export PS1="$0$ "
