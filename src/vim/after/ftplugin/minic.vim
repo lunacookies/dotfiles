@@ -1,4 +1,3 @@
-echo "hi"
 if exists("b:did_ftplugin")
 	finish
 endif
