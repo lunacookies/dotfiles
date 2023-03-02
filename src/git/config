@@ -3,7 +3,7 @@
 [user]
 name = Luna Razzaghipour
 email = lunarazzaghipour@gmail.com
-signingkey = /Users/luna/.ssh/github_signing
+signingkey = /Users/luna/.ssh/github
 
 [alias]
 br = branch
