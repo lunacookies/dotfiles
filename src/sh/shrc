@@ -10,4 +10,9 @@ mkcd() {
 	cd "$1"
 }
 
+makeunirepo() {
+	git config user.email u7653557@anu.edu.au
+	git config user.signingkey /Users/luna/.ssh/gitlab
+}
+
 export PS1="$0$ "
