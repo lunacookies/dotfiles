@@ -51,6 +51,7 @@ link_config src/zsh/zshrc "$HOME/.zshrc"
 link_config src/bash/bashrc "$HOME/.bashrc"
 link_config src/bash/bash_profile "$HOME/.bash_profile"
 link_config src/vim "$HOME/.vim"
+link_config src/ssh/config "$HOME/.ssh/config"
 hide_login_message
 brew_install
 brew_cleanup
