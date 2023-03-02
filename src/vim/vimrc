@@ -2,6 +2,7 @@ filetype plugin indent on
 syntax on
 
 set autoindent
+set autoread
 set clipboard^=unnamed
 set hlsearch
 set ignorecase
