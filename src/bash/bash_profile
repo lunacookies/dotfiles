@@ -1,0 +1,3 @@
+# vim: filetype=bash
+source ~/.profile
+source ~/.bashrc

@@ -49,6 +49,7 @@ link_config src/sh/shrc "$HOME/.shrc"
 link_config src/zsh/zprofile "$HOME/.zprofile"
 link_config src/zsh/zshrc "$HOME/.zshrc"
 link_config src/bash/bashrc "$HOME/.bashrc"
+link_config src/bash/bash_profile "$HOME/.bash_profile"
 link_config src/vim "$HOME/.vim"
 hide_login_message
 brew_install

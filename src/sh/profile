@@ -21,3 +21,4 @@ export MANWIDTH="72"
 stty -ixon
 
 export ENV=$HOME/.shrc
+source "$ENV"
