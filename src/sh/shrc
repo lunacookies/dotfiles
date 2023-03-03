@@ -13,7 +13,7 @@ mkcd() {
 
 makeunirepo() {
 	git config user.email u7653557@anu.edu.au
-	git config user.signingkey /Users/luna/.ssh/gitlab
+	git config user.signingkey "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEUy5Hd+s+KeEnAJhRX6RYQp8AL4mwaElQM87+dJRVEqTfWnhdDbWw8ECKe+zbpUlxlpr6GXlZ05X5TPzpyDUXI= ANU@secretive.firestorm.local"
 }
 
 export PS1="$0$ "

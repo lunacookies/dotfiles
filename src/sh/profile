@@ -14,6 +14,10 @@ export RIPGREP_CONFIG_PATH="$HOME/.config/rg/rgrc"
 export MANPAGER="col -b | vim --not-a-term -c 'set filetype=man nomodified' - "
 export MANWIDTH="72"
 
+if [ "$(uname)" = "Darwin" ]; then
+	export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
+fi
+
 # This disables terminal flow control (whatever that is)
 # which frees up C-s and C-q for keybindings.
 # We want this because # C-s defaults to
