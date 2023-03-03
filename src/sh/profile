@@ -23,7 +23,7 @@ fi
 
 # This disables terminal flow control (whatever that is)
 # which frees up C-s and C-q for keybindings.
-# We want this because # C-s defaults to
+# We want this because C-s defaults to
 # going forward in incremental history search.
 stty -ixon
 
