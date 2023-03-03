@@ -3,7 +3,11 @@
 alias g=git
 alias c=cargo
 alias b=brew
-alias m='make -j10'
+alias m="make -j10"
+
+if [ "$(uname)" = "Linux" ]; then
+	alias ls="ls --color"
+fi
 
 mkcd() {
 	mkdir -p "$1"
