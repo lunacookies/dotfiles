@@ -45,19 +45,25 @@ cleanup_brewfile_lock() {
 	rm "Brewfile.lock.json"
 }
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-link_config src "$HOME/.config"
+link_config src/bash/bash_profile "$HOME/.bash_profile"
+link_config src/bash/bashrc "$HOME/.bashrc"
+link_config src/git "$HOME/.config/git"
+link_config src/kitty "$HOME/.config/kitty"
+link_config src/rg "$HOME/.config/rg"
 link_config src/sh/profile "$HOME/.profile"
 link_config src/sh/shrc "$HOME/.shrc"
+link_config src/ssh/config "$HOME/.ssh/config"
+link_config src/tmux "$HOME/.config/tmux"
+link_config src/vim "$HOME/.vim"
 link_config src/zsh/zprofile "$HOME/.zprofile"
 link_config src/zsh/zshrc "$HOME/.zshrc"
-link_config src/bash/bashrc "$HOME/.bashrc"
-link_config src/bash/bash_profile "$HOME/.bash_profile"
-link_config src/vim "$HOME/.vim"
-link_config src/ssh/config "$HOME/.ssh/config"
-hide_login_message
+
 create_swapfiles_dir
-brew_install
-brew_cleanup
-cleanup_brewfile_lock
+
+if [ "$(uname)" = "Darwin" ]; then
+	eval "$(/opt/homebrew/bin/brew shellenv)"
+	brew_install
+	brew_cleanup
+	cleanup_brewfile_lock
+	hide_login_message
+fi
