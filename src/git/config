@@ -7,7 +7,8 @@ signingKey = "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzd
 
 [alias]
 br = branch
-co = checkout
+sw = switch
+re = restore
 c = commit
 s = status
 l = log --oneline --graph --all
