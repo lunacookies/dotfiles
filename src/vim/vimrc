@@ -13,6 +13,7 @@ set linebreak
 set list
 set listchars=tab:»\ ,nbsp:•,trail:•
 set modelines=5 " the system vimrc on macOS overrides the Vim default of 5 and sets this to 0
+set number
 set numberwidth=5
 set shortmess-=S " search result counter
 set smartcase
