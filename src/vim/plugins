@@ -1,6 +1,5 @@
 PeterRincker/vim-searchlight:master
 bfrg/vim-cpp-modern:master
-jonathanfilip/vim-lucius:master
 junegunn/fzf.vim:master
 lifepillar/vim-mucomplete:master
 markonm/traces.vim:master
@@ -12,5 +11,6 @@ tpope/vim-endwise:master
 tpope/vim-fugitive:master
 tpope/vim-surround:master
 tpope/vim-unimpaired:master
+vim-scripts/Sorcerer:master
 wellle/targets.vim:master
 ziglang/zig.vim:master
