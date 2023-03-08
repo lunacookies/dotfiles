@@ -62,8 +62,17 @@ nnoremap ,v :vsplit<CR>
 
 " Autocmds
 
+function! SourcePersonalVimrc()
+	let l:path = expand("%:p:h") . "/.personalvimrc"
+	if filereadable(l:path)
+		execute "source " . l:path
+	endif
+endfunction
+
 augroup vimrc
 	autocmd!
+
+	autocmd BufRead * call SourcePersonalVimrc()
 
 	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
 	autocmd BufRead *.html,*.css,*.scss,*.md setlocal softtabstop=2 shiftwidth=2 expandtab
