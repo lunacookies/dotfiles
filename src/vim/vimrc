@@ -5,6 +5,7 @@ set autoindent
 set autoread
 set clipboard^=unnamed
 set directory=$HOME/.vim/swapfiles//
+set hidden
 set hlsearch
 set ignorecase
 set incsearch
