@@ -77,6 +77,8 @@ augroup vimrc
 	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
 	autocmd BufRead *.html,*.css,*.scss,*.md setlocal softtabstop=2 shiftwidth=2 expandtab
 
+	autocmd BufWritePost *.c,*.h execute "silent! !clang-format -i %" | redraw!
+
 	autocmd ColorScheme * hi link Searchlight IncSearch
 	autocmd ColorScheme sorcerer hi NonText guibg=NONE
 	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
