@@ -1,11 +1,13 @@
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+brew "cabal-install"
 brew "clang-format"
 brew "dust"
 brew "fd"
 brew "ffmpeg"
 brew "fzf"
+brew "ghc"
 brew "git"
 brew "graphviz"
 brew "hugo"
