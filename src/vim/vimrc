@@ -93,4 +93,4 @@ augroup END
 let &t_ut=''
 
 set termguicolors
-colorscheme sorcerer
+colorscheme codedark
