@@ -1,6 +1,7 @@
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+brew "dotnet"
 brew "cabal-install"
 brew "clang-format"
 brew "dust"
