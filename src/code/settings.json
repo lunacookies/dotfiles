@@ -4,7 +4,8 @@
   "editor.lineHeight": 18,
   "workbench.colorCustomizations": {
     "editor.foreground": "#DCDCDC",
-    "editor.wordHighlightBackground": "#0F4583"
+    "editor.wordHighlightBackground": "#0F4583",
+    "editorLineNumber.foreground": "#8A8A8A"
   },
   "editor.semanticTokenColorCustomizations": {
     "rules": {
