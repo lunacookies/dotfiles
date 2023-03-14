@@ -90,4 +90,4 @@ augroup END
 let &t_ut=''
 
 set termguicolors
-colorscheme codedark
+colorscheme smyck-custom
