@@ -23,12 +23,19 @@ let s:aqua          = "258595"
 let s:light_aqua    = "79DFD8"
 
 let s:palette = {
-	\ "ui/bg-1"      : "000000",
+	\ "ui/bg-1"      : "171717",
 	\ "ui/bg"        : "272727",
 	\ "ui/bg+1"      : "373737",
 	\ "ui/bg+2"      : "4D4D4D",
-	\ "ui/fg-1"      : "5D5D5D",
-	\ "ui/fg"        : "F9F9F9",
+	\
+	\ "ui/fg-2"      : "444444",
+	\ "ui/fg-1"      : "6D6D6D",
+	\ "ui/fg"        : "E7E7E7",
+	\ "ui/fg+1"      : "FFFFFF",
+	\
+	\ "ui/menu-1"    : "333333",
+	\ "ui/menu"      : "444444",
+	\ "ui/menu+1"    : "6A6A6A",
 	\
 	\ "black"        : black,
 	\ "red"          : red,
@@ -70,29 +77,29 @@ function! s:Highlight(name, fg, bg, style)
 		\ " cterm=" . a:style
 endfunction
 
-call s:Highlight("Normal"       , "ui/fg"   , "ui/bg"        , "NONE")
-call s:Highlight("CursorLine"   , "NONE"    , "ui/bg+1"      , "NONE")
-call s:Highlight("CursorColumn" , "NONE"    , "ui/bg+1"      , "NONE")
-call s:Highlight("LineNr"       , "ui/fg-1" , "NONE"         , "NONE")
-call s:Highlight("CursorLineNr" , "ui/fg"   , "ui/bg+1"      , "NONE")
-call s:Highlight("StatusLine"   , "ui/fg"   , "ui/bg+2"      , "NONE")
-call s:Highlight("StatusLineNC" , "ui/fg-1" , "ui/bg-1"      , "NONE")
-call s:Highlight("VertSplit"    , "ui/bg-1" , "ui/bg-1"      , "NONE")
-call s:Highlight("NonText"      , "ui/fg-1" , "NONE"         , "NONE")
-call s:Highlight("SpecialKey"   , "ui/fg-1" , "NONE"         , "NONE")
-call s:Highlight("Visual"       , "black"   , "light_blue"   , "NONE")
-call s:Highlight("Search"       , "black"   , "light_aqua"   , "NONE")
-call s:Highlight("IncSearch"    , "black"   , "light_yellow" , "NONE")
-call s:Highlight("ColorColumn"  , "ui/bg-1" , "ui/bg-1"      , "NONE")
-call s:Highlight("TabLine"      , "ui/fg-1" , "ui/bg-1"      , "NONE")
-call s:Highlight("TabLineSel"   , "ui/fg"   , "ui/bg+2"      , "NONE")
-call s:Highlight("TabLineFill"  , "ui/fg-1" , "ui/bg-1"      , "NONE")
-call s:Highlight("Pmenu"        , "ui/fg"   , "ui/bg+2"      , "NONE")
-call s:Highlight("PmenuSel"     , "black"   , "ui/fg"        , "NONE")
-call s:Highlight("PmenuSbar"    , "ui/bg-1" , "ui/bg-1"      , "NONE")
-call s:Highlight("PmenuThumb"   , "ui/fg-1" , "ui/fg-1"      , "NONE")
-call s:Highlight("ErrorMsg"     , "black"   , "red"          , "bold")
-call s:Highlight("Title"        , "ui/fg"   , "NONE"         , "bold")
+call s:Highlight("Normal"       , "ui/fg"     , "ui/bg"        , "NONE")
+call s:Highlight("CursorLine"   , "NONE"      , "ui/bg+1"      , "NONE")
+call s:Highlight("CursorColumn" , "NONE"      , "ui/bg+1"      , "NONE")
+call s:Highlight("LineNr"       , "ui/fg-1"   , "NONE"         , "NONE")
+call s:Highlight("CursorLineNr" , "ui/fg"     , "ui/bg+1"      , "NONE")
+call s:Highlight("StatusLine"   , "ui/fg"     , "ui/bg+2"      , "NONE")
+call s:Highlight("StatusLineNC" , "ui/fg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("VertSplit"    , "ui/bg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("NonText"      , "ui/fg-2"   , "NONE"         , "NONE")
+call s:Highlight("SpecialKey"   , "ui/fg-2"   , "NONE"         , "NONE")
+call s:Highlight("Visual"       , "black"     , "light_blue"   , "NONE")
+call s:Highlight("Search"       , "black"     , "light_aqua"   , "NONE")
+call s:Highlight("IncSearch"    , "black"     , "light_yellow" , "NONE")
+call s:Highlight("ColorColumn"  , "ui/bg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("TabLine"      , "ui/fg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("TabLineSel"   , "ui/fg"     , "ui/bg+2"      , "NONE")
+call s:Highlight("TabLineFill"  , "ui/fg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("Pmenu"        , "ui/fg"     , "ui/menu"      , "NONE")
+call s:Highlight("PmenuSel"     , "ui/fg+1"   , "ui/menu+1"    , "bold")
+call s:Highlight("PmenuSbar"    , "ui/menu-1" , "ui/menu-1"    , "NONE")
+call s:Highlight("PmenuThumb"   , "ui/menu+1" , "ui/menu+1"    , "NONE")
+call s:Highlight("ErrorMsg"     , "black"     , "red"          , "bold")
+call s:Highlight("Title"        , "ui/fg+1"   , "NONE"         , "bold")
 
 call s:Highlight("Comment"    , "ui/fg-1"      , "NONE" , "NONE")
 call s:Highlight("Constant"   , "light_yellow" , "NONE" , "NONE")
