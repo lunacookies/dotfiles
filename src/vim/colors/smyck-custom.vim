@@ -8,26 +8,41 @@ set background=dark
 
 let g:colors_name = "smyck-custom"
 
+let s:black         = "000000"
+let s:red           = "C65640"
+let s:light_red     = "DF978E"
+let s:green         = "8FB400"
+let s:light_green   = "CEF046"
+let s:yellow        = "CFB200"
+let s:light_yellow  = "FFE55F"
+let s:blue          = "508FAA"
+let s:light_blue    = "9DD8F3"
+let s:magenta       = "C79FD6"
+let s:light_magenta = "FAB0FF"
+let s:aqua          = "258595"
+let s:light_aqua    = "79DFD8"
+
 let s:palette = {
-	\ "deep_gray"    : "000000",
-	\ "darker_gray"  : "272727",
-	\ "dark_gray"    : "373737",
-	\ "medium_gray"  : "4D4D4D",
-	\ "light_gray"   : "5D5D5D",
-	\ "lighter_gray" : "F9F9F9",
+	\ "ui/bg-1"      : "000000",
+	\ "ui/bg"        : "272727",
+	\ "ui/bg+1"      : "373737",
+	\ "ui/bg+2"      : "4D4D4D",
+	\ "ui/fg-1"      : "5D5D5D",
+	\ "ui/fg"        : "F9F9F9",
 	\
-	\ "red"          : "C65640",
-	\ "light_red"    : "DF978E",
-	\ "green"        : "8FB400",
-	\ "light_green"  : "CEF046",
-	\ "yellow"       : "CFB200",
-	\ "light_yellow" : "FFE55F",
-	\ "blue"         : "508FAA",
-	\ "light_blue"   : "9DD8F3",
-	\ "magenta"      : "C79FD6",
-	\ "light_magenta": "FAB0FF",
-	\ "aqua"         : "258595",
-	\ "light_aqua"   : "79DFD8",
+	\ "black"        : black,
+	\ "red"          : red,
+	\ "light_red"    : light_red,
+	\ "green"        : green,
+	\ "light_green"  : light_green,
+	\ "yellow"       : yellow,
+	\ "light_yellow" : light_yellow,
+	\ "blue"         : blue,
+	\ "light_blue"   : light_blue,
+	\ "magenta"      : magenta,
+	\ "light_magenta": light_magenta,
+	\ "aqua"         : aqua,
+	\ "light_aqua"   : light_aqua,
 	\ }
 
 function! s:Highlight(name, fg, bg, style)
@@ -55,31 +70,31 @@ function! s:Highlight(name, fg, bg, style)
 		\ " cterm=" . a:style
 endfunction
 
-call s:Highlight("Normal"       , "lighter_gray" , "darker_gray"  , "NONE")
-call s:Highlight("CursorLine"   , "NONE"         , "dark_gray"    , "NONE")
-call s:Highlight("CursorColumn" , "NONE"         , "dark_gray"    , "NONE")
-call s:Highlight("LineNr"       , "light_gray"   , "NONE"         , "NONE")
-call s:Highlight("CursorLineNr" , "lighter_gray" , "dark_gray"    , "NONE")
-call s:Highlight("StatusLine"   , "lighter_gray" , "medium_gray"  , "NONE")
-call s:Highlight("StatusLineNC" , "light_gray"   , "deep_gray"    , "NONE")
-call s:Highlight("VertSplit"    , "deep_gray"    , "deep_gray"    , "NONE")
-call s:Highlight("NonText"      , "light_gray"   , "NONE"         , "NONE")
-call s:Highlight("SpecialKey"   , "light_gray"   , "NONE"         , "NONE")
-call s:Highlight("Visual"       , "deep_gray"    , "light_blue"   , "NONE")
-call s:Highlight("Search"       , "deep_gray"    , "light_aqua"   , "NONE")
-call s:Highlight("IncSearch"    , "deep_gray"    , "light_yellow" , "NONE")
-call s:Highlight("ColorColumn"  , "deep_gray"    , "deep_gray"    , "NONE")
-call s:Highlight("TabLine"      , "light_gray"   , "deep_gray"    , "NONE")
-call s:Highlight("TabLineSel"   , "lighter_gray" , "medium_gray"  , "NONE")
-call s:Highlight("TabLineFill"  , "light_gray"   , "deep_gray"    , "NONE")
-call s:Highlight("Pmenu"        , "lighter_gray" , "medium_gray"  , "NONE")
-call s:Highlight("PmenuSel"     , "deep_gray"    , "lighter_gray" , "NONE")
-call s:Highlight("PmenuSbar"    , "deep_gray"    , "deep_gray"    , "NONE")
-call s:Highlight("PmenuThumb"   , "light_gray"   , "light_gray"   , "NONE")
-call s:Highlight("ErrorMsg"     , "deep_gray"    , "red"          , "bold")
-call s:Highlight("Title"        , "lighter_gray" , "NONE"         , "bold")
+call s:Highlight("Normal"       , "ui/fg"   , "ui/bg"        , "NONE")
+call s:Highlight("CursorLine"   , "NONE"    , "ui/bg+1"      , "NONE")
+call s:Highlight("CursorColumn" , "NONE"    , "ui/bg+1"      , "NONE")
+call s:Highlight("LineNr"       , "ui/fg-1" , "NONE"         , "NONE")
+call s:Highlight("CursorLineNr" , "ui/fg"   , "ui/bg+1"      , "NONE")
+call s:Highlight("StatusLine"   , "ui/fg"   , "ui/bg+2"      , "NONE")
+call s:Highlight("StatusLineNC" , "ui/fg-1" , "ui/bg-1"      , "NONE")
+call s:Highlight("VertSplit"    , "ui/bg-1" , "ui/bg-1"      , "NONE")
+call s:Highlight("NonText"      , "ui/fg-1" , "NONE"         , "NONE")
+call s:Highlight("SpecialKey"   , "ui/fg-1" , "NONE"         , "NONE")
+call s:Highlight("Visual"       , "black"   , "light_blue"   , "NONE")
+call s:Highlight("Search"       , "black"   , "light_aqua"   , "NONE")
+call s:Highlight("IncSearch"    , "black"   , "light_yellow" , "NONE")
+call s:Highlight("ColorColumn"  , "ui/bg-1" , "ui/bg-1"      , "NONE")
+call s:Highlight("TabLine"      , "ui/fg-1" , "ui/bg-1"      , "NONE")
+call s:Highlight("TabLineSel"   , "ui/fg"   , "ui/bg+2"      , "NONE")
+call s:Highlight("TabLineFill"  , "ui/fg-1" , "ui/bg-1"      , "NONE")
+call s:Highlight("Pmenu"        , "ui/fg"   , "ui/bg+2"      , "NONE")
+call s:Highlight("PmenuSel"     , "black"   , "ui/fg"        , "NONE")
+call s:Highlight("PmenuSbar"    , "ui/bg-1" , "ui/bg-1"      , "NONE")
+call s:Highlight("PmenuThumb"   , "ui/fg-1" , "ui/fg-1"      , "NONE")
+call s:Highlight("ErrorMsg"     , "black"   , "red"          , "bold")
+call s:Highlight("Title"        , "ui/fg"   , "NONE"         , "bold")
 
-call s:Highlight("Comment"    , "light_gray"   , "NONE" , "NONE")
+call s:Highlight("Comment"    , "ui/fg-1"      , "NONE" , "NONE")
 call s:Highlight("Constant"   , "light_yellow" , "NONE" , "NONE")
 call s:Highlight("Identifier" , "light_blue"   , "NONE" , "NONE")
 call s:Highlight("Statement"  , "light_green"  , "NONE" , "NONE")
