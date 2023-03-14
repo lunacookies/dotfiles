@@ -28,8 +28,9 @@ let s:palette = {
 	\ "ui/bg+1"      : "373737",
 	\ "ui/bg+2"      : "4D4D4D",
 	\
-	\ "ui/fg-2"      : "444444",
-	\ "ui/fg-1"      : "6D6D6D",
+	\ "ui/fg-3"      : "444444",
+	\ "ui/fg-2"      : "5A5A5A",
+	\ "ui/fg-1"      : "999999",
 	\ "ui/fg"        : "E7E7E7",
 	\ "ui/fg+1"      : "FFFFFF",
 	\
@@ -80,20 +81,20 @@ endfunction
 call s:Highlight("Normal"       , "ui/fg"     , "ui/bg"        , "NONE")
 call s:Highlight("CursorLine"   , "NONE"      , "ui/bg+1"      , "NONE")
 call s:Highlight("CursorColumn" , "NONE"      , "ui/bg+1"      , "NONE")
-call s:Highlight("LineNr"       , "ui/fg-1"   , "NONE"         , "NONE")
-call s:Highlight("CursorLineNr" , "ui/fg"     , "ui/bg+1"      , "NONE")
+call s:Highlight("LineNr"       , "ui/fg-2"   , "NONE"         , "NONE")
+call s:Highlight("CursorLineNr" , "ui/fg+1"   , "ui/bg+1"      , "NONE")
 call s:Highlight("StatusLine"   , "ui/fg"     , "ui/bg+2"      , "NONE")
-call s:Highlight("StatusLineNC" , "ui/fg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("StatusLineNC" , "ui/fg-2"   , "ui/bg-1"      , "NONE")
 call s:Highlight("VertSplit"    , "ui/bg-1"   , "ui/bg-1"      , "NONE")
-call s:Highlight("NonText"      , "ui/fg-2"   , "NONE"         , "NONE")
-call s:Highlight("SpecialKey"   , "ui/fg-2"   , "NONE"         , "NONE")
+call s:Highlight("NonText"      , "ui/fg-3"   , "NONE"         , "NONE")
+call s:Highlight("SpecialKey"   , "ui/fg-3"   , "NONE"         , "NONE")
 call s:Highlight("Visual"       , "black"     , "light_blue"   , "NONE")
 call s:Highlight("Search"       , "black"     , "light_aqua"   , "NONE")
 call s:Highlight("IncSearch"    , "black"     , "light_yellow" , "NONE")
 call s:Highlight("ColorColumn"  , "ui/bg-1"   , "ui/bg-1"      , "NONE")
-call s:Highlight("TabLine"      , "ui/fg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("TabLine"      , "ui/fg-2"   , "ui/bg-1"      , "NONE")
 call s:Highlight("TabLineSel"   , "ui/fg"     , "ui/bg+2"      , "NONE")
-call s:Highlight("TabLineFill"  , "ui/fg-1"   , "ui/bg-1"      , "NONE")
+call s:Highlight("TabLineFill"  , "ui/fg-2"   , "ui/bg-1"      , "NONE")
 call s:Highlight("Pmenu"        , "ui/fg"     , "ui/menu"      , "NONE")
 call s:Highlight("PmenuSel"     , "ui/fg+1"   , "ui/menu+1"    , "bold")
 call s:Highlight("PmenuSbar"    , "ui/menu-1" , "ui/menu-1"    , "NONE")
