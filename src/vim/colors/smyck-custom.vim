@@ -123,3 +123,17 @@ call s:Highlight("markdownItalicDelimiter"  , "green"      , "NONE" , "NONE")
 call s:Highlight("markdownCode"             , "light_blue" , "NONE" , "NONE")
 call s:Highlight("markdownCodeBlock"        , "light_blue" , "NONE" , "NONE")
 call s:Highlight("markdownCodeDelimiter"    , "blue"       , "NONE" , "NONE")
+
+hi link rubyDefine                 Keyword
+hi link rubyConstant               Identifier
+hi link rubyInstanceVariable       Identifier
+hi link rubyInterpolation          PreProc
+hi link rubyInterpolationDelimiter PreProc
+hi link rubySymbol                 Special
+
+hi link erlangAtom       Identifier
+hi link erlangQuotedAtom Identifier
+hi link erlangBIF        None
+
+call s:Highlight("diffRemoved" , "light_red"   , "NONE" , "NONE")
+call s:Highlight("diffAdded"   , "light_green" , "NONE" , "NONE")
