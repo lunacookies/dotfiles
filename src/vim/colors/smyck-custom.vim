@@ -10,7 +10,7 @@ let g:colors_name = "smyck-custom"
 
 let s:black         = "000000"
 let s:red           = "C65640"
-let s:light_red     = "DF978E"
+let s:light_red     = "E3A2A0"
 let s:green         = "8FB400"
 let s:light_green   = "CEF046"
 let s:yellow        = "CFB200"
@@ -19,7 +19,7 @@ let s:blue          = "508FAA"
 let s:light_blue    = "9DD8F3"
 let s:magenta       = "C79FD6"
 let s:light_magenta = "FAB0FF"
-let s:aqua          = "258595"
+let s:aqua          = "2FB9C5"
 let s:light_aqua    = "79DFD8"
 
 let s:palette = {
