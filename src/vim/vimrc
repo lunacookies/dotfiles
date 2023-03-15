@@ -3,6 +3,7 @@ syntax on
 
 set autoindent
 set autoread
+set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
 set directory=$HOME/.vim/swapfiles//
@@ -26,6 +27,7 @@ set wildmenu
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
 
 let &listchars = "tab:» ,nbsp:•,trail:•"
+let &showbreak = "››› "
 
 " Plugins
 
