@@ -23,7 +23,7 @@ set splitright
 set ttimeoutlen=0 " remove delay when pressing <Esc> to exit command-line mode
 set wildmenu
 
-let &statusline = " %f %r%m%=%3l %3c/%-3v "
+let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
 
 " Plugins
 
