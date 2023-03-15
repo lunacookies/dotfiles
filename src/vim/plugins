@@ -6,7 +6,6 @@ lifepillar/vim-mucomplete:master
 markonm/traces.vim:master
 romainl/vim-cool:master
 romainl/vim-qf:master
-tomasiser/vim-code-dark:master
 tommcdo/vim-lion:master
 tpope/vim-commentary:master
 tpope/vim-endwise:master
