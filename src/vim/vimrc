@@ -13,7 +13,6 @@ set incsearch
 set laststatus=2
 set linebreak
 set list
-set listchars=tab:»\ ,nbsp:•,trail:•
 set modelines=5 " the system vimrc on macOS overrides the Vim default of 5 and sets this to 0
 set number
 set numberwidth=5
@@ -25,6 +24,8 @@ set ttimeoutlen=0 " remove delay when pressing <Esc> to exit command-line mode
 set wildmenu
 
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
+
+let &listchars = "tab:» ,nbsp:•,trail:•"
 
 " Plugins
 
