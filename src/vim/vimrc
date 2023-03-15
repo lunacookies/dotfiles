@@ -57,8 +57,10 @@ nnoremap <expr> j v:count == 0 ? 'gj' : 'j'
 vnoremap < <gv
 vnoremap > >gv
 
+command! -nargs=+ -complete=file_in_path -bar Grep silent! lgrep! <args> | redraw!
+
 nnoremap ,f :find<Space>
-nnoremap ,g :silent lgrep<Space>
+nnoremap ,g :Grep<Space>
 nnoremap ,b :ls<CR>:b<Space>
 
 nnoremap ,s :split<CR>
