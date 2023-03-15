@@ -28,8 +28,8 @@ let s:palette = {
 	\ "ui/bg+1"      : "373737",
 	\ "ui/bg+2"      : "4D4D4D",
 	\
-	\ "ui/fg-3"      : "444444",
-	\ "ui/fg-2"      : "5A5A5A",
+	\ "ui/fg-3"      : "555555",
+	\ "ui/fg-2"      : "6A6A6A",
 	\ "ui/fg-1"      : "999999",
 	\ "ui/fg"        : "E7E7E7",
 	\ "ui/fg+1"      : "FFFFFF",
