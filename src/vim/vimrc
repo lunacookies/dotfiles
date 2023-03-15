@@ -61,6 +61,7 @@ command! -nargs=+ -complete=file_in_path -bar Grep silent! lgrep! <args> | redra
 
 nnoremap ,f :find<Space>
 nnoremap ,g :Grep<Space>
+nnoremap ,G :Grep <C-r><C-w><CR>
 nnoremap ,b :ls<CR>:b<Space>
 
 nnoremap ,s :split<CR>
