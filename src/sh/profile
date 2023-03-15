@@ -13,7 +13,6 @@ export EDITOR="vim"
 
 export CLICOLOR="1"
 export FZF_DEFAULT_COMMAND="fd --hidden"
-export RIPGREP_CONFIG_PATH="$HOME/.config/rg/rgrc"
 export MANPAGER="col -b | vim --not-a-term -c 'set filetype=man nomodified' - "
 export MANWIDTH="72"
 
