@@ -6,9 +6,9 @@ source "$ENV"
 PROMPT_COMMAND=__prompt_command
 __prompt_command() {
 	local exit_status="$?"
-	PS1="\n\[\e[94m\]\w\[\e[m\]"
+	PS1="\[\e[90m\]\W"
 	if [ "$exit_status" != 0 ]; then
-		PS1="$PS1 [\[\e[31m\]$exit_status\[\e[m\]]"
+		PS1="$PS1 \[\e[m\][\[\e[31m\]$exit_status\[\e[m\]] \[\e[90m\]"
 	fi
-	PS1="$PS1\n\$ "
+	PS1="$PS1\$\[\e[m\] "
 }

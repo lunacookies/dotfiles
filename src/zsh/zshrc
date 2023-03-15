@@ -19,6 +19,4 @@ precmd() { fc -R } # reload history before each command
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
 
-export PROMPT=$'
-%{\e[94m%}%~%{\e[m%} %(?..[%{\e[91m%}%?%{\e[m%}])
-\$ '
+export PROMPT=$'%{\e[90m%}%1~%(?.. %{\e[m%}[%{\e[91m%}%?%{\e[m%}] %{\e[90m%})\$ %{\e[m%}'
