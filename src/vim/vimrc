@@ -88,7 +88,7 @@ augroup vimrc
 	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
 	autocmd BufRead *.html,*.css,*.scss,*.md setlocal softtabstop=2 shiftwidth=2 expandtab
 
-	autocmd BufWritePost *.c,*.h silent make! | redraw!
+	autocmd BufWritePost *.c,*.h,*.m,*.metal silent make! | redraw!
 
 	autocmd ColorScheme * hi link Searchlight IncSearch
 augroup END
