@@ -18,7 +18,7 @@ set linebreak
 set list
 set modelines=5 " the system vimrc on macOS overrides the Vim default of 5 and sets this to 0
 set numberwidth=5
-set path=.,,src/**
+set path=.,,src/**,content/**,layouts/**,static/**,assets/**
 set shortmess-=S " search result counter
 set smartcase
 set splitbelow
