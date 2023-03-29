@@ -7,7 +7,7 @@ endif
 runtime! syntax/cpp.vim
 let b:current_syntax = 'metal'
 
-syntax keyword metalKeyword vertex fragment constant buffer devicethreadgroup patch
+syntax keyword metalKeyword vertex fragment constant device buffer devicethreadgroup patch
 syntax keyword metalScalarType ptrdiff_t half uchar uint
 syntax match metalVectorType '\v<(packed_)?(bool|char|uchar|short|ushort|half|int|uint|float)[2-4]'
 syntax match metalMatrixType '\v(half|float)[2-4]x[2-4]'
