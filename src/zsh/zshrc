@@ -18,4 +18,4 @@ setopt inc_append_history # append history after each command
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
 
-export PROMPT=$'%{\e[90m%}%1~%(?.. %{\e[m%}[%{\e[91m%}%?%{\e[m%}] %{\e[90m%})\$ %{\e[m%}'
+export PROMPT=$'%{\e[1;92m%}%(?..%{\e[1;91m%})%n@%m %1~ %{\e[0m%}%% '
