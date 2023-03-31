@@ -7,8 +7,6 @@ set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
 set directory=$HOME/.vim/swapfiles//
-set grepformat^=%f:%l:%c:%m
-set grepprg=rg\ --vimgrep\ --ignore-case
 set hidden
 set hlsearch
 set ignorecase
@@ -18,13 +16,11 @@ set linebreak
 set list
 set modelines=5 " the system vimrc on macOS overrides the Vim default of 5 and sets this to 0
 set numberwidth=5
-set path=.,,src/**,content/**,layouts/**,static/**,assets/**
 set shortmess-=S " search result counter
 set smartcase
 set splitbelow
 set splitright
 set ttimeoutlen=0 " remove delay when pressing <Esc> to exit command-line mode
-set wildignore=*/out/*
 set wildmenu
 
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
@@ -48,6 +44,9 @@ let g:cpp_simple_highlight = 1
 
 " Mappings
 
+set runtimepath+=/opt/homebrew/opt/fzf
+let g:fzf_layout = { 'down': '~40%' }
+
 inoremap (<CR> (<CR>)<Esc>O
 inoremap {<CR> {<CR>}<Esc>O
 
@@ -57,12 +56,10 @@ nnoremap <expr> j v:count == 0 ? 'gj' : 'j'
 vnoremap < <gv
 vnoremap > >gv
 
-command! -nargs=+ -complete=file_in_path -bar Grep silent! lgrep! <args> | redraw!
-
-nnoremap ,f :find<Space>
-nnoremap ,g :Grep<Space>
-nnoremap ,G :Grep <C-r><C-w><CR>
-nnoremap ,b :ls<CR>:b<Space>
+nnoremap ,f :Files<CR>
+nnoremap ,g :Rg<CR>
+nnoremap ,b :Buffers<CR>
+nnoremap ,h :Helptags<CR>
 
 nnoremap ,s :split<CR>
 nnoremap ,v :vsplit<CR>

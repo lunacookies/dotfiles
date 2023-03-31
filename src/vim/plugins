@@ -2,6 +2,7 @@ PeterRincker/vim-searchlight:master
 bfrg/vim-cpp-modern:master
 cocopon/inspecthi.vim:main
 fcpg/vim-altscreen:master
+junegunn/fzf.vim:master
 lifepillar/vim-mucomplete:master
 markonm/traces.vim:master
 romainl/vim-cool:master
