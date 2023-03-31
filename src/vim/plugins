@@ -1,17 +1,17 @@
-PeterRincker/vim-searchlight:master
-bfrg/vim-cpp-modern:master
-cocopon/inspecthi.vim:main
-fcpg/vim-altscreen:master
-junegunn/fzf.vim:master
-lifepillar/vim-mucomplete:master
-markonm/traces.vim:master
-romainl/vim-cool:master
-romainl/vim-qf:master
-tommcdo/vim-lion:master
-tpope/vim-commentary:master
-tpope/vim-endwise:master
-tpope/vim-fugitive:master
-tpope/vim-surround:master
-tpope/vim-unimpaired:master
-wellle/targets.vim:master
-ziglang/zig.vim:master
+github: PeterRincker/vim-searchlight:master
+github: bfrg/vim-cpp-modern:master
+github: cocopon/inspecthi.vim:main
+github: fcpg/vim-altscreen:master
+github: junegunn/fzf.vim:master
+github: lifepillar/vim-mucomplete:master
+github: markonm/traces.vim:master
+github: romainl/vim-cool:master
+github: romainl/vim-qf:master
+github: tommcdo/vim-lion:master
+github: tpope/vim-commentary:master
+github: tpope/vim-endwise:master
+github: tpope/vim-fugitive:master
+github: tpope/vim-surround:master
+github: tpope/vim-unimpaired:master
+github: wellle/targets.vim:master
+github: ziglang/zig.vim:master

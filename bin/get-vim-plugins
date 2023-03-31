@@ -8,16 +8,24 @@ cd "$HOME/.vim/pack/bundle/start"
 
 install_plugin() {
 	line="$1"
-	user=$(echo "$line" | cut -d/ -f 1)
-	repo_and_ref=$(echo "$line" | cut -d/ -f 2)
-	repo=$(echo "$repo_and_ref" | cut -d: -f1)
-	ref=$(echo "$repo_and_ref" | cut -d: -f2)
-	archive_path="$repo.tar.gz"
-	url="https://codeload.github.com/$user/$repo/tar.gz/$ref"
-	curl --no-progress-meter --output "$archive_path" "$url"
-	tar -zxf "$archive_path"
-	rm "$archive_path"
-	printf "Installed %s\n" "$repo"
+	if [ "${line#github: }" != "$line" ]; then
+		line="${line#github: }"
+		user=$(echo "$line" | cut -d/ -f1)
+		repo_and_ref=$(echo "$line" | cut -d/ -f2)
+		repo=$(echo "$repo_and_ref" | cut -d: -f1)
+		ref=$(echo "$repo_and_ref" | cut -d: -f2)
+		archive_path="$repo.tar.gz"
+		url="https://codeload.github.com/$user/$repo/tar.gz/$ref"
+		curl --no-progress-meter --output "$archive_path" "$url"
+		tar -zxf "$archive_path"
+		rm "$archive_path"
+		printf "Installed %s\n" "$repo"
+	elif [ "${line#git: }" != "$line" ]; then
+		line="${line#git: }"
+		git clone --quiet "$line"
+		repo=$(echo "$line" | rev | cut -d/ -f1 | rev)
+		printf "Installed %s\n" "$repo"
+	fi
 }
 
 while read -r line; do
