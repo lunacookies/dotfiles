@@ -9,6 +9,7 @@ import typing
 FD = "/opt/homebrew/bin/fd"
 FZF = "/opt/homebrew/bin/fzf"
 TMUX = "/opt/homebrew/bin/tmux"
+SSH = "/usr/bin/ssh"
 
 
 class Cmd:
@@ -91,6 +92,11 @@ def new_session_from_name():
     tmux("new-session", s=name).run()
 
 
+def new_remote_shell():
+    remote = input("Enter remote: ")
+    Cmd(SSH, remote).run()
+
+
 options = list(
     map(
         lambda session_name: (
@@ -103,6 +109,7 @@ options = list(
     ("New session from existing directory", new_session_from_existing_dir),
     ("New session from new directory", new_session_from_new_dir),
     ("New session from name", new_session_from_name),
+    ("New remote shell", new_remote_shell),
 ]
 
 select("Please choose your session", options)
