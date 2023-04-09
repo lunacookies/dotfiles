@@ -10,6 +10,7 @@
       pkgs.ffmpeg
       pkgs.fzf
       pkgs.git
+      pkgs.gnumake
       pkgs.graphviz
       pkgs.hugo
       pkgs.hyperfine
