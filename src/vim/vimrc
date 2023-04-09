@@ -85,6 +85,9 @@ augroup vimrc
 	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
 	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.md setlocal softtabstop=2 shiftwidth=2 expandtab
 
+	autocmd BufWritePost *.nix execute "silent! !nixpkgs-fmt %" | redraw!
+	autocmd BufNewFile,BufRead *.nix setlocal softtabstop=2 shiftwidth=2 expandtab
+
 	autocmd BufWritePost *.c,*.h,*.m,*.metal silent make! | redraw!
 augroup END
 
