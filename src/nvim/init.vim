@@ -30,7 +30,6 @@ let g:cpp_simple_highlight = 1
 
 " Mappings
 
-set runtimepath+=/opt/homebrew/opt/fzf
 let g:fzf_layout = { 'down': '~40%' }
 
 inoremap (<CR> (<CR>)<Esc>O

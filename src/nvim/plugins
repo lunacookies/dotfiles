@@ -3,6 +3,7 @@ github: bfrg/vim-cpp-modern:master
 github: cocopon/inspecthi.vim:main
 github: fcpg/vim-altscreen:master
 github: junegunn/fzf.vim:master
+github: junegunn/fzf:master
 github: lifepillar/vim-mucomplete:master
 github: markonm/traces.vim:master
 github: neovimhaskell/haskell-vim:master
