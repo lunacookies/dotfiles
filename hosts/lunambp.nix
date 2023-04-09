@@ -3,8 +3,8 @@
 {
   environment.systemPackages =
     [
-      pkgs.clang
       pkgs.clang-tools
+      pkgs.clang_14 # for some reason just using pkgs.clang gives clang 11
       pkgs.du-dust
       pkgs.fd
       pkgs.ffmpeg
