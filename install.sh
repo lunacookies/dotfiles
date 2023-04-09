@@ -19,10 +19,6 @@ hide_login_message() {
 	touch "$HOME/.hushlogin"
 }
 
-create_swapfiles_dir() {
-	mkdir -p "$HOME/.vim/swapfiles"
-}
-
 brew_install() {
 	brew bundle --verbose
 }
@@ -54,11 +50,9 @@ link_config src/sh/profile "$HOME/.profile"
 link_config src/sh/shrc "$HOME/.shrc"
 link_config src/ssh/config "$HOME/.ssh/config"
 link_config src/tmux "$HOME/.config/tmux"
-link_config src/vim "$HOME/.vim"
+link_config src/nvim "$HOME/.config/nvim"
 link_config src/zsh/zprofile "$HOME/.zprofile"
 link_config src/zsh/zshrc "$HOME/.zshrc"
-
-create_swapfiles_dir
 
 if [ "$(uname)" = "Darwin" ]; then
 	eval "$(/opt/homebrew/bin/brew shellenv)"

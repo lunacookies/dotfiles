@@ -1,27 +1,13 @@
-filetype plugin indent on
-syntax on
-
-set autoindent
-set autoread
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
-set directory=$HOME/.vim/swapfiles//
-set hidden
-set hlsearch
 set ignorecase
-set incsearch
-set laststatus=2
 set linebreak
 set list
-set modelines=5 " the system vimrc on macOS overrides the Vim default of 5 and sets this to 0
 set numberwidth=5
-set shortmess-=S " search result counter
 set smartcase
 set splitbelow
 set splitright
-set ttimeoutlen=0 " remove delay when pressing <Esc> to exit command-line mode
-set wildmenu
 
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
 
