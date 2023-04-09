@@ -100,5 +100,9 @@ autocmd ColorScheme * hi Search       ctermfg=3    ctermbg=NONE cterm=reverse
 autocmd ColorScheme * hi IncSearch    ctermfg=11   ctermbg=NONE cterm=reverse
 autocmd ColorScheme * hi ColorColumn  ctermfg=NONE ctermbg=0    cterm=NONE
 autocmd ColorScheme * hi MatchParen   ctermfg=15   ctermbg=8    cterm=bold
+autocmd ColorScheme * hi Pmenu        ctermfg=7    ctermbg=0    cterm=NONE
+autocmd ColorScheme * hi PmenuSel     ctermfg=7    ctermbg=NONE cterm=reverse
+autocmd ColorScheme * hi PmenuThumb   ctermfg=7    ctermbg=NONE cterm=reverse
+autocmd ColorScheme * hi PmenuSbar    ctermfg=8    ctermbg=8    cterm=NONE
 
 colorscheme default
