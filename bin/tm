@@ -6,11 +6,6 @@ import pathlib
 import subprocess
 import typing
 
-FD = "/opt/homebrew/bin/fd"
-FZF = "/opt/homebrew/bin/fzf"
-TMUX = "/opt/homebrew/bin/tmux"
-SSH = "/usr/bin/ssh"
-
 
 class Cmd:
     def __init__(self, *args):
@@ -44,21 +39,12 @@ def select(prompt: str, options: list[tuple[str, typing.Callable]]):
     code()
 
 
-def tmux(subcommand: str, **kwargs) -> Cmd:
-    args = [TMUX, subcommand]
-
-    for (name, value) in kwargs.items():
-        args += [f"-{name}", value]
-
-    return Cmd(*args)
-
-
 def available_tmux_sessions():
-    return tmux("list-sessions", F="#S").run_with_output()
+    return Cmd("tmux", "list-sessions", "-F", "#S").run_with_output()
 
 
 def find_dirs_command(dir: str, excluding: list[str]):
-    args = [FD, ".", "--type", "d"]
+    args = ["fd", ".", "--type", "d"]
 
     for excluded_dir in excluding:
         args += ["--exclude", excluded_dir]
@@ -70,38 +56,39 @@ def find_dirs_command(dir: str, excluding: list[str]):
 
 def choose_dir(dir: str, excluding: list[str]):
     print("Enter new session directory: ")
-    dir = find_dirs_command(dir, excluding).pipe(Cmd(FZF, "--height=50%"))[0]
+    dir = find_dirs_command(dir, excluding).pipe(Cmd("fzf", "--height", "50%"))[0]
     return os.path.normpath(dir)
 
 
 def new_session_from_existing_dir():
     dir = choose_dir(pathlib.Path.home(), ["Library", "Applications"])
     name = os.path.basename(dir)
-    tmux("new-session", s=name, c=dir).run()
+    Cmd("tmux", "new-session", "-s", name, "-c", dir).run()
+
 
 def new_session_from_new_dir():
     print("Enter path for new directory:")
     dir = input("> ")
     os.makedirs(dir)
     name = os.path.basename(dir)
-    tmux("new-session", s=name, c=dir).run()
+    Cmd("tmux", "new-session", "-s", name, "-c", dir).run()
 
 
 def new_session_from_name():
     name = input("Enter new session name: ")
-    tmux("new-session", s=name).run()
+    Cmd("tmux", "new-session", "-s", name).run()
 
 
 def new_remote_shell():
     remote = input("Enter remote: ")
-    Cmd(SSH, remote).run()
+    Cmd("ssh", remote).run()
 
 
 options = list(
     map(
         lambda session_name: (
             session_name,
-            lambda: tmux("attach-session", t=session_name).run(),
+            lambda: Cmd("tmux", "attach-session", "-t", session_name).run(),
         ),
         available_tmux_sessions(),
     )
