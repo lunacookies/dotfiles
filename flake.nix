@@ -11,7 +11,14 @@
     darwinConfigurations = {
       lunambp = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
-        modules = [ ./hosts/lunambp.nix ];
+        modules = [ ./hosts/lunambp/configuration.nix ];
+      };
+    };
+
+    nixosConfigurations = {
+      lunavm = nixpkgs.lib.nixosSystem {
+        system = "aarch64-linux";
+        modules = [ ./hosts/lunavm/configuration.nix ];
       };
     };
   };
