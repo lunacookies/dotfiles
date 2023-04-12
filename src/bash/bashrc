@@ -6,9 +6,9 @@ source "$ENV"
 PROMPT_COMMAND=__prompt_command
 __prompt_command() {
 	local exit_status="$?"
-	local color="\[\e[1;92m\]"
+	local color="\[\e[1;32m\]"
 	if [ "$exit_status" != 0 ]; then
-		color="\[\e[1;91m\]"
+		color="\[\e[1;31m\]"
 	fi
-	PS1="$color\u@\h \W \[\e[m\]\$ "
+	PS1="\n${color}[\u@\h:\W]$\[\e[m\] "
 }
