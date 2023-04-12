@@ -4,7 +4,6 @@
   environment.systemPackages =
     [
       pkgs.clang-tools
-      pkgs.clang_14 # for some reason just using pkgs.clang gives clang 11
       pkgs.du-dust
       pkgs.fd
       pkgs.ffmpeg
@@ -19,6 +18,7 @@
       pkgs.nodejs
       pkgs.pastel
       pkgs.ripgrep
+      pkgs.rustup
       pkgs.shellcheck
       pkgs.texlive.combined.scheme-full
       pkgs.tmux
