@@ -1,6 +1,7 @@
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
+set cursorline
 set ignorecase
 set linebreak
 set list
@@ -90,6 +91,7 @@ autocmd ColorScheme * hi Ignore     ctermfg=8  ctermbg=NONE cterm=NONE
 autocmd ColorScheme * hi Error      ctermfg=1  ctermbg=NONE cterm=reverse
 autocmd ColorScheme * hi Todo       ctermfg=11 ctermbg=NONE cterm=reverse
 
+autocmd ColorScheme * hi CursorLine   ctermfg=NONE ctermbg=0    cterm=NONE
 autocmd ColorScheme * hi Visual       ctermfg=4    ctermbg=NONE cterm=reverse
 autocmd ColorScheme * hi NonText      ctermfg=8    ctermbg=NONE cterm=NONE
 autocmd ColorScheme * hi SpecialKey   ctermfg=8    ctermbg=NONE cterm=NONE
