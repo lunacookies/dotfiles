@@ -9,6 +9,7 @@ github: markonm/traces.vim:master
 github: neovimhaskell/haskell-vim:master
 github: romainl/vim-cool:master
 github: romainl/vim-qf:master
+github: rust-lang/rust.vim:master
 github: tommcdo/vim-lion:master
 github: tpope/vim-commentary:master
 github: tpope/vim-endwise:master
