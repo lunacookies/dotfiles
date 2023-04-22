@@ -69,8 +69,8 @@ augroup vimrc
 	autocmd BufRead * call SourcePersonalVimrc()
 	autocmd BufReadPost * if &textwidth == 0 | setlocal textwidth=80 | endif
 
-	autocmd BufWritePost *.html,*.css,*.scss,*.md execute "silent! !prettier -w %" | redraw!
-	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.md setlocal softtabstop=2 shiftwidth=2 expandtab
+	autocmd BufWritePost *.html,*.css,*.scss,*.md,*.js execute "silent! !prettier -w %" | redraw!
+	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.md,*.js setlocal softtabstop=2 shiftwidth=2 expandtab
 
 	autocmd BufWritePost *.nix execute "silent! !nixpkgs-fmt %" | redraw!
 	autocmd BufNewFile,BufRead *.nix setlocal softtabstop=2 shiftwidth=2 expandtab
