@@ -1,4 +1,5 @@
 git: http://git.lunaa.me/vim-zig-syntax-ext.git
+github: ap/vim-css-color:master
 github: bfrg/vim-cpp-modern:master
 github: cocopon/inspecthi.vim:main
 github: fcpg/vim-altscreen:master
