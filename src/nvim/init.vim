@@ -3,6 +3,7 @@ set clipboard^=unnamed
 set colorcolumn=+1
 set cursorline
 set ignorecase
+set inccommand=split
 set linebreak
 set list
 set numberwidth=5
