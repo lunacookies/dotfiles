@@ -1,8 +1,6 @@
 #!/bin/sh
 
-if [ "$(uname)" = "Darwin" ]; then
-	eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export PATH="$HOME/Code/dotfiles/bin:$HOME/.cargo/bin:$HOME/.ghcup/bin:$PATH"
 
@@ -16,9 +14,7 @@ export FZF_DEFAULT_COMMAND="fd --hidden"
 export MANPAGER="nvim +Man!"
 export MANWIDTH="72"
 
-if [ "$(uname)" = "Darwin" ]; then
-	export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
-fi
+export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
 
 # This disables terminal flow control (whatever that is)
 # which frees up C-s and C-q for keybindings.

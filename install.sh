@@ -54,10 +54,8 @@ link_config src/nvim "$HOME/.config/nvim"
 link_config src/zsh/zprofile "$HOME/.zprofile"
 link_config src/zsh/zshrc "$HOME/.zshrc"
 
-if [ "$(uname)" = "Darwin" ]; then
-	eval "$(/opt/homebrew/bin/brew shellenv)"
-	brew_install
-	brew_cleanup
-	cleanup_brewfile_lock
-	hide_login_message
-fi
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew_install
+brew_cleanup
+cleanup_brewfile_lock
+hide_login_message
