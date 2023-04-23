@@ -41,6 +41,12 @@ cleanup_brewfile_lock() {
 	rm "Brewfile.lock.json"
 }
 
+install_js_packages() {
+	yarn global add http-server
+	yarn global add prettier
+	yarn global add prettier-plugin-go-template
+}
+
 link_config src/bash/bash_profile "$HOME/.bash_profile"
 link_config src/bash/bashrc "$HOME/.bashrc"
 link_config src/git "$HOME/.config/git"
@@ -58,4 +64,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew_install
 brew_cleanup
 cleanup_brewfile_lock
+install_js_packages
 hide_login_message
