@@ -76,6 +76,11 @@ augroup vimrc
 	autocmd BufNewFile,BufRead *.nix setlocal softtabstop=2 shiftwidth=2 expandtab
 
 	autocmd BufWritePost *.c,*.h,*.m,*.metal silent make! | redraw!
+
+	" see :h skeleton
+	autocmd BufNewFile *.c 0read ~/.config/nvim/skeleton.c
+	autocmd BufNewFile *.rs 0read ~/.config/nvim/skeleton.rs
+	autocmd BufNewFile *.zig 0read ~/.config/nvim/skeleton.zig
 augroup END
 
 " Color scheme
