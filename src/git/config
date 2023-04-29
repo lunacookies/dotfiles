@@ -3,7 +3,7 @@
 [user]
 name = Luna Razzaghipour
 email = lunarazzaghipour@gmail.com
-signingKey = "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLTxD1PsPaEPdLiwXOEdINDuwv8Pn3E+GvkeJ75LyV4qEjxjmnwRzUCbn8k497Sy3jbTuNR/c7SX5/w5S7tpl4o= GitHub@secretive.firestorm.local"
+signingKey = "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLTxD1PsPaEPdLiwXOEdINDuwv8Pn3E+GvkeJ75LyV4qEjxjmnwRzUCbn8k497Sy3jbTuNR/c7SX5/w5S7tpl4o="
 
 [alias]
 br = branch
