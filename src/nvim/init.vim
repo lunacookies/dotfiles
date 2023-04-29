@@ -80,6 +80,8 @@ augroup vimrc
 
 	autocmd BufWritePost *.c,*.h,*.m,*.metal silent make! | redraw!
 
+	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
+
 	" see :h skeleton
 	autocmd BufNewFile *.c 0read ~/.config/nvim/skeleton.c
 	autocmd BufNewFile *.rs 0read ~/.config/nvim/skeleton.rs
