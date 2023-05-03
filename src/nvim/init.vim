@@ -90,32 +90,6 @@ augroup END
 
 " Color scheme
 
-autocmd ColorScheme * hi Comment    ctermfg=15 ctermbg=NONE cterm=bold
-autocmd ColorScheme * hi Constant   ctermfg=10 ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi Identifier ctermfg=4  ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi Statement  ctermfg=12 ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi PreProc    ctermfg=6  ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi Type       ctermfg=13 ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi Special    ctermfg=5  ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi Underlined ctermfg=4  ctermbg=NONE cterm=underline
-autocmd ColorScheme * hi Ignore     ctermfg=8  ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi Error      ctermfg=1  ctermbg=NONE cterm=reverse
-autocmd ColorScheme * hi Todo       ctermfg=11 ctermbg=NONE cterm=reverse
-
-autocmd ColorScheme * hi CursorLine   ctermfg=NONE ctermbg=0    cterm=NONE
-autocmd ColorScheme * hi Visual       ctermfg=4    ctermbg=NONE cterm=reverse
-autocmd ColorScheme * hi NonText      ctermfg=8    ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi SpecialKey   ctermfg=8    ctermbg=NONE cterm=NONE
-autocmd ColorScheme * hi StatusLine   ctermfg=15   ctermbg=0    cterm=bold
-autocmd ColorScheme * hi StatusLineNC ctermfg=8    ctermbg=0    cterm=bold
-autocmd ColorScheme * hi VertSplit    ctermfg=0    ctermbg=0    cterm=NONE
-autocmd ColorScheme * hi Search       ctermfg=3    ctermbg=NONE cterm=reverse
-autocmd ColorScheme * hi IncSearch    ctermfg=11   ctermbg=NONE cterm=reverse
-autocmd ColorScheme * hi ColorColumn  ctermfg=NONE ctermbg=0    cterm=NONE
-autocmd ColorScheme * hi MatchParen   ctermfg=15   ctermbg=8    cterm=bold
-autocmd ColorScheme * hi Pmenu        ctermfg=7    ctermbg=0    cterm=NONE
-autocmd ColorScheme * hi PmenuSel     ctermfg=7    ctermbg=NONE cterm=reverse
-autocmd ColorScheme * hi PmenuThumb   ctermfg=7    ctermbg=NONE cterm=reverse
-autocmd ColorScheme * hi PmenuSbar    ctermfg=8    ctermbg=8    cterm=NONE
-
-colorscheme default
+let g:gruvbox_italicize_strings = 0
+set termguicolors
+colorscheme gruvbox8_hard
