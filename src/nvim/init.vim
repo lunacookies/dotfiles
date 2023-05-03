@@ -89,6 +89,8 @@ augroup vimrc
 
 	" get back tildes so you can see where a file ends
 	autocmd ColorScheme gruvbox* hi! link EndOfBuffer NonText
+
+	autocmd ColorScheme gruvbox* hi VertSplit guifg=#3c3836 guibg=#3c3836
 augroup END
 
 " Color scheme
