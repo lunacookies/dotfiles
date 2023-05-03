@@ -34,3 +34,6 @@ format = ssh
 
 [gpg "ssh"]
 allowedSignersFile = /Users/luna/.config/git/allowed_signers
+
+[advice]
+detachedHead = false
