@@ -13,7 +13,7 @@ syntax match metalVectorType '\v<(packed_)?(bool|char|uchar|short|ushort|half|in
 syntax match metalMatrixType '\v(half|float)[2-4]x[2-4]'
 syntax match metalAtomicType '\vatomic_(int|uint|bool)'
 syntax match metalAtomicType '\vatomic\<(int|uint|bool)\>'
-syntax match metalAttribute '\v\[\[.*\]\]'
+syntax region metalAttribute start='\[\[' end='\]\]'
 
 highlight default link metalKeyword Keyword
 highlight default link metalScalarType Type
