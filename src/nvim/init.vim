@@ -95,6 +95,6 @@ augroup END
 
 " Color scheme
 
-let g:gruvbox_italicize_strings = 0
+let g:gruvbox_bold = 0
 set termguicolors
 colorscheme gruvbox8_hard
