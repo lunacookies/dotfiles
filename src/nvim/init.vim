@@ -86,6 +86,9 @@ augroup vimrc
 	autocmd BufNewFile *.c 0read ~/.config/nvim/skeleton.c
 	autocmd BufNewFile *.rs 0read ~/.config/nvim/skeleton.rs
 	autocmd BufNewFile *.zig 0read ~/.config/nvim/skeleton.zig
+
+	" get back tildes so you can see where a file ends
+	autocmd ColorScheme gruvbox* hi! link EndOfBuffer NonText
 augroup END
 
 " Color scheme
