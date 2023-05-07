@@ -5,10 +5,10 @@ github: cocopon/inspecthi.vim:main
 github: fcpg/vim-altscreen:master
 github: junegunn/fzf.vim:master
 github: junegunn/fzf:master
-github: lifepillar/vim-gruvbox8:master
 github: lifepillar/vim-mucomplete:master
 github: neovimhaskell/haskell-vim:master
 github: pangloss/vim-javascript:master
+github: romainl/Apprentice:0e624fd
 github: romainl/vim-cool:master
 github: romainl/vim-qf:master
 github: rust-lang/rust.vim:master

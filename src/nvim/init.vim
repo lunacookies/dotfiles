@@ -86,15 +86,8 @@ augroup vimrc
 	autocmd BufNewFile *.c 0read ~/.config/nvim/skeleton.c
 	autocmd BufNewFile *.rs 0read ~/.config/nvim/skeleton.rs
 	autocmd BufNewFile *.zig 0read ~/.config/nvim/skeleton.zig
-
-	" get back tildes so you can see where a file ends
-	autocmd ColorScheme gruvbox* hi! link EndOfBuffer NonText
-
-	autocmd ColorScheme gruvbox* hi VertSplit guifg=#3c3836 guibg=#3c3836
 augroup END
 
 " Color scheme
 
-let g:gruvbox_bold = 0
-set termguicolors
-colorscheme gruvbox8_hard
+colorscheme apprentice
