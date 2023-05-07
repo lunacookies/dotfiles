@@ -8,6 +8,7 @@ github: junegunn/fzf:master
 github: lifepillar/vim-gruvbox8:master
 github: lifepillar/vim-mucomplete:master
 github: neovimhaskell/haskell-vim:master
+github: pangloss/vim-javascript:master
 github: romainl/vim-cool:master
 github: romainl/vim-qf:master
 github: rust-lang/rust.vim:master
