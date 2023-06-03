@@ -1,22 +1,22 @@
-git: http://git.lunaa.me/vim-zig-syntax-ext.git
-github: ap/vim-css-color:master
-github: bfrg/vim-cpp-modern:master
-github: cocopon/inspecthi.vim:main
-github: fcpg/vim-altscreen:master
-github: junegunn/fzf.vim:master
-github: junegunn/fzf:master
-github: lifepillar/vim-mucomplete:master
-github: neovimhaskell/haskell-vim:master
-github: pangloss/vim-javascript:master
-github: romainl/Apprentice:0e624fd
-github: romainl/vim-cool:master
-github: romainl/vim-qf:master
-github: rust-lang/rust.vim:master
-github: tommcdo/vim-lion:master
-github: tpope/vim-commentary:master
-github: tpope/vim-endwise:master
-github: tpope/vim-fugitive:master
-github: tpope/vim-surround:master
-github: tpope/vim-unimpaired:master
-github: wellle/targets.vim:master
-github: ziglang/zig.vim:master
+ap/vim-css-color:master
+bfrg/vim-cpp-modern:master
+cocopon/inspecthi.vim:main
+fcpg/vim-altscreen:master
+junegunn/fzf.vim:master
+junegunn/fzf:master
+lifepillar/vim-mucomplete:master
+lunacookies/vim-zig-syntax-ext:main
+neovimhaskell/haskell-vim:master
+pangloss/vim-javascript:master
+romainl/Apprentice:0e624fd
+romainl/vim-cool:master
+romainl/vim-qf:master
+rust-lang/rust.vim:master
+tommcdo/vim-lion:master
+tpope/vim-commentary:master
+tpope/vim-endwise:master
+tpope/vim-fugitive:master
+tpope/vim-surround:master
+tpope/vim-unimpaired:master
+wellle/targets.vim:master
+ziglang/zig.vim:master
