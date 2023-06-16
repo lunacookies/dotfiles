@@ -1,0 +1,83 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 17,
+  "terminal.integrated.fontSize": 12,
+  "editor.inlayHints.fontSize": 11,
+  "workbench.colorTheme": "Pale Fire",
+
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.codeLens": false,
+  "editor.folding": false,
+  "editor.glyphMargin": false,
+  "editor.guides.indentation": false,
+  "editor.lightbulb.enabled": false,
+  "editor.lineNumbers": "off",
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.roundedSelection": false,
+  "editor.wordBasedSuggestions": false,
+  "scm.diffDecorationsGutterWidth": 2,
+  "security.workspace.trust.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showTabs": false,
+
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSurroundingLines": 5,
+  "editor.mouseWheelScrollSensitivity": 0.75,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "window.titleBarStyle": "native",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 24,
+
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "‘": true,
+    "’": true,
+    "“": true,
+    "”": true
+  },
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.unicodeHighlight.includeComments": true,
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.prettierPath": "~/.config/yarn/global/node_modules/prettier",
+
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.diagnostics.experimental.enable": true,
+  "rust-analyzer.workspace.symbol.search.kind": "all_symbols",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+
+  "zig.zls.path": "/Users/luna/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+  "zig.zigPath": "/Users/luna/Code/dotfiles/bin/zig-dev/zig"
+}
