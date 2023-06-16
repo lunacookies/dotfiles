@@ -75,7 +75,7 @@ augroup vimrc
 	autocmd BufWritePost *.nix execute "silent! !nixpkgs-fmt %" | redraw!
 	autocmd BufNewFile,BufRead *.nix setlocal softtabstop=2 shiftwidth=2 expandtab
 
-	autocmd BufWritePost *.c,*.h,*.m,*.metal silent make! | redraw!
+	autocmd BufWritePost *.c,*.h,*.m,*.metal,*.zig silent make! | redraw!
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
 
