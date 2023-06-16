@@ -1,7 +1,6 @@
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
-set cursorline
 set ignorecase
 set inccommand=split
 set linebreak
@@ -84,7 +83,3 @@ augroup vimrc
 	autocmd BufNewFile *.rs 0read ~/.config/nvim/skeleton.rs
 	autocmd BufNewFile *.zig 0read ~/.config/nvim/skeleton.zig
 augroup END
-
-" Color scheme
-
-colorscheme apprentice

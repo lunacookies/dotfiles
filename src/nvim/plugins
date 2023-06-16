@@ -6,7 +6,6 @@ junegunn/fzf:master
 lifepillar/vim-mucomplete:master
 lunacookies/vim-zig-syntax-ext:main
 pangloss/vim-javascript:master
-romainl/Apprentice:0e624fd
 romainl/vim-cool:master
 romainl/vim-qf:master
 rust-lang/rust.vim:master
