@@ -75,9 +75,6 @@ augroup vimrc
 	autocmd BufWritePost *.nix execute "silent! !nixpkgs-fmt %" | redraw!
 	autocmd BufNewFile,BufRead *.nix setlocal softtabstop=2 shiftwidth=2 expandtab
 
-	autocmd BufWritePost *.hs execute "silent! !~/.cabal/bin/stylish-haskell -i %" | redraw!
-	autocmd BufNewFile,BufRead *.hs setlocal softtabstop=2 shiftwidth=2 expandtab
-
 	autocmd BufWritePost *.c,*.h,*.m,*.metal silent make! | redraw!
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
