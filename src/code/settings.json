@@ -71,7 +71,6 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.prettierPath": "~/.config/yarn/global/node_modules/prettier",
 
   "rust-analyzer.check.command": "clippy",
   "rust-analyzer.diagnostics.experimental.enable": true,

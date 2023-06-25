@@ -44,7 +44,6 @@ cleanup_brewfile_lock() {
 install_js_packages() {
 	yarn global add http-server
 	yarn global add prettier
-	yarn global add prettier-plugin-go-template
 }
 
 link_config src/bash/bash_profile "$HOME/.bash_profile"
