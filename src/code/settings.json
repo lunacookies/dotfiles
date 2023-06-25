@@ -19,6 +19,7 @@
   "editor.renderWhitespace": "trailing",
   "editor.roundedSelection": false,
   "editor.wordBasedSuggestions": false,
+  "extensions.ignoreRecommendations": true,
   "scm.diffDecorationsGutterWidth": 2,
   "security.workspace.trust.enabled": false,
   "workbench.activityBar.visible": false,
