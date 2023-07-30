@@ -83,3 +83,10 @@ augroup vimrc
 	autocmd BufNewFile *.rs 0read ~/.config/nvim/skeleton.rs
 	autocmd BufNewFile *.zig 0read ~/.config/nvim/skeleton.zig
 augroup END
+
+"
+" Color scheme
+"
+
+set termguicolors
+colorscheme xcodedark
