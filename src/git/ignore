@@ -6,3 +6,4 @@ resources/_gen/
 .hugo_build.lock
 .personalvimrc
 dist-newstyle/
+*.DotSettings.user
