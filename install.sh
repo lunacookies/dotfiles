@@ -20,7 +20,9 @@ hide_login_message() {
 }
 
 brew_install() {
+	brew update
 	brew bundle --verbose
+	brew upgrade
 }
 
 brew_cleanup() {
