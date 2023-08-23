@@ -89,4 +89,4 @@ augroup END
 "
 
 set termguicolors
-colorscheme xcodedark
+colorscheme silene
