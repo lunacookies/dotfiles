@@ -11,7 +11,7 @@ export EDITOR="nvim"
 
 export CLICOLOR="1"
 export FZF_DEFAULT_COMMAND="fd --hidden"
-export FZF_DEFAULT_OPTS="--color=16,fg+:7,hl:12,hl+:12"
+export FZF_DEFAULT_OPTS="--no-bold --color=fg+:#ebeae9,bg+:#7b8590,hl:#ddd668:reverse,hl+:#ddd668:reverse,prompt:#3ba2cc,pointer:#ebeae9,marker:#ebeae9,header:#3ba2cc,info:#7b8590,spinner:#7b8590"
 export MANPAGER="nvim +Man!"
 export MANWIDTH="72"
 
