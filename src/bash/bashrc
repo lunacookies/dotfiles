@@ -2,5 +2,3 @@
 
 # shellcheck disable=SC1090
 source "$ENV"
-
-PS1="\[\e[90m\]\W \$\[\e[m\] "
