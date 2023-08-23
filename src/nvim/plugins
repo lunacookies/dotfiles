@@ -6,6 +6,7 @@ junegunn/fzf:master
 lifepillar/vim-mucomplete:master
 lunacookies/vim-colors-xcode:master
 lunacookies/vim-zig-syntax-ext:main
+lunacookies/vim-metal:main
 pangloss/vim-javascript:master
 romainl/vim-cool:master
 romainl/vim-qf:master
