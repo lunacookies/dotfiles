@@ -50,8 +50,6 @@ install_js_packages() {
 
 link_config src/bash/bash_profile "$HOME/.bash_profile"
 link_config src/bash/bashrc "$HOME/.bashrc"
-link_config src/code/keybindings.json "$HOME/Library/Application Support/Code/User/keybindings.json"
-link_config src/code/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
 link_config src/fd "$HOME/.config/fd"
 link_config src/git "$HOME/.config/git"
 link_config src/kitty "$HOME/.config/kitty"
