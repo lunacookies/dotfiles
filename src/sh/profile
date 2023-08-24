@@ -14,6 +14,7 @@ export FZF_DEFAULT_COMMAND="fd --hidden"
 export FZF_DEFAULT_OPTS="--no-bold --color=fg+:#ebeae9,bg+:#7b8590,hl:#ddd668:reverse,hl+:#ddd668:reverse,prompt:#3ba2cc,pointer:#ebeae9,marker:#ebeae9,header:#3ba2cc,info:#7b8590,spinner:#7b8590"
 export MANPAGER="nvim +Man!"
 export MANWIDTH="72"
+export RIPGREP_CONFIG_PATH="$HOME/Code/dotfiles/src/rg/config"
 
 export SSH_AUTH_SOCK="$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
 

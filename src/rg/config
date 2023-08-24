@@ -1,0 +1,12 @@
+--colors
+path:fg:59,162,204
+--colors
+line:fg:123,133,144
+--colors
+column:fg:123,133,144
+--colors
+match:fg:59,72,87
+--colors
+match:bg:221,214,104
+--colors
+match:style:nobold
