@@ -7,7 +7,6 @@ setopt nomatch # error when glob doesn’t match
 autoload compinit && compinit
 zstyle ':completion:*' menu select # highlight selected match
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # case and -/_ insensitive
-setopt correct_all # offer command corrections
 
 # history
 HISTSIZE=100000
