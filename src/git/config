@@ -37,3 +37,8 @@ allowedSignersFile = /Users/luna/.config/git/allowed_signers
 
 [advice]
 detachedHead = false
+
+[color.diff]
+old = "#db6c6c"
+new = "#5bb899"
+meta = nobold
