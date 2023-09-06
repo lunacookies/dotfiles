@@ -1,44 +1,44 @@
 # vim: filetype=gitconfig
 
 [user]
-name = Luna Razzaghipour
-email = lunarazzaghipour@gmail.com
-signingKey = "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLTxD1PsPaEPdLiwXOEdINDuwv8Pn3E+GvkeJ75LyV4qEjxjmnwRzUCbn8k497Sy3jbTuNR/c7SX5/w5S7tpl4o="
+	name = Luna Razzaghipour
+	email = lunarazzaghipour@gmail.com
+	signingKey = "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLTxD1PsPaEPdLiwXOEdINDuwv8Pn3E+GvkeJ75LyV4qEjxjmnwRzUCbn8k497Sy3jbTuNR/c7SX5/w5S7tpl4o="
 
 [alias]
-br = branch
-co = checkout
-c = commit
-s = status
-l = log --oneline --graph --all
+	br = branch
+	co = checkout
+	c = commit
+	s = status
+	l = log --oneline --graph --all
 
 [commit]
-verbose = true
-gpgsign = true
+	verbose = true
+	gpgsign = true
 
 [status]
-short = true
-branch = true
+	short = true
+	branch = true
 
 [fetch]
-prune = true
+	prune = true
 
 [pull]
-rebase = true
+	rebase = true
 
 [init]
-defaultBranch = main
+	defaultBranch = main
 
 [gpg]
-format = ssh
+	format = ssh
 
 [gpg "ssh"]
-allowedSignersFile = /Users/luna/.config/git/allowed_signers
+	allowedSignersFile = /Users/luna/.config/git/allowed_signers
 
 [advice]
-detachedHead = false
+	detachedHead = false
 
 [color.diff]
-old = "#db6c6c"
-new = "#5bb899"
-meta = nobold
+	old = "#db6c6c"
+	new = "#5bb899"
+	meta = nobold
