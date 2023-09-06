@@ -71,9 +71,6 @@ augroup vimrc
 	autocmd BufWritePost *.html,*.css,*.scss,*.md,*.js execute "silent! !yarn run prettier -w %" | redraw!
 	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.md,*.js setlocal softtabstop=2 shiftwidth=2 expandtab
 
-	autocmd BufWritePost *.nix execute "silent! !nixpkgs-fmt %" | redraw!
-	autocmd BufNewFile,BufRead *.nix setlocal softtabstop=2 shiftwidth=2 expandtab
-
 	autocmd BufWritePost *.c,*.h,*.m,*.metal,*.zig silent make! | redraw!
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
