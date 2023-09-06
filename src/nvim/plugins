@@ -4,8 +4,8 @@ cocopon/inspecthi.vim:main
 junegunn/fzf.vim:master
 junegunn/fzf:master
 lifepillar/vim-mucomplete:master
-lunacookies/vim-zig-syntax-ext:main
 lunacookies/vim-metal:main
+lunacookies/vim-zig-syntax-ext:main
 pangloss/vim-javascript:master
 romainl/vim-cool:master
 romainl/vim-qf:master
