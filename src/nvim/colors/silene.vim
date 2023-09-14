@@ -56,3 +56,23 @@ hi Question     guifg=#5bb899 guibg=NONE    gui=NONE
 
 hi diffRemoved  guifg=#db6c6c guibg=NONE    gui=NONE
 hi diffAdded    guifg=#5bb899 guibg=NONE    gui=NONE
+
+hi! link markdownHeadingDelimiter  markdownDelimiter
+hi! link markdownHeadingRule       markdownDelimiter
+hi! link markdownCodeDelimiter     markdownDelimiter
+hi! link markdownLinkTextDelimiter markdownDelimiter
+hi! link markdownLinkDelimiter     markdownDelimiter
+hi! link markdownUrl               markdownDelimiter
+hi! link markdownBoldDelimiter     markdownDelimiter
+hi! link markdownItalicDelimiter   markdownDelimiter
+hi! link markdownListMarker        markdownDelimiter
+hi! link markdownBlockquote        markdownDelimiter
+hi! link markdownId                markdownDelimiter
+hi markdownDelimiter guifg=#a7acb2 guibg=NONE gui=NONE
+hi markdownCode      guifg=#a7acb2 guibg=NONE gui=NONE
+
+hi! link htmlTagName htmlTag
+hi! link htmlEndTag  htmlTag
+hi! link htmlArg     htmlTag
+hi! link htmlString  htmlTag
+hi htmlTag guifg=#a7acb2 guibg=NONE gui=NONE
