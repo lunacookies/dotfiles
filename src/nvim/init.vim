@@ -69,7 +69,7 @@ augroup vimrc
 	autocmd BufReadPost * if &textwidth == 0 | setlocal textwidth=80 | endif
 
 	autocmd BufWritePost *.html,*.css,*.scss,*.md,*.js execute "silent! !yarn run prettier -w %" | redraw!
-	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.md,*.js setlocal softtabstop=2 shiftwidth=2 expandtab
+	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.js setlocal tabstop=8 softtabstop=2 shiftwidth=2 expandtab
 
 	autocmd BufWritePost *.c,*.h,*.m,*.metal,*.zig silent make! | redraw!
 
