@@ -70,6 +70,7 @@ hi! link markdownBlockquote        markdownDelimiter
 hi! link markdownId                markdownDelimiter
 hi markdownDelimiter guifg=#a7acb2 guibg=NONE gui=NONE
 hi markdownCode      guifg=#a7acb2 guibg=NONE gui=NONE
+hi markdownCodeBlock guifg=#a7acb2 guibg=NONE gui=NONE
 
 hi! link htmlTagName htmlTag
 hi! link htmlEndTag  htmlTag
