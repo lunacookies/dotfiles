@@ -1,6 +1,7 @@
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
+set guicursor=
 set ignorecase
 set inccommand=split
 set linebreak
