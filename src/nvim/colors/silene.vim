@@ -7,6 +7,7 @@ hi Normal       guifg=#ebeae9 guibg=#3b4857 gui=NONE
 hi Comment      guifg=#7b8590 guibg=NONE    gui=NONE
 hi Constant     guifg=NONE    guibg=NONE    gui=NONE
 hi String       guifg=#bdb8b2 guibg=NONE    gui=NONE
+hi Character    guifg=#bdb8b2 guibg=NONE    gui=NONE
 hi Identifier   guifg=NONE    guibg=NONE    gui=NONE
 hi Statement    guifg=NONE    guibg=NONE    gui=NONE
 hi PreProc      guifg=NONE    guibg=NONE    gui=NONE
