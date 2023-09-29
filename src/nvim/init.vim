@@ -1,6 +1,8 @@
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
+set grepformat=%f:%l:%c:%m
+set grepprg=rg\ --vimgrep
 set guicursor=
 set ignorecase
 set inccommand=split
@@ -53,6 +55,7 @@ nnoremap ,v :vsplit<CR>
 nnoremap ,t :tabnew<CR>
 nnoremap ,c :close<CR>
 nnoremap ,o :only<CR>
+nnoremap ,G :silent grep<Space>''<Left>
 
 " Autocmds
 
