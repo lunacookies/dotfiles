@@ -9,6 +9,7 @@ set inccommand=split
 set linebreak
 set list
 set numberwidth=5
+set scrolloff=1
 set smartcase
 set splitbelow
 set splitright
