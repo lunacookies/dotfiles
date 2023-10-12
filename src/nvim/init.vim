@@ -58,6 +58,9 @@ nnoremap ,c :close<CR>
 nnoremap ,o :only<CR>
 nnoremap ,G :silent grep<Space>''<Left>
 
+nnoremap <Space><Space> :'{,'}s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
+nnoremap <Space>%       :%s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
+
 " Autocmds
 
 function! SourcePersonalVimrc()
