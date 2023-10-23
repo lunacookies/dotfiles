@@ -16,7 +16,7 @@ set splitright
 
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
 
-let &listchars = "tab:» ,nbsp:•,trail:•"
+let &listchars = "tab:  ,nbsp:•,trail:•"
 let &showbreak = "››› "
 
 " Plugins
