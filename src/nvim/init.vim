@@ -1,4 +1,5 @@
 set breakindent
+set mousescroll=ver:1,hor:1
 set clipboard^=unnamed
 set colorcolumn=+1
 set grepformat=%f:%l:%c:%m
