@@ -92,6 +92,8 @@ augroup vimrc
 
 	autocmd ColorScheme * hi NonText guibg=NONE
 	autocmd ColorScheme * hi link goFunctionCall Function
+
+	autocmd ColorScheme sorcerer hi ColorColumn guibg=#000000
 augroup END
 
 "
