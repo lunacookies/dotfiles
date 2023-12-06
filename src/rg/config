@@ -1,12 +1,10 @@
 --colors
-path:fg:59,162,204
+path:fg:30,144,255
 --colors
-line:fg:123,133,144
+line:fg:104,104,88
 --colors
-column:fg:123,133,144
+column:fg:104,104,88
 --colors
-match:fg:59,72,87
+match:fg:0,0,0
 --colors
-match:bg:221,214,104
---colors
-match:style:nobold
+match:bg:214,231,112

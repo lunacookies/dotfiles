@@ -84,6 +84,8 @@ augroup vimrc
 	autocmd BufWritePost *.c,*.h,*.m,*.metal,*.zig silent make! | redraw!
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
+
+	autocmd ColorScheme * hi NonText guibg=NONE
 augroup END
 
 "
@@ -91,4 +93,4 @@ augroup END
 "
 
 set termguicolors
-colorscheme silene
+colorscheme sorcerer

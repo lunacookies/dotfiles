@@ -39,6 +39,7 @@
 	detachedHead = false
 
 [color.diff]
-	old = "#db6c6c"
-	new = "#5bb899"
-	meta = nobold
+	old = "#aa4450"
+	new = "#3cb371"
+	meta = "#88afcb"
+	frag = "#88afcb"
