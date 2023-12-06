@@ -34,6 +34,10 @@ let g:mucomplete#chains = {
 let g:c_syntax_for_h = 1
 let g:cpp_simple_highlight = 1
 
+let g:go_highlight_operators = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+
 " Mappings
 
 let g:fzf_layout = { 'down': '~40%' }
@@ -87,6 +91,7 @@ augroup vimrc
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
 
 	autocmd ColorScheme * hi NonText guibg=NONE
+	autocmd ColorScheme * hi link goFunctionCall Function
 augroup END
 
 "
