@@ -31,6 +31,7 @@ let g:mucomplete#chains = {
 			\ 'default': ['omni', 'c-n']
 			\ }
 
+let g:c_no_curly_error = 1
 let g:c_syntax_for_h = 1
 let g:cpp_simple_highlight = 1
 
