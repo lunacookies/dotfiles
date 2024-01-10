@@ -95,6 +95,8 @@ augroup vimrc
 	autocmd ColorScheme * hi link goFunctionCall Function
 
 	autocmd ColorScheme sorcerer hi ColorColumn guibg=#000000
+	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
+	autocmd ColorScheme sorcerer hi link vimFunction Function
 augroup END
 
 "
