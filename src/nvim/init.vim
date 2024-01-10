@@ -9,6 +9,7 @@ set inccommand=split
 set linebreak
 set list
 set mousescroll=ver:1,hor:1
+set number
 set numberwidth=5
 set scrolloff=1
 set smartcase
