@@ -38,8 +38,14 @@
 [advice]
 	detachedHead = false
 
+[diff]
+	colorMoved = zebra
+	colorMovedWS = ignore-all-space
+
 [color.diff]
 	old = "#aa4450"
 	new = "#3cb371"
 	meta = "#88afcb"
 	frag = "#88afcb"
+	oldMoved = "#707670"
+	newMoved = "#707670"
