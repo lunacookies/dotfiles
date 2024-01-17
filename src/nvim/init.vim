@@ -87,7 +87,7 @@ augroup vimrc
 	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.js setlocal tabstop=8 softtabstop=2 shiftwidth=2 expandtab
 	autocmd BufNewFile,BufRead *.css,*.scss setlocal iskeyword+=-
 
-	autocmd BufWritePost *.c,*.h,*.m,*.metal,*.zig silent make! | redraw!
+	autocmd BufWritePost *.c,*.h,*.m,*.s,*.metal,*.zig silent make! | redraw!
 	autocmd BufWritePost *.go execute "silent! !go fmt" | redraw!
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
