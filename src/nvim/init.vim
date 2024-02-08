@@ -97,6 +97,9 @@ augroup vimrc
 
 	autocmd ColorScheme sorcerer hi ColorColumn guibg=#000000
 	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
+	autocmd ColorScheme sorcerer hi link xmlTag xmlTagName
+	autocmd ColorScheme sorcerer hi link xmlTagName Statement
+	autocmd ColorScheme sorcerer hi link xmlEqual Operator
 	autocmd ColorScheme sorcerer hi link vimFunction Function
 augroup END
 
