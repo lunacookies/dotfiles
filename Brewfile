@@ -21,6 +21,7 @@ brew "tree"
 brew "yarn"
 brew "yt-dlp"
 
+cask "1password"
 cask "alfred"
 cask "appcleaner"
 cask "discord"
