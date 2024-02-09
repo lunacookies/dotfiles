@@ -3,7 +3,7 @@
 [user]
 	name = Luna Razzaghipour
 	email = luna@xoria.org
-	signingKey = "key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLTxD1PsPaEPdLiwXOEdINDuwv8Pn3E+GvkeJ75LyV4qEjxjmnwRzUCbn8k497Sy3jbTuNR/c7SX5/w5S7tpl4o="
+	signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE3wOzX8i0zOFfVWuSR7YpoqTXV6wRnmqan8Jo/I4Bl5
 
 [alias]
 	br = branch
@@ -33,7 +33,8 @@
 	format = ssh
 
 [gpg "ssh"]
-	allowedSignersFile = /Users/luna/.config/git/allowed_signers
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = ~/.config/git/allowed_signers
 
 [advice]
 	detachedHead = false
