@@ -71,7 +71,7 @@ nnoremap <Space>%       :%s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
 " Autocmds
 
 function! SourcePersonalVimrc()
-	let l:path = expand("%:p:h") . "/.personalvimrc"
+	let l:path = getcwd() . "/.personalvimrc"
 	if filereadable(l:path)
 		execute "source " . l:path
 	endif
