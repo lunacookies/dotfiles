@@ -1,14 +1,19 @@
 syntax keyword cType
-			\ i8 i16 i32 i64
-			\ s8 s16 s32 s64
-			\ u8 u16 u32 u64
-			\ int8 int16 int32 int64
-			\ uint8 uint16 uint32 uint64
-			\ sint8 sint16 sint32 sint64
-			\ uint sint
-			\ usize isize ssize umm imm smm
-			\ float32 float64 f32 f64
-			\ real32 real64 r32 r64
+			\    i8    i16    i32    i64    I8    I16    I32    I64
+			\    s8    s16    s32    s64    S8    S16    S32    S64
+			\    u8    u16    u32    u64    U8    U16    U32    U64
+			\  int8  int16  int32  int64  Int8  Int16  Int32  Int64
+			\ sint8 sint16 sint32 sint64 SInt8 SInt16 SInt32 SInt64
+			\ uint8 uint16 uint32 uint64 UInt8 UInt16 UInt32 UInt64
+			\
+			\     f32     f64     F32     F64
+			\     r32     r64     R32     R64
+			\ float32 float64 Float32 Float64
+			\  real32  real64  Real32  Real64
+			\
+			\ uint sint UInt SInt
+			\ isize ssize usize ISize SSize USize
+			\ imm smm umm
 
 syntax match cType '\v<\w+_t>'
 syntax match cOperator '[+\-\*\/%&|<>=!~^]\+'
