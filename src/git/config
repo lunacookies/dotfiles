@@ -51,3 +51,15 @@
 	frag = "#88afcb"
 	oldMoved = "#707670"
 	newMoved = "#707670"
+
+[format]
+	pretty = "format:\
+%C(brightblue)commit %C(blue)%H%C(auto)%d%n\
+%C(brightblue)tree %C(blue)%T%n\
+%C(brightblue)parent %C(blue)%P%n\
+%C(brightblue)author %C(brightgreen)%aN %C(green)<%aE> %C(brightred)%ad%n\
+%C(brightblue)commiter %C(brightgreen)%cN %C(green)<%cE> %C(brightred)%cd%n\
+%n\
+%C(reset)%s%n\
+%n\
+%b"
