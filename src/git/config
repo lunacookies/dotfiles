@@ -7,10 +7,11 @@
 
 [alias]
 	br = branch
-	co = checkout
 	c = commit
 	s = status
 	l = log --oneline --graph --all
+	sw = switch
+	re = restore
 
 [commit]
 	verbose = true
