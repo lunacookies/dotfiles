@@ -9,7 +9,7 @@
 	br = branch
 	c = commit
 	s = status
-	l = log --oneline --graph --all
+	l = log --graph --all --pretty='format:%C(blue)%h %C(brightred)%as%C(reset) %s%C(auto)%d'
 	ll = log --graph --all
 	sw = switch
 	re = restore
