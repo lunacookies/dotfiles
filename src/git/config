@@ -10,6 +10,7 @@
 	c = commit
 	s = status
 	l = log --oneline --graph --all
+	ll = log --graph --all
 	sw = switch
 	re = restore
 
