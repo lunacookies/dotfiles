@@ -17,5 +17,6 @@ syntax keyword cType
 			\ imm smm umm
 
 syntax match cType '\v<\w+_t>'
+syntax match cType '\v<_*[A-Z][a-zA-Z0-9_]*>'
 syntax match cOperator '[+\-\*\/%&|<>=!~^]\+'
 syntax keyword cOperator cast
