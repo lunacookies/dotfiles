@@ -101,11 +101,11 @@ augroup vimrc
 	autocmd ColorScheme sorcerer hi link xmlEqual Operator
 	autocmd ColorScheme sorcerer hi link vimFunction Function
 
-	autocmd ColorScheme * hi NormalNC guibg=#333333
+	autocmd ColorScheme * hi NormalNC guifg=#b2b2a0 guibg=#1a1a1a
 	autocmd WinLeave * setlocal nocursorline
 	autocmd WinEnter,VimEnter,BufEnter * setlocal cursorline
-	autocmd FocusLost * hi Normal guibg=#333333 | setlocal nocursorline
-	autocmd FocusGained * hi Normal guibg=#202020 | setlocal cursorline
+	autocmd FocusLost * hi Normal guifg=#b2b2a0 guibg=#1a1a1a | setlocal nocursorline
+	autocmd FocusGained * hi Normal guifg=#c2c2b0 guibg=#202020 | setlocal cursorline
 augroup END
 
 "
