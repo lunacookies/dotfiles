@@ -95,6 +95,7 @@ augroup vimrc
 
 	autocmd ColorScheme sorcerer hi! link Operator Statement
 	autocmd ColorScheme sorcerer hi! link Delimiter Special
+	autocmd ColorScheme sorcerer hi! link CurSearch IncSearch
 	autocmd ColorScheme sorcerer hi ColorColumn guibg=#000000
 	autocmd ColorScheme sorcerer hi CursorLine guibg=#444444
 	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
