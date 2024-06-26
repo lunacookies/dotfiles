@@ -90,20 +90,6 @@ augroup vimrc
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
 
-	autocmd ColorScheme * hi NonText guibg=NONE
-	autocmd ColorScheme * hi link goFunctionCall Function
-
-	autocmd ColorScheme sorcerer hi! link Operator Statement
-	autocmd ColorScheme sorcerer hi! link Delimiter Special
-	autocmd ColorScheme sorcerer hi! link CurSearch IncSearch
-	autocmd ColorScheme sorcerer hi ColorColumn guibg=#000000
-	autocmd ColorScheme sorcerer hi CursorLine guibg=#444444
-	autocmd ColorScheme sorcerer hi link htmlTag htmlTagName
-	autocmd ColorScheme sorcerer hi link xmlTag xmlTagName
-	autocmd ColorScheme sorcerer hi link xmlTagName Statement
-	autocmd ColorScheme sorcerer hi link xmlEqual Operator
-	autocmd ColorScheme sorcerer hi link vimFunction Function
-
 	autocmd ColorScheme * hi NormalNC guifg=#b2b2a0 guibg=#1a1a1a
 	autocmd WinLeave * setlocal nocursorline
 	autocmd WinEnter,VimEnter,BufEnter * setlocal cursorline
@@ -116,4 +102,4 @@ augroup END
 "
 
 set termguicolors
-colorscheme sorcerer
+colorscheme sorcerer2

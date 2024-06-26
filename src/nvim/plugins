@@ -15,6 +15,5 @@ tpope/vim-endwise:master
 tpope/vim-fugitive:master
 tpope/vim-surround:master
 tpope/vim-unimpaired:master
-vim-scripts/Sorcerer:master
 wellle/targets.vim:master
 ziglang/zig.vim:master
