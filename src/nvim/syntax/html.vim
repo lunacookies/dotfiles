@@ -1,1 +1,1 @@
-syntax match PreProc '{{.*}}' containedin=ALL
+syntax match PreProc '{{.\{-}}}' containedin=ALL
