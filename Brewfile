@@ -1,5 +1,3 @@
-tap "homebrew/cask-fonts"
-
 brew "clang-format"
 brew "dust"
 brew "fd"
