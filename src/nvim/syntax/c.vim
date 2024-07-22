@@ -22,3 +22,4 @@ syntax match cOperator '[+\-\*\/%&|<>=!~^]\+'
 syntax keyword cOperator cast
 
 syntax keyword cStatement function global local_persist
+syntax keyword cOperator size_of align_of
