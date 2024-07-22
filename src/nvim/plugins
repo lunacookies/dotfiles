@@ -2,6 +2,7 @@ bfrg/vim-cpp-modern:master
 junegunn/fzf.vim:master
 junegunn/fzf:master
 lifepillar/vim-mucomplete:master
+lunacookies/vim-apparition:main
 lunacookies/vim-metal:main
 lunacookies/vim-zig-syntax-ext:main
 pangloss/vim-javascript:master

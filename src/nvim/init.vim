@@ -102,4 +102,4 @@ augroup END
 "
 
 set termguicolors
-colorscheme sorcerer2
+colorscheme apparition
