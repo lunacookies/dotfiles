@@ -1,6 +1,7 @@
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
+set cursorline
 set grepformat=%f:%l:%c:%m
 set grepprg=rg\ --vimgrep
 set guicursor=
@@ -89,12 +90,6 @@ augroup vimrc
 	autocmd BufWritePost *.go execute "silent! !go fmt" | redraw!
 
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
-
-	autocmd ColorScheme * hi NormalNC guifg=#b2b2a0 guibg=#1a1a1a
-	autocmd WinLeave * setlocal nocursorline
-	autocmd WinEnter,VimEnter,BufEnter * setlocal cursorline
-	autocmd FocusLost * hi Normal guifg=#b2b2a0 guibg=#1a1a1a | setlocal nocursorline
-	autocmd FocusGained * hi Normal guifg=#c2c2b0 guibg=#202020 | setlocal cursorline
 augroup END
 
 "
