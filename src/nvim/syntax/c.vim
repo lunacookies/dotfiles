@@ -6,6 +6,7 @@ syntax keyword cType
 			\  int8  int16  int32  int64  Int8  Int16  Int32  Int64
 			\ sint8 sint16 sint32 sint64 SInt8 SInt16 SInt32 SInt64
 			\ uint8 uint16 uint32 uint64 UInt8 UInt16 UInt32 UInt64
+			\ bool8 bool16 bool32 bool64 Bool8 Bool16 Bool32 Bool64
 			\
 			\     f32     f64     F32     F64
 			\     r32     r64     R32     R64
