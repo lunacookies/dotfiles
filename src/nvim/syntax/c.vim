@@ -22,5 +22,5 @@ syntax match cType '\v<_*[A-Z][a-zA-Z0-9_]*>'
 syntax match cOperator '[+\-\*\/%&|<>=!~^]\+'
 syntax keyword cOperator cast
 
-syntax keyword cStatement function global local_persist
+syntax keyword cStatement function global local_persist read_only
 syntax keyword cOperator size_of align_of
