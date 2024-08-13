@@ -20,3 +20,20 @@ highlight link objcException Keyword
 highlight link objcThread Keyword
 highlight link objcPool Keyword
 highlight link objcModuleImport Keyword
+
+" Replace buggy @property(getter=foo, setter=bar) highlighting that attempts to
+" highlight the actual getter & setter names themselves with something simpler
+" that just highlights the literal `getter` and `setter` keywords.
+syntax clear objcDeclPropAccessorName
+syntax keyword objcDeclPropAccessorName getter setter contained
+
+" By default these are highlighted as constants, which seems incorrect.
+highlight link objcDeclPropAccessorName Keyword
+highlight link objcDeclPropAccessorType Keyword
+highlight link objcDeclPropAssignSemantics Keyword
+highlight link objcDeclPropAtomicity Keyword
+highlight link objcDeclPropARC Keyword
+highlight link objcDeclPropNullable Keyword
+highlight link objcDeclPropNonnull Keyword
+highlight link objcDeclPropNullUnspecified Keyword
+highlight link objcDeclProcNullResettable Keyword
