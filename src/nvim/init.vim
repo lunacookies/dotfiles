@@ -13,6 +13,7 @@ set mousescroll=ver:1,hor:1
 set numberwidth=5
 set scrolloff=1
 set smartcase
+set smoothscroll
 set splitbelow
 set splitright
 
