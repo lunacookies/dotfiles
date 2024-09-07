@@ -1,4 +1,17 @@
-source "$ENV"
+alias vim=nvim
+alias vi=nvim
+alias g=git
+alias c=cargo
+alias b=brew
+alias m="make -j10"
+alias ls="ls -F"
+alias fd="fd --color=never"
+
+mkcd() {
+	mkdir -p "$1"
+	# shellcheck disable=SC2164
+	cd "$1"
+}
 
 bindkey -e # emacs key bindings
 setopt nomatch # error when glob doesn’t match
