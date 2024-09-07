@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 
 rm_if_exists() {
 	if [ -e "$1" ]; then

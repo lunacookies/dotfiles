@@ -1,19 +1,19 @@
-#!/bin/sh
+#!/bin/dash
 
 printf "\n"
 for i in $(seq 0 7); do
-	printf "  \e[4%dm    \e[m" "$i"
+	printf "  \033[4%dm    \033[m" "$i"
 done
 printf "\n"
 for i in $(seq 0 7); do
-	printf "  \e[4%dm    \e[m" "$i"
+	printf "  \033[4%dm    \033[m" "$i"
 done
 printf "\n\n"
 for i in $(seq 0 7); do
-	printf "  \e[10%dm    \e[m" "$i"
+	printf "  \033[10%dm    \033[m" "$i"
 done
 printf "\n"
 for i in $(seq 0 7); do
-	printf "  \e[10%dm    \e[m" "$i"
+	printf "  \033[10%dm    \033[m" "$i"
 done
 printf "\n\n"
