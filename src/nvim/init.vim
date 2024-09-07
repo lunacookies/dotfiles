@@ -41,6 +41,8 @@ let g:go_highlight_operators = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 
+let g:is_posix = 1
+
 " Mappings
 
 let g:fzf_layout = { 'down': '~40%' }
