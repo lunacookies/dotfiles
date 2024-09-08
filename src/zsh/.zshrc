@@ -27,7 +27,4 @@ SAVEHIST=100000
 setopt hist_ignore_all_dups
 setopt inc_append_history # append history after each command
 
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
-
 PROMPT=$'$ '
