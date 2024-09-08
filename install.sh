@@ -48,6 +48,8 @@ install_js_packages() {
 	yarn global add prettier
 }
 
+printf 'ZDOTDIR=$HOME/Developer/dotfiles/src/zsh\n' > "$HOME/.zshenv"
+
 link_config src/fd "$HOME/.config/fd"
 link_config src/git "$HOME/.config/git"
 link_config src/kitty "$HOME/.config/kitty"
@@ -55,8 +57,6 @@ link_config src/nvim "$HOME/.config/nvim"
 link_config src/rg "$HOME/.config/rg"
 link_config src/ssh/config "$HOME/.ssh/config"
 link_config src/tmux "$HOME/.config/tmux"
-link_config src/zsh/zprofile "$HOME/.zprofile"
-link_config src/zsh/zshrc "$HOME/.zshrc"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew_install
