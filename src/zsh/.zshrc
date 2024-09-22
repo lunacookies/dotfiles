@@ -14,6 +14,7 @@ mkcd() {
 }
 
 bindkey -e # emacs key bindings
+WORDCHARS="${WORDCHARS/\/}" # consider slash a word boundary
 
 # completion
 autoload compinit && compinit
