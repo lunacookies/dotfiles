@@ -20,10 +20,4 @@ autoload compinit && compinit
 zstyle ':completion:*' menu select # highlight selected match
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # case and -/_ insensitive
 
-# history
-HISTSIZE=100000
-SAVEHIST=100000
-setopt hist_ignore_all_dups
-setopt inc_append_history # append history after each command
-
 PROMPT=$'$ '
