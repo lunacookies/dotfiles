@@ -14,7 +14,6 @@ mkcd() {
 }
 
 bindkey -e # emacs key bindings
-setopt nomatch # error when glob doesn’t match
 
 # completion
 autoload compinit && compinit
