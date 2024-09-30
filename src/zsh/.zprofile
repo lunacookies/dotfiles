@@ -1,7 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export PATH="$HOME/Developer/dotfiles/bin:$HOME/.cargo/bin:$PATH"
-
 export CDPATH=".:$HOME/Developer:$HOME"
 
 export VISUAL="nvim"
