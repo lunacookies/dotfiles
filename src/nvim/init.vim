@@ -71,6 +71,11 @@ nnoremap ,G :silent grep ''<Left>
 nnoremap <Space><Space> :'{,'}s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
 nnoremap <Space>%       :%s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
 
+" Commands
+
+command -nargs=1 Tabs set tabstop=<args> softtabstop=0 shiftwidth=<args> noexpandtab
+command -nargs=1 Spaces set tabstop=8 softtabstop=0 shiftwidth=<args> expandtab
+
 " Autocmds
 
 function! SourcePersonalVimrc()
