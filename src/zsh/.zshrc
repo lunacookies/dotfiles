@@ -13,6 +13,10 @@ mkcd() {
 	cd "$1"
 }
 
+cdsdk() {
+	cd "$(xcrun --show-sdk-path)"
+}
+
 bindkey -e # emacs key bindings
 WORDCHARS="${WORDCHARS/\/}" # consider slash a word boundary
 
