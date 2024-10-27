@@ -48,6 +48,7 @@ install_js_packages() {
 	yarn global add prettier
 }
 
+# shellcheck disable=SC2016
 printf 'ZDOTDIR=$HOME/Developer/dotfiles/src/zsh\n' > "$HOME/.zshenv"
 
 link_config src/fd "$HOME/.config/fd"
