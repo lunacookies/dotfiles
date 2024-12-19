@@ -29,8 +29,8 @@ let g:lion_squeeze_spaces = 1
 let g:rustfmt_autosave = 1
 
 let g:mucomplete#chains = {
-			\ 'vim': ['cmd', 'c-n'],
-			\ 'default': ['omni', 'c-n']
+			\ "vim": ["cmd", "c-n"],
+			\ "default": ["omni", "c-n"]
 			\ }
 
 let g:c_no_curly_error = 1
@@ -45,13 +45,13 @@ let g:is_posix = 1
 
 " Mappings
 
-let g:fzf_layout = { 'down': '~40%' }
+let g:fzf_layout = { "down": "~40%" }
 
 inoremap (<CR> (<CR>)<Esc>O
 inoremap {<CR> {<CR>}<Esc>O
 
-nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
-nnoremap <expr> j v:count == 0 ? 'gj' : 'j'
+nnoremap <expr> k v:count == 0 ? "gk" : "k"
+nnoremap <expr> j v:count == 0 ? "gj" : "j"
 
 vnoremap < <gv
 vnoremap > >gv
@@ -68,8 +68,8 @@ nnoremap ,c :close<CR>
 nnoremap ,o :only<CR>
 nnoremap ,G :silent grep ''<Left>
 
-nnoremap <Space><Space> :'{,'}s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
-nnoremap <Space>%       :%s/\<<C-r>=expand('<cword>')<CR>\>//g<Left><Left>
+nnoremap <Space><Space> :'{,'}s/\<<C-r>=expand("<cword>")<CR>\>//g<Left><Left>
+nnoremap <Space>%       :%s/\<<C-r>=expand("<cword>")<CR>\>//g<Left><Left>
 
 " Commands
 
