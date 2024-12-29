@@ -44,5 +44,5 @@ palette = 14=#58b8b8
 
 palette = 15=#c2c2b0
 
-command = zsh --login -c "python3 $HOME/Developer/Dotfiles/bin/tm"
+command = zsh --login -c "python3 $HOME/Developer/dotfiles/bin/tm"
 shell-integration-features = false
