@@ -1,5 +1,5 @@
-alias vim=nvim
-alias vi=nvim
+alias vim="$EDITOR"
+alias vi="$EDITOR"
 alias g=git
 alias c=cargo
 alias b=brew

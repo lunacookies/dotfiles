@@ -3,8 +3,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOME/Developer/dotfiles/bin:$HOME/.cargo/bin:$PATH"
 export CDPATH=".:$HOME/Developer:$HOME"
 
-export VISUAL="nvim"
 export EDITOR="nvim"
+export VISUAL="$EDITOR"
 
 export CLICOLOR="1"
 export FZF_DEFAULT_COMMAND="fd --hidden"
