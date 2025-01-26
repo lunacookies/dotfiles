@@ -1,0 +1,1 @@
+breakpoint set -F objc_exception_throw
