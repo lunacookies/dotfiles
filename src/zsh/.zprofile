@@ -3,7 +3,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="$HOME/Developer/dotfiles/bin:$HOME/.cargo/bin:$PATH"
 export CDPATH=".:$HOME/Developer:$HOME"
 
-export EDITOR="nvim"
+export EDITOR="mvim"
 export VISUAL="$EDITOR"
 
 export CLICOLOR="1"

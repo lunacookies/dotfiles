@@ -55,10 +55,10 @@ link_config src/fd "$HOME/.config/fd"
 link_config src/ghostty "$HOME/.config/ghostty"
 link_config src/git "$HOME/.config/git"
 link_config src/lldb/lldbinit "$HOME/.lldbinit"
-link_config src/nvim "$HOME/.config/nvim"
 link_config src/rg "$HOME/.config/rg"
 link_config src/ssh/config "$HOME/.ssh/config"
 link_config src/tmux "$HOME/.config/tmux"
+link_config src/vim "$HOME/.vim"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew_install

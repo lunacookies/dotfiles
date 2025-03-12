@@ -5,6 +5,7 @@ lifepillar/vim-mucomplete:master
 lunacookies/vim-apparition:main
 lunacookies/vim-metal:main
 lunacookies/vim-zig-syntax-ext:main
+markonm/traces.vim:master
 pangloss/vim-javascript:master
 romainl/vim-cool:master
 romainl/vim-qf:master

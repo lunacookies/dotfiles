@@ -1,3 +1,9 @@
+filetype plugin indent on
+syntax on
+runtime! ftplugin/man.vim
+
+set autoindent
+set autoread
 set breakindent
 set clipboard^=unnamed
 set colorcolumn=+1
@@ -5,22 +11,34 @@ set cursorline
 set grepformat=%f:%l:%c:%m
 set grepprg=rg\ --vimgrep
 set guicursor=
+set guioptions-=e
+set hidden
+set hlsearch
 set ignorecase
-set inccommand=split
+set incsearch
+set laststatus=2
 set linebreak
 set list
-set mousescroll=ver:1,hor:1
 set numberwidth=5
 set scrolloff=1
 set smartcase
 set smoothscroll
 set splitbelow
 set splitright
+set titlestring=%t
+set wildmenu
 
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
 
 let &listchars = "tab:  ,nbsp:•,trail:•"
 let &showbreak = "››› "
+
+let s:vimfiles = split(&runtimepath, ",")[0]
+let s:swap_directory = s:vimfiles . "/swap"
+if !isdirectory(s:swap_directory)
+	call mkdir(s:swap_directory)
+endif
+let &directory = s:swap_directory . "//"
 
 " Plugins
 
@@ -91,20 +109,17 @@ augroup vimrc
 	autocmd BufRead * call SourcePersonalVimrc()
 	autocmd BufReadPost * if &textwidth == 0 | setlocal textwidth=80 | endif
 
-	autocmd TextYankPost * lua vim.highlight.on_yank({higroup="IncSearch", timeout=250})
-
 	autocmd BufWritePost *.html,*.css,*.scss,*.md,*.js execute "silent! !yarn run prettier -w %" | redraw!
 	autocmd BufNewFile,BufRead *.html,*.css,*.scss,*.js setlocal tabstop=8 softtabstop=2 shiftwidth=2 expandtab
 	autocmd BufNewFile,BufRead *.css,*.scss setlocal iskeyword+=-
 
 	autocmd BufWritePost *.go execute "silent! !go fmt" | redraw!
 
-	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s
+	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s keywordprg=:Man
 augroup END
 
 "
 " Color scheme
 "
 
-set termguicolors
 colorscheme apparition
