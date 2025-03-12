@@ -122,4 +122,4 @@ augroup END
 " Color scheme
 "
 
-colorscheme apparition
+colorscheme smyck
