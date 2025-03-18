@@ -16,15 +16,15 @@ hi! link         IncSearch      CurSearch
 hi  MatchParen   ctermfg=0      guifg=#000000 ctermbg=11   guibg=#ffe377 cterm=NONE      gui=NONE
 hi  NonText      ctermfg=8      guifg=#505050 ctermbg=NONE guibg=NONE    cterm=NONE      gui=NONE
 
-hi  StatusLine   ctermfg=NONE   guifg=NONE    ctermbg=7    guibg=#808080 cterm=NONE      gui=NONE
-hi  StatusLineNC ctermfg=7      guifg=#808080 ctermbg=8    guibg=#505050 cterm=NONE      gui=NONE
+hi  StatusLine   ctermfg=NONE   guifg=NONE    ctermbg=7    guibg=#909090 cterm=NONE      gui=NONE
+hi  StatusLineNC ctermfg=7      guifg=#909090 ctermbg=8    guibg=#505050 cterm=NONE      gui=NONE
 hi  WinSeparator ctermfg=8      guifg=#505050 ctermbg=8    guibg=#505050 cterm=NONE      gui=NONE
 hi! link         TabLineSel     StatusLine
 hi! link         TabLine        StatusLineNC
 hi! link         TabLineFill    StatusLineNC
 hi! link         VertSplit      WinSeparator
 
-hi  Comment      ctermfg=7      guifg=#808080 ctermbg=NONE guibg=NONE    cterm=NONE      gui=NONE
+hi  Comment      ctermfg=7      guifg=#909090 ctermbg=NONE guibg=NONE    cterm=NONE      gui=NONE
 
 hi  Constant     ctermfg=10     guifg=#cdee69 ctermbg=NONE guibg=NONE    cterm=NONE      gui=NONE
 hi! link         String         Constant
