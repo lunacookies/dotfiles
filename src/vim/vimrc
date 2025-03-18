@@ -21,6 +21,7 @@ set linebreak
 set list
 set numberwidth=5
 set scrolloff=1
+set showcmd
 set smartcase
 set smoothscroll
 set splitbelow
