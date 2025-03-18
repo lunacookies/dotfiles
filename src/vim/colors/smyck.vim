@@ -63,4 +63,4 @@ hi! link         SpecialComment Special
 hi! link         Debug          Special
 
 hi  Underlined   ctermfg=4      guifg=#72b3cc ctermbg=NONE guibg=NONE    cterm=underline gui=underline
-hi  Error        ctermfg=0      guifg=#000000 ctermbg=1    guibg=#c75646 cterm=NONE      gui=NONE
+hi  Error        ctermfg=1      guifg=#c75646 ctermbg=0    guibg=#000000 cterm=reverse   gui=reverse
