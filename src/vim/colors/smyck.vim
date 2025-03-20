@@ -44,7 +44,7 @@ hi! link         Label          Statement
 hi! link         Keyword        Statement
 hi! link         Exception      Statement
 
-hi  PreProc      ctermfg=NONE   guifg=NONE    ctermbg=NONE guibg=NONE    cterm=NONE      gui=NONE
+hi  PreProc      ctermfg=13     guifg=#fbb1f9 ctermbg=NONE guibg=NONE    cterm=NONE      gui=NONE
 hi! link         Include        PreProc
 hi! link         Define         PreProc
 hi! link         Macro          PreProc
