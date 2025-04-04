@@ -1,6 +1,7 @@
+runtime! ftplugin/man.vim
+packadd! comment
 filetype plugin indent on
 syntax on
-runtime! ftplugin/man.vim
 
 set autoindent
 set autoread
