@@ -64,6 +64,7 @@ hi! link         Debug          Special
 
 hi  Underlined   ctermfg=4      guifg=#72b3cc ctermbg=NONE guibg=NONE    cterm=underline gui=underline
 hi  Error        ctermfg=1      guifg=#c75646 ctermbg=0    guibg=#000000 cterm=reverse   gui=reverse
+hi  Title        ctermfg=NONE   guifg=NONE    ctermbg=NONE guibg=NONE    cterm=bold      gui=bold
 
 hi! link         goFunctionCall Function
 hi! link         htmlTag        htmlTagName
