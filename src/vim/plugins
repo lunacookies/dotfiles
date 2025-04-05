@@ -1,4 +1,5 @@
 bfrg/vim-cpp-modern:master
+cocopon/inspecthi.vim:main
 junegunn/fzf.vim:master
 junegunn/fzf:master
 lifepillar/vim-mucomplete:master
