@@ -25,4 +25,4 @@ autoload compinit && compinit
 zstyle ':completion:*' menu select # highlight selected match
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # case and -/_ insensitive
 
-PROMPT=$'$ '
+PROMPT=$'%% '
