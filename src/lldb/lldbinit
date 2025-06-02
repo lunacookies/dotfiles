@@ -1,1 +1,0 @@
-breakpoint set --fullname objc_exception_throw --command "po $arg1"
