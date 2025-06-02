@@ -26,6 +26,7 @@ set numberwidth=5
 set scrolloff=1
 set showcmd
 set smartcase
+set smarttab
 set smoothscroll
 set splitbelow
 set splitright
