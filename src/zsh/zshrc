@@ -1,3 +1,5 @@
+# Aliases
+
 alias vim="$EDITOR"
 alias vi="$EDITOR"
 alias g=git
@@ -5,6 +7,8 @@ alias c=cargo
 alias b=brew
 alias ls="ls -F"
 alias fd="fd --color=never"
+
+# Functions
 
 mkcd() {
 	mkdir -p "$1"
@@ -16,11 +20,17 @@ cdsdk() {
 	cd "$(xcrun --show-sdk-path)"
 }
 
+# Editing
+
 bindkey -e # emacs key bindings
 WORDCHARS="${WORDCHARS/\/}" # consider slash a word boundary
+
+# Completion
 
 autoload compinit && compinit
 zstyle ':completion:*' menu select # highlight selected match
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # case and -/_ insensitive
+
+# Prompt
 
 PROMPT=$'%% '
