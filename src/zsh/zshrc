@@ -3,7 +3,6 @@ alias vi="$EDITOR"
 alias g=git
 alias c=cargo
 alias b=brew
-alias m="make -j10"
 alias ls="ls -F"
 alias fd="fd --color=never"
 
