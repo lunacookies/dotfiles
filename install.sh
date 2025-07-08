@@ -48,12 +48,12 @@ install_js_packages() {
 	yarn global add prettier
 }
 
-link_config src/fd "$HOME/.config/fd"
-link_config src/git "$HOME/.config/git"
-link_config src/ssh/config "$HOME/.ssh/config"
-link_config src/vim "$HOME/.config/vim"
-link_config src/zsh/zprofile "$HOME/.zprofile"
-link_config src/zsh/zshrc "$HOME/.zshrc"
+link_config fd "$HOME/.config/fd"
+link_config git "$HOME/.config/git"
+link_config ssh/config "$HOME/.ssh/config"
+link_config vim "$HOME/.config/vim"
+link_config zprofile "$HOME/.zprofile"
+link_config zshrc "$HOME/.zshrc"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew_install
