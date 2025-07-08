@@ -12,7 +12,6 @@ alias fd="fd --color=never"
 
 mkcd() {
 	mkdir -p "$1"
-	# shellcheck disable=SC2164
 	cd "$1"
 }
 
