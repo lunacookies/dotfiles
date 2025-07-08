@@ -13,7 +13,6 @@ romainl/vim-qf:master
 rust-lang/rust.vim:master
 tommcdo/vim-lion:master
 tpope/vim-endwise:master
-tpope/vim-fugitive:master
 tpope/vim-rsi:master
 tpope/vim-surround:master
 tpope/vim-unimpaired:master
