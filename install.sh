@@ -50,7 +50,6 @@ install_js_packages() {
 
 link_config src/fd "$HOME/.config/fd"
 link_config src/git "$HOME/.config/git"
-link_config src/rg "$HOME/.config/rg"
 link_config src/ssh/config "$HOME/.ssh/config"
 link_config src/vim "$HOME/.config/vim"
 link_config src/zsh/zprofile "$HOME/.zprofile"
