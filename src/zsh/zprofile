@@ -14,9 +14,3 @@ export FZF_DEFAULT_OPTS="--no-bold --color=fg+:#c2c2b0,bg+:#555555,hl:#d6e770:bo
 export MANWIDTH="72"
 export MANPAGER="mvim +MANPAGER --not-a-term -c 'set columns=$(($MANWIDTH + 10))' -"
 export RIPGREP_CONFIG_PATH="$HOME/Developer/dotfiles/src/rg/config"
-
-# This disables terminal flow control (whatever that is)
-# which frees up C-s and C-q for keybindings.
-# We want this because C-s defaults to
-# going forward in incremental history search.
-stty -ixon
