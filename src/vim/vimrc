@@ -29,6 +29,7 @@ set list
 set nojoinspaces
 set numberwidth=5
 set scrolloff=1
+set shortmess-=S
 set showcmd
 set smartcase
 set smarttab
