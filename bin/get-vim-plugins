@@ -2,9 +2,10 @@
 
 set -e
 
-rm -rf "$HOME/.vim/pack"
-mkdir -p "$HOME/.vim/pack/bundle/start"
-cd "$HOME/.vim/pack/bundle/start"
+vimfiles="${XDG_CONFIG_HOME:-$HOME/.config}/vim"
+rm -rf "$vimfiles/pack"
+mkdir -p "$vimfiles/pack/bundle/start"
+cd "$vimfiles/pack/bundle/start"
 
 install_plugin() {
 	line="$1"
@@ -22,5 +23,5 @@ install_plugin() {
 
 while read -r line; do
 	install_plugin "$line" &
-done < "$HOME/.vim/plugins"
+done < "$vimfiles/plugins"
 wait
