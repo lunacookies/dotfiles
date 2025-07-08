@@ -48,14 +48,13 @@ install_js_packages() {
 	yarn global add prettier
 }
 
-# shellcheck disable=SC2016
-printf 'ZDOTDIR=$HOME/Developer/dotfiles/src/zsh\n' > "$HOME/.zshenv"
-
 link_config src/fd "$HOME/.config/fd"
 link_config src/git "$HOME/.config/git"
 link_config src/rg "$HOME/.config/rg"
 link_config src/ssh/config "$HOME/.ssh/config"
 link_config src/vim "$HOME/.config/vim"
+link_config src/zsh/zprofile "$HOME/.zprofile"
+link_config src/zsh/zshrc "$HOME/.zshrc"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew_install
