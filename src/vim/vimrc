@@ -1,9 +1,13 @@
-runtime! ftplugin/man.vim
 packadd! matchit
 packadd! editorconfig
 packadd! comment
+
 filetype plugin indent on
 syntax on
+
+runtime ftplugin/man.vim
+
+" Options
 
 set autoindent
 set autoread
@@ -125,8 +129,6 @@ augroup vimrc
 	autocmd FileType c,cpp,objc,metal setlocal commentstring=//%s keywordprg=:Man
 augroup END
 
-"
-" Color scheme
-"
+" Color Scheme
 
 colorscheme smyck
