@@ -22,6 +22,7 @@ set incsearch
 set laststatus=2
 set linebreak
 set list
+set nojoinspaces
 set numberwidth=5
 set scrolloff=1
 set showcmd
