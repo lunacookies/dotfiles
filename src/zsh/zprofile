@@ -4,6 +4,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export PATH="$HOME/Developer/dotfiles/bin:$HOME/.cargo/bin:$PATH"
 export CDPATH=".:$HOME/Developer:$HOME"
+export GOPATH="$HOME/.local/share/go"
 
 export EDITOR="mvim --nofork"
 export VISUAL="$EDITOR"
