@@ -2,7 +2,7 @@
 
 set -e
 
-vimfiles="${XDG_CONFIG_HOME:-$HOME/.config}/vim"
+vimfiles="$HOME/.config/vim"
 rm -rf "$vimfiles/pack"
 mkdir -p "$vimfiles/pack/bundle/start"
 cd "$vimfiles/pack/bundle/start"
