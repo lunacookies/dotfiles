@@ -13,7 +13,6 @@ set colorcolumn=+1
 set cursorline
 set grepformat=%f:%l:%c:%m
 set grepprg=rg\ --vimgrep
-set guicursor=
 set guioptions-=e
 set hidden
 set hlsearch
