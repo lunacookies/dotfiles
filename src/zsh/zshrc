@@ -22,14 +22,15 @@ cdsdk() {
 
 # Editing
 
-bindkey -e # emacs key bindings
-WORDCHARS="${WORDCHARS/\/}" # consider slash a word boundary
+bindkey -e                  # Emacs key bindings.
+WORDCHARS="${WORDCHARS/\/}" # Consider slash a word boundary.
 
 # Completion
 
-autoload compinit && compinit
-zstyle ':completion:*' menu select # highlight selected match
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # case and -/_ insensitive
+autoload -U compinit && compinit
+
+zstyle ':completion:*' menu select                               # Highlight selected match.
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # Make completion case and -/_ insensitive.
 
 # Prompt
 
