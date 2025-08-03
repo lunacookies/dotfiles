@@ -5,16 +5,13 @@ junegunn/fzf:master
 lifepillar/vim-mucomplete:master
 lunacookies/vim-apparition:main
 lunacookies/vim-metal:main
-lunacookies/vim-zig-syntax-ext:main
 markonm/traces.vim:master
 pangloss/vim-javascript:master
 romainl/vim-cool:master
 romainl/vim-qf:master
-rust-lang/rust.vim:master
 tommcdo/vim-lion:master
 tpope/vim-endwise:master
 tpope/vim-rsi:master
 tpope/vim-surround:master
 tpope/vim-unimpaired:master
 wellle/targets.vim:master
-ziglang/zig.vim:master

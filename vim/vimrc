@@ -59,8 +59,6 @@ let g:netrw_dirhistmax = 0
 
 let g:lion_squeeze_spaces = 1
 
-let g:rustfmt_autosave = 1
-
 let g:mucomplete#chains = {
 			\ "vim": ["cmd", "c-n"],
 			\ "default": ["omni", "c-n"]
