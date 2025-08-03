@@ -1,7 +1,6 @@
 # Aliases
 
 alias b=brew
-alias c=cargo
 alias cp="cp -ci"
 alias fd="fd --color=never"
 alias g=git
