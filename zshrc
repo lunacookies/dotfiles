@@ -1,12 +1,14 @@
 # Aliases
 
-alias vim="open -a MacVim"
-alias vi="open -a MacVim"
-alias g=git
-alias c=cargo
 alias b=brew
-alias ls="ls -F"
+alias c=cargo
+alias cp="cp -ci"
 alias fd="fd --color=never"
+alias g=git
+alias ls="ls -F"
+alias mv="mv -i"
+alias vi="open -a MacVim"
+alias vim="open -a MacVim"
 
 # Functions
 
