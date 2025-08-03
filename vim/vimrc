@@ -36,10 +36,10 @@ set smarttab
 set smoothscroll
 set splitbelow
 set splitright
-set titlestring=%t
 set wildmenu
 
 let &statusline = " %f %r%m%y%=%4l/%-4L %4c %4v "
+let &titlestring = "%t — %{fnamemodify(getcwd(), ':t')}"
 
 let &listchars = "tab:  ,nbsp:•,trail:•"
 let &showbreak = "››› "
