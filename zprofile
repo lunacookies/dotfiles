@@ -2,7 +2,7 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-export PATH="$HOME/Developer/dotfiles/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/Developer/dotfiles/bin:$PATH"
 export CDPATH=".:$HOME/Developer:$HOME"
 export GOPATH="$HOME/.local/share/go"
 
