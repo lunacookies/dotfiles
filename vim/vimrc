@@ -121,7 +121,7 @@ nnoremap yos :set spell!<CR>
 command! -nargs=1 Tabs   set tabstop=<args> softtabstop=0 shiftwidth=<args> noexpandtab
 command! -nargs=1 Spaces set tabstop=8      softtabstop=0 shiftwidth=<args> expandtab
 
-command! G silent execute "!open -a Fork ."
+command! G silent execute "!fork open"
 
 " Autocmds
 
