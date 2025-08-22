@@ -102,6 +102,20 @@ nnoremap ,G :silent grep ''<Left>
 nnoremap <Space><Space> :'{,'}s/\<<C-r>=expand("<cword>")<CR>\>//g<Left><Left>
 nnoremap <Space>%       :%s/\<<C-r>=expand("<cword>")<CR>\>//g<Left><Left>
 
+nnoremap [e :move -2<CR>
+nnoremap ]e :move +1<CR>
+nnoremap [<Space> O<Esc>j
+nnoremap ]<Space> o<Esc>k
+nmap [q <Plug>(qf_qf_previous)
+nmap ]q <Plug>(qf_qf_next)
+
+nnoremap yon :set number!<CR>
+nnoremap yor :set relativenumber!<CR>
+nnoremap yoc :set cursorline!<CR>
+nnoremap you :set cursorcolumn!<CR>
+nnoremap yow :set wrap!<CR>
+nnoremap yos :set spell!<CR>
+
 " Commands
 
 command! -nargs=1 Tabs   set tabstop=<args> softtabstop=0 shiftwidth=<args> noexpandtab
