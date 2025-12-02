@@ -21,7 +21,7 @@ let s:simd_element_type_names = {
 
 for s:element_size in s:element_sizes
 	for s:data_type in s:data_types
-		if s:element_size ==# "machine" && !(s:data_type ==# "signed_int" || s:data_type ==# "unsigned_int")
+		if s:element_size ==# "machine" && s:data_type ==# "float"
 			continue
 		endif
 
@@ -35,6 +35,8 @@ for s:element_size in s:element_sizes
 				let s:custom_element_type_names += ["ISize", "SSize", "Imm", "Smm"]
 			elseif s:data_type ==# "unsigned_int"
 				let s:custom_element_type_names += ["USize", "Umm"]
+			elseif s:data_type ==# "bool"
+				let s:custom_element_type_names += ["BSize", "Bmm"]
 			endif
 		else
 			let s:prefixes = []
