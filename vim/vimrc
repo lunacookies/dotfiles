@@ -27,6 +27,7 @@ set laststatus=2
 set linebreak
 set list
 set nojoinspaces
+set number
 set numberwidth=5
 set scrolloff=1
 set shortmess-=S
@@ -148,4 +149,5 @@ augroup END
 
 " Color Scheme
 
-colorscheme smyck
+set guifont=Consolas:h12
+colorscheme apparition
