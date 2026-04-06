@@ -45,4 +45,6 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z-_}={A-Za-z_-}' # Make completi
 
 # Prompt
 
-PROMPT=$'%% '
+PROMPT=$'
+%F{5}%~
+%F{12}%n%f %% '
