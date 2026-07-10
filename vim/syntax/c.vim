@@ -116,4 +116,4 @@ syntax match cOperator '[+\-\*\/%&|<>=!~^]\+'
 syntax keyword cOperator cast
 
 syntax keyword cStatement function global local_persist read_only
-syntax keyword cOperator size_of align_of
+syntax keyword cOperator countof size_of align_of count_of
