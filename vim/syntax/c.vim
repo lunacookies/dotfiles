@@ -117,3 +117,6 @@ syntax keyword cOperator cast
 
 syntax keyword cStatement function global local_persist read_only
 syntax keyword cOperator countof size_of align_of count_of
+
+syntax match cMark '\v(#pragma\s*mark\s*)@<=.*$'
+highlight default link cMark Title
