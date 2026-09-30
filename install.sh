@@ -27,20 +27,6 @@ brew_install() {
 
 brew_cleanup() {
 	brew bundle cleanup
-
-	while true; do
-		printf "\n\nDo you wish to continue? [y/n] "
-		read -r yn
-		case $yn in
-			[Yy]* ) brew bundle cleanup --force; break;;
-			[Nn]* ) break;;
-			* ) echo "Please answer yes or no.";;
-		esac
-	done
-}
-
-cleanup_brewfile_lock() {
-	rm "Brewfile.lock.json"
 }
 
 install_js_packages() {
@@ -58,6 +44,5 @@ link_config zshrc "$HOME/.zshrc"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew_install
 brew_cleanup
-cleanup_brewfile_lock
 install_js_packages
 hide_login_message
