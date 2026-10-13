@@ -1,7 +1,6 @@
 #!/bin/dash
 
 link_config() {
-	rm_if_exists "$2"
 	if [ -e "$2" ]; then
 		rm -r "$2"
 	fi
