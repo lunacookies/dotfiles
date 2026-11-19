@@ -25,6 +25,8 @@ cdsdk() {
 bindkey -e                  # Emacs key bindings.
 WORDCHARS="${WORDCHARS/\/}" # Consider slash a word boundary.
 
+setopt CORRECT # Correct spelling mistakes.
+
 # History
 
 HISTSIZE=200000
